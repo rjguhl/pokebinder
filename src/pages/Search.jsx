@@ -12,11 +12,13 @@ const Search = () => {
   const [setFilter, setSetFilter] = useState('');
   const [rarityFilter, setRarityFilter] = useState('');
   const [supertypeFilter, setSupertypeFilter] = useState('');
+  const [sortOption, setSortOption] = useState('price');
 
-  const observer = useRef();
   const [collection, setCollection] = useState(
     JSON.parse(localStorage.getItem('collection')) || []
   );
+
+  const observer = useRef();
 
   const queryString = () => {
     let q = `name:${query}`;
@@ -26,47 +28,10 @@ const Search = () => {
     return q;
   };
 
-  const scoreCard = (card) => {
-    let score = 0;
-    const name = card.name.toLowerCase();
-    const rarity = card.rarity?.toLowerCase() || '';
-    const setName = card.set.name.toLowerCase();
-    const price = card.cardmarket?.prices?.averageSellPrice || 0;
-  
-    // 🔥 High value = high score multiplier (heavily weighted)
-    score += price * 10; // adjust multiplier as needed
-  
-    // Name boosts
-    if (name.includes('charizard')) score += 10;
-    if (name.includes('pikachu') || name.includes('eevee')) score += 6;
-  
-    // Rarity tiers
-    if (rarity.includes('secret')) score += 8;
-    if (rarity.includes('ultra')) score += 7;
-    if (rarity.includes('rare holo')) score += 5;
-    if (rarity.includes('rare')) score += 3;
-    if (rarity.includes('common') || rarity.includes('uncommon')) score -= 1;
-  
-    // Style & subtypes
-    if (name.includes('full art')) score += 5;
-    if (card.subtypes?.some(t =>
-      ['vmax', 'ex', 'gx', 'vstar'].some(s => t.toLowerCase().includes(s))
-    )) {
-      score += 4;
-    }
-  
-    // Vintage sets
-    if (setName.includes('base') || setName.includes('jungle') || setName.includes('fossil')) {
-      score += 6;
-    }
-  
-    return score;
-  };  
-
   const fetchCards = useCallback(async () => {
     if (!query.trim()) return;
-    setLoading(true);
 
+    setLoading(true);
     try {
       const response = await axios.get(
         `https://api.pokemontcg.io/v2/cards?q=${encodeURIComponent(queryString())}&page=${page}&pageSize=12`,
@@ -77,26 +42,54 @@ const Search = () => {
         }
       );
 
-      const newCards = response.data.data;
+      const newCards = response.data?.data || [];
 
-      // Popularity sort before adding
-      newCards.sort((a, b) => scoreCard(b) - scoreCard(a));
+      const seen = new Set();
+      let deduped = newCards.filter((card) => {
+        if (seen.has(card.id)) return false;
+        seen.add(card.id);
+        return true;
+      });
 
-      setResults((prev) => [...prev, ...newCards]);
-      setHasMore(newCards.length > 0);
+      if (sortOption === 'price') {
+        deduped.sort((a, b) => {
+          const priceA = a.cardmarket?.prices?.averageSellPrice || 0;
+          const priceB = b.cardmarket?.prices?.averageSellPrice || 0;
+          return priceB - priceA;
+        });
+      } else if (sortOption === 'set') {
+        deduped.sort((a, b) => {
+          const dateA = new Date(a.set.releaseDate || '1970-01-01');
+          const dateB = new Date(b.set.releaseDate || '1970-01-01');
+          return dateA - dateB;
+        });
+      } else if (sortOption === 'name') {
+        deduped.sort((a, b) => a.name.localeCompare(b.name));
+      }
+
+      setResults((prev) => {
+        const combined = [...prev, ...deduped];
+        const unique = [];
+        const seenFinal = new Set();
+        for (let card of combined) {
+          if (!seenFinal.has(card.id)) {
+            seenFinal.add(card.id);
+            unique.push(card);
+          }
+        }
+        return unique;
+      });
+
+      setHasMore(deduped.length > 0);
     } catch (err) {
       console.error('Error fetching cards:', err);
     }
-
     setLoading(false);
-  }, [query, page, setFilter, rarityFilter, supertypeFilter]);
-
-  useEffect(() => {
-    fetchCards();
-  }, [fetchCards]);
+  }, [query, page, setFilter, rarityFilter, supertypeFilter, sortOption]);
 
   const handleSearch = (e) => {
     e.preventDefault();
+    if (!query.trim()) return;
     setResults([]);
     setPage(1);
     fetchCards();
@@ -106,6 +99,7 @@ const Search = () => {
     setResults([]);
     setPage(1);
     setFiltersOpen(false);
+    fetchCards();
   };
 
   const addToCollection = (card) => {
@@ -136,7 +130,7 @@ const Search = () => {
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-indigo-700 mb-6">Search Cards</h1>
 
-        {/* Search + Filter Controls */}
+        {/* Search + Filter + Sort Controls */}
         <form onSubmit={handleSearch} className="flex gap-4 mb-4 flex-wrap">
           <input
             type="text"
@@ -158,9 +152,22 @@ const Search = () => {
           >
             {filtersOpen ? 'Hide Filters' : 'Filters'}
           </button>
+
+          <select
+            value={sortOption}
+            onChange={(e) => {
+              setSortOption(e.target.value);
+              setResults([]);
+              setPage(1);
+            }}
+            className="border border-gray-300 rounded-md p-2 text-sm"
+          >
+            <option value="price">Sort by Price</option>
+            <option value="set">Sort by Set Release</option>
+            <option value="name">Sort A → Z</option>
+          </select>
         </form>
 
-        {/* Filters */}
         {filtersOpen && (
           <div className="mb-6 bg-white p-4 rounded-lg shadow-sm grid grid-cols-1 sm:grid-cols-3 gap-4">
             <select
@@ -209,7 +216,7 @@ const Search = () => {
           </div>
         )}
 
-        {/* Results */}
+        {/* Card Results */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {results.map((card, index) => {
             const isLast = index === results.length - 1;
@@ -225,7 +232,9 @@ const Search = () => {
                   className="w-full h-48 object-contain mb-3"
                 />
                 <h2 className="text-lg font-semibold text-indigo-600">{card.name}</h2>
-                <p className="text-sm text-gray-500">{card.set.name} — {card.rarity}</p>
+                <p className="text-sm text-gray-500">
+                  {card.set.name} — {card.number}/{card.set.total}
+                </p>
                 <button
                   onClick={() => addToCollection(card)}
                   className="mt-3 w-full bg-indigo-500 hover:bg-indigo-600 text-white py-2 rounded-md font-medium"
