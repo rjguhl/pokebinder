@@ -11,7 +11,7 @@ const Home = () => {
         Track, manage, and show off your personalized Pokémon collections – from vintage first editions to the latest Scarlet & Violet sets.
       </p>
       <Link
-        to="/signup"
+        to="/login"
         className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg"
       >
         Get Started
