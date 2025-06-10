@@ -2,8 +2,9 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import axios from 'axios';
-import { doc, setDoc, getDoc } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db, auth } from '../firebase';
+import { collection, setDoc, doc } from 'firebase/firestore';
+import { onAuthStateChanged } from 'firebase/auth';
 
 const Search = () => {
   const [query, setQuery] = useState('');
@@ -11,147 +12,60 @@ const Search = () => {
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [filtersOpen, setFiltersOpen] = useState(false);
-  const [hasSearched, setHasSearched] = useState(false);
-  const [triggerSearch, setTriggerSearch] = useState(false);
+  const [sortOption, setSortOption] = useState('price');
   const [alert, setAlert] = useState('');
-
-  const [setFilter, setSetFilter] = useState('');
-  const [rarityFilter, setRarityFilter] = useState('');
-  const [supertypeFilter, setSupertypeFilter] = useState('');
-  const [sortOption, setSortOption] = useState('relevance');
-
-  const [collection, setCollection] = useState(
-    JSON.parse(localStorage.getItem('collection')) || []
-  );
-  const [user, setUser] = useState(localStorage.getItem('user'));
+  const [user, setUser] = useState(null);
 
   const observer = useRef();
-
-  const queryString = () => {
-    const words = query.trim().split(/\s+/);
-    const qParts = words.map((word) => {
-      if (/^\d{1,3}\/\d{1,3}$/.test(word)) {
-        return `number:"${word}"`;
-      } else if (/^\w+$/.test(word)) {
-        return `(name:*${word}* OR set.name:*${word}*)`;
-      } else {
-        return `name:*${word}*`;
+  const lastCardRef = useCallback(node => {
+    if (loading) return;
+    if (observer.current) observer.current.disconnect();
+    observer.current = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting && hasMore) {
+        setPage(prevPage => prevPage + 1);
       }
     });
+    if (node) observer.current.observe(node);
+  }, [loading, hasMore]);
 
-    let q = qParts.join(' AND ');
-    if (setFilter) q += ` AND set.name:\"${setFilter}\"`;
-    if (rarityFilter) q += ` AND rarity:\"${rarityFilter}\"`;
-    if (supertypeFilter) q += ` AND supertype:\"${supertypeFilter}\"`;
-    return q;
-  };
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe();
+  }, []);
 
-  const fetchCards = useCallback(async () => {
-    if (!hasSearched || !query.trim()) return;
-
+  const fetchCards = async () => {
+    if (!query.trim()) return;
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://api.pokemontcg.io/v2/cards?q=${encodeURIComponent(queryString())}&page=${page}&pageSize=50`,
+        `https://api.pokemontcg.io/v2/cards?q=name:*${query}*&pageSize=20&page=${page}`,
         {
           headers: {
             'X-Api-Key': import.meta.env.VITE_POKEMON_API_KEY,
           },
         }
       );
-
-      const newCards = response.data?.data || [];
-      const seen = new Set();
-      let deduped = newCards.filter((card) => {
-        if (seen.has(card.id)) return false;
-        seen.add(card.id);
-        return true;
-      });
-
-      if (sortOption === 'relevance') {
-        deduped.sort((a, b) => {
-          const queryLower = query.toLowerCase();
-          const score = (card) => {
-            let s = 0;
-            const name = card.name?.toLowerCase() || '';
-            const setName = card.set?.name?.toLowerCase() || '';
-            const price = card.cardmarket?.prices?.averageSellPrice || 0;
-
-            if (name === queryLower) s += 15;
-            if (name.includes(queryLower)) s += 10;
-            if (setName.includes(queryLower)) s += 2;
-            if (price >= 20) s += 8;
-            else if (price >= 10) s += 6;
-            else if (price >= 5) s += 3;
-            else if (price >= 1) s += 1;
-            return s;
-          };
-          return score(b) - score(a);
-        });
-      } else if (sortOption === 'price') {
-        deduped.sort((a, b) => {
-          const priceA = a.cardmarket?.prices?.averageSellPrice || 0;
-          const priceB = b.cardmarket?.prices?.averageSellPrice || 0;
-          return priceB - priceA;
-        });
-      } else if (sortOption === 'set') {
-        deduped.sort((a, b) => {
-          const dateA = new Date(a.set.releaseDate || '1970-01-01');
-          const dateB = new Date(b.set.releaseDate || '1970-01-01');
-          return dateA - dateB;
-        });
-      } else if (sortOption === 'name') {
-        deduped.sort((a, b) => a.name.localeCompare(b.name));
-      }
-
-      setResults((prev) => {
-        const combined = [...prev, ...deduped];
-        const unique = [];
-        const seenFinal = new Set();
-        for (let card of combined) {
-          if (!seenFinal.has(card.id)) {
-            seenFinal.add(card.id);
-            unique.push(card);
-          }
-        }
-        return unique;
-      });
-
-      setHasMore(deduped.length > 0);
+      const newCards = response.data.data;
+      setResults(prev => [...prev, ...newCards]);
+      setHasMore(newCards.length > 0);
     } catch (err) {
       console.error('Error fetching cards:', err);
     }
     setLoading(false);
-  }, [query, page, setFilter, rarityFilter, supertypeFilter, sortOption, hasSearched]);
+  };
 
   useEffect(() => {
-    if (triggerSearch) {
-      fetchCards();
-      setTriggerSearch(false);
-    }
-  }, [triggerSearch]);
-
-  useEffect(() => {
-    if (page > 1) {
-      fetchCards();
-    }
+    if (page > 1) fetchCards();
   }, [page]);
 
   const handleSearch = (e) => {
     e.preventDefault();
     if (!query.trim()) return;
-    setHasSearched(true);
-    setResults([]);
     setPage(1);
-    setTriggerSearch(true);
-  };
-
-  const handleApplyFilters = () => {
     setResults([]);
-    setPage(1);
-    setFiltersOpen(false);
-    setTriggerSearch(true);
+    fetchCards();
   };
 
   const addToCollection = async (card) => {
@@ -160,186 +74,79 @@ const Search = () => {
       setTimeout(() => setAlert(''), 3000);
       return;
     }
-  
     try {
-      const userId = auth.currentUser?.uid;
-      if (!userId) return;
-  
-      const cardRef = doc(db, 'users', userId, 'collection', card.id);
-      const existing = await getDoc(cardRef);
-  
-      const cardData = {
+      await setDoc(doc(db, 'users', user.uid, 'collection', card.id), {
         cardId: card.id,
         name: card.name,
-        quantity: existing.exists() ? (existing.data().quantity || 1) + 1 : 1,
-        image: card.images?.small || '',
-        price: card.cardmarket?.prices?.averageSellPrice || 0,
-        set: card.set?.name,
+        image: card.images.small,
+        set: card.set.name,
         number: card.number,
-        addedAt: new Date(),
-      };
-  
-      await setDoc(cardRef, cardData);
-      setAlert('Card added to collection!');
-      setTimeout(() => setAlert(''), 2000);
+      });
+      setAlert(`${card.name} added to your collection.`);
+      setTimeout(() => setAlert(''), 3000);
     } catch (err) {
-      console.error('Error saving to Firestore:', err);
-      setAlert('Failed to add card. Try again.');
-      setTimeout(() => setAlert(''), 2000);
+      console.error('Failed to add card:', err);
+      setAlert('Failed to add card.');
+      setTimeout(() => setAlert(''), 3000);
     }
   };
 
-  const lastCardRef = useCallback(
-    (node) => {
-      if (loading) return;
-      if (observer.current) observer.current.disconnect();
-
-      observer.current = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting && hasMore) {
-          setPage((prev) => prev + 1);
-        }
-      });
-
-      if (node) observer.current.observe(node);
-    },
-    [loading, hasMore]
-  );
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-slate-50 to-indigo-100 p-6">
-      {alert && (
-        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 border border-red-400 text-red-700 px-6 py-3 rounded shadow-md animate-fade-out">
-          {alert}
-        </div>
-      )}
+    <div className="min-h-screen bg-gradient-to-br from-white via-slate-50 to-indigo-100 p-6 relative">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-3xl font-bold text-indigo-700 mb-6">Search Cards</h1>
 
-      <div className="max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-indigo-700 mb-6">Search Cards</h1>
+        {alert && (
+          <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-indigo-100 border border-indigo-300 text-indigo-800 px-6 py-3 rounded-lg shadow-md transition-all animate-fade-in-out">
+            {alert}
+          </div>
+        )}
 
-        <form onSubmit={handleSearch} className="flex gap-4 mb-4 flex-wrap">
+        <form onSubmit={handleSearch} className="flex items-center gap-4 mb-6">
           <input
             type="text"
-            placeholder="Search Pokémon cards..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="flex-1 border border-gray-300 rounded-lg p-3 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            placeholder="Search Pokémon name, set, or number..."
+            className="flex-1 border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
           />
           <button
             type="submit"
-            className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 font-semibold shadow-md"
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-lg shadow-md font-medium"
           >
             Search
           </button>
-          <button
-            type="button"
-            onClick={() => setFiltersOpen((prev) => !prev)}
-            className="bg-gray-100 border border-gray-300 text-sm px-4 py-2 rounded-md hover:bg-gray-200"
-          >
-            {filtersOpen ? 'Hide Filters' : 'Filters'}
-          </button>
-          <select
-            value={sortOption}
-            onChange={(e) => {
-              setSortOption(e.target.value);
-              setResults([]);
-              setPage(1);
-              setTriggerSearch(true);
-            }}
-            className="border border-gray-300 rounded-md p-2 text-sm"
-          >
-            <option value="relevance">Sort by Relevance</option>
-            <option value="price">Sort by Price</option>
-            <option value="set">Sort by Set Release</option>
-            <option value="name">Sort A → Z</option>
-          </select>
         </form>
 
-        {filtersOpen && (
-          <div className="mb-6 bg-white p-4 rounded-lg shadow-sm grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <select
-              value={setFilter}
-              onChange={(e) => setSetFilter(e.target.value)}
-              className="border border-gray-300 rounded-md p-2"
-            >
-              <option value="">All Sets</option>
-              <option value="Base">Base</option>
-              <option value="Team Up">Team Up</option>
-              <option value="Sword & Shield">Sword & Shield</option>
-              <option value="Scarlet & Violet">Scarlet & Violet</option>
-            </select>
-
-            <select
-              value={rarityFilter}
-              onChange={(e) => setRarityFilter(e.target.value)}
-              className="border border-gray-300 rounded-md p-2"
-            >
-              <option value="">All Rarities</option>
-              <option value="Common">Common</option>
-              <option value="Uncommon">Uncommon</option>
-              <option value="Rare">Rare</option>
-              <option value="Rare Holo">Rare Holo</option>
-              <option value="Ultra Rare">Ultra Rare</option>
-              <option value="Secret Rare">Secret Rare</option>
-            </select>
-
-            <select
-              value={supertypeFilter}
-              onChange={(e) => setSupertypeFilter(e.target.value)}
-              className="border border-gray-300 rounded-md p-2"
-            >
-              <option value="">All Types</option>
-              <option value="Pokémon">Pokémon</option>
-              <option value="Trainer">Trainer</option>
-              <option value="Energy">Energy</option>
-            </select>
-
-            <button
-              onClick={handleApplyFilters}
-              className="col-span-full sm:col-span-1 bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700"
-            >
-              Apply Filters
-            </button>
-          </div>
-        )}
-
-        {hasSearched && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {results.map((card, index) => {
-              const isLast = index === results.length - 1;
-              const price = card.cardmarket?.prices?.averageSellPrice || null;
-              return (
-                <div
-                  key={card.id}
-                  ref={isLast ? lastCardRef : null}
-                  className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition relative"
+        {results.length > 0 && (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+            {results.map((card, index) => (
+              <div
+                key={card.id}
+                ref={index === results.length - 1 ? lastCardRef : null}
+                className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition"
+              >
+                <img
+                  src={card.images.small}
+                  alt={card.name}
+                  className="w-full h-48 object-contain mb-2"
+                />
+                <h2 className="text-sm font-semibold text-indigo-700 mb-1">{card.name}</h2>
+                <p className="text-xs text-gray-500 mb-2">
+                  {card.set.name} — {card.number}/{card.set.total}
+                </p>
+                <button
+                  onClick={() => addToCollection(card)}
+                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded-lg text-sm font-medium"
                 >
-                  <img
-                    src={card.images.small}
-                    alt={card.name}
-                    className="w-full h-48 object-contain mb-3"
-                  />
-                  <h2 className="text-lg font-semibold text-indigo-600">{card.name}</h2>
-                  <p className="text-sm text-gray-500">
-                    {card.set.name} — {card.number}/{card.set.total}
-                  </p>
-                  {price && (
-                    <div className="text-sm text-green-600 font-medium mt-1">
-                      ${price.toFixed(2)}
-                    </div>
-                  )}
-                  <button
-                    onClick={() => addToCollection(card)}
-                    className="mt-3 w-full bg-indigo-500 hover:bg-indigo-600 text-white py-2 rounded-md font-medium"
-                  >
-                    Add to Collection
-                  </button>
-                </div>
-              );
-            })}
+                  Add to Collection
+                </button>
+              </div>
+            ))}
           </div>
         )}
 
-        {loading && <p className="text-center text-gray-500 mt-4">Loading more cards...</p>}
+        {loading && <p className="text-center text-gray-500 mt-6">Loading more cards...</p>}
       </div>
     </div>
   );

@@ -3,30 +3,79 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { auth, db } from '../firebase';
-import { collection as firestoreCollection, getDocs } from 'firebase/firestore';
+import { onAuthStateChanged } from 'firebase/auth';
+import { collection as firestoreCollection, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
+import { Trash2, Plus } from 'react-feather';
 
 const Collection = () => {
   const [collection, setCollection] = useState([]);
-  const [user, setUser] = useState(localStorage.getItem('user'));
+  const [user, setUser] = useState(null);
   const [masterSets, setMasterSets] = useState([]);
 
   useEffect(() => {
-    if (user) {
-      const saved = JSON.parse(localStorage.getItem('collection')) || [];
-      setCollection(saved);
-      fetchMasterSets();
-    }
-  }, [user]);
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      if (currentUser) {
+        setUser(currentUser);
+        loadUserCollection(currentUser.uid);
+        fetchMasterSets(currentUser.uid);
+      } else {
+        setUser(null);
+        setCollection([]);
+        setMasterSets([]);
+      }
+    });
+    return () => unsubscribe();
+  }, []);
 
-  const fetchMasterSets = async () => {
+  const loadUserCollection = async (uid) => {
     try {
-      const uid = auth.currentUser?.uid;
-      if (!uid) return;
+      const snapshot = await getDocs(firestoreCollection(db, 'users', uid, 'collection'));
+      const cards = snapshot.docs.map(doc => doc.data());
+      setCollection(cards);
+    } catch (err) {
+      console.error('Error loading collection:', err);
+    }
+  };
+
+  const fetchMasterSets = async (uid) => {
+    try {
       const snapshot = await getDocs(firestoreCollection(db, 'users', uid, 'mastersets'));
       const sets = snapshot.docs.map(doc => doc.data());
       setMasterSets(sets);
     } catch (err) {
       console.error('Failed to fetch master sets:', err);
+    }
+  };
+
+  const handleDeleteCard = async (cardId) => {
+    try {
+      await deleteDoc(doc(db, 'users', user.uid, 'collection', cardId));
+      const updatedCollection = collection.filter((card) => card.cardId !== cardId);
+      setCollection(updatedCollection);
+
+      const updatedSets = await Promise.all(masterSets.map(async (set) => {
+        if (set.cardIds.includes(cardId)) {
+          const updatedOwned = set.ownedCards - 1;
+          const updatedSet = { ...set, ownedCards: updatedOwned };
+          await updateDoc(doc(db, 'users', user.uid, 'mastersets', set.name), updatedSet);
+          return updatedSet;
+        }
+        return set;
+      }));
+      setMasterSets(updatedSets);
+    } catch (err) {
+      console.error('Failed to delete card:', err);
+    }
+  };
+
+  const handleDeleteMasterSet = async (name) => {
+    const confirmed = window.confirm(`Are you sure you want to delete the master set "${name}"?`);
+    if (!confirmed) return;
+    try {
+      await deleteDoc(doc(db, 'users', user.uid, 'mastersets', name));
+      setMasterSets(masterSets.filter(set => set.name !== name));
+    } catch (err) {
+      console.error('Failed to delete master set:', err);
     }
   };
 
@@ -102,59 +151,75 @@ const Collection = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {collection.map((card) => (
               <div
-                key={card.id}
-                className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition"
+                key={card.cardId}
+                className="relative bg-white p-4 rounded-xl shadow hover:shadow-lg transition"
               >
                 <img
-                  src={card.images.small}
+                  src={card.image}
                   alt={card.name}
                   className="w-full h-40 object-contain mb-2"
                 />
                 <h2 className="text-sm font-medium text-indigo-600">{card.name}</h2>
                 <p className="text-xs text-gray-500">
-                  {card.set.name} — {card.number}/{card.set.total}
+                  {card.set} — {card.number}
                 </p>
+                <button
+                  onClick={() => handleDeleteCard(card.cardId)}
+                  className="absolute top-2 right-2 text-red-500 hover:text-red-700"
+                >
+                  <Trash2 size={16} />
+                </button>
               </div>
             ))}
           </div>
         )}
 
-        {/* Master Set Builder Section */}
-        <div className="mt-10 bg-white p-6 rounded-xl shadow-md">
-          <h2 className="text-2xl font-semibold text-indigo-600 mb-4">Master Set Builder</h2>
-          <p className="text-gray-600 mb-4">
-            Create your own Master Set by searching for a specific Pokémon. We’ll generate a list of all its cards.
-          </p>
-          <Link
-            to="/masterset"
-            className="inline-block bg-indigo-600 text-white px-5 py-3 rounded-lg shadow hover:bg-indigo-700 font-medium"
-          >
-            Build a Master Set
-          </Link>
-        </div>
-
-        {/* Saved Master Sets */}
-        {masterSets.length > 0 && (
-          <div className="mt-10">
-            <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Your Master Sets</h2>
+        <div className="mt-10">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-2xl font-semibold text-indigo-700">Your Master Sets</h2>
+            <Link to="/masterset" className="text-indigo-600 hover:text-indigo-800">
+              <Plus size={24} />
+            </Link>
+          </div>
+          {masterSets.length === 0 ? (
+            <p className="text-gray-500 mb-6">You have no Master Sets yet.</p>
+          ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {masterSets.map((set) => (
-                <div key={set.name} className="bg-white p-4 rounded-xl shadow-md">
-                  <h3 className="text-lg font-semibold text-indigo-600 mb-2 capitalize">{set.name}</h3>
-                  <p className="text-sm text-gray-600 mb-2">
-                    {set.ownedCards} of {set.totalCards} cards owned
-                  </p>
-                  <div className="w-full bg-gray-200 h-3 rounded">
-                    <div
-                      className="bg-green-500 h-3 rounded"
-                      style={{ width: `${(set.ownedCards / set.totalCards) * 100}%` }}
-                    ></div>
-                  </div>
+                <div key={set.name} className="relative bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition">
+                  <Link to={`/mastersets/${set.name}/view`} className="block">
+                    <div className="flex items-center gap-3 mb-2">
+                      <img
+                        src={`https://images.pokemontcg.io/${set.cardIds?.[0]?.split('-')[0]}/${set.cardIds?.[0]?.split('-')[1]}.png`}
+                        alt={set.name}
+                        className="w-12 h-16 object-contain rounded border"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold text-indigo-600 capitalize">{set.name}</h3>
+                        <p className="text-sm text-gray-600">
+                          {set.ownedCards} of {set.totalCards} cards owned
+                        </p>
+                      </div>
+                    </div>
+                    <div className="w-full bg-gray-200 h-3 rounded">
+                      <div
+                        className="bg-green-500 h-3 rounded"
+                        style={{ width: `${(set.ownedCards / set.totalCards) * 100}%` }}
+                      ></div>
+                    </div>
+                  </Link>
+                  <button
+                    onClick={() => handleDeleteMasterSet(set.name)}
+                    className="absolute top-2 right-2 text-red-500 hover:text-red-700"
+                    title="Delete Master Set"
+                  >
+                    <Trash2 size={16} />
+                  </button>
                 </div>
               ))}
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

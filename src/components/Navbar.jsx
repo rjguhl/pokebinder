@@ -1,18 +1,26 @@
-import React from 'react';
+// File: Navbar.jsx
+
 import { Link, useLocation } from 'react-router-dom';
-import { User } from 'react-feather';
+import { useEffect, useState } from 'react';
+import { onAuthStateChanged } from 'firebase/auth';
+import { auth } from '../firebase';
 
 const Navbar = () => {
   const { pathname } = useLocation();
-  const user = localStorage.getItem('user');
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe();
+  }, []);
 
   const navLink = (to, label) => (
     <Link
       to={to}
       className={`px-4 py-2 rounded-md text-sm font-medium transition ${
-        pathname === to
-          ? 'bg-indigo-600 text-white'
-          : 'text-indigo-600 hover:bg-indigo-100'
+        pathname === to ? 'bg-indigo-600 text-white' : 'text-indigo-600 hover:bg-indigo-100'
       }`}
     >
       {label}
@@ -25,25 +33,11 @@ const Navbar = () => {
         <Link to="/" className="text-xl font-bold text-indigo-600">
           PokeBinder
         </Link>
-
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2">
           {navLink('/', 'Home')}
           {navLink('/collection', 'Collection')}
           {navLink('/search', 'Search')}
-
-          {!user ? (
-            <>
-              {navLink('/login', 'Login')}
-            </>
-          ) : (
-            <Link
-              to="/profile"
-              className="text-indigo-600 hover:bg-indigo-100 p-2 rounded-full"
-              title="Profile"
-            >
-              <User className="w-6 h-6" />
-            </Link>
-          )}
+          {user ? navLink('/profile', 'Profile') : navLink('/login', 'Login')}
         </div>
       </div>
     </nav>

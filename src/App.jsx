@@ -9,6 +9,7 @@ import Search from './pages/Search';
 import Navbar from './components/Navbar';
 import Profile from './pages/Profile';
 import MasterSet from './pages/MasterSet';
+import MasterSetView from './pages/MasterSetView';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/masterset" element={<MasterSet />} />
+        <Route path="/mastersets/:id/view" element={<MasterSetView />} />
       </Routes>
     </>
   );
