@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import axios from 'axios';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db, auth } from '../firebase';
 
 const Search = () => {
   const [query, setQuery] = useState('');
@@ -21,9 +21,6 @@ const Search = () => {
   const [supertypeFilter, setSupertypeFilter] = useState('');
   const [sortOption, setSortOption] = useState('relevance');
 
-  const [collection, setCollection] = useState(
-    JSON.parse(localStorage.getItem('collection')) || []
-  );
   const [user, setUser] = useState(localStorage.getItem('user'));
 
   const observer = useRef();
