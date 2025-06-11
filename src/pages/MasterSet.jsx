@@ -28,16 +28,23 @@ const MasterSet = () => {
 
   const handleAddToCollection = async (card) => {
     if (!user) return;
+    const baseId = card.id.split('-')[0];
+    const finish = card.variantFinish || 'normal';
+    const cardId = `${baseId}-${finish}`;
+
     try {
-      await setDoc(doc(db, 'users', user.uid, 'collection', card.id), {
+      await setDoc(doc(db, 'users', user.uid, 'collection', cardId), {
         name: card.name,
-        cardId: card.id,
+        cardId,
+        baseId,
         image: card.images?.small || null,
         number: card.number,
         set: card.set?.name || '',
+        rarity: card.rarity || '',
+        finish,
         addedAt: new Date(),
       });
-      setUserCollection(prev => [...prev, card.id]);
+      setUserCollection(prev => [...prev, cardId]);
     } catch (err) {
       console.error('Error adding to collection:', err);
     }
@@ -150,12 +157,19 @@ const MasterSet = () => {
             variantKeys.push('1stEdition');
           }
 
+          // Custom logic: Only add each finish once, mark if user owns it, don't duplicate if already present
+          const userHas = new Set(userCollection); // already added
           variantKeys.forEach((variantKey, i) => {
-            variants.push({
-              ...card,
-              id: `${card.id}-${variantKey}-${i}`,
-              variantFinish: variantKey,
-            });
+            const newId = `${card.id}-${variantKey}-${i}`;
+            const baseId = card.id;
+            const hasAlready = userHas.has(`${baseId}-${variantKey}`);
+            if (includeVariants || !hasAlready || i === 0) {
+              variants.push({
+                ...card,
+                id: newId,
+                variantFinish: variantKey,
+              });
+            }
           });
         } else {
           const key = `${card.name}-${card.set.id}-${card.number}`;
@@ -206,7 +220,9 @@ const MasterSet = () => {
   const handleSaveMasterSet = async () => {
     if (!user || !selectedOption || cards.length === 0) return;
     const ownedCount = cards.filter(card => userCollection.includes(card.id)).length;
-    const docId = selectedOption.toLowerCase().replace(/\s+/g, '-');
+    const docId = choice === 'set'
+        ? `${selectedOption.toLowerCase().replace(/\s+/g, '-')}-${selectedSetId}`
+        : selectedOption.toLowerCase().replace(/\s+/g, '-');
     try {
       await setDoc(doc(db, 'users', user.uid, 'mastersets', docId), {
         name: selectedOption,
@@ -356,8 +372,10 @@ const MasterSet = () => {
           <div key={offset} className="bg-black p-4 rounded-2xl grid grid-cols-3 gap-4 w-full max-w-md">
             {Array.from({ length: 9 }, (_, i) => {
               const card = paginatedCards[i + offset];
-              const cardKey = card?.id || `placeholder-${i + offset}`;
-              const owned = card && userCollection.includes(card.id);
+              const finishKey = card?.variantFinish || 'normal';
+              const cardId = card?.id ? card.id.split('-')[0] + '-' + finishKey : undefined;
+              const cardKey = cardId || `placeholder-${i + offset}`;
+              const owned = card && userCollection.includes(cardId);
               const isLoaded = imageStatus[cardKey];
 
               return (

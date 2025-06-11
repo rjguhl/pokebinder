@@ -1,152 +1,225 @@
-// File: Search.jsx
-
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { db, auth } from '../firebase';
-import { collection, setDoc, doc } from 'firebase/firestore';
+import {
+  collection,
+  setDoc,
+  doc,
+  getDocs,
+} from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
 
 const Search = () => {
-  const [query, setQuery] = useState('');
+  const [queryText, setQueryText] = useState('');
   const [results, setResults] = useState([]);
-  const [page, setPage] = useState(1);
-  const [hasMore, setHasMore] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [sortOption, setSortOption] = useState('price');
-  const [alert, setAlert] = useState('');
   const [user, setUser] = useState(null);
-
-  const observer = useRef();
-  const lastCardRef = useCallback(node => {
-    if (loading) return;
-    if (observer.current) observer.current.disconnect();
-    observer.current = new IntersectionObserver(entries => {
-      if (entries[0].isIntersecting && hasMore) {
-        setPage(prevPage => prevPage + 1);
-      }
-    });
-    if (node) observer.current.observe(node);
-  }, [loading, hasMore]);
+  const [userCollection, setUserCollection] = useState({});
+  const [dropdownCardId, setDropdownCardId] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-    });
+    const unsubscribe = onAuthStateChanged(auth, setUser);
     return () => unsubscribe();
   }, []);
 
-  const fetchCards = async () => {
-    if (!query.trim()) return;
+  useEffect(() => {
+    if (!user) return;
+    const fetchCollection = async () => {
+      const snapshot = await getDocs(collection(db, 'users', user.uid, 'collection'));
+      const collectionMap = {};
+      snapshot.forEach(doc => {
+        const data = doc.data();
+        if (!collectionMap[data.baseId]) collectionMap[data.baseId] = new Set();
+        collectionMap[data.baseId].add(data.finish);
+      });
+      setUserCollection(collectionMap);
+    };
+    fetchCollection();
+  }, [user]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownCardId(null);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleSearch = async (e) => {
+    e.preventDefault();
+    if (!queryText.trim()) return;
+  
     setLoading(true);
     try {
-      const response = await axios.get(
-        `https://api.pokemontcg.io/v2/cards?q=name:*${query}*&pageSize=20&page=${page}`,
-        {
-          headers: {
-            'X-Api-Key': import.meta.env.VITE_POKEMON_API_KEY,
-          },
+      const parts = queryText.trim().split(/\s+/);
+      let q = '';
+  
+      if (parts.length === 2) {
+        const [first, second] = parts;
+        const isSecondNumber = /^\d+$/.test(second);
+        if (isSecondNumber) {
+          q = `name:*${first}* AND number:${second}`;
+        } else {
+          q = `name:*${first}* AND set.name:*${second}*`;
         }
-      );
-      const newCards = response.data.data;
-      setResults(prev => [...prev, ...newCards]);
-      setHasMore(newCards.length > 0);
+      } else {
+        const text = parts.join(' ');
+        q = `name:*${text}* OR set.name:*${text}* OR number:${text}`;
+      }
+  
+      const res = await axios.get('https://api.pokemontcg.io/v2/cards', {
+        params: {
+          q,
+          pageSize: 30,
+        },
+        headers: { 'X-Api-Key': import.meta.env.VITE_POKEMON_API_KEY },
+      });
+  
+      setResults(res.data.data);
     } catch (err) {
       console.error('Error fetching cards:', err);
     }
     setLoading(false);
   };
 
-  useEffect(() => {
-    if (page > 1) fetchCards();
-  }, [page]);
-
-  const handleSearch = (e) => {
-    e.preventDefault();
-    if (!query.trim()) return;
-    setPage(1);
-    setResults([]);
-    fetchCards();
-  };
-
-  const addToCollection = async (card) => {
-    if (!user) {
-      setAlert('You must be signed in to add cards to your collection.');
-      setTimeout(() => setAlert(''), 3000);
-      return;
-    }
+  const addToCollection = async (card, finish) => {
+    if (!user) return;
     try {
-      await setDoc(doc(db, 'users', user.uid, 'collection', card.id), {
-        cardId: card.id,
+      const cardId = `${card.id}-${finish}`;
+      const docRef = doc(db, 'users', user.uid, 'collection', cardId);
+      await setDoc(docRef, {
+        cardId,
+        baseId: card.id,
         name: card.name,
-        image: card.images.small,
+        image: card.images?.small,
         set: card.set.name,
         number: card.number,
+        rarity: card.rarity,
+        finish,
+        timestamp: new Date(),
       });
-      setAlert(`${card.name} added to your collection.`);
-      setTimeout(() => setAlert(''), 3000);
+
+      // Local update to show check immediately
+      setUserCollection((prev) => {
+        const updated = { ...prev };
+        const baseKey = card.baseId || card.id;
+        if (!updated[baseKey]) updated[baseKey] = new Set();
+        updated[baseKey] = new Set([...updated[baseKey], finish]);
+        return updated;
+      });
     } catch (err) {
-      console.error('Failed to add card:', err);
-      setAlert('Failed to add card.');
-      setTimeout(() => setAlert(''), 3000);
+      console.error('Error adding to collection:', err);
     }
+  };
+
+  const getFinishVariants = (card) => {
+    const base = ['normal'];
+    const finishes = new Set(card.finishes || base);
+
+    if ((card.rarity === 'Common' || card.rarity === 'Uncommon') && !finishes.has('reverseHolofoil')) {
+      finishes.add('reverseHolofoil');
+    }
+
+    return Array.from(finishes).map(f =>
+      f === 'reverseHolofoil' ? 'Reverse Holo'
+      : f === 'normal' ? 'Normal'
+      : f.charAt(0).toUpperCase() + f.slice(1)
+    );
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-slate-50 to-indigo-100 p-6 relative">
+    <div className="min-h-screen bg-slate-50 p-6">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-indigo-700 mb-6">Search Cards</h1>
-
-        {alert && (
-          <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-indigo-100 border border-indigo-300 text-indigo-800 px-6 py-3 rounded-lg shadow-md transition-all animate-fade-in-out">
-            {alert}
-          </div>
-        )}
-
-        <form onSubmit={handleSearch} className="flex items-center gap-4 mb-6">
+        <form onSubmit={handleSearch} className="mb-6 flex gap-2">
           <input
             type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search Pokémon name, set, or number..."
-            className="flex-1 border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            value={queryText}
+            onChange={(e) => setQueryText(e.target.value)}
+            placeholder="Search by name, set, or number..."
+            className="flex-grow p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
           />
           <button
             type="submit"
-            className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-lg shadow-md font-medium"
+            className="px-5 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
           >
             Search
           </button>
         </form>
 
-        {results.length > 0 && (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-            {results.map((card, index) => (
-              <div
-                key={card.id}
-                ref={index === results.length - 1 ? lastCardRef : null}
-                className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition"
-              >
-                <img
-                  src={card.images.small}
-                  alt={card.name}
-                  className="w-full h-48 object-contain mb-2"
-                />
-                <h2 className="text-sm font-semibold text-indigo-700 mb-1">{card.name}</h2>
-                <p className="text-xs text-gray-500 mb-2">
-                  {card.set.name} — {card.number}/{card.set.total}
-                </p>
-                <button
-                  onClick={() => addToCollection(card)}
-                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded-lg text-sm font-medium"
-                >
-                  Add to Collection
-                </button>
-              </div>
-            ))}
-          </div>
+        {loading && (
+          <p className="text-center text-gray-500 mb-4 animate-pulse">Loading results...</p>
         )}
 
-        {loading && <p className="text-center text-gray-500 mt-6">Loading more cards...</p>}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          {results.map((card) => {
+            const finishes = getFinishVariants(card);
+            return (
+              <div key={card.id} className="relative bg-white p-3 rounded-xl shadow hover:shadow-lg transition-transform">
+                {(() => {
+                  const ownedCount = (userCollection[card.id]?.size || userCollection[card.baseId]?.size || 0);
+                  const badgeColor = ownedCount === 0 ? 'bg-red-500' : 'bg-indigo-600';
+                  return (
+                    <div className={`absolute top-1 left-1 ${badgeColor} text-white text-[10px] px-2 py-[1px] rounded-full font-semibold shadow-md`}>
+                      {ownedCount}/{finishes.length}
+                    </div>
+                  );
+                })()}
+                <img
+                  src={card.images?.small || '/placeholder.png'}
+                  alt={card.name}
+                  className="w-full h-40 object-contain mb-2"
+                />
+                <h2 className="text-sm font-medium text-indigo-600">{card.name}</h2>
+                <p className="text-xs text-gray-500">
+                  {card.set?.name} — {card.number}
+                </p>
+                <button
+                  onClick={() => setDropdownCardId(card.id)}
+                  className="absolute bottom-2 right-2 text-green-600 bg-white border border-green-600 px-2 py-1 text-xs rounded hover:bg-green-100"
+                >
+                  + Add
+                </button>
+                {dropdownCardId === card.id && (
+                  <div
+                    ref={dropdownRef}
+                    className="absolute bottom-10 right-1 bg-white border border-indigo-200 rounded-lg shadow-lg text-sm z-30 min-w-[140px]"
+                  >
+                    {finishes.map((finish) => {
+                      // Use baseId to group user-owned finishes
+                      const ownedSet = userCollection[card.id] || userCollection[card.baseId] || new Set();
+                      const hasIt = ownedSet.has(finish);
+
+                      return (
+                        <button
+                          key={finish}
+                          onClick={async () => {
+                            if (!hasIt) {
+                              await addToCollection(card, finish);
+                            }
+                            setDropdownCardId(null);
+                          }}
+                          disabled={hasIt}
+                          className={`w-full text-left px-4 py-2 flex justify-between items-center transition-colors ${
+                            hasIt
+                              ? 'text-gray-400 cursor-not-allowed bg-gray-100'
+                              : 'hover:bg-indigo-50 text-gray-800'
+                          }`}
+                        >
+                          <span>{finish}</span>
+                          {hasIt && <span className="text-green-500 font-bold">✓</span>}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

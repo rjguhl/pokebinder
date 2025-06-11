@@ -1,10 +1,8 @@
-// File: MasterSetView.jsx
-
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { db, auth } from '../firebase';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, getDocs, collection as fsCollection } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
 
 const MasterSetView = () => {
@@ -29,8 +27,8 @@ const MasterSetView = () => {
           }
 
           // Fetch user collection IDs
-          const userColSnap = await getDoc(doc(db, 'users', currentUser.uid));
-          const ownedCards = (userColSnap.exists() && userColSnap.data().collection) || [];
+          const userColSnap = await getDocs(fsCollection(db, 'users', currentUser.uid, 'collection'));
+          const ownedCards = userColSnap.docs.map(doc => doc.id);
           setUserCollection(ownedCards);
 
           // Chunk card IDs into batches of 250 to avoid API limits
@@ -42,15 +40,33 @@ const MasterSetView = () => {
 
           const fetchedCards = [];
           for (const chunk of cardChunks) {
+            const baseIds = chunk.map(id => id.split('-').slice(0, 2).join('-'));
             const response = await axios.get('https://api.pokemontcg.io/v2/cards', {
-              params: { ids: chunk.join(',') },
+              params: { ids: [...new Set(baseIds)].join(',') },
               headers: { 'X-Api-Key': import.meta.env.VITE_POKEMON_API_KEY }
             });
             fetchedCards.push(...response.data.data);
           }
 
           console.log('Fetched cards:', fetchedCards);
-          setCards(fetchedCards);
+          // Map user-saved variant IDs to base cards, reconstructing variant objects
+          const finalCards = cardIds.map(savedId => {
+            const parts = savedId.split('-');
+            const baseId = parts.length >= 2 ? parts.slice(0, 2).join('-') : parts[0];
+            const baseCard = fetchedCards.find(c => c.id === baseId);
+            return baseCard
+              ? {
+                  ...baseCard,
+                  id: savedId,
+                  images: baseCard.images,
+                  name: baseCard.name,
+                  number: baseCard.number,
+                  set: baseCard.set,
+                }
+              : null;
+          }).filter(Boolean);
+
+          setCards(finalCards);
         }
       } catch (err) {
         console.error('Failed to load master set:', err);
