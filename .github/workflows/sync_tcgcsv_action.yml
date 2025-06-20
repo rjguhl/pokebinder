@@ -20,7 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install axios csv-parser firebase-admin
-        working-directory: pokebinder
 
       - name: Run sync script
         env:
@@ -28,4 +27,3 @@ jobs:
         run: |
           echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
           node scripts/sync-to-firestore.js
-        working-directory: pokebinder
