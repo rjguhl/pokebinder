@@ -19,11 +19,13 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd pokebinder
           npm install axios csv-parser firebase-admin
 
       - name: Run sync script
         env:
           GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
+          cd pokebinder
           echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
           node scripts/sync-to-firestore.js
