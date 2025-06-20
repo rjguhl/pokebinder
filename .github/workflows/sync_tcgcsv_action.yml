@@ -1,0 +1,29 @@
+name: Sync TCGCSV to Firestore
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # every day at 2 AM UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: |
+          npm install axios csv-parser firebase-admin
+
+      - name: Run sync script
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
+          node ./scripts/sync-to-firestore.js
