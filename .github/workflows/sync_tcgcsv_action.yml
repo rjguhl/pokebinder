@@ -26,4 +26,4 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
           echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
-          node ./scripts/sync-to-firestore.js
+          node scripts/sync-to-firestore.js
