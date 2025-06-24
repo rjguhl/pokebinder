@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Node.js
@@ -21,9 +21,11 @@ jobs:
       - name: Install dependencies
         run: npm install axios csv-parser firebase-admin
 
-      - name: Run sync script
+      - name: Write Firebase credentials
         env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
-          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > credentials.json
-          node scripts/sync-to-firestore.js
+          echo "$FIREBASE_CREDENTIALS" > credentials.json
+
+      - name: Run sync script
+        run: node scripts/sync-to-firestore.cjs
