@@ -1,0 +1,2614 @@
+[
+  {
+    "productId": 97047,
+    "name": "Team Magma's Numel",
+    "cleanName": "Team Magmas Numel",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97047_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97047/pokemon-double-crisis-team-magmas-numel",
+    "modifiedOn": "2022-12-14T16:22:07.26",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "1/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1R] Ember (30)\r\n<br>Discard an Energy attached to this Pokemon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.45,
+        "midPrice": 0.79,
+        "highPrice": 4.95,
+        "marketPrice": 0.79,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.35,
+        "midPrice": 2.75,
+        "highPrice": 89,
+        "marketPrice": 3.07,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97048,
+    "name": "Team Magma's Camerupt",
+    "cleanName": "Team Magmas Camerupt",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97048_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97048/pokemon-double-crisis-team-magmas-camerupt",
+    "modifiedOn": "2022-12-14T16:22:14.043",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "2/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "110"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability</b> Burn Draft\r\n<br>Once during your turn <em>(before you attack)</em>, you may attach either a Fire or Fighting Energy from your discard pile to this Pokemon."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2R] Flame Ball (60)\r\n<br>Move a basic Energy from this Pokemon to 1 of your Benched Pokemon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.49,
+        "midPrice": 0.99,
+        "highPrice": 3.99,
+        "marketPrice": 1.03,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 1,
+        "midPrice": 2.32,
+        "highPrice": 2.75,
+        "marketPrice": 2.69,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97049,
+    "name": "Team Aqua's Spheal",
+    "cleanName": "Team Aquas Spheal",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97049_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97049/pokemon-double-crisis-team-aquas-spheal",
+    "modifiedOn": "2024-02-16T09:57:13.84",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "3/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Water Gun (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1,
+        "midPrice": 1.6,
+        "highPrice": 2,
+        "marketPrice": 1.64,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 3.33,
+        "midPrice": 5,
+        "highPrice": 9.99,
+        "marketPrice": 5.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97050,
+    "name": "Team Aqua's Sealeo",
+    "cleanName": "Team Aquas Sealeo",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97050_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97050/pokemon-double-crisis-team-aquas-sealeo",
+    "modifiedOn": "2022-12-14T16:22:25.38",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "4/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1W] Splatter\r\n<br>This attack does 20 damage to 1 of your opponent's Pokemon. <i>(Don't apply Weakness and Resistance for Benched Pokemon.)</i>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2W] Hail Wind (60+)\r\n<br>If your opponent's Active Pokemon has Team Magma in its name, this attack does 60 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.33,
+        "midPrice": 0.64,
+        "highPrice": 4.95,
+        "marketPrice": 0.69,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 1.89,
+        "midPrice": 4.5,
+        "highPrice": 6.5,
+        "marketPrice": 6.77,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97051,
+    "name": "Team Aqua's Walrein",
+    "cleanName": "Team Aquas Walrein",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97051_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97051/pokemon-double-crisis-team-aquas-walrein",
+    "modifiedOn": "2022-12-14T16:22:30.957",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "5/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "140"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Power Blow (30x)\r\n<br>This attack does 30 damage times the amount of Energy attached to this Pokemon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1WWW] Dual Blizzard\r\n<br>Discard 2 Water energy attached to this Pokemon. This attack does 80 damage to 2 of your opponent's Pokemon. <i>(Don't apply Weakness and Resistance for Benched Pokemon.)</i>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "4"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.67,
+        "midPrice": 1.62,
+        "highPrice": 89,
+        "marketPrice": 1.62,
+        "directLowPrice": 1.25
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.17,
+        "midPrice": 4.02,
+        "highPrice": 5,
+        "marketPrice": 4.3,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97052,
+    "name": "Team Aqua's Kyogre EX",
+    "cleanName": "Team Aquas Kyogre EX",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97052_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97052/pokemon-double-crisis-team-aquas-kyogre-ex",
+    "modifiedOn": "2022-12-14T16:22:42.313",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "6/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "190"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability</b> Power Saver\r\n<br>As long as the number of Pokemon in play <em>(both yours and your opponent's)</em> that has Team Aqua in its name is less than 4, this Pokemon can't attack."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1WWW] Aqua Impact (80+)\r\n<br>This attack does 20 more damage for each Colorless in your opponent's Active Pokemon Retreat Cost."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "4"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 292,
+        "midPrice": 479.48,
+        "highPrice": 999.99,
+        "marketPrice": 324.43,
+        "directLowPrice": 999.99
+      }
+    ]
+  },
+  {
+    "productId": 97053,
+    "name": "Team Aqua's Grimer",
+    "cleanName": "Team Aquas Grimer",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97053_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97053/pokemon-double-crisis-team-aquas-grimer",
+    "modifiedOn": "2022-12-14T16:22:48.143",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "7/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Pound (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2P] Mud-Slap (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1.19,
+        "midPrice": 1.73,
+        "highPrice": 89,
+        "marketPrice": 1.94,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.12,
+        "midPrice": 2.58,
+        "highPrice": 89,
+        "marketPrice": 5.11,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97054,
+    "name": "Team Aqua's Muk",
+    "cleanName": "Team Aquas Muk",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97054_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97054/pokemon-double-crisis-team-aquas-muk",
+    "modifiedOn": "2022-12-14T16:22:54.42",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "8/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "110"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability</b> Sludge Festival\r\n<br>The Retreat Cost of each Pokemon in play without Team Aqua in their name is Colorless more."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2P] Pester (60+)\r\n<br>If your opponent's Active Pokemon is affected by a Special Condition, this attack does 60 more  damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.85,
+        "midPrice": 1.57,
+        "highPrice": 4,
+        "marketPrice": 1.61,
+        "directLowPrice": 2.37
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 3,
+        "midPrice": 3.54,
+        "highPrice": 4.18,
+        "marketPrice": 3.78,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97055,
+    "name": "Team Aqua's Seviper",
+    "cleanName": "Team Aquas Seviper",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97055_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97055/pokemon-double-crisis-team-aquas-seviper",
+    "modifiedOn": "2022-12-14T16:23:00.473",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "9/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Venomous Fang (10)\r\n<br>Flip a coin. If heads, your opponent's Active Pokemon is now Poisoned."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Venom Tail (30)\r\n<br>If your opponent's Active Pokemon is affected by a Special Condition, discard an Energy attached to it."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.35,
+        "midPrice": 0.52,
+        "highPrice": 4.95,
+        "marketPrice": 0.71,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.86,
+        "midPrice": 14.99,
+        "highPrice": 33.55,
+        "marketPrice": 6.09,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97056,
+    "name": "Team Magma's Baltoy",
+    "cleanName": "Team Magmas Baltoy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97056_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97056/pokemon-double-crisis-team-magmas-baltoy",
+    "modifiedOn": "2022-12-14T16:23:09.587",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "10/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1P] Telekinesis\r\n<br>This attack does 20 damage to 1 of your opponent's Pokemon. This attack's damage isn't affected by Weakness or Resistance."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.2,
+        "midPrice": 0.55,
+        "highPrice": 4.95,
+        "marketPrice": 0.61,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 1.61,
+        "midPrice": 1.66,
+        "highPrice": 2.5,
+        "marketPrice": 2.15,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97057,
+    "name": "Team Magma's Claydol",
+    "cleanName": "Team Magmas Claydol",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97057_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97057/pokemon-double-crisis-team-magmas-claydol",
+    "modifiedOn": "2024-12-27T08:19:04.257",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "11/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability</b> Magma Switch\r\n<br>Once during your turn <em>(before your attack)</em>, you may move 1 Energy attached to 1 of your Pokemon to 1 of your Pokemon with Team Magma in its name."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2P] Power Beam (70)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.55,
+        "midPrice": 1,
+        "highPrice": 89,
+        "marketPrice": 1.18,
+        "directLowPrice": 1
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.99,
+        "midPrice": 1.24,
+        "highPrice": 4.91,
+        "marketPrice": 1.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97058,
+    "name": "Team Magma's Aron",
+    "cleanName": "Team Magmas Aron",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97058_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97058/pokemon-double-crisis-team-magmas-aron",
+    "modifiedOn": "2024-07-26T17:27:08.327",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "12/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[F] Gnaw (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.45,
+        "midPrice": 1,
+        "highPrice": 2,
+        "marketPrice": 1.25,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.18,
+        "midPrice": 3.12,
+        "highPrice": 5.7,
+        "marketPrice": 4.33,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97059,
+    "name": "Team Magma's Lairon",
+    "cleanName": "Team Magmas Lairon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97059_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97059/pokemon-double-crisis-team-magmas-lairon",
+    "modifiedOn": "2023-11-03T04:58:24.817",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "13/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Gnaw (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2F] Take Down (60)\r\n<br>This Pokemon does 10 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.24,
+        "midPrice": 0.7,
+        "highPrice": 4.95,
+        "marketPrice": 0.7,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2,
+        "midPrice": 2.29,
+        "highPrice": 6.12,
+        "marketPrice": 3.81,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97060,
+    "name": "Team Magma's Aggron",
+    "cleanName": "Team Magmas Aggron",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97060_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97060/pokemon-double-crisis-team-magmas-aggron",
+    "modifiedOn": "2023-08-20T09:03:05.977",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "14/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "140"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Rock Stamp (40x)\r\n<br>Discard as many Fighting Energy attached to your Pokemon as you like. This attack does 40 times the number of Energy you discarded."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FFF] Rock Tempest (120)\r\n<br>This attack does 20 damage to each of your opponent's Benched Pokemon that has any damage counters on it. <i>(Don't apply Weakness and Resistance for Benched Pokemon.)</i>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "4"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 1,
+        "midPrice": 1.61,
+        "highPrice": 89,
+        "marketPrice": 2.56,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 3.03,
+        "midPrice": 5.25,
+        "highPrice": 7.29,
+        "marketPrice": 5.61,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97061,
+    "name": "Team Magma's Groudon EX",
+    "cleanName": "Team Magmas Groudon EX",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97061_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97061/pokemon-double-crisis-team-magmas-groudon-ex",
+    "modifiedOn": "2022-12-14T16:23:41.437",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "15/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "190"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability</b> Power Saver\r\n<br>As long as the number of Pokemon in play <em>(both yours and your opponent's)</em> that has Team Magma in its name is less than 4, this Pokemon can't attack."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1FFF] Magma Quake (80+)\r\n<br>If your opponent's Active Pokemon already has damage counters on it, this attack does 80 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "4"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 299.99,
+        "midPrice": 349.73,
+        "highPrice": 799.99,
+        "marketPrice": 287.93,
+        "directLowPrice": 349.73
+      }
+    ]
+  },
+  {
+    "productId": 97062,
+    "name": "Team Magma's Poochyena",
+    "cleanName": "Team Magmas Poochyena",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97062_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97062/pokemon-double-crisis-team-magmas-poochyena",
+    "modifiedOn": "2022-12-14T16:24:17.9",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "17/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Infiltration\r\n<br>Your opponent reveals his or her hand."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1F] Bite (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.41,
+        "midPrice": 1.01,
+        "highPrice": 4.99,
+        "marketPrice": 1.23,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.74,
+        "midPrice": 4.13,
+        "highPrice": 4.82,
+        "marketPrice": 6.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97063,
+    "name": "Team Aqua's Poochyena",
+    "cleanName": "Team Aquas Poochyena",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97063_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97063/pokemon-double-crisis-team-aquas-poochyena",
+    "modifiedOn": "2023-03-13T08:03:52.22",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "16/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Roar\r\n<br> Your opponent switches his or her Active Pokemon with 1 of his or her Benched Pokemon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1W] Bite (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.29,
+        "midPrice": 0.75,
+        "highPrice": 4.95,
+        "marketPrice": 0.85,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.04,
+        "midPrice": 3,
+        "highPrice": 5.42,
+        "marketPrice": 3.67,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97064,
+    "name": "Team Aqua's Mightyena",
+    "cleanName": "Team Aquas Mightyena",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97064_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97064/pokemon-double-crisis-team-aquas-mightyena",
+    "modifiedOn": "2024-01-22T06:43:53.95",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "18/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1W] Teampact (30x)\r\n<br>Flip a coin for each Pokemon you have in play that has Team Aqua in its name. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1WW] Crunch (80)\r\n<br>Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokemon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.75,
+        "midPrice": 1.13,
+        "highPrice": 99,
+        "marketPrice": 1.25,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.99,
+        "midPrice": 4.15,
+        "highPrice": 5,
+        "marketPrice": 4.24,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97065,
+    "name": "Team Magma's Mightyena",
+    "cleanName": "Team Magmas Mightyena",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97065_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97065/pokemon-double-crisis-team-magmas-mightyena",
+    "modifiedOn": "2024-02-29T17:44:36.11",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "19/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Bite (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FF] Hostile Fang (80)\r\n<br>If your opponent's Active Pokemon has Team Aqua in its name, this attack does 40 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.69,
+        "midPrice": 0.9,
+        "highPrice": 1.25,
+        "marketPrice": 1.02,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.99,
+        "midPrice": 4.81,
+        "highPrice": 12,
+        "marketPrice": 6.61,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97066,
+    "name": "Team Aqua's Carvanha",
+    "cleanName": "Team Aquas Carvanha",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97066_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97066/pokemon-double-crisis-team-aquas-carvanha",
+    "modifiedOn": "2022-12-14T16:24:43.087",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "20/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[D] Fin Smack (10x)\r\n<br>Flip 2 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.28,
+        "midPrice": 0.5,
+        "highPrice": 4.95,
+        "marketPrice": 0.51,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2.8,
+        "midPrice": 3.11,
+        "highPrice": 4.99,
+        "marketPrice": 3.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97067,
+    "name": "Team Aqua's Sharpedo",
+    "cleanName": "Team Aquas Sharpedo",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97067_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97067/pokemon-double-crisis-team-aquas-sharpedo",
+    "modifiedOn": "2022-12-14T16:28:25.91",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "21/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability</b> Aqua Search\r\n<br>Once during your turn <em>(before your attack)</em>, you may search your deck for a Pokemon with Team Aqua in its name, reveal it, and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2D] Sharp Fang (70)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "0"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 1.51,
+        "midPrice": 2.25,
+        "highPrice": 89,
+        "marketPrice": 2.61,
+        "directLowPrice": 1.53
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 4.16,
+        "midPrice": 5.22,
+        "highPrice": 11.5,
+        "marketPrice": 5.26,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97068,
+    "name": "Team Magma's Zangoose",
+    "cleanName": "Team Magmas Zangoose",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97068_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97068/pokemon-double-crisis-team-magmas-zangoose",
+    "modifiedOn": "2024-07-26T17:27:08.413",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "22/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Call for Family\r\n<br>Search your deck for 2 Basic Pokemon that have Team Magma in their names and put them onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Team Play (20x)\r\n<br>This attack does 20 damage times the number of Pokemon in play with Team Magma in its name."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.47,
+        "midPrice": 0.68,
+        "highPrice": 4.95,
+        "marketPrice": 0.71,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 1.89,
+        "midPrice": 3.13,
+        "highPrice": 31.35,
+        "marketPrice": 6,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97069,
+    "name": "Aqua Diffuser",
+    "cleanName": "Aqua Diffuser",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97069_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97069/pokemon-double-crisis-aqua-diffuser",
+    "modifiedOn": "2022-12-14T16:28:39.74",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "23/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Tool"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Attach a Pokemon Tool to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it.\r\n\r\n<br>The Team Aqua Pokemon this card is attached to can also use the attack on this card. <em>(You still need the necessary Energy to use this attack.)"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Aqua Diffuser\r\n<br>Your opponent's Active Pokemon is now Poisoned and Confused."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.25,
+        "midPrice": 0.59,
+        "highPrice": 4.95,
+        "marketPrice": 0.64,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.5,
+        "midPrice": 0.97,
+        "highPrice": 4.02,
+        "marketPrice": 1.5,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97070,
+    "name": "Magma Pointer",
+    "cleanName": "Magma Pointer",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97070_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97070/pokemon-double-crisis-magma-pointer",
+    "modifiedOn": "2022-12-14T16:28:46.11",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "24/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Tool"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Attach a Pokemon Tool to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it.\r\n\r\n<br>The Team Magma Pokemon this card is attached to can also use the attack on this card. <em>(You still need the necessary Energy to use this attack.)"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[F] Magma Pointer\r\n<br>This attack does 20 damage to 1 of your opponent's Pokemon <i>(Don't apply Weakness and Resistance for Benched Pokemon.)</i>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.15,
+        "midPrice": 0.46,
+        "highPrice": 3.99,
+        "marketPrice": 0.49,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.49,
+        "midPrice": 0.8,
+        "highPrice": 3,
+        "marketPrice": 0.92,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97071,
+    "name": "Team Aqua Admin",
+    "cleanName": "Team Aqua Admin",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97071_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97071/pokemon-double-crisis-team-aqua-admin",
+    "modifiedOn": "2022-12-14T16:28:52.033",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "25/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Attach a basic Energy card from your discard pile to 1 of your Pokemon with Team Aqua in its name."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.25,
+        "midPrice": 0.55,
+        "highPrice": 4.95,
+        "marketPrice": 0.58,
+        "directLowPrice": 0.58
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.3,
+        "midPrice": 1.6,
+        "highPrice": 5,
+        "marketPrice": 2.23,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97072,
+    "name": "Team Aqua Grunt",
+    "cleanName": "Team Aqua Grunt",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97072_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97072/pokemon-double-crisis-team-aqua-grunt",
+    "modifiedOn": "2022-12-14T16:28:58.307",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "26/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard a card from your hand. Then, draw 3 cards. If you discarded a card with Team Aqua in its name, draw 4 cards instead."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.22,
+        "midPrice": 0.5,
+        "highPrice": 4.95,
+        "marketPrice": 0.52,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 4.3,
+        "midPrice": 4.69,
+        "highPrice": 5.56,
+        "marketPrice": 5.29,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97073,
+    "name": "Team Aqua's Great Ball",
+    "cleanName": "Team Aquas Great Ball",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97073_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97073/pokemon-double-crisis-team-aquas-great-ball",
+    "modifiedOn": "2022-12-14T16:29:05.59",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "27/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Item"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for a Basic Pokemon that has Team Aqua in its name and a basic Water Energy, reveal them, and put them into your hand. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.44,
+        "midPrice": 0.95,
+        "highPrice": 3.99,
+        "marketPrice": 0.94,
+        "directLowPrice": 2.8
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 3.5,
+        "midPrice": 4.75,
+        "highPrice": 5.77,
+        "marketPrice": 4.58,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97074,
+    "name": "Team Aqua's Secret Base",
+    "cleanName": "Team Aquas Secret Base",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97074_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97074/pokemon-double-crisis-team-aquas-secret-base",
+    "modifiedOn": "2024-07-26T17:27:08.46",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "28/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Stadium"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each player's Pokemon that does not have Team Aqua in its name pays Colorless more to Retreat."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.22,
+        "midPrice": 0.73,
+        "highPrice": 4.95,
+        "marketPrice": 0.73,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.5,
+        "midPrice": 1,
+        "highPrice": 89,
+        "marketPrice": 2.67,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97075,
+    "name": "Team Magma Admin",
+    "cleanName": "Team Magma Admin",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97075_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97075/pokemon-double-crisis-team-magma-admin",
+    "modifiedOn": "2022-12-14T16:29:19.58",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "29/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Put 3 Pokemon with Team Magma in their names from your discard pile into your hand."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.25,
+        "midPrice": 0.56,
+        "highPrice": 4.95,
+        "marketPrice": 0.59,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.8,
+        "midPrice": 2.49,
+        "highPrice": 4.99,
+        "marketPrice": 2.58,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97076,
+    "name": "Team Magma Grunt",
+    "cleanName": "Team Magma Grunt",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97076_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97076/pokemon-double-crisis-team-magma-grunt",
+    "modifiedOn": "2022-12-14T16:29:25.82",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "30/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard a card from your hand. Then, draw 3 cards. If you discarded a card with Team Magma in its name, draw 4 cards instead."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.43,
+        "midPrice": 0.99,
+        "highPrice": 3.99,
+        "marketPrice": 1.28,
+        "directLowPrice": 1.97
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 1.16,
+        "midPrice": 2.02,
+        "highPrice": 89,
+        "marketPrice": 2.45,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97077,
+    "name": "Team Magma's Great Ball",
+    "cleanName": "Team Magmas Great Ball",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97077_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97077/pokemon-double-crisis-team-magmas-great-ball",
+    "modifiedOn": "2024-07-26T17:27:08.523",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "31/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Item"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for a Basic Pokemon that has Team Magma in its name and a basic Fighting Energy, reveal them, and put them into your hand. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 4.5,
+        "midPrice": 5.25,
+        "highPrice": 6.99,
+        "marketPrice": 5.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97078,
+    "name": "Team Magma's Secret Base",
+    "cleanName": "Team Magmas Secret Base",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97078_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97078/pokemon-double-crisis-team-magmas-secret-base",
+    "modifiedOn": "2022-12-14T16:29:37.117",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "32/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Stadium"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Whenever any player plays a Basic Pokemon from his or her hand to his or her Bench <em>(excluding Pokemon with Team Magma in their names)</em>, put 2 damage counters on that Pokemon."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1.5,
+        "midPrice": 2.75,
+        "highPrice": 89,
+        "marketPrice": 3.25,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 3.11,
+        "midPrice": 3.99,
+        "highPrice": 9.99,
+        "marketPrice": 4.69,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97079,
+    "name": "Double Aqua Energy",
+    "cleanName": "Double Aqua Energy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97079_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97079/pokemon-double-crisis-double-aqua-energy",
+    "modifiedOn": "2022-12-14T16:29:43.007",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "33/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This card can only be attached to Pokemon with Team Aqua in their names. At the end of your turn, discard this card.\r\n<br>While in play, this card provides WW Energy\r\n<br><em>(If this card is attached to anything other than a Team Aqua Pokemon, discard this card.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.22,
+        "midPrice": 0.68,
+        "highPrice": 3.99,
+        "marketPrice": 0.72,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.9,
+        "midPrice": 2.82,
+        "highPrice": 5.57,
+        "marketPrice": 2.85,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97080,
+    "name": "Double Magma Energy",
+    "cleanName": "Double Magma Energy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97080_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97080/pokemon-double-crisis-double-magma-energy",
+    "modifiedOn": "2024-07-26T17:27:08.57",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "34/34"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This card can only be attached to Pokemon with Team Magma in their names. At the end of your turn, discard this card.\r\n<br>While in play, this card provides FF Energy\r\n<br><em>(If this card is attached to anything other than a Team Magma Pokemon, discard this card.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.22,
+        "midPrice": 0.58,
+        "highPrice": 3.99,
+        "marketPrice": 0.6,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 0.75,
+        "midPrice": 1.5,
+        "highPrice": 4.99,
+        "marketPrice": 1.77,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97764,
+    "name": "Double Crisis: Team Magma Blister",
+    "cleanName": "Double Crisis Team Magma Blister",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97764_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97764/pokemon-double-crisis-double-crisis-team-magma-blister",
+    "modifiedOn": "2018-10-10T15:05:48.51",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 2000,
+        "midPrice": 2000,
+        "highPrice": 2000,
+        "marketPrice": 413.17,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 97765,
+    "name": "Double Crisis: Team Aqua Blister",
+    "cleanName": "Team Aqua Blister",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/97765_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/97765/pokemon-double-crisis-team-aqua-blister",
+    "modifiedOn": "2018-10-10T15:05:39.483",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 2000,
+        "midPrice": 2000,
+        "highPrice": 2000,
+        "marketPrice": 418.3,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 229226,
+    "name": "Double Crisis Booster Pack",
+    "cleanName": "Double Crisis Booster Pack",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/229226_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1525,
+    "url": "https://www.tcgplayer.com/product/229226/pokemon-double-crisis-double-crisis-booster-pack",
+    "modifiedOn": "2020-12-16T18:37:41.813",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each booster pack contains 7 random cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 274.94,
+        "midPrice": 274.94,
+        "highPrice": 274.94,
+        "marketPrice": 146.48,
+        "directLowPrice": null
+      }
+    ]
+  }
+]

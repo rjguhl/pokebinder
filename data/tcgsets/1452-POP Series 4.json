@@ -1,0 +1,1259 @@
+[
+  {
+    "productId": 84298,
+    "name": "Chimecho (Delta Species)",
+    "cleanName": "Chimecho Delta Species",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84298_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/84298/pokemon-pop-series-4-chimecho-delta-species",
+    "modifiedOn": "2022-09-23T19:20:24.03",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "001/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Wrap\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1M] Sonicboom (30)\r\n<br>This attack's damage isn't affected by Weakness or Resistance."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 251.19,
+        "midPrice": 263.59,
+        "highPrice": 275.99,
+        "marketPrice": 317,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84409,
+    "name": "Combusken",
+    "cleanName": "Combusken",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84409_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/84409/pokemon-pop-series-4-combusken",
+    "modifiedOn": "2022-09-23T19:21:16.333",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "006/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[R] Smokescreen (10)\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2R] Sky Uppercut (40)\r\n<br>This attack's damage isn't affected by Resistance."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 5,
+        "midPrice": 6.08,
+        "highPrice": 6.44,
+        "marketPrice": 6.17,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 3.92,
+        "midPrice": 10.09,
+        "highPrice": 17.66,
+        "marketPrice": 11.34,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84765,
+    "name": "Deoxys (Delta Species)",
+    "cleanName": "Deoxys Delta Species",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84765_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/84765/pokemon-pop-series-4-deoxys-delta-species",
+    "modifiedOn": "2022-09-23T19:24:54.53",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "002/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Poké-POWER — Form Change</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Crystal Laser (20)\r\n<br>During your next turn, Deoxys's attacks do 40 more damage to the Defending Pokémon <em>(before applying Weakness and Resistance)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 9.74,
+        "midPrice": 11.7,
+        "highPrice": 25,
+        "marketPrice": 16.02,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 15.49,
+        "midPrice": 27.15,
+        "highPrice": 44.59,
+        "marketPrice": 31.92,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84774,
+    "name": "Deoxys ex",
+    "cleanName": "Deoxys ex",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84774_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/84774/pokemon-pop-series-4-deoxys-ex",
+    "modifiedOn": "2022-09-23T19:27:31.38",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "017/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "110"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Poké-POWER — Form Change</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may search your deck for another Deoxys ex and switch it with Deoxys ex. (Any cards attached to Deoxys ex, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys ex on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.\r\n<br><br><em>Pokémon-EX rule — When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.</em>"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Fastwave (50)\r\n<br>This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 350,
+        "midPrice": 354.95,
+        "highPrice": 359.9,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85524,
+    "name": "Flygon",
+    "cleanName": "Flygon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85524_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/85524/pokemon-pop-series-4-flygon",
+    "modifiedOn": "2022-12-07T16:48:03.367",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "003/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "120"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Poké-BODY — Levitate</strong>\r\n<br>\r\nAs long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Bite (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3F] Sand Pit (70)\r\n<br>The Defending Pokémon can't retreat during your opponent's next turn."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 9.95,
+        "midPrice": 13.5,
+        "highPrice": 16.68,
+        "marketPrice": 15.5,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 11.69,
+        "midPrice": 11.87,
+        "highPrice": 12.9,
+        "marketPrice": 11.39,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85940,
+    "name": "Grovyle",
+    "cleanName": "Grovyle",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85940_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/85940/pokemon-pop-series-4-grovyle",
+    "modifiedOn": "2022-09-23T19:29:04.42",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "007/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1G] Blot (20)\r\n<br>Remove 2 damage counters from Grovyle."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 13.6,
+        "midPrice": 14.64,
+        "highPrice": 15.68,
+        "marketPrice": 14.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86038,
+    "name": "Heal Energy",
+    "cleanName": "Heal Energy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86038_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/86038/pokemon-pop-series-4-heal-energy",
+    "modifiedOn": "2022-09-23T19:30:11.663",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "008/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Heal Energy provides 1 Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If Heal Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 4,
+        "midPrice": 5.19,
+        "highPrice": 6.49,
+        "marketPrice": 5.35,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87401,
+    "name": "Mew",
+    "cleanName": "Mew",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87401_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/87401/pokemon-pop-series-4-mew",
+    "modifiedOn": "2022-09-23T19:31:19.253",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "004/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Poké-BODY — Reactive Barrier</strong>\r\n<br>\r\nAs long as Mew has any React Energy cards attached to it, prevent all effects, excluding damage, done to Mew by attacks from your opponent's Pokémon."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1P] Psyshock (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 12.84,
+        "midPrice": 15.41,
+        "highPrice": 17.98,
+        "marketPrice": 22.88,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 31.99,
+        "midPrice": 41.12,
+        "highPrice": 59.74,
+        "marketPrice": 40.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87613,
+    "name": "Mudkip",
+    "cleanName": "Mudkip",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87613_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/87613/pokemon-pop-series-4-mudkip",
+    "modifiedOn": "2022-09-23T19:32:02.287",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "011/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1W] Super Hypno Wave (20)\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 5.5,
+        "midPrice": 7.92,
+        "highPrice": 8,
+        "marketPrice": 12.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88049,
+    "name": "Pidgey",
+    "cleanName": "Pidgey",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88049_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/88049/pokemon-pop-series-4-pidgey",
+    "modifiedOn": "2022-09-23T19:34:44.033",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "012/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (20+)\r\n<br>Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1.83,
+        "midPrice": 2.34,
+        "highPrice": 2.84,
+        "marketPrice": 1.92,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88083,
+    "name": "Pikachu",
+    "cleanName": "Pikachu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88083_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/88083/pokemon-pop-series-4-pikachu",
+    "modifiedOn": "2022-09-23T19:35:19.05",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "013/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1L] Spark (20)\r\n<br>Does 10 damage to 1 of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 21.9,
+        "midPrice": 26,
+        "highPrice": 26.26,
+        "marketPrice": 13.03,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 28.56,
+        "midPrice": 32,
+        "highPrice": 39.99,
+        "marketPrice": 19.04,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88226,
+    "name": "Pokemon Fan Club",
+    "cleanName": "Pokemon Fan Club",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88226_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/88226/pokemon-pop-series-4-pokemon-fan-club",
+    "modifiedOn": "2022-09-23T19:36:04.797",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "009/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.\r\n<br>\r\n<br>Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 50,
+        "midPrice": 50,
+        "highPrice": 50,
+        "marketPrice": 88.2,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88948,
+    "name": "Sceptile",
+    "cleanName": "Sceptile",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88948_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/88948/pokemon-pop-series-4-sceptile",
+    "modifiedOn": "2022-09-23T19:38:28.393",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "005/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Poké-POWER — Energy Trans</strong>\r\n<br>\r\nAs often as you like during your turn <em>(before your attack)</em>, move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Sceptile is affected by a Special Condition."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2G] Tail Rap (50x)\r\n<br>Flip 2 coins. This attack does 50 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 175,
+        "midPrice": 175.99,
+        "highPrice": 239.99,
+        "marketPrice": 81.49,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88988,
+    "name": "Scramble Energy",
+    "cleanName": "Scramble Energy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88988_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/88988/pokemon-pop-series-4-scramble-energy",
+    "modifiedOn": "2022-09-23T19:40:48.043",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "010/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Scramble Energy can be attached only to an Evolved Pokémon (excluding Pokémon-ex). Scramble Energy provides 1 Colorless Energy. While in play, if you have more Prize cards left than your opponent, Scramble Energy provides every type of Energy but provides only 3 in any combination at a time. If the Pokémon Scramble Energy is attached to isn't an Evolved Pokémon (or evolves into Pokémon-ex), discard Scramble Energy."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 4.2,
+        "midPrice": 5.16,
+        "highPrice": 6.99,
+        "marketPrice": 4.74,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 89493,
+    "name": "Squirtle",
+    "cleanName": "Squirtle",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89493_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/89493/pokemon-pop-series-4-squirtle",
+    "modifiedOn": "2023-02-01T15:02:28.727",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "014/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Poké-BODY — Shell Retreat</strong>\r\n<br>\r\nAs long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent's attack is reduced by 10 <em>(after applying Weakness and Resistance)</em>."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Tackle (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 17.58,
+        "midPrice": 19.93,
+        "highPrice": 24.95,
+        "marketPrice": 18.74,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90045,
+    "name": "Treecko (Delta Species)",
+    "cleanName": "Treecko Delta Species",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90045_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/90045/pokemon-pop-series-4-treecko-delta-species",
+    "modifiedOn": "2022-09-23T19:42:27.793",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "015/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Pound (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[P] Shining Claws (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 2.99,
+        "midPrice": 3.34,
+        "highPrice": 3.68,
+        "marketPrice": 1.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90618,
+    "name": "Wobbuffet",
+    "cleanName": "Wobbuffet",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90618_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/90618/pokemon-pop-series-4-wobbuffet",
+    "modifiedOn": "2022-09-23T19:43:19.317",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "016/017"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Nap\r\n<br>Remove 2 damage counters from Wobbuffet."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1P] Expand (20)\r\n<br>During your opponent's next turn, any damage done to Wobbuffet is reduced by 20 <em>(after applying Weakness and Resistance.)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.57,
+        "midPrice": 1.02,
+        "highPrice": 4.95,
+        "marketPrice": 0.81,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 1.33,
+        "midPrice": 4.67,
+        "highPrice": 7.47,
+        "marketPrice": 4.45,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 190533,
+    "name": "POP Series 4 Pack",
+    "cleanName": "POP Series 4 Pack",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/190533_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1452,
+    "url": "https://www.tcgplayer.com/product/190533/pokemon-pop-series-4-pop-series-4-pack",
+    "modifiedOn": "2019-05-16T15:23:12.47",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each POP Series 4 Pack contains 2 random cards for the Promotional POP Series 4."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 80.99,
+        "midPrice": 86.95,
+        "highPrice": 92.9,
+        "marketPrice": 87.96,
+        "directLowPrice": null
+      }
+    ]
+  }
+]

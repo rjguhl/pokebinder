@@ -1,0 +1,6116 @@
+[
+  {
+    "productId": 83767,
+    "name": "Beedrill",
+    "cleanName": "Beedrill",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/83767_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/83767/pokemon-neo-discovery-beedrill",
+    "modifiedOn": "2022-11-25T20:49:15.4",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "18/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Triple Poison (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player's turn <em>(even if it was already Poisoned)</em>."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1GG] Pin Missile (20x)\r\n<br>Flip 4 coins. This attack does 20 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 9.99,
+        "midPrice": 16.84,
+        "highPrice": 18.47,
+        "marketPrice": 19.94,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4.75,
+        "midPrice": 5.7,
+        "highPrice": 9.01,
+        "marketPrice": 5.71,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84061,
+    "name": "Butterfree",
+    "cleanName": "Butterfree",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84061_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/84061/pokemon-neo-discovery-butterfree",
+    "modifiedOn": "2022-11-25T20:50:55.063",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "19/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1G] Magic Dust (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice)."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1GG] Hyper Reverse\r\n<br>Does 10 damage times the number of Energy attached to the Defending Pokémon. After doing damage, remove a number of damage counters from Butterfree equal to the amount of damage done to the Defending Pokémon <em>(after applying Weakness and Resistance)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 9.25,
+        "midPrice": 10.65,
+        "highPrice": 19.55,
+        "marketPrice": 11.28,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.6,
+        "midPrice": 2.57,
+        "highPrice": 4,
+        "marketPrice": 2.82,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84133,
+    "name": "Caterpie",
+    "cleanName": "Caterpie",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84133_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/84133/pokemon-neo-discovery-caterpie",
+    "modifiedOn": "2025-02-05T21:10:32.86",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "53/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Spin Tackle (20)\r\n<br>Caterpie does 10 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.82,
+        "midPrice": 1.74,
+        "highPrice": 3.01,
+        "marketPrice": 1.73,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.5,
+        "highPrice": 5.29,
+        "marketPrice": 0.7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84437,
+    "name": "Corsola",
+    "cleanName": "Corsola",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84437_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/84437/pokemon-neo-discovery-corsola",
+    "modifiedOn": "2023-06-26T09:59:34.023",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "37/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Recover\r\n<br>Discard 1 Water Energy attached to Corsola or this attack does nothing. Remove all damage counters from Corsola."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[FF] Spike Cannon (30x)\r\n<br>Flip 2 coins. This attack does 30 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.45,
+        "midPrice": 2.76,
+        "highPrice": 3.89,
+        "marketPrice": 2.82,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.6,
+        "midPrice": 1.11,
+        "highPrice": 2.5,
+        "marketPrice": 1.43,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85007,
+    "name": "Dunsparce",
+    "cleanName": "Dunsparce",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85007_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85007/pokemon-neo-discovery-dunsparce",
+    "modifiedOn": "2025-02-05T21:10:32.927",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "54/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Glare (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.56,
+        "midPrice": 1.33,
+        "highPrice": 4.99,
+        "marketPrice": 1.34,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.01,
+        "midPrice": 0.42,
+        "highPrice": 89,
+        "marketPrice": 0.4,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85075,
+    "name": "Eevee",
+    "cleanName": "Eevee",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85075_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85075/pokemon-neo-discovery-eevee",
+    "modifiedOn": "2025-05-21T10:41:06.32",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "38/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Energy Evolution</strong>Whenever you attach an Energy card to Eevee, flip a coin. If heads, search your deck for a card that evolves from Eevee that is the same type as the Energy card you attached to Eevee. Attach that card to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Smash Kick (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 14.03,
+        "midPrice": 15.65,
+        "highPrice": 16.43,
+        "marketPrice": 15.65,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.9,
+        "midPrice": 2.93,
+        "highPrice": 6.48,
+        "marketPrice": 4.25,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85209,
+    "name": "Energy Ark",
+    "cleanName": "Energy Ark",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85209_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85209/pokemon-neo-discovery-energy-ark",
+    "modifiedOn": "2025-02-05T21:10:32.97",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "75/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.2,
+        "midPrice": 0.61,
+        "highPrice": 4.99,
+        "marketPrice": 0.6,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.05,
+        "midPrice": 0.25,
+        "highPrice": 2.5,
+        "marketPrice": 0.22,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85316,
+    "name": "Espeon (1)",
+    "cleanName": "Espeon 1",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85316_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85316/pokemon-neo-discovery-espeon-1",
+    "modifiedOn": "2022-11-25T20:58:11.857",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "01/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Bite (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Psychic (30+)\r\n<br>Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 379.99,
+        "midPrice": 395,
+        "highPrice": 399.99,
+        "marketPrice": 299,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 115.36,
+        "midPrice": 209.97,
+        "highPrice": 1000,
+        "marketPrice": 222.96,
+        "directLowPrice": 209.97
+      }
+    ]
+  },
+  {
+    "productId": 85320,
+    "name": "Espeon (20)",
+    "cleanName": "Espeon 20",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85320_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85320/pokemon-neo-discovery-espeon-20",
+    "modifiedOn": "2022-11-25T20:59:15.46",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "20/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Psybeam (30)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 41,
+        "midPrice": 62.03,
+        "highPrice": 89.99,
+        "marketPrice": 69.48,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4.99,
+        "midPrice": 10.83,
+        "highPrice": 12.7,
+        "marketPrice": 11.25,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85542,
+    "name": "Forretress (2)",
+    "cleanName": "Forretress 2",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85542_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85542/pokemon-neo-discovery-forretress-2",
+    "modifiedOn": "2022-11-25T21:01:17.973",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "02/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Spikes</strong> During your opponent's turn, whenever 1 of your opponent's Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. <em>(Don't apply Weakness and Resistance.)</em> This power stops working if Forretress is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2M] Rapid Spin (30)\r\n<br>If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with their Active Pokémon; then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. <em>(Do the damage before switching the Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "G-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 58.45,
+        "midPrice": 63.78,
+        "highPrice": 81.43,
+        "marketPrice": 47.63,
+        "directLowPrice": 58.5
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 13.98,
+        "midPrice": 17.88,
+        "highPrice": 32.45,
+        "marketPrice": 18.38,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85545,
+    "name": "Forretress (21)",
+    "cleanName": "Forretress 21",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85545_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85545/pokemon-neo-discovery-forretress-21",
+    "modifiedOn": "2025-01-05T06:49:20.873",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "21/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Spikes</strong> During your opponent's turn, whenever 1 of your opponent's Benched Pokémon becomes his or her Active Pokémon, Forretress does 10 damage to it. <em>(Don't apply Weakness and Resistance.)</em> This power stops working if Forretress is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2M] Rapid Spin (30)\r\n<br>If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with their Active Pokémon; then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. <em>(Do the damage before switching the Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "G-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 6,
+        "midPrice": 9,
+        "highPrice": 19.97,
+        "marketPrice": 5.57,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.17,
+        "midPrice": 4.6,
+        "highPrice": 19.16,
+        "marketPrice": 4.39,
+        "directLowPrice": 4.71
+      }
+    ]
+  },
+  {
+    "productId": 85555,
+    "name": "Fossil Egg",
+    "cleanName": "Fossil Egg",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85555_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/85555/pokemon-neo-discovery-fossil-egg",
+    "modifiedOn": "2023-10-03T18:00:37.983",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "72/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Flip a coin. If heads, either search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pokémon. If you searched your deck, shuffle it. <em>(You can't play this card if your Bench is full.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.12,
+        "midPrice": 1.26,
+        "highPrice": 4.99,
+        "marketPrice": 1.21,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.11,
+        "midPrice": 0.4,
+        "highPrice": 3.14,
+        "marketPrice": 0.45,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86110,
+    "name": "Hitmontop (3)",
+    "cleanName": "Hitmontop 3",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86110_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86110/pokemon-neo-discovery-hitmontop-3",
+    "modifiedOn": "2022-11-25T21:04:50.98",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "03/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[F] Detect\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[FFF] Triple Kick (30x)\r\n<br>Flip 3 coins. This attack does 30 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 56.99,
+        "midPrice": 84.28,
+        "highPrice": 85.2,
+        "marketPrice": 84.28,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 6.99,
+        "midPrice": 11.1,
+        "highPrice": 349.99,
+        "marketPrice": 11.09,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86111,
+    "name": "Hitmontop (22)",
+    "cleanName": "Hitmontop 22",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86111_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86111/pokemon-neo-discovery-hitmontop-22",
+    "modifiedOn": "2022-11-25T21:04:27.86",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "22/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[F] Detect\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[FFF] Triple Kick (30x)\r\n<br>Flip 3 coins. This attack does 30 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.95,
+        "midPrice": 9,
+        "highPrice": 10.49,
+        "marketPrice": 9.1,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.4,
+        "midPrice": 3.5,
+        "highPrice": 21,
+        "marketPrice": 3.41,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86176,
+    "name": "Hoppip",
+    "cleanName": "Hoppip",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86176_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86176/pokemon-neo-discovery-hoppip",
+    "modifiedOn": "2022-12-13T16:49:02.43",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "55/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Rolling Tackle (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.45,
+        "midPrice": 0.95,
+        "highPrice": 8.91,
+        "marketPrice": 1,
+        "directLowPrice": 1.99
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.22,
+        "midPrice": 0.39,
+        "highPrice": 2.57,
+        "marketPrice": 0.39,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86197,
+    "name": "Houndoom (4)",
+    "cleanName": "Houndoom 4",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86197_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86197/pokemon-neo-discovery-houndoom-4",
+    "modifiedOn": "2022-11-25T21:07:55.683",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "04/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2D] Crunch (30+)\r\n<br>Until the end of your next turn, if an attack damages the Defending Pokémon <em>(after applying Weakness and Resistance)</em>, that attack does 20 more damage to the Defending Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1RR] Flamethrower (50)\r\n<br>Discard 1 Fire Energy card attached to Houndoom or this attack does nothing."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 130.2,
+        "midPrice": 130.2,
+        "highPrice": 130.2,
+        "marketPrice": 160.55,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 42.99,
+        "midPrice": 64.65,
+        "highPrice": 99.99,
+        "marketPrice": 66.92,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86204,
+    "name": "Houndoom (23)",
+    "cleanName": "Houndoom 23",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86204_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86204/pokemon-neo-discovery-houndoom-23",
+    "modifiedOn": "2023-01-26T19:32:25.53",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "23/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2D] Crunch (30+)\r\n<br>Until the end of your next turn, if an attack damages the Defending Pokémon <em>(after applying Weakness and Resistance)</em>, that attack does 20 more damage to the Defending Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1RR] Flamethrower (50)\r\n<br>Discard 1 Fire Energy card attached to Houndoom or this attack does nothing."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 16,
+        "midPrice": 19.25,
+        "highPrice": 79.99,
+        "marketPrice": 20.25,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.31,
+        "midPrice": 5.95,
+        "highPrice": 19.99,
+        "marketPrice": 6.49,
+        "directLowPrice": 19.99
+      }
+    ]
+  },
+  {
+    "productId": 86216,
+    "name": "Houndour (5)",
+    "cleanName": "Houndour 5",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86216_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86216/pokemon-neo-discovery-houndour-5",
+    "modifiedOn": "2022-11-25T21:22:57.413",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "05/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[R] Smog (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RR] Collect Fire (20)\r\n<br>If there are any Fire Energy in your discard pile, choose 1 of them and attach it to Houndour."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 57.96,
+        "midPrice": 71.5,
+        "highPrice": 149.49,
+        "marketPrice": 209.99,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 39.76,
+        "midPrice": 70,
+        "highPrice": 129.99,
+        "marketPrice": 55.23,
+        "directLowPrice": 55.24
+      }
+    ]
+  },
+  {
+    "productId": 86217,
+    "name": "Houndour (24)",
+    "cleanName": "Houndour 24",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86217_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86217/pokemon-neo-discovery-houndour-24",
+    "modifiedOn": "2022-11-25T21:21:28.533",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "24/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[R] Smog (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RR] Collect Fire (20)\r\n<br>If there are any Fire Energy in your discard pile, choose 1 of them and attach it to Houndour."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 11.5,
+        "midPrice": 15.44,
+        "highPrice": 29.95,
+        "marketPrice": 15.43,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6.22,
+        "midPrice": 8.56,
+        "highPrice": 12.41,
+        "marketPrice": 8.82,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86218,
+    "name": "Houndour (39)",
+    "cleanName": "Houndour 39",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86218_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86218/pokemon-neo-discovery-houndour-39",
+    "modifiedOn": "2022-12-20T17:00:45.657",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "39/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Bite (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1D] Plunder (20)\r\n<br>Before doing damage, discard all Trainer cards attached to the Defending Pokémon <em<(before they affect the damage)</em>."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.59,
+        "midPrice": 2.9,
+        "highPrice": 5,
+        "marketPrice": 3.27,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.68,
+        "midPrice": 1,
+        "highPrice": 2.99,
+        "marketPrice": 1.33,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86245,
+    "name": "Hyper Devolution Spray",
+    "cleanName": "Hyper Devolution Spray",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86245_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86245/pokemon-neo-discovery-hyper-devolution-spray",
+    "modifiedOn": "2023-10-19T16:23:11.447",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "73/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Choose 1 of your Evolved Pokémon. Take the highest stage Evolution card from that Pokémon and put it into your hand. <em>(You can't evolve a Pokémon the turn you devolve it.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.65,
+        "midPrice": 1.67,
+        "highPrice": 4.99,
+        "marketPrice": 1.64,
+        "directLowPrice": 4.74
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.5,
+        "highPrice": 2.5,
+        "marketPrice": 0.56,
+        "directLowPrice": 0.37
+      }
+    ]
+  },
+  {
+    "productId": 86257,
+    "name": "Igglybuff",
+    "cleanName": "Igglybuff",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86257_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86257/pokemon-neo-discovery-igglybuff",
+    "modifiedOn": "2022-11-25T21:29:12.36",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "40/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Gaze</strong> Once during your turn <em>(before your attack)</em>, choose 1 of your opponent's Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench.\r\n<br><br>\r\n<em>If this Baby Pokémon is your Active Pokémon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends.</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5.2,
+        "midPrice": 6.09,
+        "highPrice": 11.69,
+        "marketPrice": 6.1,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.24,
+        "midPrice": 2.32,
+        "highPrice": 89,
+        "marketPrice": 2.35,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86383,
+    "name": "Kabuto",
+    "cleanName": "Kabuto",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86383_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86383/pokemon-neo-discovery-kabuto",
+    "modifiedOn": "2022-11-25T21:31:41.25",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "56/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Revive Friends</strong> Once during your turn <em>(before your attack)</em>, you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed <em>(or if your Bench is full)</em>."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Work Together (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.7,
+        "midPrice": 1.68,
+        "highPrice": 3.05,
+        "marketPrice": 1.68,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.19,
+        "midPrice": 0.5,
+        "highPrice": 161403.03,
+        "marketPrice": 0.63,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86389,
+    "name": "Kabutops (6)",
+    "cleanName": "Kabutops 6",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86389_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86389/pokemon-neo-discovery-kabutops-6",
+    "modifiedOn": "2022-11-25T21:33:54.847",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "06/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Slash (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[F] Hydrocutter (40x)\r\n<br>Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flips more than 3 coins in this way."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 62.14,
+        "midPrice": 63.15,
+        "highPrice": 179.95,
+        "marketPrice": 132.87,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 40,
+        "midPrice": 76.23,
+        "highPrice": 179.99,
+        "marketPrice": 47.15,
+        "directLowPrice": 75.47
+      }
+    ]
+  },
+  {
+    "productId": 86394,
+    "name": "Kabutops (25)",
+    "cleanName": "Kabutops 25",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86394_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86394/pokemon-neo-discovery-kabutops-25",
+    "modifiedOn": "2023-04-02T15:24:17.38",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "25/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Slash (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[F] Hydrocutter (40x)\r\n<br>Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flips more than 3 coins in this way."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 11.41,
+        "midPrice": 13.67,
+        "highPrice": 25,
+        "marketPrice": 15.55,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.71,
+        "midPrice": 6.25,
+        "highPrice": 10.99,
+        "marketPrice": 6.21,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86408,
+    "name": "Kakuna",
+    "cleanName": "Kakuna",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86408_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86408/pokemon-neo-discovery-kakuna",
+    "modifiedOn": "2022-11-25T21:35:19.093",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "41/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Secrete Poison\r\n<br>During your opponent's next turn, whenever your opponent's attack damages Kakuna <em>(even if Kakuna is knocked out)</em>, your opponent's Active Pokémon is now Poisoned and Kakuna does 10 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.25,
+        "midPrice": 1.57,
+        "highPrice": 4.99,
+        "marketPrice": 1.65,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.6,
+        "highPrice": 145263.78,
+        "marketPrice": 0.79,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86632,
+    "name": "Larvitar",
+    "cleanName": "Larvitar",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86632_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/86632/pokemon-neo-discovery-larvitar",
+    "modifiedOn": "2025-02-05T21:10:33.017",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "57/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Bite (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.75,
+        "midPrice": 1.5,
+        "highPrice": 4.99,
+        "marketPrice": 1.61,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.39,
+        "highPrice": 14.75,
+        "marketPrice": 0.42,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87064,
+    "name": "Magnemite (7)",
+    "cleanName": "Magnemite 7",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87064_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87064/pokemon-neo-discovery-magnemite-7",
+    "modifiedOn": "2022-11-25T21:38:12.53",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "07/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Lock-on\r\n<br>During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack on the Defending Pokémon as if they were heads. <em>(Benching or evolving either Pokémon ends this effect.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1L] Electric Bolt (50)\r\n<br>Flip 2 coins. If both are heads, the Defending Pokémon is now Paralyzed. If either of them is tails, this attack does nothing <em>(not even damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "G-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 60,
+        "midPrice": 72.5,
+        "highPrice": 84.99,
+        "marketPrice": 66.46,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 19.54,
+        "midPrice": 21.04,
+        "highPrice": 49.99,
+        "marketPrice": 19.16,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87065,
+    "name": "Magnemite (26)",
+    "cleanName": "Magnemite 26",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87065_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87065/pokemon-neo-discovery-magnemite-26",
+    "modifiedOn": "2015-07-01T13:43:18.123",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "26"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Lock-on\r\n<br>During your next turn, treat any tails flipped when using Magnemite's Electric Bolt attack on the Defending Pokemon as if they were heads.  (Benching or evolving either Pokemon ends this effect.)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1L] Electric Bolt (50) \r\n<br>Flip 2 coins.  If both are heads, the Defending Pokemon is now Paralyzed.  If either of them is tails, this attack does nothing (not even damage)."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5,
+        "midPrice": 7.58,
+        "highPrice": 10.89,
+        "marketPrice": 7.58,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3,
+        "midPrice": 4.73,
+        "highPrice": 11.99,
+        "marketPrice": 4.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87192,
+    "name": "Mareep",
+    "cleanName": "Mareep",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87192_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87192/pokemon-neo-discovery-mareep",
+    "modifiedOn": "2022-11-25T21:39:13.38",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "58/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1L] Thunder Jolt (30)\r\n<br>Flip a coin. If tails, Mareep does 10 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.85,
+        "midPrice": 1.79,
+        "highPrice": 4.99,
+        "marketPrice": 2.07,
+        "directLowPrice": 3.5
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.22,
+        "midPrice": 0.55,
+        "highPrice": 2.5,
+        "marketPrice": 0.6,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87385,
+    "name": "Metapod",
+    "cleanName": "Metapod",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87385_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87385/pokemon-neo-discovery-metapod",
+    "modifiedOn": "2023-07-08T14:45:35.913",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "42/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Harden\r\n<br>During your opponent's next turn, whenever 20 or less damage is done to Metapod <em>(after applying Weakness and Resistance)</em>, prevent that damage. <em>(Any other effects of attacks still happen.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Hatch\r\n<br>Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.33,
+        "midPrice": 1.52,
+        "highPrice": 6.5,
+        "marketPrice": 1.44,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.34,
+        "midPrice": 0.65,
+        "highPrice": 8.91,
+        "marketPrice": 0.7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87680,
+    "name": "Natu",
+    "cleanName": "Natu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87680_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87680/pokemon-neo-discovery-natu",
+    "modifiedOn": "2025-02-05T21:10:33.097",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "59/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Confuse Ray (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.67,
+        "midPrice": 1,
+        "highPrice": 6.64,
+        "marketPrice": 0.97,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.39,
+        "highPrice": 2.5,
+        "marketPrice": 0.41,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87856,
+    "name": "Omanyte",
+    "cleanName": "Omanyte",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87856_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87856/pokemon-neo-discovery-omanyte",
+    "modifiedOn": "2022-11-25T21:43:44.713",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "60/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Revive Fossil</strong> Once during your turn <em>(before your attack)</em>, you may flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it on your Bench. Shuffle your deck afterward. Treat that card as a Basic Pokémon. This power can't be used if Omanyte is Asleep, Confused, or Paralyzed <em>(or if your Bench is full)</em>."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Bind (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.9,
+        "midPrice": 1.65,
+        "highPrice": 4.99,
+        "marketPrice": 1.65,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.18,
+        "midPrice": 0.51,
+        "highPrice": 5.48,
+        "marketPrice": 0.77,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87866,
+    "name": "Omastar",
+    "cleanName": "Omastar",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87866_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/87866/pokemon-neo-discovery-omastar",
+    "modifiedOn": "2025-02-05T21:10:33.16",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "43/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Squeeze (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed. If tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[WWW] Spike Barrage (20+)\r\n<br>Flip a number of coins equal to the number of Water Energy attached to Omastar. This attack does 20 damage plus 20 more damage for each heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.19,
+        "midPrice": 2.41,
+        "highPrice": 6.95,
+        "marketPrice": 1.95,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.25,
+        "midPrice": 0.75,
+        "highPrice": 4.8,
+        "marketPrice": 0.77,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88122,
+    "name": "Pineco",
+    "cleanName": "Pineco",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88122_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88122/pokemon-neo-discovery-pineco",
+    "modifiedOn": "2022-11-25T21:49:23.567",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "61/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Burst (40)\r\n<br>Flip a coin. If heads, Pineco does 40 damage to itself and 10 damage to each Pokémon on each player's Bench. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em> Flip a coin. If tails, this attack does nothing <em>(not even damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.68,
+        "midPrice": 1.01,
+        "highPrice": 4.99,
+        "marketPrice": 1.53,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.17,
+        "midPrice": 0.5,
+        "highPrice": 2.5,
+        "marketPrice": 0.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88246,
+    "name": "Politoed (8)",
+    "cleanName": "Politoed 8",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88246_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88246/pokemon-neo-discovery-politoed-8",
+    "modifiedOn": "2022-11-25T21:53:55.647",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "08/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Frog Song</strong> Whenever Politoed's attack damages the Defending Pokémon <em>(after applying Weakness and Resistance)</em>, if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play <em>(including your opponent's)</em>, that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2WW] Doubleslap (40x)\r\n<br>Flip 2 coins. This attack does 40 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 130,
+        "midPrice": 142.09,
+        "highPrice": 142.09,
+        "marketPrice": 142.09,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 25,
+        "midPrice": 32.29,
+        "highPrice": 74.99,
+        "marketPrice": 34.06,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88249,
+    "name": "Politoed (27)",
+    "cleanName": "Politoed 27",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88249_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88249/pokemon-neo-discovery-politoed-27",
+    "modifiedOn": "2023-03-31T16:02:26.803",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "27/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Frog Song</strong> Whenever Politoed's attack damages the Defending Pokémon <em>(after applying Weakness and Resistance)</em>, if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play <em>(including your opponent's)</em>, that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2WW] Doubleslap (40x)\r\n<br>Flip 2 coins. This attack does 40 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 17.54,
+        "midPrice": 23.49,
+        "highPrice": 30,
+        "marketPrice": 17.26,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6.15,
+        "midPrice": 9.4,
+        "highPrice": 24.99,
+        "marketPrice": 8.8,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88254,
+    "name": "Poliwag",
+    "cleanName": "Poliwag",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88254_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88254/pokemon-neo-discovery-poliwag",
+    "modifiedOn": "2025-02-05T21:10:33.237",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "62/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Rollout (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[W] Hypnosis\r\n<br>The Defending <strong>Pokémon Power: Frog Song</strong> Whenever Politoed's attack damages the Defending Pokémon <em>(after applying Weakness and Resistance)</em>, if there are more than 3 Poliwags, Poliwhirls, Poliwraths, and/or Politoeds in play <em>(including your opponent's)</em>, that attack does 40 more damage (no matter how many heads you get). This power stops working while Politoed is Asleep, Confused, or Paralyzed. is now Asleep."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.96,
+        "midPrice": 1.5,
+        "highPrice": 4.99,
+        "marketPrice": 1.95,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.24,
+        "midPrice": 0.5,
+        "highPrice": 4.66,
+        "marketPrice": 0.64,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88262,
+    "name": "Poliwhirl",
+    "cleanName": "Poliwhirl",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88262_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88262/pokemon-neo-discovery-poliwhirl",
+    "modifiedOn": "2023-04-04T10:26:16.833",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "44/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Belly Drum\r\n<br>Put 3 damage counters on Poliwhirl. If this doesn't Knock Out Poliwhirl, search your deck for up to 2 Basic Energy cards and attach them to Poliwhirl. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1WW] Water Gun (30+)\r\n<br>Does 30 damage plus 10 more damage for each Water Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.94,
+        "midPrice": 2.22,
+        "highPrice": 4.99,
+        "marketPrice": 2.13,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.52,
+        "midPrice": 1,
+        "highPrice": 4.45,
+        "marketPrice": 1.05,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88269,
+    "name": "Poliwrath (9)",
+    "cleanName": "Poliwrath 9",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88269_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88269/pokemon-neo-discovery-poliwrath-9",
+    "modifiedOn": "2022-11-25T22:01:33.12",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "09/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Corkscrew Punch (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2FF] Submission (70)\r\n<br>Poliwrath does 20 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 41.52,
+        "midPrice": 74.97,
+        "highPrice": 89.6,
+        "marketPrice": 81.44,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 15,
+        "midPrice": 20.75,
+        "highPrice": 50,
+        "marketPrice": 18.18,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88274,
+    "name": "Poliwrath (28)",
+    "cleanName": "Poliwrath 28",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88274_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88274/pokemon-neo-discovery-poliwrath-28",
+    "modifiedOn": "2024-04-05T12:39:18.767",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "28/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1F] Corkscrew Punch (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2FF] Submission (70)\r\n<br>Poliwrath does 20 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 7.85,
+        "midPrice": 9.2,
+        "highPrice": 124,
+        "marketPrice": 8.97,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.38,
+        "midPrice": 3.5,
+        "highPrice": 5.09,
+        "marketPrice": 3.63,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88445,
+    "name": "Pupitar",
+    "cleanName": "Pupitar",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88445_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88445/pokemon-neo-discovery-pupitar",
+    "modifiedOn": "2022-11-27T17:29:55.013",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "45/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Skull Bash (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[FF] Dust Devil\r\n<br>Does 10 damage to each non-Fighting Pokémon in play. Don't apply Weakness and Resistance."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.14,
+        "midPrice": 2.1,
+        "highPrice": 4.99,
+        "marketPrice": 2.1,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.4,
+        "midPrice": 0.71,
+        "highPrice": 22.5,
+        "marketPrice": 0.82,
+        "directLowPrice": 0.53
+      }
+    ]
+  },
+  {
+    "productId": 88845,
+    "name": "Ruin Wall",
+    "cleanName": "Ruin Wall",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88845_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88845/pokemon-neo-discovery-ruin-wall",
+    "modifiedOn": "2025-02-05T21:10:33.3",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "74/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. <em>(You can't play this card if your Bench is full.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.48,
+        "midPrice": 1.14,
+        "highPrice": 8.91,
+        "marketPrice": 1.09,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.17,
+        "midPrice": 0.41,
+        "highPrice": 2.5,
+        "marketPrice": 0.44,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88956,
+    "name": "Scizor (10)",
+    "cleanName": "Scizor 10",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88956_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88956/pokemon-neo-discovery-scizor-10",
+    "modifiedOn": "2022-11-27T17:31:35.14",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "10/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[M] False Swipe (?)\r\n<br>Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Double Claw (20x)\r\n<br>Flip 2 coins. This attack does 20 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "G-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 126.49,
+        "midPrice": 136.37,
+        "highPrice": 146.25,
+        "marketPrice": 150.42,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 33,
+        "midPrice": 75.38,
+        "highPrice": 119.24,
+        "marketPrice": 39,
+        "directLowPrice": 33
+      }
+    ]
+  },
+  {
+    "productId": 88958,
+    "name": "Scizor (29)",
+    "cleanName": "Scizor 29",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88958_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88958/pokemon-neo-discovery-scizor-29",
+    "modifiedOn": "2024-12-13T17:18:51.88",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "29/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Metal"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[M] False Swipe (?)\r\n<br>Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Double Claw (20x)\r\n<br>Flip 2 coins. This attack does 20 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "G-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 21,
+        "midPrice": 26.22,
+        "highPrice": 30,
+        "marketPrice": 24.99,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6,
+        "midPrice": 7.77,
+        "highPrice": 12.74,
+        "marketPrice": 8.18,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88994,
+    "name": "Scyther",
+    "cleanName": "Scyther",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88994_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/88994/pokemon-neo-discovery-scyther",
+    "modifiedOn": "2025-02-05T21:10:33.363",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "46/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Fury Cutter (10+)\r\n<br>Flip 4 coins. This attack does 10 damage plus 10 more damage if exactly 1 is heads, or 20 more damage if exactly 2 are heads, or 40 more damage if exactly 3 are heads, or 80 more damage if all 4 are heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 2,
+        "midPrice": 3.85,
+        "highPrice": 4.95,
+        "marketPrice": 3.82,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.35,
+        "midPrice": 0.99,
+        "highPrice": 2.99,
+        "marketPrice": 1.16,
+        "directLowPrice": 1.58
+      }
+    ]
+  },
+  {
+    "productId": 89061,
+    "name": "Sentret",
+    "cleanName": "Sentret",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89061_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/89061/pokemon-neo-discovery-sentret",
+    "modifiedOn": "2025-02-05T21:10:33.42",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "63/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Scout\r\n<br>Look at your opponent's hand."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Tackle (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.74,
+        "midPrice": 1.07,
+        "highPrice": 4.99,
+        "marketPrice": 1.07,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.36,
+        "highPrice": 2.5,
+        "marketPrice": 0.36,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 89350,
+    "name": "Smeargle (11)",
+    "cleanName": "Smeargle 11",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89350_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/89350/pokemon-neo-discovery-smeargle-11",
+    "modifiedOn": "2022-11-27T17:35:32.543",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "11/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Sketch\r\n<br>If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 47.99,
+        "midPrice": 69.42,
+        "highPrice": 73.83,
+        "marketPrice": 115.99,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 25,
+        "midPrice": 38.1,
+        "highPrice": 50,
+        "marketPrice": 38.05,
+        "directLowPrice": 49.99
+      }
+    ]
+  },
+  {
+    "productId": 89351,
+    "name": "Smeargle (30)",
+    "cleanName": "Smeargle 30",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89351_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/89351/pokemon-neo-discovery-smeargle-30",
+    "modifiedOn": "2022-11-27T17:36:06.977",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "30/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Sketch\r\n<br>If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.5,
+        "midPrice": 9.5,
+        "highPrice": 15,
+        "marketPrice": 12.62,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.98,
+        "midPrice": 6.32,
+        "highPrice": 14.97,
+        "marketPrice": 6.32,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 89452,
+    "name": "Spinarak",
+    "cleanName": "Spinarak",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89452_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/89452/pokemon-neo-discovery-spinarak",
+    "modifiedOn": "2025-02-05T21:10:33.467",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "64/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1G] Poison Sting (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.55,
+        "midPrice": 1.1,
+        "highPrice": 8.5,
+        "marketPrice": 1.09,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.15,
+        "midPrice": 0.42,
+        "highPrice": 2.5,
+        "marketPrice": 0.42,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 89855,
+    "name": "Teddiursa",
+    "cleanName": "Teddiursa",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89855_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/89855/pokemon-neo-discovery-teddiursa",
+    "modifiedOn": "2022-11-27T17:39:14.42",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "65/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Scratch (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Nap Time\r\n<br>Remove all damage counters from Teddiursa. Teddiursa is now Asleep."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.1,
+        "midPrice": 2,
+        "highPrice": 4.99,
+        "marketPrice": 2.24,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.23,
+        "midPrice": 0.5,
+        "highPrice": 5,
+        "marketPrice": 0.62,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90113,
+    "name": "Tyranitar (12)",
+    "cleanName": "Tyranitar 12",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90113_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90113/pokemon-neo-discovery-tyranitar-12",
+    "modifiedOn": "2023-03-10T14:04:37.43",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "12/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Slam (30x)\r\n<br>Flip 2 coins. This attack does 30 times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2DD] Trample (50)\r\n<br>For each Benched Pokémon in play <em>(yours and your opponent's)</em>, flip a coin. If heads, this attack does 30 damage to that Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 126.83,
+        "midPrice": 149.85,
+        "highPrice": 275,
+        "marketPrice": 412.2,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 80,
+        "midPrice": 150.39,
+        "highPrice": 449.99,
+        "marketPrice": 118.14,
+        "directLowPrice": 132.71
+      }
+    ]
+  },
+  {
+    "productId": 90116,
+    "name": "Tyranitar (31)",
+    "cleanName": "Tyranitar 31",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90116_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90116/pokemon-neo-discovery-tyranitar-31",
+    "modifiedOn": "2022-12-20T18:27:28.02",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "31/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Slam (30x)\r\n<br>Flip 2 coins. This attack does 30 times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2DD] Trample (50)\r\n<br>For each Benched Pokémon in play <em>(yours and your opponent's)</em>, flip a coin. If heads, this attack does 30 damage to that Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 37.75,
+        "midPrice": 37.79,
+        "highPrice": 60,
+        "marketPrice": 43.81,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 9.74,
+        "midPrice": 13.18,
+        "highPrice": 21.65,
+        "marketPrice": 14.21,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90128,
+    "name": "Tyrogue",
+    "cleanName": "Tyrogue",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90128_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90128/pokemon-neo-discovery-tyrogue",
+    "modifiedOn": "2024-04-16T10:17:30.35",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "66/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<em>If this Baby Pokémon is your Active Pokémon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends.</em>"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Smash Punch (30)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.48,
+        "midPrice": 1.36,
+        "highPrice": 4.99,
+        "marketPrice": 1.39,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.24,
+        "midPrice": 0.5,
+        "highPrice": 35,
+        "marketPrice": 0.62,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90137,
+    "name": "Umbreon (13)",
+    "cleanName": "Umbreon 13",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90137_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90137/pokemon-neo-discovery-umbreon-13",
+    "modifiedOn": "2022-11-27T17:44:21.837",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "13/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Bite (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1DD] Feint Attack\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers or any other effects on the Defending Pokémon."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 1399.99,
+        "midPrice": 1399.99,
+        "highPrice": 1399.99,
+        "marketPrice": 487.5,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 245.33,
+        "midPrice": 389.99,
+        "highPrice": 499.99,
+        "marketPrice": 320.01,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90142,
+    "name": "Umbreon (32)",
+    "cleanName": "Umbreon 32",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90142_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90142/pokemon-neo-discovery-umbreon-32",
+    "modifiedOn": "2022-11-27T17:45:36.21",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "32/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2D] Pursuit (30)\r\n<br>During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. <em>(Don't apply Weakness and Resistance.)</em>"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 199.99,
+        "midPrice": 199.99,
+        "highPrice": 199.99,
+        "marketPrice": 123.6,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 39.98,
+        "midPrice": 47.19,
+        "highPrice": 99.99,
+        "marketPrice": 49.37,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90196,
+    "name": "Unown [A] (14)",
+    "cleanName": "Unown A 14",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90196_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90196/pokemon-neo-discovery-unown-a-14",
+    "modifiedOn": "2024-11-13T20:26:43.62",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "14/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Anger]</strong>\r\n<br>\r\nWhenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown [A]. If you have more than 1 Unown [A] in play, use only 1 [Anger] for each attack."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 51.37,
+        "midPrice": 69,
+        "highPrice": 79.99,
+        "marketPrice": 49.15,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 6,
+        "midPrice": 10.79,
+        "highPrice": 50,
+        "marketPrice": 10.44,
+        "directLowPrice": 10.79
+      }
+    ]
+  },
+  {
+    "productId": 90197,
+    "name": "Unown [A] (33)",
+    "cleanName": "Unown A 33",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90197_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90197/pokemon-neo-discovery-unown-a-33",
+    "modifiedOn": "2023-08-20T18:14:53.3",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "33/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Anger]</strong>\r\n<br>\r\nWhenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown [A]. If you have more than 1 Unown [A] in play, use only 1 [Anger] for each attack."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 7.71,
+        "midPrice": 11,
+        "highPrice": 19.79,
+        "marketPrice": 10.33,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4,
+        "midPrice": 5.15,
+        "highPrice": 6.95,
+        "marketPrice": 6.14,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90203,
+    "name": "Unown [D]",
+    "cleanName": "Unown D",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90203_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90203/pokemon-neo-discovery-unown-d",
+    "modifiedOn": "2024-10-27T12:05:14.66",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "47/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Darkness]</strong> Whenever a Darkness Pokémon damages 1 of your Pokémon, reduce that damage by 30 <em>(after applying Weakness and Resistance)</em>. This power stops working if you have more than 1 Unown [D] in play. <em>(This power works even if Unown [D] is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.41,
+        "midPrice": 1.84,
+        "highPrice": 4.99,
+        "marketPrice": 1.75,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.4,
+        "midPrice": 0.75,
+        "highPrice": 89,
+        "marketPrice": 0.96,
+        "directLowPrice": 0.76
+      }
+    ]
+  },
+  {
+    "productId": 90205,
+    "name": "Unown [E]",
+    "cleanName": "Unown E",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90205_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90205/pokemon-neo-discovery-unown-e",
+    "modifiedOn": "2022-11-27T17:50:53.393",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "67/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Engage]</strong>\r\n<br>\r\nWhen you play Unown [E] from your hand, your opponent may shuffle his or her hand into his or her deck and then draw 4 cards. Either way, you may shuffle your hand into your deck and then draw 4 cards."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.75,
+        "midPrice": 1.34,
+        "highPrice": 4.99,
+        "marketPrice": 1.34,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.17,
+        "midPrice": 0.5,
+        "highPrice": 89,
+        "marketPrice": 0.52,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90207,
+    "name": "Unown [F]",
+    "cleanName": "Unown F",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90207_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90207/pokemon-neo-discovery-unown-f",
+    "modifiedOn": "2022-11-27T17:53:58.597",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "48/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Find]</strong> Once during your turn <em>(before your attack)</em>, if you have Unown [F], Unown [I], Unown [N], and Unown [D] on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.25,
+        "midPrice": 2.07,
+        "highPrice": 4.99,
+        "marketPrice": 1.88,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.42,
+        "midPrice": 0.75,
+        "highPrice": 7,
+        "marketPrice": 1.31,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90213,
+    "name": "Unown [I]",
+    "cleanName": "Unown I",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90213_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90213/pokemon-neo-discovery-unown-i",
+    "modifiedOn": "2025-02-05T21:10:33.513",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "68/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Increase]</strong>\r\n<br>\r\nWhen you play Unown [I] from your hand, you may search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. You can't use this power if your Bench is full."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.8,
+        "midPrice": 1.17,
+        "highPrice": 4.99,
+        "marketPrice": 1.19,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.48,
+        "highPrice": 89,
+        "marketPrice": 0.51,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90221,
+    "name": "Unown [M]",
+    "cleanName": "Unown M",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90221_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90221/pokemon-neo-discovery-unown-m",
+    "modifiedOn": "2024-10-26T04:35:16.627",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "49/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Metal]</strong> Whenever a Metal Pokémon damages 1 of your Pokémon, reduce that damage by 30 <em>(after applying Weakness and Resistance)</em>. This power stops working if you have more than 1 Unown [M] in play. <em>(This power works even if Unown [M] is Asleep, Confused, or Paralyzed.)</em>"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.38,
+        "midPrice": 2.49,
+        "highPrice": 4.99,
+        "marketPrice": 2.47,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.3,
+        "midPrice": 0.81,
+        "highPrice": 7,
+        "marketPrice": 1.15,
+        "directLowPrice": 0.41
+      }
+    ]
+  },
+  {
+    "productId": 90223,
+    "name": "Unown [N]",
+    "cleanName": "Unown N",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90223_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90223/pokemon-neo-discovery-unown-n",
+    "modifiedOn": "2022-11-27T17:58:53.117",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "50/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Normal]</strong>\r\n<br>\r\nWhenever a Colorless Pokémon damages 1 of your Pokémon, reduce that damage by 30 <em>(after applying Weakness and Resistance)</em>. This power stops working if you have more than 1 Unown [N] in play. <em>(This power works even if Unown [N] is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.25,
+        "midPrice": 2.12,
+        "highPrice": 4.99,
+        "marketPrice": 2.13,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.35,
+        "midPrice": 0.79,
+        "highPrice": 89,
+        "marketPrice": 0.82,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90225,
+    "name": "Unown [O]",
+    "cleanName": "Unown O",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90225_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90225/pokemon-neo-discovery-unown-o",
+    "modifiedOn": "2023-07-17T08:28:52.35",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "69/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Observe</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may look at 5 cards from the top of your opponent's deck and put them back in the same order."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.78,
+        "midPrice": 1.19,
+        "highPrice": 89,
+        "marketPrice": 1.18,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.17,
+        "midPrice": 0.5,
+        "highPrice": 89,
+        "marketPrice": 0.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90236,
+    "name": "Unown [U]",
+    "cleanName": "Unown U",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90236_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90236/pokemon-neo-discovery-unown-u",
+    "modifiedOn": "2022-11-27T18:01:28.743",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "51/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: [Undo]</strong> Once during your turn <em>(before your attack)</em>, if you have Unown [U], Unown [N], Unown [D], and Unown [O] on your Bench, you may return your Active Pokémon and all cards attached to it to your hand."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hidden Power (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.88,
+        "midPrice": 2.1,
+        "highPrice": 8,
+        "marketPrice": 1.96,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.48,
+        "midPrice": 1,
+        "highPrice": 89,
+        "marketPrice": 1.19,
+        "directLowPrice": 0.76
+      }
+    ]
+  },
+  {
+    "productId": 90249,
+    "name": "Ursaring (15)",
+    "cleanName": "Ursaring 15",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90249_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90249/pokemon-neo-discovery-ursaring-15",
+    "modifiedOn": "2022-11-27T18:02:37.54",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "15/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Headpress (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing <em>(not even damage)</em>."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[4] Double Lariat (40x)\r\n<br>Flip 2 coins. This attack does 40 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 66.99,
+        "midPrice": 79.12,
+        "highPrice": 199.99,
+        "marketPrice": 92.13,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 23.99,
+        "midPrice": 30,
+        "highPrice": 59.99,
+        "marketPrice": 31.27,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90250,
+    "name": "Ursaring (34)",
+    "cleanName": "Ursaring 34",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90250_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90250/pokemon-neo-discovery-ursaring-34",
+    "modifiedOn": "2022-11-27T18:03:28.967",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "34/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Headpress (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing <em>(not even damage)</em>."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[4] Double Lariat (40x)\r\n<br>Flip 2 coins. This attack does 40 times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4.94,
+        "midPrice": 8.74,
+        "highPrice": 24.97,
+        "marketPrice": 8.48,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2,
+        "midPrice": 4.79,
+        "highPrice": 10,
+        "marketPrice": 4.89,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90538,
+    "name": "Weedle",
+    "cleanName": "Weedle",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90538_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90538/pokemon-neo-discovery-weedle",
+    "modifiedOn": "2023-11-28T17:57:02.523",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "70/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Spike Stab (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing <em>(not even damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.79,
+        "midPrice": 1.29,
+        "highPrice": 5,
+        "marketPrice": 1.92,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.18,
+        "midPrice": 0.47,
+        "highPrice": 4.95,
+        "marketPrice": 0.5,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90612,
+    "name": "Wobbuffet (16)",
+    "cleanName": "Wobbuffet 16",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90612_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90612/pokemon-neo-discovery-wobbuffet-16",
+    "modifiedOn": "2022-11-27T18:05:37.64",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "16/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Counter\r\n<br>If an attack damages Wobbuffet during your opponent's next turn <em>(even if Wobbuffet is Knocked Out)</em>, flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 27.48,
+        "midPrice": 49,
+        "highPrice": 75.68,
+        "marketPrice": 68.78,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 20,
+        "midPrice": 23.66,
+        "highPrice": 79.99,
+        "marketPrice": 23.09,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90614,
+    "name": "Wobbuffet (35)",
+    "cleanName": "Wobbuffet 35",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90614_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90614/pokemon-neo-discovery-wobbuffet-35",
+    "modifiedOn": "2022-11-27T18:07:53.857",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "35/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Counter\r\n<br>If an attack damages Wobbuffet during your opponent's next turn <em>(even if Wobbuffet is Knocked Out)</em>, flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4.48,
+        "midPrice": 9.19,
+        "highPrice": 12.14,
+        "marketPrice": 7.86,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.73,
+        "midPrice": 4.17,
+        "highPrice": 10,
+        "marketPrice": 4.3,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90631,
+    "name": "Wooper",
+    "cleanName": "Wooper",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90631_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90631/pokemon-neo-discovery-wooper",
+    "modifiedOn": "2023-06-04T10:09:16.867",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "71/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Slime\r\n<br>If an attack would do damage to Wooper during your opponent's next turn, your opponent flips a coin. If tails, prevent all damage done to Wooper from that attack. <em>(Any other effects of that attack happen.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Tail Slap (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.89,
+        "midPrice": 1.67,
+        "highPrice": 10,
+        "marketPrice": 1.58,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.34,
+        "midPrice": 0.69,
+        "highPrice": 2.5,
+        "marketPrice": 0.9,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90660,
+    "name": "Xatu",
+    "cleanName": "Xatu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90660_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90660/pokemon-neo-discovery-xatu",
+    "modifiedOn": "2022-11-27T18:10:29.027",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "52/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Energy Cycle\r\n<br>Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Super Psy (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.89,
+        "midPrice": 1.53,
+        "highPrice": 4.99,
+        "marketPrice": 1.53,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.25,
+        "midPrice": 0.69,
+        "highPrice": 4.95,
+        "marketPrice": 0.7,
+        "directLowPrice": 0.57
+      }
+    ]
+  },
+  {
+    "productId": 90680,
+    "name": "Yanma (17)",
+    "cleanName": "Yanma 17",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90680_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90680/pokemon-neo-discovery-yanma-17",
+    "modifiedOn": "2023-02-06T21:10:50.413",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "17/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Shockwave\r\n<br>Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGG] Swift (30)\r\n<br>This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 51.25,
+        "midPrice": 54.56,
+        "highPrice": 120,
+        "marketPrice": 51.73,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 13.5,
+        "midPrice": 20.5,
+        "highPrice": 89,
+        "marketPrice": 21.85,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90681,
+    "name": "Yanma (36)",
+    "cleanName": "Yanma 36",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90681_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/90681/pokemon-neo-discovery-yanma-36",
+    "modifiedOn": "2022-11-27T18:12:10.99",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "36/75"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Shockwave\r\n<br>Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance. Then, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGG] Swift (30)\r\n<br>This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8,
+        "midPrice": 11.48,
+        "highPrice": 21.97,
+        "marketPrice": 9.71,
+        "directLowPrice": 19.77
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3,
+        "midPrice": 4.75,
+        "highPrice": 7.99,
+        "marketPrice": 4.9,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 138143,
+    "name": "Neo Discovery Booster Pack [Unlimited Edition]",
+    "cleanName": "Neo Discovery Booster Pack Unlimited Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/138143_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/138143/pokemon-neo-discovery-neo-discovery-booster-pack-unlimited-edition",
+    "modifiedOn": "2017-07-22T16:17:28.94",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This booster pack contains 11 cards for Wizards of the Coast printed Neo Discovery set."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 326.25,
+        "midPrice": 363.46,
+        "highPrice": 575,
+        "marketPrice": 363.64,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 138144,
+    "name": "Neo Discovery Booster Pack [1st Edition]",
+    "cleanName": "Neo Discovery Booster Pack 1st Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/138144_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/138144/pokemon-neo-discovery-neo-discovery-booster-pack-1st-edition",
+    "modifiedOn": "2017-07-22T16:17:48.53",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This booster pack contains 11 cards for Wizards of the Coast printed Neo Discovery set."
+      }
+    ],
+    "prices": []
+  },
+  {
+    "productId": 234510,
+    "name": "Neo Discovery Theme Deck - \"Brain Wave\"",
+    "cleanName": "Neo Discovery Theme Deck Brain Wave",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/234510_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/234510/pokemon-neo-discovery-neo-discovery-theme-deck-brain-wave",
+    "modifiedOn": "2021-03-15T18:06:19.913",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 425,
+        "midPrice": 425,
+        "highPrice": 425,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 282509,
+    "name": "Neo Discovery 2-Pack Blister [Unlimited Edition]",
+    "cleanName": "Neo Discovery 2 Pack Blister Unlimited Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/282509_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/282509/pokemon-neo-discovery-neo-discovery-2-pack-blister-unlimited-edition",
+    "modifiedOn": "2022-08-16T16:40:06.637",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each 2-pack blister contains 2 Neo Discovery booster packs."
+      },
+      {
+        "name": "UPC",
+        "displayName": "UPC",
+        "value": "76930883969"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1350,
+        "midPrice": 1350,
+        "highPrice": 1350,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 451097,
+    "name": "Neo Discovery Theme Deck - \"Wallop\"",
+    "cleanName": "Neo Discovery Theme Deck Wallop",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/451097_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1434,
+    "url": "https://www.tcgplayer.com/product/451097/pokemon-neo-discovery-neo-discovery-theme-deck-wallop",
+    "modifiedOn": "2022-10-21T17:54:07.937",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 299.99,
+        "midPrice": 299.99,
+        "highPrice": 299.99,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  }
+]

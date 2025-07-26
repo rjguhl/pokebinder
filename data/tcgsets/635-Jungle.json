@@ -1,0 +1,5376 @@
+[
+  {
+    "productId": 45120,
+    "name": "Clefable (1)",
+    "cleanName": "Clefable 1",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45120_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45120/pokemon-jungle-clefable-1",
+    "modifiedOn": "2023-11-27T18:49:46.257",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "01/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Metronome\r\n<br>\r\nChoose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. <em>(No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Minimize\r\n<br>\r\nAll damage done by attacks to Clefable during your opponent's next turn is reduced by 20 <em>(after applying Weakness and Resistance)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 49.56,
+        "midPrice": 69.3,
+        "highPrice": 124.99,
+        "marketPrice": 59.59,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 14.35,
+        "midPrice": 23.57,
+        "highPrice": 79.99,
+        "marketPrice": 25.92,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45121,
+    "name": "Scyther (10)",
+    "cleanName": "Scyther 10",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45121_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45121/pokemon-jungle-scyther-10",
+    "modifiedOn": "2022-11-16T21:43:07.593",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "10/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Swords Dance\r\n<br>During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Slash (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 57.57,
+        "midPrice": 101.77,
+        "highPrice": 199.99,
+        "marketPrice": 103.72,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 17.81,
+        "midPrice": 33.91,
+        "highPrice": 9999,
+        "marketPrice": 38.89,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45122,
+    "name": "Snorlax (11)",
+    "cleanName": "Snorlax 11",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45122_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45122/pokemon-jungle-snorlax-11",
+    "modifiedOn": "2024-08-05T07:16:09.057",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "11/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Thick Skinned</strong>\r\n<br>\r\nSnorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[4] Body Slam (30)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "4"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 196.01,
+        "midPrice": 397.86,
+        "highPrice": 499.95,
+        "marketPrice": 262.13,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 38,
+        "midPrice": 62.09,
+        "highPrice": 285.72,
+        "marketPrice": 71.98,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45123,
+    "name": "Vaporeon (12)",
+    "cleanName": "Vaporeon 12",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45123_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45123/pokemon-jungle-vaporeon-12",
+    "modifiedOn": "2024-10-16T20:58:05.007",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "12/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1WW] Water Gun (30+)\r\n<br>Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water energy after the 2nd doesn't count."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 80,
+        "midPrice": 230,
+        "highPrice": 499.99,
+        "marketPrice": 181.74,
+        "directLowPrice": 249.99
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 10.25,
+        "midPrice": 14.67,
+        "highPrice": 60.98,
+        "marketPrice": 25.46,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45124,
+    "name": "Venomoth (13)",
+    "cleanName": "Venomoth 13",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45124_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45124/pokemon-jungle-venomoth-13",
+    "modifiedOn": "2025-03-14T14:39:10.027",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "13/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Shift</strong> Once during your turn <em>(before your attack)</em>, you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Venom Powder (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 26,
+        "midPrice": 49.99,
+        "highPrice": 101.18,
+        "marketPrice": 72.14,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 12.16,
+        "midPrice": 15.29,
+        "highPrice": 78.65,
+        "marketPrice": 20.41,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45125,
+    "name": "Victreebel (14)",
+    "cleanName": "Victreebel 14",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45125_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45125/pokemon-jungle-victreebel-14",
+    "modifiedOn": "2023-07-19T15:30:36.55",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "14/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Lure\r\n<br>If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Acid (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 30,
+        "midPrice": 78.09,
+        "highPrice": 130.68,
+        "marketPrice": 84,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 13.5,
+        "midPrice": 19,
+        "highPrice": 59.98,
+        "marketPrice": 23.58,
+        "directLowPrice": 14.99
+      }
+    ]
+  },
+  {
+    "productId": 45126,
+    "name": "Vileplume (15)",
+    "cleanName": "Vileplume 15",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45126_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45126/pokemon-jungle-vileplume-15",
+    "modifiedOn": "2024-12-28T02:27:31.617",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "15/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Heal</strong> Once during your turn <em>(before your attack)</em>, you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GGG] Petal Dance (40x)\r\n<br>Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused <em>(after doing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 40,
+        "midPrice": 61.48,
+        "highPrice": 169.99,
+        "marketPrice": 74.92,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 12.55,
+        "midPrice": 22.91,
+        "highPrice": 89,
+        "marketPrice": 24.34,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45127,
+    "name": "Wigglytuff (16)",
+    "cleanName": "Wigglytuff 16",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45127_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45127/pokemon-jungle-wigglytuff-16",
+    "modifiedOn": "2025-03-14T14:43:02.387",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "16/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Lullaby\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Do the Wave (10+)\r\n<br>Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 46.49,
+        "midPrice": 84.99,
+        "highPrice": 114.95,
+        "marketPrice": 76.32,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 12.5,
+        "midPrice": 23.99,
+        "highPrice": 507.87,
+        "marketPrice": 33.34,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45128,
+    "name": "Electrode (2)",
+    "cleanName": "Electrode 2",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45128_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45128/pokemon-jungle-electrode-2",
+    "modifiedOn": "2023-09-01T08:16:37.04",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "02/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Tackle (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[LLL] Chain Lightning (20)\r\n<br>If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon <em>(including your own)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 30.68,
+        "midPrice": 52,
+        "highPrice": 89.95,
+        "marketPrice": 48.15,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 10,
+        "midPrice": 17.97,
+        "highPrice": 41.99,
+        "marketPrice": 21.92,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45129,
+    "name": "Flareon (3)",
+    "cleanName": "Flareon 3",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45129_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45129/pokemon-jungle-flareon-3",
+    "modifiedOn": "2025-04-16T16:57:03.733",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "03/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2RR] Flamethrower (60)\r\n<br>Discard 1 Fire Energy card attached to Flareon in order to use this attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 95,
+        "midPrice": 250.69,
+        "highPrice": 900,
+        "marketPrice": 129.47,
+        "directLowPrice": 99.98
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 37.99,
+        "midPrice": 64.79,
+        "highPrice": 119.99,
+        "marketPrice": 62.67,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45130,
+    "name": "Jolteon (4)",
+    "cleanName": "Jolteon 4",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45130_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45130/pokemon-jungle-jolteon-4",
+    "modifiedOn": "2024-06-14T18:45:05.67",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "04/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1LL] Pin Missile (20x)\r\n<br>Flip 4 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 84,
+        "midPrice": 179.89,
+        "highPrice": 300.97,
+        "marketPrice": 178.89,
+        "directLowPrice": 95
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 38,
+        "midPrice": 51.41,
+        "highPrice": 149.99,
+        "marketPrice": 66.49,
+        "directLowPrice": 59.99
+      }
+    ]
+  },
+  {
+    "productId": 45131,
+    "name": "Kangaskhan (5)",
+    "cleanName": "Kangaskhan 5",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45131_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45131/pokemon-jungle-kangaskhan-5",
+    "modifiedOn": "2024-10-08T10:18:51.507",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "05/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Fetch\r\n<br>Draw a card."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[4] Comet Punch (20x)\r\n<br>Flip 4 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 32.5,
+        "midPrice": 72.85,
+        "highPrice": 89.99,
+        "marketPrice": 73.84,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 4.42,
+        "midPrice": 9.03,
+        "highPrice": 89,
+        "marketPrice": 12.28,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45132,
+    "name": "Mr. Mime (6)",
+    "cleanName": "Mr Mime 6",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45132_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45132/pokemon-jungle-mr-mime-6",
+    "modifiedOn": "2025-04-28T05:03:24.51",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "06/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Invisible Wall</strong> Whenever an attack <em>(including your own)</em> does 30 or more damage to Mr. Mime <em>(after applying Weakness and Resistance)</em>, prevent that damage. <em>(Any other effects of attacks still happen.)</em> This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1P] Meditate (10+)\r\n<br>Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 38.33,
+        "midPrice": 59.15,
+        "highPrice": 120,
+        "marketPrice": 68.28,
+        "directLowPrice": 59.47
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 16.29,
+        "midPrice": 24.55,
+        "highPrice": 82.78,
+        "marketPrice": 27.25,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45133,
+    "name": "Nidoqueen (7)",
+    "cleanName": "Nidoqueen 7",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45133_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45133/pokemon-jungle-nidoqueen-7",
+    "modifiedOn": "2023-02-15T05:37:12.827",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "07/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1G] Boyfriends (20+)\r\n<br>Does 20 damage plus 20 more damage for each Nidoking you have in play."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2GG] Mega Punch (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 44,
+        "midPrice": 99.99,
+        "highPrice": 150.98,
+        "marketPrice": 87.03,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 14,
+        "midPrice": 20,
+        "highPrice": 59.99,
+        "marketPrice": 23.22,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45134,
+    "name": "Pidgeot (8)",
+    "cleanName": "Pidgeot 8",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45134_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45134/pokemon-jungle-pidgeot-8",
+    "modifiedOn": "2024-01-18T11:45:15.39",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "08/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Wing Attack (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Hurricane (30)\r\n<br>Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 99.99,
+        "midPrice": 129.99,
+        "highPrice": 199.98,
+        "marketPrice": 99.99,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 16.9,
+        "midPrice": 28.55,
+        "highPrice": 69.99,
+        "marketPrice": 31.06,
+        "directLowPrice": 17.98
+      }
+    ]
+  },
+  {
+    "productId": 45135,
+    "name": "Pinsir (9)",
+    "cleanName": "Pinsir 9",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45135_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45135/pokemon-jungle-pinsir-9",
+    "modifiedOn": "2024-03-05T19:47:29.517",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "09/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Irongrip (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2GG] Guillotine (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 30,
+        "midPrice": 49.99,
+        "highPrice": 119.99,
+        "marketPrice": 57.73,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 14.56,
+        "midPrice": 20,
+        "highPrice": 49.95,
+        "marketPrice": 26.6,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45136,
+    "name": "Butterfree",
+    "cleanName": "Butterfree",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45136_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45136/pokemon-jungle-butterfree",
+    "modifiedOn": "2024-07-26T19:32:44.173",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "33/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Whirlwind (20)\r\n<br>If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. <em>(Do the damage before switching Pokémon.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGGG] Mega Drain (40)\r\n<br>Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon <em>(after applying Weakness and Resistance)</em> (rounded up to the nearest 10)."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 2.31,
+        "midPrice": 4.32,
+        "highPrice": 12.95,
+        "marketPrice": 6.1,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.22,
+        "midPrice": 0.75,
+        "highPrice": 89,
+        "marketPrice": 0.69,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45137,
+    "name": "Dodrio",
+    "cleanName": "Dodrio",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45137_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45137/pokemon-jungle-dodrio",
+    "modifiedOn": "2025-03-17T19:50:01.493",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "34/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Retreat Aid</strong> As long as Dodrio is Benched, pay 1 Colorless less to retreat your Active Pokémon."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Rage (10+)\r\n<br>Does 10 damage plus 10 more damage for each damage counter on Dodrio."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.88,
+        "midPrice": 2,
+        "highPrice": 9.95,
+        "marketPrice": 3.27,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.25,
+        "midPrice": 0.71,
+        "highPrice": 89,
+        "marketPrice": 0.68,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45138,
+    "name": "Exeggutor",
+    "cleanName": "Exeggutor",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45138_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45138/pokemon-jungle-exeggutor",
+    "modifiedOn": "2025-05-09T09:39:44.613",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "35/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Teleport\r\n<br>Switch Exeggutor with 1 of your Benched Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1] Big Eggsplosion (20x)\r\n<br>Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 2.98,
+        "highPrice": 9.95,
+        "marketPrice": 3.4,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.29,
+        "midPrice": 0.75,
+        "highPrice": 89,
+        "marketPrice": 1.01,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45139,
+    "name": "Fearow",
+    "cleanName": "Fearow",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45139_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45139/pokemon-jungle-fearow",
+    "modifiedOn": "2024-07-26T19:32:44.237",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "36/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Agility (20)\r\n<br> Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[4] Drill Peck (40)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.98,
+        "midPrice": 1.7,
+        "highPrice": 9.95,
+        "marketPrice": 2.27,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.17,
+        "midPrice": 0.53,
+        "highPrice": 4.95,
+        "marketPrice": 0.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45140,
+    "name": "Gloom",
+    "cleanName": "Gloom",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45140_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45140/pokemon-jungle-gloom",
+    "modifiedOn": "2025-04-02T03:54:48.883",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "37/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Poisonpowder\r\n<br>The Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Foul Oder (20)\r\n<br>Both the Defending Pokémon and Gloom are now Confused <em>(after doing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.95,
+        "midPrice": 1.99,
+        "highPrice": 10,
+        "marketPrice": 2.1,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.49,
+        "highPrice": 89,
+        "marketPrice": 0.49,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45141,
+    "name": "Lickitung",
+    "cleanName": "Lickitung",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45141_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45141/pokemon-jungle-lickitung",
+    "modifiedOn": "2024-09-06T16:35:03.143",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "38/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Tongue Wrap (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Supersonic\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.85,
+        "midPrice": 1.92,
+        "highPrice": 9.95,
+        "marketPrice": 2.43,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.74,
+        "highPrice": 4.95,
+        "marketPrice": 1.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45142,
+    "name": "Marowak",
+    "cleanName": "Marowak",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45142_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45142/pokemon-jungle-marowak",
+    "modifiedOn": "2023-10-28T16:18:20.533",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "39/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Bonemerang (30x)\r\n<br>Flip 2 coins. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FF] Call for Friend\r\n<br>Search your deck for a Fighting Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. <em>(You can't use this attack if your Bench is full.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 3.17,
+        "highPrice": 39.99,
+        "marketPrice": 3.44,
+        "directLowPrice": 39.96
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.3,
+        "midPrice": 0.74,
+        "highPrice": 199087.47,
+        "marketPrice": 0.82,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45143,
+    "name": "Nidorina",
+    "cleanName": "Nidorina",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45143_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45143/pokemon-jungle-nidorina",
+    "modifiedOn": "2023-09-03T05:32:57.853",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "40/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Supersonic\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2G] Double Kick (30x)\r\n<br>Flip 2 coins. This attack does 30 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.89,
+        "midPrice": 1.54,
+        "highPrice": 7.95,
+        "marketPrice": 2.44,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.12,
+        "midPrice": 0.42,
+        "highPrice": 89,
+        "marketPrice": 0.4,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45144,
+    "name": "Parasect",
+    "cleanName": "Parasect",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45144_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45144/pokemon-jungle-parasect",
+    "modifiedOn": "2025-03-21T19:40:42.463",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "41/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Spore\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Slash (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.8,
+        "midPrice": 1.64,
+        "highPrice": 9.95,
+        "marketPrice": 1.65,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.55,
+        "highPrice": 204072.61,
+        "marketPrice": 0.7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45145,
+    "name": "Persian",
+    "cleanName": "Persian",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45145_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45145/pokemon-jungle-persian",
+    "modifiedOn": "2023-07-20T17:03:53.077",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "42/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Scratch (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Pounce (30)\r\n<br>If the Defending Pokémon attacks Persian during your opponent's next turn, any damage done by the attack is reduced by 10 <em>(after applying Weakness and Resistance)</em>. <em>(Benching either Pokemon ends this effect.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.5,
+        "midPrice": 1.96,
+        "highPrice": 89,
+        "marketPrice": 3.24,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.24,
+        "midPrice": 0.5,
+        "highPrice": 89,
+        "marketPrice": 0.65,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45146,
+    "name": "Primeape",
+    "cleanName": "Primeape",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45146_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45146/pokemon-jungle-primeape",
+    "modifiedOn": "2025-03-31T10:04:42.527",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "43/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Fury Swipes (20x)\r\n<br>Flip 3 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FF] Tantrum (50)\r\n<br>Flip a coin. If tails, Primeape is now Confused <em>(after doing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 1.97,
+        "highPrice": 9.95,
+        "marketPrice": 2.5,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.23,
+        "midPrice": 0.59,
+        "highPrice": 202.32,
+        "marketPrice": 0.72,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45147,
+    "name": "Rapidash",
+    "cleanName": "Rapidash",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45147_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45147/pokemon-jungle-rapidash",
+    "modifiedOn": "2023-07-08T16:35:11.84",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "44/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Stomp (20+)\r\n<br>Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1RR] Agility (30)\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.5,
+        "midPrice": 3,
+        "highPrice": 34.99,
+        "marketPrice": 4.36,
+        "directLowPrice": 2.5
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.39,
+        "midPrice": 1.04,
+        "highPrice": 89,
+        "marketPrice": 1.26,
+        "directLowPrice": 1.08
+      }
+    ]
+  },
+  {
+    "productId": 45148,
+    "name": "Rhydon",
+    "cleanName": "Rhydon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45148_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45148/pokemon-jungle-rhydon",
+    "modifiedOn": "2025-02-05T06:06:40.753",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "45/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2F] Horn Attack (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[FFFF] Ram (50)\r\n<br>Rhydon does 20 damage to itself, if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. <em>(Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.55,
+        "midPrice": 2.99,
+        "highPrice": 34.99,
+        "marketPrice": 3.93,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.55,
+        "highPrice": 89,
+        "marketPrice": 0.59,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45149,
+    "name": "Seaking",
+    "cleanName": "Seaking",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45149_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45149/pokemon-jungle-seaking",
+    "modifiedOn": "2022-11-16T21:44:31.967",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "46/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Horn Attack (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1W] Waterfall (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.85,
+        "midPrice": 2.45,
+        "highPrice": 9.95,
+        "marketPrice": 3.23,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.29,
+        "midPrice": 0.55,
+        "highPrice": 4.95,
+        "marketPrice": 0.66,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45150,
+    "name": "Tauros",
+    "cleanName": "Tauros",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45150_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45150/pokemon-jungle-tauros",
+    "modifiedOn": "2024-04-10T07:39:57.25",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "47/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Stomp (20+)\r\n<br>Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Rampage (20+)\r\n<br>Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused <em>(after doing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.03,
+        "midPrice": 1.85,
+        "highPrice": 89,
+        "marketPrice": 2.4,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.15,
+        "midPrice": 0.5,
+        "highPrice": 215.28,
+        "marketPrice": 0.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45151,
+    "name": "Weepinbell",
+    "cleanName": "Weepinbell",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45151_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45151/pokemon-jungle-weepinbell",
+    "modifiedOn": "2024-01-08T10:56:54.183",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "48/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Poisonpowder (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Razor Leaf (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.69,
+        "midPrice": 1.79,
+        "highPrice": 19.99,
+        "marketPrice": 2.1,
+        "directLowPrice": 2.2
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.17,
+        "midPrice": 0.44,
+        "highPrice": 89,
+        "marketPrice": 0.44,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45152,
+    "name": "Bellsprout",
+    "cleanName": "Bellsprout",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45152_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45152/pokemon-jungle-bellsprout",
+    "modifiedOn": "2023-10-03T17:32:16.967",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "49/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Vine Whip (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[G] Call for Family\r\n<br>Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. <em>(You can't use this attack if your Bench is full.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.2,
+        "midPrice": 0.93,
+        "highPrice": 6.02,
+        "marketPrice": 0.93,
+        "directLowPrice": 0.59
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.05,
+        "midPrice": 0.29,
+        "highPrice": 89,
+        "marketPrice": 0.25,
+        "directLowPrice": 0.2
+      }
+    ]
+  },
+  {
+    "productId": 45153,
+    "name": "Cubone",
+    "cleanName": "Cubone",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45153_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45153/pokemon-jungle-cubone",
+    "modifiedOn": "2025-02-01T10:51:57.77",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "50/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Snivel\r\n<br>If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by that attack is reduced by 20 <em>(after applying Weakness and Resistance)</em>. <em>(Benching either Pokemon ends this effect.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[FF] Rage (10+)\r\n<br>Does 10 damage plus 10 more damage for each damage counter on Cubone."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.4,
+        "midPrice": 1.35,
+        "highPrice": 54.99,
+        "marketPrice": 2.35,
+        "directLowPrice": 2.47
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.18,
+        "midPrice": 0.4,
+        "highPrice": 170414.69,
+        "marketPrice": 0.36,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45154,
+    "name": "Eevee",
+    "cleanName": "Eevee",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45154_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45154/pokemon-jungle-eevee",
+    "modifiedOn": "2024-11-23T10:15:46.523",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "51/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Tail Wag\r\n<br>Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your opponent's next turn. <em>(Benching either Pokémon ends this effect.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4.65,
+        "midPrice": 9.58,
+        "highPrice": 73.75,
+        "marketPrice": 9.76,
+        "directLowPrice": 11.24
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.59,
+        "highPrice": 89,
+        "marketPrice": 0.69,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45155,
+    "name": "Exeggcute",
+    "cleanName": "Exeggcute",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45155_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45155/pokemon-jungle-exeggcute",
+    "modifiedOn": "2025-02-28T05:29:11.127",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "52/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Hypnosis\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Leech Seed (20)\r\n<br>Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.39,
+        "midPrice": 0.99,
+        "highPrice": 6.69,
+        "marketPrice": 0.97,
+        "directLowPrice": 0.72
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.05,
+        "midPrice": 0.34,
+        "highPrice": 145264.19,
+        "marketPrice": 0.3,
+        "directLowPrice": 0.25
+      }
+    ]
+  },
+  {
+    "productId": 45156,
+    "name": "Goldeen",
+    "cleanName": "Goldeen",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45156_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45156/pokemon-jungle-goldeen",
+    "modifiedOn": "2025-03-15T10:31:27.117",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "53/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Horn Attack (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.48,
+        "midPrice": 1.08,
+        "highPrice": 89,
+        "marketPrice": 1.09,
+        "directLowPrice": 0.86
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.35,
+        "highPrice": 89,
+        "marketPrice": 0.37,
+        "directLowPrice": 0.47
+      }
+    ]
+  },
+  {
+    "productId": 45157,
+    "name": "Jigglypuff",
+    "cleanName": "Jigglypuff",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45157_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45157/pokemon-jungle-jigglypuff",
+    "modifiedOn": "2024-08-28T21:53:32.523",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "54/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Lullaby\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Pound (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.55,
+        "midPrice": 1,
+        "highPrice": 7.95,
+        "marketPrice": 1.6,
+        "directLowPrice": 0.89
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.38,
+        "highPrice": 89,
+        "marketPrice": 0.33,
+        "directLowPrice": 0.31
+      }
+    ]
+  },
+  {
+    "productId": 45158,
+    "name": "Mankey",
+    "cleanName": "Mankey",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45158_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45158/pokemon-jungle-mankey",
+    "modifiedOn": "2025-02-22T11:29:11.733",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "55/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Peek</strong> Once during your turn <em>(before your attack)</em>, you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. This power can't be. used if Mankey is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Scratch (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.45,
+        "midPrice": 1.19,
+        "highPrice": 22.99,
+        "marketPrice": 1.29,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.13,
+        "midPrice": 0.31,
+        "highPrice": 29,
+        "marketPrice": 0.3,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45159,
+    "name": "Meowth",
+    "cleanName": "Meowth",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45159_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45159/pokemon-jungle-meowth",
+    "modifiedOn": "2024-12-07T14:17:53.923",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "56/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Pay Day (10)\r\n<br>Flip a coin. If heads, draw a card."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.53,
+        "midPrice": 1.39,
+        "highPrice": 7.95,
+        "marketPrice": 1.74,
+        "directLowPrice": 1.09
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.12,
+        "midPrice": 0.37,
+        "highPrice": 89,
+        "marketPrice": 0.36,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45160,
+    "name": "Nidoran F",
+    "cleanName": "Nidoran F",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45160_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45160/pokemon-jungle-nidoran-f",
+    "modifiedOn": "2025-03-27T20:22:06.09",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "57/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Fury Swipes (10x)\r\n<br>Flip 3 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Call for Family\r\n<br>Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. <em>(You can't use this attack if your Bench is full.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.3,
+        "midPrice": 1.06,
+        "highPrice": 8.69,
+        "marketPrice": 1.09,
+        "directLowPrice": 1.01
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.05,
+        "midPrice": 0.29,
+        "highPrice": 89,
+        "marketPrice": 0.28,
+        "directLowPrice": 0.22
+      }
+    ]
+  },
+  {
+    "productId": 45161,
+    "name": "Oddish",
+    "cleanName": "Oddish",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45161_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45161/pokemon-jungle-oddish",
+    "modifiedOn": "2025-06-04T03:38:00.93",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "58/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Stun Spore (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Sprout\r\n<br>Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward. <em>(You can't use this attack if your Bench is full.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.25,
+        "midPrice": 1.05,
+        "highPrice": 14.99,
+        "marketPrice": 1.14,
+        "directLowPrice": 0.71
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.08,
+        "midPrice": 0.34,
+        "highPrice": 89,
+        "marketPrice": 0.36,
+        "directLowPrice": 0.27
+      }
+    ]
+  },
+  {
+    "productId": 45162,
+    "name": "Paras",
+    "cleanName": "Paras",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45162_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45162/pokemon-jungle-paras",
+    "modifiedOn": "2023-01-20T20:52:58.623",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "59/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Scratch (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Spore\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.45,
+        "midPrice": 1,
+        "highPrice": 4.99,
+        "marketPrice": 1.09,
+        "directLowPrice": 1.49
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.07,
+        "midPrice": 0.33,
+        "highPrice": 89,
+        "marketPrice": 0.34,
+        "directLowPrice": 0.32
+      }
+    ]
+  },
+  {
+    "productId": 45163,
+    "name": "Pikachu",
+    "cleanName": "Pikachu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45163_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45163/pokemon-jungle-pikachu",
+    "modifiedOn": "2025-03-02T14:53:20.79",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "60/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[LL] Spark (20)\r\n<br>If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4,
+        "midPrice": 7.67,
+        "highPrice": 51.45,
+        "marketPrice": 8.44,
+        "directLowPrice": 11.24
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.4,
+        "midPrice": 1.03,
+        "highPrice": 89,
+        "marketPrice": 1.3,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45164,
+    "name": "Rhyhorn",
+    "cleanName": "Rhyhorn",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45164_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45164/pokemon-jungle-rhyhorn",
+    "modifiedOn": "2023-03-05T14:45:52.653",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "61/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Leer\r\n<br>Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. <em>(Benching either Pokémon ends this effect.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2F] Horn Attack (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.19,
+        "midPrice": 1.26,
+        "highPrice": 8.69,
+        "marketPrice": 1.36,
+        "directLowPrice": 1
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.31,
+        "highPrice": 9999,
+        "marketPrice": 0.29,
+        "directLowPrice": 0.28
+      }
+    ]
+  },
+  {
+    "productId": 45165,
+    "name": "Spearow",
+    "cleanName": "Spearow",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45165_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45165/pokemon-jungle-spearow",
+    "modifiedOn": "2025-04-12T03:31:18.94",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "62/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Peck (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Mirror Move\r\n<br>If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.45,
+        "midPrice": 1.19,
+        "highPrice": 14.99,
+        "marketPrice": 1.18,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.03,
+        "midPrice": 0.3,
+        "highPrice": 4.99,
+        "marketPrice": 0.27,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 45166,
+    "name": "Venonat",
+    "cleanName": "Venonat",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45166_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45166/pokemon-jungle-venonat",
+    "modifiedOn": "2025-04-12T03:31:04.1",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "63/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Stun Spore (10)\r\n<br>Flip a coin> If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1G] Leech Life (10)\r\n<br>Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon <em>(after applying Weakness and Resistance)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.26,
+        "midPrice": 1,
+        "highPrice": 89,
+        "marketPrice": 1.09,
+        "directLowPrice": 0.72
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.29,
+        "highPrice": 173839.15,
+        "marketPrice": 0.28,
+        "directLowPrice": 0.21
+      }
+    ]
+  },
+  {
+    "productId": 45167,
+    "name": "Poke Ball",
+    "cleanName": "Poke Ball",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/45167_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/45167/pokemon-jungle-poke-ball",
+    "modifiedOn": "2025-04-12T03:31:28.75",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "64/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.2,
+        "midPrice": 0.54,
+        "highPrice": 4.95,
+        "marketPrice": 0.59,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.05,
+        "midPrice": 0.25,
+        "highPrice": 190635.31,
+        "marketPrice": 0.24,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106979,
+    "name": "Clefable (17)",
+    "cleanName": "Clefable 17",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106979_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106979/pokemon-jungle-clefable-17",
+    "modifiedOn": "2023-04-30T13:46:40.253",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "17/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Metronome\r\n<br>\r\nChoose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. <em>(No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Minimize\r\n<br>\r\nAll damage done by attacks to Clefable during your opponent's next turn is reduced by 20 <em>(after applying Weakness and Resistance)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5.71,
+        "midPrice": 8.38,
+        "highPrice": 24.95,
+        "marketPrice": 10.87,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.54,
+        "midPrice": 3.94,
+        "highPrice": 89,
+        "marketPrice": 3.76,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106980,
+    "name": "Electrode (18)",
+    "cleanName": "Electrode 18",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106980_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106980/pokemon-jungle-electrode-18",
+    "modifiedOn": "2024-09-17T15:23:43.583",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "18/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<br><br><strong><em>Product Disclaimer: 1st Edition versions of this card feature the incorrect artwork from Base Set while Unlimited versions will have the correct artwork.</em></strong>"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Tackle (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[LLL] Chain Lightning (20)\r\n<br>If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon <em>(including your own)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 21.83,
+        "midPrice": 27.86,
+        "highPrice": 79.95,
+        "marketPrice": 21.83,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.56,
+        "midPrice": 4.75,
+        "highPrice": 89,
+        "marketPrice": 5.03,
+        "directLowPrice": 5.99
+      }
+    ]
+  },
+  {
+    "productId": 106981,
+    "name": "Flareon (19)",
+    "cleanName": "Flareon 19",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106981_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106981/pokemon-jungle-flareon-19",
+    "modifiedOn": "2024-02-21T14:38:26.417",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "19/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2RR] Flamethrower (60)\r\n<br>Discard 1 Fire Energy card attached to Flareon in order to use this attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 15.71,
+        "midPrice": 21.4,
+        "highPrice": 49.95,
+        "marketPrice": 22.13,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.11,
+        "midPrice": 8.36,
+        "highPrice": 89,
+        "marketPrice": 8.69,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106982,
+    "name": "Jolteon (20)",
+    "cleanName": "Jolteon 20",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106982_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106982/pokemon-jungle-jolteon-20",
+    "modifiedOn": "2024-06-14T18:44:06.097",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "20/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1LL] Pin Missile (20x)\r\n<br>Flip 4 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 13.5,
+        "midPrice": 34.67,
+        "highPrice": 61.95,
+        "marketPrice": 24.93,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6.82,
+        "midPrice": 10.74,
+        "highPrice": 34.95,
+        "marketPrice": 13.32,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106983,
+    "name": "Kangaskhan (21)",
+    "cleanName": "Kangaskhan 21",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106983_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106983/pokemon-jungle-kangaskhan-21",
+    "modifiedOn": "2023-03-24T18:31:48.413",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "21/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Fetch\r\n<br>Draw a card."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[4] Comet Punch (20x)\r\n<br>Flip 4 coins. This attack does 20 damage times the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4.99,
+        "midPrice": 7.3,
+        "highPrice": 24.95,
+        "marketPrice": 10.76,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.7,
+        "midPrice": 4.09,
+        "highPrice": 12.95,
+        "marketPrice": 4.29,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106984,
+    "name": "Mr. Mime (22)",
+    "cleanName": "Mr Mime 22",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106984_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106984/pokemon-jungle-mr-mime-22",
+    "modifiedOn": "2023-05-20T11:37:34.32",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "22/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Invisible Wall</strong> Whenever an attack <em>(including your own)</em> does 30 or more damage to Mr. Mime <em>(after applying Weakness and Resistance)</em>, prevent that damage. <em>(Any other effects of attacks still happen.)</em> This power can't be used if Mr. Mime is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1P] Meditate (10+)\r\n<br>Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4,
+        "midPrice": 20.22,
+        "highPrice": 59.99,
+        "marketPrice": 12.59,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3,
+        "midPrice": 6.87,
+        "highPrice": 89,
+        "marketPrice": 7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106985,
+    "name": "Nidoqueen (23)",
+    "cleanName": "Nidoqueen 23",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106985_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106985/pokemon-jungle-nidoqueen-23",
+    "modifiedOn": "2023-05-27T17:30:57.64",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "23/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1G] Boyfriends (20+)\r\n<br>Does 20 damage plus 20 more damage for each Nidoking you have in play."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2GG] Mega Punch (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.25,
+        "midPrice": 15.21,
+        "highPrice": 89,
+        "marketPrice": 13.48,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.74,
+        "midPrice": 6.19,
+        "highPrice": 19.99,
+        "marketPrice": 6.73,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106986,
+    "name": "Pidgeot (24)",
+    "cleanName": "Pidgeot 24",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106986_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106986/pokemon-jungle-pidgeot-24",
+    "modifiedOn": "2022-11-16T20:52:49.407",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "24/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Wing Attack (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Hurricane (30)\r\n<br>Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 11.25,
+        "midPrice": 12,
+        "highPrice": 29.95,
+        "marketPrice": 11.34,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.19,
+        "midPrice": 4.57,
+        "highPrice": 12.95,
+        "marketPrice": 4.6,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106987,
+    "name": "Pinsir (25)",
+    "cleanName": "Pinsir 25",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106987_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106987/pokemon-jungle-pinsir-25",
+    "modifiedOn": "2023-05-13T17:30:29.163",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "25/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Irongrip (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2GG] Guillotine (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 6.93,
+        "midPrice": 16.78,
+        "highPrice": 89,
+        "marketPrice": 9.95,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2,
+        "midPrice": 3.91,
+        "highPrice": 12.95,
+        "marketPrice": 3.85,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106988,
+    "name": "Scyther (26)",
+    "cleanName": "Scyther 26",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106988_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106988/pokemon-jungle-scyther-26",
+    "modifiedOn": "2023-06-04T12:55:21.607",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "26/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Swords Dance\r\n<br>During your next turn, Scyther's Slash attack's base damage is 60 instead of 30."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Slash (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 10,
+        "midPrice": 20.23,
+        "highPrice": 39.95,
+        "marketPrice": 19.51,
+        "directLowPrice": 12.2
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6.74,
+        "midPrice": 12.24,
+        "highPrice": 29.95,
+        "marketPrice": 12.24,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106989,
+    "name": "Snorlax (27)",
+    "cleanName": "Snorlax 27",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106989_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106989/pokemon-jungle-snorlax-27",
+    "modifiedOn": "2022-11-16T21:47:22.34",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "27/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Thick Skinned</strong>\r\n<br>\r\nSnorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[4] Body Slam (30)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "4"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 21.4,
+        "midPrice": 27,
+        "highPrice": 49.95,
+        "marketPrice": 30.66,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6.15,
+        "midPrice": 12,
+        "highPrice": 89,
+        "marketPrice": 13.13,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106990,
+    "name": "Vaporeon (28)",
+    "cleanName": "Vaporeon 28",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106990_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106990/pokemon-jungle-vaporeon-28",
+    "modifiedOn": "2023-03-15T11:19:08.583",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "28/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1WW] Water Gun (30+)\r\n<br>Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water energy after the 2nd doesn't count."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 27,
+        "midPrice": 37.34,
+        "highPrice": 69.95,
+        "marketPrice": 28.35,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.99,
+        "midPrice": 7.21,
+        "highPrice": 24.95,
+        "marketPrice": 7.64,
+        "directLowPrice": 7.12
+      }
+    ]
+  },
+  {
+    "productId": 106991,
+    "name": "Venomoth (29)",
+    "cleanName": "Venomoth 29",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106991_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106991/pokemon-jungle-venomoth-29",
+    "modifiedOn": "2022-11-16T21:58:00.813",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "29/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Shift</strong> Once during your turn <em>(before your attack)</em>, you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Venom Powder (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 6,
+        "midPrice": 9.99,
+        "highPrice": 29.95,
+        "marketPrice": 9.58,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.46,
+        "midPrice": 2.52,
+        "highPrice": 89,
+        "marketPrice": 2.55,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106992,
+    "name": "Victreebel (30)",
+    "cleanName": "Victreebel 30",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106992_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106992/pokemon-jungle-victreebel-30",
+    "modifiedOn": "2023-04-03T15:35:21.337",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "30/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Lure\r\n<br>If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Acid (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 6.32,
+        "midPrice": 9.56,
+        "highPrice": 29.95,
+        "marketPrice": 11.69,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.89,
+        "midPrice": 3.99,
+        "highPrice": 12.95,
+        "marketPrice": 3.94,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106993,
+    "name": "Vileplume (31)",
+    "cleanName": "Vileplume 31",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106993_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106993/pokemon-jungle-vileplume-31",
+    "modifiedOn": "2023-04-25T16:28:49.61",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "31/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Heal</strong> Once during your turn <em>(before your attack)</em>, you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. This power can't be used if Vileplume is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GGG] Petal Dance (40x)\r\n<br>Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused <em>(after doing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5.72,
+        "midPrice": 6.83,
+        "highPrice": 29.95,
+        "marketPrice": 10.91,
+        "directLowPrice": 5.77
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.75,
+        "midPrice": 4.29,
+        "highPrice": 999.99,
+        "marketPrice": 4.24,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 106994,
+    "name": "Wigglytuff (32)",
+    "cleanName": "Wigglytuff 32",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/106994_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/106994/pokemon-jungle-wigglytuff-32",
+    "modifiedOn": "2022-12-18T06:09:58.093",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "32/64"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Lullaby\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Do the Wave (10+)\r\n<br>Does 10 damage plus 10 more damage for each of your Benched Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 6.75,
+        "midPrice": 8.64,
+        "highPrice": 32,
+        "marketPrice": 14.2,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.5,
+        "midPrice": 4.98,
+        "highPrice": 14.95,
+        "marketPrice": 5.04,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 107598,
+    "name": "Jungle Booster Box [1st Edition]",
+    "cleanName": "Jungle Booster Box 1st Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/107598_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/107598/pokemon-jungle-jungle-booster-box-1st-edition",
+    "modifiedOn": "2017-07-22T16:01:42",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 25999,
+        "midPrice": 27999.5,
+        "highPrice": 30000,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 107599,
+    "name": "Jungle Booster Box [Unlimited Edition]",
+    "cleanName": "Jungle Booster Box Unlimited Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/107599_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/107599/pokemon-jungle-jungle-booster-box-unlimited-edition",
+    "modifiedOn": "2017-07-22T16:01:48.937",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": []
+  },
+  {
+    "productId": 138128,
+    "name": "Jungle Booster Pack [1st Edition]",
+    "cleanName": "Jungle Booster Pack 1st Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/138128_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/138128/pokemon-jungle-jungle-booster-pack-1st-edition",
+    "modifiedOn": "2017-07-22T16:01:57.99",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each Jungle 1st Edition Booster Pack contains 11 random cards for Wizards of the Coast printed Jungle set."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 413.98,
+        "midPrice": 421.97,
+        "highPrice": 425,
+        "marketPrice": 360.28,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 138129,
+    "name": "Jungle Booster Pack [Unlimited Edition]",
+    "cleanName": "Jungle Booster Pack Unlimited Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/138129_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/138129/pokemon-jungle-jungle-booster-pack-unlimited-edition",
+    "modifiedOn": "2017-07-22T16:02:06.05",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each Jungle Unlimited Edition Booster Pack contains 11 random cards for Wizards of the Coast printed Jungle set."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 225,
+        "midPrice": 227.5,
+        "highPrice": 229.99,
+        "marketPrice": 207.72,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 234498,
+    "name": "Jungle Theme Deck - \"Power Reserve\"",
+    "cleanName": "Jungle Theme Deck Power Reserve",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/234498_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/234498/pokemon-jungle-jungle-theme-deck-power-reserve",
+    "modifiedOn": "2021-03-15T16:54:31.547",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 179.99,
+        "midPrice": 184.92,
+        "highPrice": 189.85,
+        "marketPrice": 189.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 234499,
+    "name": "Jungle Theme Deck - \"Water Blast\"",
+    "cleanName": "Jungle Theme Deck Water Blast",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/234499_200w.jpg",
+    "categoryId": 3,
+    "groupId": 635,
+    "url": "https://www.tcgplayer.com/product/234499/pokemon-jungle-jungle-theme-deck-water-blast",
+    "modifiedOn": "2024-01-25T14:54:54.847",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 599.99,
+        "midPrice": 599.99,
+        "highPrice": 599.99,
+        "marketPrice": 180.06,
+        "directLowPrice": null
+      }
+    ]
+  }
+]

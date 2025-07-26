@@ -1,0 +1,2387 @@
+[
+  {
+    "productId": 505942,
+    "name": "Trick or Trade BOOster Bundle 2023 (50 ct)",
+    "cleanName": "Trick or Trade BOOster Bundle 2023 50 ct",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/505942_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/505942/pokemon-trick-or-trade-booster-bundle-2023-trick-or-trade-booster-bundle-2023-50-ct",
+    "modifiedOn": "2024-08-19T16:57:04.903",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Spooky Surprises Lurk Inside!\r\n<br>Share Pokémon fun and excitement on the spookiest night of the year with a bundle of BOOster packs! Inside you’ll find 50 mini packs, each containing three colorful cards from the Pokémon Trading Card Game."
+      },
+      {
+        "name": "UPC",
+        "displayName": "UPC",
+        "value": "0820650862571"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 17,
+        "midPrice": 24.99,
+        "highPrice": 29.99,
+        "marketPrice": 18.73,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 505943,
+    "name": "Trick or Trade BOOster Bundle 2023 Case",
+    "cleanName": "Trick or Trade BOOster Bundle 2023 Case",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/505943_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/505943/pokemon-trick-or-trade-booster-bundle-2023-trick-or-trade-booster-bundle-2023-case",
+    "modifiedOn": "2023-09-01T04:03:11.297",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": "2023-09-01T00:00:00",
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Spooky Surprises Lurk Inside!\r\n<br>Share Pokémon fun and excitement on the spookiest night of the year with a bundle of BOOster packs! Inside you’ll find 50 mini packs, each containing three colorful cards from the Pokémon Trading Card Game.\r\n<br>Display Contains:\r\n<br>•12 Trick or Trade BOOster Bundles"
+      },
+      {
+        "name": "UPC",
+        "displayName": "UPC",
+        "value": "0820650872570"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 230,
+        "midPrice": 259,
+        "highPrice": 259.49,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 505945,
+    "name": "Trick or Trade BOOster Bundle 2023 - Mini Booster Pack",
+    "cleanName": "Trick or Trade BOOster Bundle 2023 Mini Booster Pack",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/505945_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/505945/pokemon-trick-or-trade-booster-bundle-2023-trick-or-trade-booster-bundle-2023-mini-booster-pack",
+    "modifiedOn": "2023-09-01T04:03:11.297",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": "2023-09-01T00:00:00",
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Spooky Surprises Lurk Inside!\r\n<br>Share Pokémon fun and excitement on the spookiest night of the year with a bundle of BOOster packs!\r\n<br>Each Booster Pack Contains: \r\n<br>•3 Colorful cards from the Pokémon Trading Card Game"
+      },
+      {
+        "name": "UPC",
+        "displayName": "UPC",
+        "value": "0820650852572"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.64,
+        "highPrice": 1.89,
+        "marketPrice": 0.65,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515647,
+    "name": "Phantump",
+    "cleanName": "Phantump",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515647_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515647/pokemon-trick-or-trade-booster-bundle-2023-phantump",
+    "modifiedOn": "2023-09-08T13:50:56.837",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "016/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Hook (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Rx2"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.03,
+        "marketPrice": 0.07,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515648,
+    "name": "Trevenant",
+    "cleanName": "Trevenant",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515648_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515648/pokemon-trick-or-trade-booster-bundle-2023-trevenant",
+    "modifiedOn": "2023-09-26T20:11:50.543",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "017/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "120"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Ability — Elder Tree Barrier</strong>\r\n<br>\r\nIf this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon V, your opponent can't take any Prize cards for it."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1GG] Giga Impact (150)\r\n<br>\r\nDuring your next turn, this Pokémon can't attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Rx2"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.12,
+        "highPrice": 4.95,
+        "marketPrice": 0.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515649,
+    "name": "Dhelmise",
+    "cleanName": "Dhelmise",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515649_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515649/pokemon-trick-or-trade-booster-bundle-2023-dhelmise",
+    "modifiedOn": "2023-09-12T12:09:13.737",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "019/185"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "130"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Hook (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2G] Special Anchor (60+)\r\n<br>If this Pokémon has any Special Energy attached, this attack does 60 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Rx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.02,
+        "midPrice": 0.15,
+        "highPrice": 0.99,
+        "marketPrice": 0.11,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515650,
+    "name": "Houndoom",
+    "cleanName": "Houndoom",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515650_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515650/pokemon-trick-or-trade-booster-bundle-2023-houndoom",
+    "modifiedOn": "2023-09-08T13:52:47.59",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "034/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "120"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Sharp Fang (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1RR] Fire Blast (150)\r\n<br>Discard a [R] Energy attached to this Pokemon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.2,
+        "highPrice": 1.36,
+        "marketPrice": 0.2,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515651,
+    "name": "Litwick",
+    "cleanName": "Litwick",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515651_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515651/pokemon-trick-or-trade-booster-bundle-2023-litwick",
+    "modifiedOn": "2023-09-26T20:11:14.723",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "024/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[R] Kindling Panic\r\n<br>\r\nDiscard the top card of your opponent's deck."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.11,
+        "highPrice": 2.06,
+        "marketPrice": 0.11,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515652,
+    "name": "Lampent",
+    "cleanName": "Lampent",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515652_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515652/pokemon-trick-or-trade-booster-bundle-2023-lampent",
+    "modifiedOn": "2023-09-08T14:00:55.397",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "025/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[R] Flickering Glow (20)\r\n<br>\r\nFlip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.11,
+        "highPrice": 1,
+        "marketPrice": 0.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515653,
+    "name": "Chandelure",
+    "cleanName": "Chandelure",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515653_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515653/pokemon-trick-or-trade-booster-bundle-2023-chandelure",
+    "modifiedOn": "2023-09-26T20:08:50.523",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "026/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "150"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Ability — Mountain Roasting</strong>\r\n<br>\r\nWhen you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard the top 3 cards of your opponent's deck."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1R] Heat Blast (90)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.12,
+        "highPrice": 25,
+        "marketPrice": 0.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515654,
+    "name": "Pikachu",
+    "cleanName": "Pikachu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515654_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515654/pokemon-trick-or-trade-booster-bundle-2023-pikachu",
+    "modifiedOn": "2023-09-26T20:11:31.573",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "062/193"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Growl\r\n<br>During your opponent’s next turn, the Defending Pokemon’s attacks do 20 less damage (before applying Weakness and Resistance)."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1L] Pika Bolt (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.25,
+        "highPrice": 2.49,
+        "marketPrice": 0.22,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515655,
+    "name": "Lycanroc",
+    "cleanName": "Lycanroc",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515655_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515655/pokemon-trick-or-trade-booster-bundle-2023-lycanroc",
+    "modifiedOn": "2023-09-08T14:02:07.76",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "095/185"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "120"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[F] Rock Throw (40)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1F] Sharp Mane (70)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.2,
+        "highPrice": 15,
+        "marketPrice": 0.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515656,
+    "name": "Galarian Runerigus",
+    "cleanName": "Galarian Runerigus",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515656_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515656/pokemon-trick-or-trade-booster-bundle-2023-galarian-runerigus",
+    "modifiedOn": "2023-09-08T14:02:28.733",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "102/192"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Spreading Spite\r\n<br>For each damage counter on this Galarian Runerigus, put 2 damage counters on your opponent's Pokemon in any way you like."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2F] Mad Hammer (120)\r\n<br>This Pokemon also does 30 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Gx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.18,
+        "highPrice": 1,
+        "marketPrice": 0.13,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515659,
+    "name": "Gastly",
+    "cleanName": "Gastly",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515659_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515659/pokemon-trick-or-trade-booster-bundle-2023-gastly",
+    "modifiedOn": "2023-09-08T14:03:45.343",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "064/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Furtive Drop\r\n<br>\r\nPut 1 damage counter on your opponent's Active Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.12,
+        "highPrice": 1,
+        "marketPrice": 0.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515660,
+    "name": "Haunter",
+    "cleanName": "Haunter",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515660_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515660/pokemon-trick-or-trade-booster-bundle-2023-haunter",
+    "modifiedOn": "2023-09-08T14:04:24.37",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "065/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Cursed Drop\r\n<br>\r\nPut 3 damage counters on your opponent's Pokémon in any way you like."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.03,
+        "midPrice": 0.15,
+        "highPrice": 0.99,
+        "marketPrice": 0.11,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515661,
+    "name": "Gengar (2022 Copyright Date)",
+    "cleanName": "Gengar 2022 Copyright Date",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515661_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515661/pokemon-trick-or-trade-booster-bundle-2023-gengar-2022-copyright-date",
+    "modifiedOn": "2025-01-22T18:50:15.247",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "066/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "120"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Ability — Netherworld Gate</strong>\r\n<br>\r\nOnce during your turn, if this Pokémon is in your discard pile, you may put it onto your Bench. If you do, put 3 damage counters on this Pokémon."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Screaming Circle\r\n<br>\r\nPut 2 damage counters on your opponent's Active Pokémon for each of your opponent's Benched Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.07,
+        "midPrice": 0.44,
+        "highPrice": 5,
+        "marketPrice": 0.43,
+        "directLowPrice": 1.99
+      }
+    ]
+  },
+  {
+    "productId": 515662,
+    "name": "Duskull",
+    "cleanName": "Duskull",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515662_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515662/pokemon-trick-or-trade-booster-bundle-2023-duskull",
+    "modifiedOn": "2023-09-08T14:05:06.583",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "069/185"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Future Sight \r\n<br>Look at the top 4 cards of either player's deck and put them back in any order."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 0.99,
+        "marketPrice": 0.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515663,
+    "name": "Dusclops",
+    "cleanName": "Dusclops",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515663_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515663/pokemon-trick-or-trade-booster-bundle-2023-dusclops",
+    "modifiedOn": "2023-09-08T14:06:27.523",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "070/185"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Confuse Ray\r\n<br>Your opponent's Active Pokémon is now Confused."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2P] Psypunch (60)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.32,
+        "marketPrice": 0.07,
+        "directLowPrice": 0.05
+      }
+    ]
+  },
+  {
+    "productId": 515664,
+    "name": "Dusknoir",
+    "cleanName": "Dusknoir",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515664_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515664/pokemon-trick-or-trade-booster-bundle-2023-dusknoir",
+    "modifiedOn": "2023-09-08T14:07:43.853",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "071/185"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "150"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Ability — Spectral Breach</strong>\r\n<br>All Special Energy attached to Pokémon <em>(both yours and your opponent's)</em> provide Colorless Energy and have no other effect."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2P] Spooky Shot (120)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.15,
+        "highPrice": 1.42,
+        "marketPrice": 0.09,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515665,
+    "name": "Shuppet",
+    "cleanName": "Shuppet",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515665_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515665/pokemon-trick-or-trade-booster-bundle-2023-shuppet",
+    "modifiedOn": "2023-09-08T14:08:08.263",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "087/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Wrapped in Shadows (10)\r\n<br>Flip a coin. If heads, the opponent can’t play Item cards from their hand during their next turn."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.32,
+        "marketPrice": 0.05,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515666,
+    "name": "Banette",
+    "cleanName": "Banette",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515666_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515666/pokemon-trick-or-trade-booster-bundle-2023-banette",
+    "modifiedOn": "2023-09-08T14:08:28.747",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "073/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "100"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Ability — Puppet Offering</strong>\r\n<br>\r\nOnce during your turn, you may put a Supporter card from your discard pile into your hand. If you do, put this Pokémon in the Lost Zone. <em>(Discard all attached cards.)</em>"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[PP] Spooky Shot (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.04,
+        "midPrice": 0.18,
+        "highPrice": 4.95,
+        "marketPrice": 0.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515668,
+    "name": "Mismagius",
+    "cleanName": "Mismagius",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515668_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515668/pokemon-trick-or-trade-booster-bundle-2023-mismagius",
+    "modifiedOn": "2023-09-08T14:08:52.913",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "088/193"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.08,
+        "highPrice": 1.39,
+        "marketPrice": 0.07,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515670,
+    "name": "Drifloon",
+    "cleanName": "Drifloon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515670_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515670/pokemon-trick-or-trade-booster-bundle-2023-drifloon",
+    "modifiedOn": "2023-09-08T18:16:25.57",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "089/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Gust (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[PP] Balloon Bomb (30x)\r\n<br>This attack does 30 damage for each damage counter on this Pokemon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.32,
+        "marketPrice": 0.06,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515671,
+    "name": "Drifblim",
+    "cleanName": "Drifblim",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515671_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515671/pokemon-trick-or-trade-booster-bundle-2023-drifblim",
+    "modifiedOn": "2023-09-08T18:16:43.193",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "090/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "110"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Gust (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[PPP] Spread Curses\r\n<br>Put 8 damage counters on your opponent’s Pokemon in any way you like."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.09,
+        "highPrice": 1.39,
+        "marketPrice": 0.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515672,
+    "name": "Mimikyu",
+    "cleanName": "Mimikyu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515672_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515672/pokemon-trick-or-trade-booster-bundle-2023-mimikyu",
+    "modifiedOn": "2023-09-26T18:27:13.013",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "097/193"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.05,
+        "midPrice": 0.25,
+        "highPrice": 1.45,
+        "marketPrice": 0.17,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.02,
+        "midPrice": 0.2,
+        "highPrice": 1.37,
+        "marketPrice": 0.17,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515673,
+    "name": "Marshadow",
+    "cleanName": "Marshadow",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515673_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515673/pokemon-trick-or-trade-booster-bundle-2023-marshadow",
+    "modifiedOn": "2023-09-26T20:11:22.367",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "080/203"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Rapid Hunt \r\n<br>Search your deck for up to 2 Rapid Strike cards, reveal them, and put them into your hand. Then, shuffle your deck."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1] Shadow Flicker (10)\r\n<br>If the Defending Pokemon is Knocked Out during your next turn, take 1 more Prize card."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.15,
+        "highPrice": 3.07,
+        "marketPrice": 0.09,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515674,
+    "name": "Spectrier",
+    "cleanName": "Spectrier",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515674_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515674/pokemon-trick-or-trade-booster-bundle-2023-spectrier",
+    "modifiedOn": "2023-09-26T20:11:39.34",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "081/196"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "120"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Night Footsteps\r\n<br>\r\nChoose 2 of your opponent's Pokémon and put 2 damage counters on each of them."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Phantom Strike (120)\r\n<br>\r\nDuring your next turn, this Pokémon can't use Phantom Strike."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.17,
+        "highPrice": 1.42,
+        "marketPrice": 0.16,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515675,
+    "name": "Sinistea",
+    "cleanName": "Sinistea",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515675_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515675/pokemon-trick-or-trade-booster-bundle-2023-sinistea",
+    "modifiedOn": "2023-09-08T18:18:06.623",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "089/202"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Teatime\r\n<br>Each player draws 2 cards."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.32,
+        "marketPrice": 0.06,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515676,
+    "name": "Polteageist",
+    "cleanName": "Polteageist",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515676_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515676/pokemon-trick-or-trade-booster-bundle-2023-polteageist",
+    "modifiedOn": "2023-09-08T18:33:09.62",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "090/202"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Teatime\r\n<br>Each player draws 2 cards."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1P] Poltergeist (50x)\r\n<br>Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.13,
+        "highPrice": 1.33,
+        "marketPrice": 0.09,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515677,
+    "name": "Greavard",
+    "cleanName": "Greavard",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515677_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515677/pokemon-trick-or-trade-booster-bundle-2023-greavard",
+    "modifiedOn": "2023-09-08T18:33:35.617",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "104/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Graveyard Frolic: (10x) \r\n<br>This attack does 10 damage for each [P] Pokemon in your discard pile."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.07,
+        "highPrice": 1.32,
+        "marketPrice": 0.06,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515678,
+    "name": "Houndstone",
+    "cleanName": "Houndstone",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515678_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515678/pokemon-trick-or-trade-booster-bundle-2023-houndstone",
+    "modifiedOn": "2023-09-26T20:08:58.477",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "106/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "140"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[PP] Grave Visit (80)\r\n<br>This attack does 10 damage for each [P] Pokemon in your discard pile."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Dx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.39,
+        "marketPrice": 0.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515679,
+    "name": "Zubat",
+    "cleanName": "Zubat",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515679_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515679/pokemon-trick-or-trade-booster-bundle-2023-zubat",
+    "modifiedOn": "2023-09-08T18:34:22.253",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "103/195"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[D] Bite (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.03,
+        "midPrice": 0.16,
+        "highPrice": 4.95,
+        "marketPrice": 0.13,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 515680,
+    "name": "Murkrow",
+    "cleanName": "Murkrow",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/515680_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/515680/pokemon-trick-or-trade-booster-bundle-2023-murkrow",
+    "modifiedOn": "2023-09-08T18:34:44.49",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "131/193"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Dark"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Spin Turn (10)\r\n<br>Switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[D] Unified Wing (20x)\r\n<br>This attack does 20 damage for each Pokémon in your discard pile that has the Unified Wing attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-30"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.01,
+        "midPrice": 0.1,
+        "highPrice": 1.32,
+        "marketPrice": 0.06,
+        "directLowPrice": 0.04
+      }
+    ]
+  },
+  {
+    "productId": 564134,
+    "name": "Trick or Trade BOOster Bundle 2023 (120 ct)",
+    "cleanName": "Trick or Trade BOOster Bundle 2023 120 ct",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/564134_200w.jpg",
+    "categoryId": 3,
+    "groupId": 23266,
+    "url": "https://www.tcgplayer.com/product/564134/pokemon-trick-or-trade-booster-bundle-2023-trick-or-trade-booster-bundle-2023-120-ct",
+    "modifiedOn": "2024-08-19T17:09:20.657",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Spooky Surprises Lurk Inside!\r\n<br>Share Pokémon fun and excitement on the spookiest night of the year with a bundle of BOOster packs! Inside you’ll find 120 mini packs, each containing three colorful cards from the Pokémon Trading Card Game."
+      },
+      {
+        "name": "UPC",
+        "displayName": "UPC",
+        "value": "0820650855047"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 49.99,
+        "midPrice": 59.99,
+        "highPrice": 200,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  }
+]

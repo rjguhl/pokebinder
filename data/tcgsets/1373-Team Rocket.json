@@ -1,0 +1,6554 @@
+[
+  {
+    "productId": 83445,
+    "name": "Abra",
+    "cleanName": "Abra",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/83445_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/83445/pokemon-team-rocket-abra",
+    "modifiedOn": "2025-02-05T21:02:47.937",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "49/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Vanish\r\n<br>Shuffle Abra into your deck. <em>(Discard all cards attached to Abra.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[P] Psyshock (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.55,
+        "midPrice": 1.36,
+        "highPrice": 10,
+        "marketPrice": 1.59,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.5,
+        "highPrice": 89,
+        "marketPrice": 0.64,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84159,
+    "name": "Challenge!",
+    "cleanName": "Challenge",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84159_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84159/pokemon-team-rocket-challenge",
+    "modifiedOn": "2023-08-23T03:03:47.027",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "74/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Ask your opponent if he or she accepts your challenge. If your opponent declines (or if both Benches are full), draw 2 cards. If your opponent accepts, each of you searches your decks for any number of Basic Pokémon cards and puts them face down onto your Benches. <em>(A player can't do this if his or her Bench is full.)</em> When you both have finished, shuffle your decks and turn those cards face up."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 2.01,
+        "highPrice": 7.95,
+        "marketPrice": 2.49,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.49,
+        "midPrice": 1.01,
+        "highPrice": 89,
+        "marketPrice": 1.03,
+        "directLowPrice": 1.69
+      }
+    ]
+  },
+  {
+    "productId": 84204,
+    "name": "Charmander",
+    "cleanName": "Charmander",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84204_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84204/pokemon-team-rocket-charmander",
+    "modifiedOn": "2025-04-23T10:13:50.563",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "50/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Gather Fire</strong> Once during your turn <em>(before your attack)</em>, you may take 1 Fire Energy card attached to 1 of your other Pokémon and attach it to Charmander. This power can't be used if Charmander is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[R] Fire Tail (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.62,
+        "midPrice": 4.5,
+        "highPrice": 19.99,
+        "marketPrice": 4.7,
+        "directLowPrice": 4.99
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.45,
+        "midPrice": 1.24,
+        "highPrice": 7.95,
+        "marketPrice": 1.97,
+        "directLowPrice": 2.47
+      }
+    ]
+  },
+  {
+    "productId": 84559,
+    "name": "Dark Alakazam (1)",
+    "cleanName": "Dark Alakazam 1",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84559_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84559/pokemon-team-rocket-dark-alakazam-1",
+    "modifiedOn": "2023-08-11T14:08:26.407",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "01/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1PP] Teleport Blast (30)\r\n<br>You may switch Dark Alakazam with 1 of your Benched Pokémon. <em>(Do the damage before switching the Pokémon.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[PPP] Mind Shock (40)\r\n<br>Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 93.6,
+        "midPrice": 140.5,
+        "highPrice": 249.95,
+        "marketPrice": 129.05,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 44.25,
+        "midPrice": 72,
+        "highPrice": 99.99,
+        "marketPrice": 51.76,
+        "directLowPrice": 79.99
+      }
+    ]
+  },
+  {
+    "productId": 84560,
+    "name": "Dark Alakazam (18)",
+    "cleanName": "Dark Alakazam 18",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84560_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84560/pokemon-team-rocket-dark-alakazam-18",
+    "modifiedOn": "2024-09-25T04:10:52.8",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "18/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1PP] Teleport Blast (30)\r\n<br>You may switch Dark Alakazam with 1 of your Benched Pokémon. <em>(Do the damage before switching the Pokémon.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[PPP] Mind Shock (40)\r\n<br>Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 14.34,
+        "midPrice": 21.36,
+        "highPrice": 49.95,
+        "marketPrice": 24.46,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 7.49,
+        "midPrice": 10.25,
+        "highPrice": 29.95,
+        "marketPrice": 11.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84563,
+    "name": "Dark Arbok (2)",
+    "cleanName": "Dark Arbok 2",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84563_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84563/pokemon-team-rocket-dark-arbok-2",
+    "modifiedOn": "2025-01-05T15:31:19.667",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "02/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Stare\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em> If that Pokémon has a Pokémon Power, that power stops working until the end of your opponent's next turn."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGG] Poison Vapor (10)\r\n<br>The Defending Pokémon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 29.96,
+        "midPrice": 43.54,
+        "highPrice": 85,
+        "marketPrice": 47.53,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 6.66,
+        "midPrice": 13.36,
+        "highPrice": 59.99,
+        "marketPrice": 15.7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84564,
+    "name": "Dark Arbok (19)",
+    "cleanName": "Dark Arbok 19",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84564_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84564/pokemon-team-rocket-dark-arbok-19",
+    "modifiedOn": "2023-05-01T21:28:07.017",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "19/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Stare\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em> If that Pokémon has a Pokémon Power, that power stops working until the end of your opponent's next turn."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGG] Poison Vapor (10)\r\n<br>The Defending Pokémon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 6,
+        "midPrice": 9.37,
+        "highPrice": 29.95,
+        "marketPrice": 11.73,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.75,
+        "midPrice": 5.76,
+        "highPrice": 23,
+        "marketPrice": 5.95,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84568,
+    "name": "Dark Blastoise (3)",
+    "cleanName": "Dark Blastoise 3",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84568_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84568/pokemon-team-rocket-dark-blastoise-3",
+    "modifiedOn": "2024-10-05T02:20:09.143",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "03/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[WW] Hydrocannon (30+)\r\n<br>Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2W] Rocket Tackle (40)\r\n<br>Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. <em>(Any other effects of attacks still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 226.62,
+        "midPrice": 445.05,
+        "highPrice": 599.95,
+        "marketPrice": 257.1,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 86.49,
+        "midPrice": 144.45,
+        "highPrice": 399.99,
+        "marketPrice": 119.53,
+        "directLowPrice": 79.99
+      }
+    ]
+  },
+  {
+    "productId": 84570,
+    "name": "Dark Blastoise (20)",
+    "cleanName": "Dark Blastoise 20",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84570_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84570/pokemon-team-rocket-dark-blastoise-20",
+    "modifiedOn": "2025-03-22T07:07:30.52",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "20/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[WW] Hydrocannon (30+)\r\n<br>Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2W] Rocket Tackle (40)\r\n<br>Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. <em>(Any other effects of attacks still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 28.99,
+        "midPrice": 49.99,
+        "highPrice": 79.95,
+        "marketPrice": 56.55,
+        "directLowPrice": 32.74
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 18.45,
+        "midPrice": 25.1,
+        "highPrice": 59.95,
+        "marketPrice": 26.58,
+        "directLowPrice": 20.39
+      }
+    ]
+  },
+  {
+    "productId": 84572,
+    "name": "Dark Charizard (4)",
+    "cleanName": "Dark Charizard 4",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84572_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84572/pokemon-team-rocket-dark-charizard-4",
+    "modifiedOn": "2023-02-16T09:33:04.003",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "04/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Nail Flick (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RR] Continuous Fireball (50x)\r\n<br>Flip a number of coins equal to the number of Fire Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Fire Energy cards attached to Dark Charizard equal to the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 515,
+        "midPrice": 762.98,
+        "highPrice": 1999.95,
+        "marketPrice": 386.25,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 219.99,
+        "midPrice": 294,
+        "highPrice": 499.95,
+        "marketPrice": 239.56,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84573,
+    "name": "Dark Charizard (21)",
+    "cleanName": "Dark Charizard 21",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84573_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84573/pokemon-team-rocket-dark-charizard-21",
+    "modifiedOn": "2023-01-10T19:45:29.797",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "21/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "80"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Nail Flick (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RR] Continuous Fireball (50x)\r\n<br>Flip a number of coins equal to the number of Fire Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Fire Energy cards attached to Dark Charizard equal to the number of heads."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 56.91,
+        "midPrice": 74.3,
+        "highPrice": 249.95,
+        "marketPrice": 106.94,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 35,
+        "midPrice": 58.99,
+        "highPrice": 99.95,
+        "marketPrice": 57.12,
+        "directLowPrice": 51.27
+      }
+    ]
+  },
+  {
+    "productId": 84574,
+    "name": "Dark Charmeleon",
+    "cleanName": "Dark Charmeleon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84574_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84574/pokemon-team-rocket-dark-charmeleon",
+    "modifiedOn": "2024-07-26T05:58:32.027",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "32/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Tail Slap (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RRR] Fireball (70)\r\n<br>Use this attack only if there are any Fire Energy cards attached to Dark Charmeleon. Flip a coin.  If heads, discard 1 of those Energy cards. If tails, this attack does nothing <em>(not even damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 9.47,
+        "midPrice": 15,
+        "highPrice": 34.95,
+        "marketPrice": 18.42,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.02,
+        "midPrice": 4.53,
+        "highPrice": 25,
+        "marketPrice": 5.02,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84580,
+    "name": "Dark Dragonair",
+    "cleanName": "Dark Dragonair",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84580_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84580/pokemon-team-rocket-dark-dragonair",
+    "modifiedOn": "2022-11-18T17:04:34.427",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "33/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Evolutionary Light</strong> Once during your turn <em>(before your attack)</em>, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Tail Strike (20+)\r\n<br>Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 3.6,
+        "midPrice": 7.35,
+        "highPrice": 19.95,
+        "marketPrice": 9.74,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.95,
+        "midPrice": 4,
+        "highPrice": 49.99,
+        "marketPrice": 4.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84584,
+    "name": "Dark Dragonite (5)",
+    "cleanName": "Dark Dragonite 5",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84584_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84584/pokemon-team-rocket-dark-dragonite-5",
+    "modifiedOn": "2023-08-16T19:02:10.627",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "05/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Summon Minions</strong> When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[4] Giant Tail (70)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 299.99,
+        "midPrice": 424.99,
+        "highPrice": 1299.95,
+        "marketPrice": 338.3,
+        "directLowPrice": 999.99
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 98.56,
+        "midPrice": 140,
+        "highPrice": 399.99,
+        "marketPrice": 135.6,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84586,
+    "name": "Dark Dragonite (22)",
+    "cleanName": "Dark Dragonite 22",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84586_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84586/pokemon-team-rocket-dark-dragonite-22",
+    "modifiedOn": "2024-12-06T19:54:16.083",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "22/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Summon Minions</strong> When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[4] Giant Tail (70)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 27.84,
+        "midPrice": 44.5,
+        "highPrice": 79.95,
+        "marketPrice": 40.81,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 12.99,
+        "midPrice": 16.64,
+        "highPrice": 49.95,
+        "marketPrice": 20.44,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84588,
+    "name": "Dark Dugtrio (6)",
+    "cleanName": "Dark Dugtrio 6",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84588_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84588/pokemon-team-rocket-dark-dugtrio-6",
+    "modifiedOn": "2023-02-06T21:09:59.337",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "06/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Sinkhole</strong> Whenever your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. <em>(Don't apply Weakness and Resistance.)</em> This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Knock Down (20+)\r\n<br>Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 45,
+        "midPrice": 71,
+        "highPrice": 149.95,
+        "marketPrice": 66.83,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 20.7,
+        "midPrice": 30.6,
+        "highPrice": 69.99,
+        "marketPrice": 31.37,
+        "directLowPrice": 26.24
+      }
+    ]
+  },
+  {
+    "productId": 84589,
+    "name": "Dark Dugtrio (23)",
+    "cleanName": "Dark Dugtrio 23",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84589_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84589/pokemon-team-rocket-dark-dugtrio-23",
+    "modifiedOn": "2022-11-18T17:10:01.413",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "23/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Sinkhole</strong> Whenever your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. <em>(Don't apply Weakness and Resistance.)</em> This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Knock Down (20+)\r\n<br>Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.86,
+        "midPrice": 13,
+        "highPrice": 9999,
+        "marketPrice": 11.67,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4.03,
+        "midPrice": 6.72,
+        "highPrice": 14.95,
+        "marketPrice": 6.65,
+        "directLowPrice": 8.49
+      }
+    ]
+  },
+  {
+    "productId": 84590,
+    "name": "Dark Electrode",
+    "cleanName": "Dark Electrode",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84590_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84590/pokemon-team-rocket-dark-electrode",
+    "modifiedOn": "2024-03-21T14:47:16.663",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "34/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Rolling Tackle (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[LL] Energy Bomb (30)\r\n<br>Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon <em>(in any way you choose)</em>. If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.24,
+        "midPrice": 2.49,
+        "highPrice": 9.99,
+        "marketPrice": 3.17,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.5,
+        "midPrice": 1.29,
+        "highPrice": 89,
+        "marketPrice": 1.42,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84597,
+    "name": "Dark Flareon",
+    "cleanName": "Dark Flareon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84597_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84597/pokemon-team-rocket-dark-flareon",
+    "modifiedOn": "2023-07-26T10:43:09.623",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "35/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Rage (10+)\r\n<br>Does 10 damage plus 10 more damage for each damage counter on Dark Flareon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RR] Playing with Fire (30+)\r\n<br>Use this attack only if there are any Fire Energy cards attached to Dark Flareon. Flip a coin. If heads, discard 1 of those Energy cards and this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 7.07,
+        "midPrice": 12.99,
+        "highPrice": 34.95,
+        "marketPrice": 15.73,
+        "directLowPrice": 10.49
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.64,
+        "midPrice": 5.45,
+        "highPrice": 35,
+        "marketPrice": 6.28,
+        "directLowPrice": 4.9
+      }
+    ]
+  },
+  {
+    "productId": 84600,
+    "name": "Dark Gloom",
+    "cleanName": "Dark Gloom",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84600_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84600/pokemon-team-rocket-dark-gloom",
+    "modifiedOn": "2025-04-04T18:52:30.2",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "36/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Pollen Stench</strong>\r\n<br>\r\nOnce during your turn <em>(before your attack)</em>, you may flip a coin. If heads, the Defending Pokémon is now Confused; if tails, your Active Pokémon is now Confused. This power can't be used if Dark Gloom is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Poisonpowder (10)\r\n<br>The Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 2.24,
+        "highPrice": 89,
+        "marketPrice": 3,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.38,
+        "midPrice": 1,
+        "highPrice": 8,
+        "marketPrice": 1.12,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84601,
+    "name": "Dark Golbat (7)",
+    "cleanName": "Dark Golbat 7",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84601_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84601/pokemon-team-rocket-dark-golbat-7",
+    "modifiedOn": "2024-08-16T14:43:05.54",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "07/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Sneak Attack</strong> When you play Dark Golbat from your hand, you may choose 1 of your opponent's Pokémon. If you do, Dark Golbat does 10 damage to that Pokémon. Apply Weakness and Resistance."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Flitter\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 35.48,
+        "midPrice": 47.52,
+        "highPrice": 119.99,
+        "marketPrice": 41.89,
+        "directLowPrice": 35.48
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 17.1,
+        "midPrice": 25.33,
+        "highPrice": 49.99,
+        "marketPrice": 23.68,
+        "directLowPrice": 25.33
+      }
+    ]
+  },
+  {
+    "productId": 84602,
+    "name": "Dark Golbat (24)",
+    "cleanName": "Dark Golbat 24",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84602_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84602/pokemon-team-rocket-dark-golbat-24",
+    "modifiedOn": "2022-11-18T17:16:49.197",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "24/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Sneak Attack</strong> When you play Dark Golbat from your hand, you may choose 1 of your opponent's Pokémon. If you do, Dark Golbat does 10 damage to that Pokémon. Apply Weakness and Resistance."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Flitter\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 7,
+        "midPrice": 12.32,
+        "highPrice": 49.99,
+        "marketPrice": 12.02,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.11,
+        "midPrice": 6.78,
+        "highPrice": 19.95,
+        "marketPrice": 6.81,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84604,
+    "name": "Dark Golduck",
+    "cleanName": "Dark Golduck",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84604_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84604/pokemon-team-rocket-dark-golduck",
+    "modifiedOn": "2023-06-29T14:47:46.583",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "37/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Third Eye\r\n<br>Discard 1 Energy card attached to Dark Golduck in order to draw up to 3 cards."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Super Psy (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 2.25,
+        "midPrice": 4.99,
+        "highPrice": 89,
+        "marketPrice": 5.51,
+        "directLowPrice": 5.25
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.65,
+        "midPrice": 1.45,
+        "highPrice": 7.95,
+        "marketPrice": 1.61,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84606,
+    "name": "Dark Gyarados (8)",
+    "cleanName": "Dark Gyarados 8",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84606_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84606/pokemon-team-rocket-dark-gyarados-8",
+    "modifiedOn": "2023-10-13T12:23:17.333",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "08/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Final Beam</strong> When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[WWW] Ice Beam (30)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 82,
+        "midPrice": 125,
+        "highPrice": 199.95,
+        "marketPrice": 96,
+        "directLowPrice": 149.98
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 39.88,
+        "midPrice": 63.2,
+        "highPrice": 124.13,
+        "marketPrice": 69.98,
+        "directLowPrice": 54.76
+      }
+    ]
+  },
+  {
+    "productId": 84607,
+    "name": "Dark Gyarados (25)",
+    "cleanName": "Dark Gyarados 25",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84607_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84607/pokemon-team-rocket-dark-gyarados-25",
+    "modifiedOn": "2024-12-13T17:20:46.517",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "25/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Final Beam</strong> When Dark Gyarados is Knocked Out by an attack, flip a coin. If heads, this power does 20 damage for each Water Energy attached to Dark Gyarados to the Pokémon that Knocked Out Dark Gyarados. Apply Weakness and Resistance. This power doesn't work if Dark Gyarados is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[WWW] Ice Beam (30)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 19,
+        "midPrice": 25.44,
+        "highPrice": 69.99,
+        "marketPrice": 25.01,
+        "directLowPrice": 35.49
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 9.1,
+        "midPrice": 14.36,
+        "highPrice": 34.95,
+        "marketPrice": 14.22,
+        "directLowPrice": 29.98
+      }
+    ]
+  },
+  {
+    "productId": 84613,
+    "name": "Dark Hypno (9)",
+    "cleanName": "Dark Hypno 9",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84613_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84613/pokemon-team-rocket-dark-hypno-9",
+    "modifiedOn": "2024-10-14T10:18:36.783",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "09/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Psypunch (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Bench Manipulation (20x)\r\n<br>Your opponent flips a number of coins equal to the number of Pokémon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. <em<(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 84,
+        "midPrice": 96.78,
+        "highPrice": 300,
+        "marketPrice": 81.29,
+        "directLowPrice": 93.38
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 27.68,
+        "midPrice": 35,
+        "highPrice": 93.38,
+        "marketPrice": 34.34,
+        "directLowPrice": 93.38
+      }
+    ]
+  },
+  {
+    "productId": 84614,
+    "name": "Dark Hypno (26)",
+    "cleanName": "Dark Hypno 26",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84614_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84614/pokemon-team-rocket-dark-hypno-26",
+    "modifiedOn": "2023-08-10T06:08:06.22",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "26/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Psypunch (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1PP] Bench Manipulation (20x)\r\n<br>Your opponent flips a number of coins equal to the number of Pokémon on his or her Bench. This attack does 20 damage times the number of tails. Don't apply Weakness and Resistance for this attack. <em<(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.62,
+        "midPrice": 13.46,
+        "highPrice": 39.95,
+        "marketPrice": 14.53,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.96,
+        "midPrice": 6.91,
+        "highPrice": 19.95,
+        "marketPrice": 6.91,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84617,
+    "name": "Dark Jolteon",
+    "cleanName": "Dark Jolteon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84617_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84617/pokemon-team-rocket-dark-jolteon",
+    "modifiedOn": "2024-11-16T06:52:39.02",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "38/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[L] Lightning Flash (20)\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1LL] Thunder Attack (30)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Dark Jolteon does 10 damage to itself."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 9,
+        "midPrice": 16.73,
+        "highPrice": 89,
+        "marketPrice": 19.02,
+        "directLowPrice": 19.75
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4,
+        "midPrice": 6.06,
+        "highPrice": 45,
+        "marketPrice": 6.31,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84618,
+    "name": "Dark Kadabra",
+    "cleanName": "Dark Kadabra",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84618_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84618/pokemon-team-rocket-dark-kadabra",
+    "modifiedOn": "2024-11-13T09:18:40.817",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "39/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Matter Exchange</strong> Once during your turn <em>(before your attack)</em>, you may discard a card from your hand in order to draw a card. This power can't be used if Dark Kadabra is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[PP] Mind Shock (30)\r\n<br>Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.57,
+        "midPrice": 3.3,
+        "highPrice": 12.95,
+        "marketPrice": 4.8,
+        "directLowPrice": 2.86
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.46,
+        "midPrice": 1.25,
+        "highPrice": 7.95,
+        "marketPrice": 1.59,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84619,
+    "name": "Dark Machamp (10)",
+    "cleanName": "Dark Machamp 10",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84619_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84619/pokemon-team-rocket-dark-machamp-10",
+    "modifiedOn": "2022-11-18T17:25:14.963",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "10/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Mega Punch (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FFF] Fling\r\n<br>Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 65,
+        "midPrice": 86.07,
+        "highPrice": 249.99,
+        "marketPrice": 82.14,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 33.46,
+        "midPrice": 58,
+        "highPrice": 199.99,
+        "marketPrice": 55.4,
+        "directLowPrice": 67.49
+      }
+    ]
+  },
+  {
+    "productId": 84620,
+    "name": "Dark Machamp (27)",
+    "cleanName": "Dark Machamp 27",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84620_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84620/pokemon-team-rocket-dark-machamp-27",
+    "modifiedOn": "2025-01-10T06:12:48.35",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "27/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Mega Punch (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FFF] Fling\r\n<br>Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8,
+        "midPrice": 13.46,
+        "highPrice": 39.95,
+        "marketPrice": 12.83,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4.5,
+        "midPrice": 6.49,
+        "highPrice": 19.98,
+        "marketPrice": 6.6,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84621,
+    "name": "Dark Machoke",
+    "cleanName": "Dark Machoke",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84621_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84621/pokemon-team-rocket-dark-machoke",
+    "modifiedOn": "2023-09-01T10:43:12.41",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "40/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1FF] Drag Off (20)\r\n<br>Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. Do the damage to the new Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1FF] Knock Back (30)\r\n<br>If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. <em>(Do the damage before switching the Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 4.15,
+        "highPrice": 12.95,
+        "marketPrice": 5.31,
+        "directLowPrice": 2.88
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.75,
+        "midPrice": 1.47,
+        "highPrice": 22.99,
+        "marketPrice": 1.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84624,
+    "name": "Dark Magneton (11)",
+    "cleanName": "Dark Magneton 11",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84624_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84624/pokemon-team-rocket-dark-magneton-11",
+    "modifiedOn": "2023-07-13T16:11:25.847",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "11/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Sonicboom (20)\r\n<br>Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[LL] Magnetic Lines (30)\r\n<br>If the Defending Pokémon has any basic Energy cards attached to it, choose 1 of them. If your opponent has any Benched Pokémon, choose 1 of them and attach that Energy card to it."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 53.49,
+        "midPrice": 114.01,
+        "highPrice": 179.99,
+        "marketPrice": 91.93,
+        "directLowPrice": 61
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 22.49,
+        "midPrice": 40,
+        "highPrice": 66.85,
+        "marketPrice": 42.95,
+        "directLowPrice": 33.46
+      }
+    ]
+  },
+  {
+    "productId": 84625,
+    "name": "Dark Magneton (28)",
+    "cleanName": "Dark Magneton 28",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84625_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84625/pokemon-team-rocket-dark-magneton-28",
+    "modifiedOn": "2022-11-18T17:34:48.213",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "28/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Sonicboom (20)\r\n<br>Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[LL] Magnetic Lines (30)\r\n<br>If the Defending Pokémon has any basic Energy cards attached to it, choose 1 of them. If your opponent has any Benched Pokémon, choose 1 of them and attach that Energy card to it."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5.77,
+        "midPrice": 13.8,
+        "highPrice": 797,
+        "marketPrice": 13.61,
+        "directLowPrice": 49.99
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 2.14,
+        "midPrice": 7.98,
+        "highPrice": 29.99,
+        "marketPrice": 6.52,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84630,
+    "name": "Dark Muk",
+    "cleanName": "Dark Muk",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84630_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84630/pokemon-team-rocket-dark-muk",
+    "modifiedOn": "2023-10-12T22:20:33.787",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "41/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Sticky Goo</strong> As long as Dark Muk is your Active Pokémon, your opponent pays 2 Colorless more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GG] Sludge Punch (20)\r\n<br>The Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.2,
+        "midPrice": 2.85,
+        "highPrice": 9.95,
+        "marketPrice": 2.89,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.55,
+        "midPrice": 1.08,
+        "highPrice": 9.95,
+        "marketPrice": 1.17,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84639,
+    "name": "Dark Persian",
+    "cleanName": "Dark Persian",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84639_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84639/pokemon-team-rocket-dark-persian",
+    "modifiedOn": "2022-11-18T17:37:50.283",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "42/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Fascinate\r\n<br>Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Poison Claws (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.81,
+        "midPrice": 3.11,
+        "highPrice": 89,
+        "marketPrice": 3.66,
+        "directLowPrice": 2.05
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.49,
+        "midPrice": 1.31,
+        "highPrice": 7.95,
+        "marketPrice": 1.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84641,
+    "name": "Dark Primeape",
+    "cleanName": "Dark Primeape",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84641_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84641/pokemon-team-rocket-dark-primeape",
+    "modifiedOn": "2022-11-18T17:39:41.257",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "43/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Frenzy</strong> If Dark Primeape does any damage while it's Confused <em>(even to itself)</em>, it does 30 more damage."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[FF] Frenzied Attack (40)\r\n<br>Dark Primeape is now Confused <em>(after doing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.75,
+        "midPrice": 3.29,
+        "highPrice": 12.95,
+        "marketPrice": 4.22,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.6,
+        "midPrice": 1.25,
+        "highPrice": 7.95,
+        "marketPrice": 1.33,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84647,
+    "name": "Dark Raichu",
+    "cleanName": "Dark Raichu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84647_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84647/pokemon-team-rocket-dark-raichu",
+    "modifiedOn": "2023-01-21T13:02:24.067",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "83/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Secret Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[LLL] Surprise Thunder (30)\r\n<br>Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 204.93,
+        "midPrice": 275,
+        "highPrice": 499,
+        "marketPrice": 190.51,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 58.51,
+        "midPrice": 95.36,
+        "highPrice": 249.99,
+        "marketPrice": 89.83,
+        "directLowPrice": 99.99
+      }
+    ]
+  },
+  {
+    "productId": 84648,
+    "name": "Dark Rapidash",
+    "cleanName": "Dark Rapidash",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84648_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84648/pokemon-team-rocket-dark-rapidash",
+    "modifiedOn": "2025-02-05T21:02:47.983",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "44/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Rear Kick (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[RR] Flame Pillar (30)\r\n<br>You may discard 1 Fire Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.32,
+        "midPrice": 4,
+        "highPrice": 12.95,
+        "marketPrice": 4.17,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.39,
+        "midPrice": 1.5,
+        "highPrice": 7.95,
+        "marketPrice": 1.63,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84649,
+    "name": "Dark Raticate",
+    "cleanName": "Dark Raticate",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84649_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84649/pokemon-team-rocket-dark-raticate",
+    "modifiedOn": "2025-02-05T21:02:48.03",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "51/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Gnaw (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Hyper Fang (50)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.6,
+        "midPrice": 1.27,
+        "highPrice": 5.91,
+        "marketPrice": 1.27,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.14,
+        "midPrice": 0.45,
+        "highPrice": 5,
+        "marketPrice": 0.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84654,
+    "name": "Dark Slowbro (12)",
+    "cleanName": "Dark Slowbro 12",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84654_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84654/pokemon-team-rocket-dark-slowbro-12",
+    "modifiedOn": "2024-09-21T18:53:45.18",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "12/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Reel In</strong> When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[PP] Fickle Attack (40)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 64.56,
+        "midPrice": 89.99,
+        "highPrice": 149.97,
+        "marketPrice": 77.72,
+        "directLowPrice": 44.99
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 24.89,
+        "midPrice": 35,
+        "highPrice": 71.99,
+        "marketPrice": 34.11,
+        "directLowPrice": 34.99
+      }
+    ]
+  },
+  {
+    "productId": 84655,
+    "name": "Dark Slowbro (29)",
+    "cleanName": "Dark Slowbro 29",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84655_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84655/pokemon-team-rocket-dark-slowbro-29",
+    "modifiedOn": "2022-11-18T17:44:49.8",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "29/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Reel In</strong> When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[PP] Fickle Attack (40)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.89,
+        "midPrice": 17.83,
+        "highPrice": 34.95,
+        "marketPrice": 18.12,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 5.58,
+        "midPrice": 9.7,
+        "highPrice": 29.99,
+        "marketPrice": 9.84,
+        "directLowPrice": 29.99
+      }
+    ]
+  },
+  {
+    "productId": 84665,
+    "name": "Dark Vaporeon",
+    "cleanName": "Dark Vaporeon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84665_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84665/pokemon-team-rocket-dark-vaporeon",
+    "modifiedOn": "2024-05-18T02:38:47.897",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "45/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Bite (30)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1WW] Whirlpool (20)\r\n<br>If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 9.8,
+        "midPrice": 16.01,
+        "highPrice": 34.95,
+        "marketPrice": 19.23,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 1.98,
+        "midPrice": 3.9,
+        "highPrice": 12.95,
+        "marketPrice": 4.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84667,
+    "name": "Dark Vileplume (13)",
+    "cleanName": "Dark Vileplume 13",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84667_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84667/pokemon-team-rocket-dark-vileplume-13",
+    "modifiedOn": "2024-03-22T14:00:27.473",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "13/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Hay Fever</strong> No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GGG] Petal Whirlwind (30x)\r\n<br>Flip 3 coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused <em>(after dealing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 35,
+        "midPrice": 49.24,
+        "highPrice": 99.95,
+        "marketPrice": 49.47,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 19.49,
+        "midPrice": 25.85,
+        "highPrice": 69.95,
+        "marketPrice": 27.21,
+        "directLowPrice": 19.49
+      }
+    ]
+  },
+  {
+    "productId": 84668,
+    "name": "Dark Vileplume (30)",
+    "cleanName": "Dark Vileplume 30",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84668_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84668/pokemon-team-rocket-dark-vileplume-30",
+    "modifiedOn": "2022-11-18T17:49:11.597",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "30/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Hay Fever</strong> No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[GGG] Petal Whirlwind (30x)\r\n<br>Flip 3 coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused <em>(after dealing damage)</em>."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.35,
+        "midPrice": 11.93,
+        "highPrice": 34.95,
+        "marketPrice": 12.24,
+        "directLowPrice": 13.44
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3,
+        "midPrice": 4.38,
+        "highPrice": 14.95,
+        "marketPrice": 5.42,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84670,
+    "name": "Dark Wartortle",
+    "cleanName": "Dark Wartortle",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84670_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84670/pokemon-team-rocket-dark-wartortle",
+    "modifiedOn": "2023-05-20T18:59:47.67",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "46/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[W] Doubleslap (10x)\r\n<br>Flip 2 coins. This attack does 10 damage times the number of heads."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1W] Mirror Shell\r\n<br>If an attack does damage to Dark Wartortle during your opponent's next turn <em>(even if Dark Wartortle is Knocked Out)</em>, Dark Wartortle attacks the Defending Pokémon for an equal amount of damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4.24,
+        "midPrice": 11,
+        "highPrice": 24.95,
+        "marketPrice": 13.05,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.95,
+        "midPrice": 1.99,
+        "highPrice": 49.99,
+        "marketPrice": 2.29,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84671,
+    "name": "Dark Weezing (14)",
+    "cleanName": "Dark Weezing 14",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84671_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84671/pokemon-team-rocket-dark-weezing-14",
+    "modifiedOn": "2023-07-15T13:18:55.67",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "14/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1G] Mass Explosion (20x)\r\n<br>Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play <em>(Apply Weakness and Resistance.)</em>. Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing <em>(even your own)</em>. Don't apply Weakness and Resistance."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGG] Stun Gas (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 33,
+        "midPrice": 45.95,
+        "highPrice": 114.95,
+        "marketPrice": 48.64,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 4.7,
+        "midPrice": 7.62,
+        "highPrice": 24.95,
+        "marketPrice": 8.51,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84672,
+    "name": "Dark Weezing (31)",
+    "cleanName": "Dark Weezing 31",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84672_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84672/pokemon-team-rocket-dark-weezing-31",
+    "modifiedOn": "2023-10-13T12:08:32.78",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "31/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1G] Mass Explosion (20x)\r\n<br>Does 20 damage times the total number of Koffings, Weezings, and Dark Weezings in play <em>(Apply Weakness and Resistance.)</em>. Then, this attack does 20 damage to each Koffing, Weezing, and Dark Weezing <em>(even your own)</em>. Don't apply Weakness and Resistance."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GGG] Stun Gas (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 4.31,
+        "midPrice": 12.88,
+        "highPrice": 24.95,
+        "marketPrice": 13.06,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 3.72,
+        "midPrice": 6.3,
+        "highPrice": 14.95,
+        "marketPrice": 4.5,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84815,
+    "name": "Digger (Rocket's Secret Machine)",
+    "cleanName": "Digger Rockets Secret Machine",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84815_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84815/pokemon-team-rocket-digger-rockets-secret-machine",
+    "modifiedOn": "2023-05-18T15:56:31.223",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "75/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Flip a coin. If tails, do 10 damage to your Active Pokémon. If heads, your opponent flips a coin. If tails, your opponent does 10 damage to his or her Active Pokémon. If heads, you flip a coin. Keep doing this until a player gets tails."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.4,
+        "midPrice": 1.52,
+        "highPrice": 89,
+        "marketPrice": 1.92,
+        "directLowPrice": 0.94
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.19,
+        "midPrice": 0.64,
+        "highPrice": 4.95,
+        "marketPrice": 0.86,
+        "directLowPrice": 0.58
+      }
+    ]
+  },
+  {
+    "productId": 84819,
+    "name": "Diglett",
+    "cleanName": "Diglett",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84819_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84819/pokemon-team-rocket-diglett",
+    "modifiedOn": "2025-02-05T21:02:48.25",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "52/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[F] Dig Under\r\n<br>Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after Applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1F] Scratch (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "G"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "L"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.49,
+        "midPrice": 1.23,
+        "highPrice": 5.27,
+        "marketPrice": 1.23,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.21,
+        "midPrice": 0.46,
+        "highPrice": 9999,
+        "marketPrice": 0.46,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84928,
+    "name": "Dratini",
+    "cleanName": "Dratini",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84928_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84928/pokemon-team-rocket-dratini",
+    "modifiedOn": "2023-10-13T12:09:32.003",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "53/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Wrap (10)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.44,
+        "midPrice": 1.66,
+        "highPrice": 9.95,
+        "marketPrice": 1.7,
+        "directLowPrice": 1.06
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.23,
+        "midPrice": 0.5,
+        "highPrice": 4.95,
+        "marketPrice": 0.59,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 84969,
+    "name": "Drowzee",
+    "cleanName": "Drowzee",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/84969_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/84969/pokemon-team-rocket-drowzee",
+    "modifiedOn": "2022-12-25T05:27:43.933",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "54/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Long-Distance Hypnosis</strong>\r\nOnce during your turn <em>(before your attack)</em>, you may flip a coin. If heads, the Defending Pokémon is now Asleep. The power can't be used if Drowzee is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1P] Nightmare (10)\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.43,
+        "midPrice": 1.23,
+        "highPrice": 9999,
+        "marketPrice": 1.23,
+        "directLowPrice": 1.29
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.12,
+        "midPrice": 0.49,
+        "highPrice": 9999,
+        "marketPrice": 0.54,
+        "directLowPrice": 0.3
+      }
+    ]
+  },
+  {
+    "productId": 85078,
+    "name": "Eevee",
+    "cleanName": "Eevee",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85078_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/85078/pokemon-team-rocket-eevee",
+    "modifiedOn": "2024-03-16T08:38:25.56",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "55/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Tackle (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Sand-attack (10)\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 3.2,
+        "midPrice": 7.99,
+        "highPrice": 89,
+        "marketPrice": 7.95,
+        "directLowPrice": 4.99
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.37,
+        "midPrice": 1,
+        "highPrice": 89,
+        "marketPrice": 1.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85099,
+    "name": "Ekans",
+    "cleanName": "Ekans",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85099_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/85099/pokemon-team-rocket-ekans",
+    "modifiedOn": "2025-04-30T18:04:40.53",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "56/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Bite (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Poison Sting (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.25,
+        "midPrice": 1.07,
+        "highPrice": 4.99,
+        "marketPrice": 1.12,
+        "directLowPrice": 1.19
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.08,
+        "midPrice": 0.41,
+        "highPrice": 4.95,
+        "marketPrice": 0.45,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85584,
+    "name": "Full Heal Energy",
+    "cleanName": "Full Heal Energy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85584_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/85584/pokemon-team-rocket-full-heal-energy",
+    "modifiedOn": "2023-10-07T17:45:48.937",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "81/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "If you play this card from your hand, the Pokémon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy Provides 1 Colorless energy. <em>(Doesn't count as a basic Energy card.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.59,
+        "midPrice": 1.09,
+        "highPrice": 9.95,
+        "marketPrice": 1.13,
+        "directLowPrice": 1.11
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.58,
+        "highPrice": 161403.03,
+        "marketPrice": 0.78,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85841,
+    "name": "Goop Gas Attack",
+    "cleanName": "Goop Gas Attack",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85841_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/85841/pokemon-team-rocket-goop-gas-attack",
+    "modifiedOn": "2025-02-05T21:02:48.297",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "78/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "All Pokémon Powers stop working until the end of your opponent's next turn."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.2,
+        "midPrice": 0.52,
+        "highPrice": 5.99,
+        "marketPrice": 0.52,
+        "directLowPrice": 0.55
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.15,
+        "midPrice": 0.34,
+        "highPrice": 89,
+        "marketPrice": 0.37,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 85905,
+    "name": "Grimer",
+    "cleanName": "Grimer",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/85905_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/85905/pokemon-team-rocket-grimer",
+    "modifiedOn": "2024-10-03T09:19:43.26",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "57/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Poison Gas\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[GG] Sticky Hands (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.43,
+        "midPrice": 1.25,
+        "highPrice": 4.99,
+        "marketPrice": 1.48,
+        "directLowPrice": 0.8
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.45,
+        "highPrice": 89,
+        "marketPrice": 0.57,
+        "directLowPrice": 0.31
+      }
+    ]
+  },
+  {
+    "productId": 86073,
+    "name": "Here Comes Team Rocket! (15)",
+    "cleanName": "Here Comes Team Rocket 15",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86073_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/86073/pokemon-team-rocket-here-comes-team-rocket-15",
+    "modifiedOn": "2025-03-13T04:39:21.067",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "15/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each player plays with his or her Prize cards face up for the rest of the game."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 54.08,
+        "midPrice": 124,
+        "highPrice": 249.99,
+        "marketPrice": 58.93,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 25,
+        "midPrice": 34.56,
+        "highPrice": 59.99,
+        "marketPrice": 32.91,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86074,
+    "name": "Here Comes Team Rocket! (71)",
+    "cleanName": "Here Comes Team Rocket 71",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86074_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/86074/pokemon-team-rocket-here-comes-team-rocket-71",
+    "modifiedOn": "2022-12-05T21:21:39.453",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "71/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each player plays with his or her Prize cards face up for the rest of the game."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5.84,
+        "midPrice": 16.99,
+        "highPrice": 34.95,
+        "marketPrice": 19.04,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 6.5,
+        "midPrice": 11.5,
+        "highPrice": 34.95,
+        "marketPrice": 11.42,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86270,
+    "name": "Imposter Oak's Revenge",
+    "cleanName": "Imposter Oaks Revenge",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86270_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/86270/pokemon-team-rocket-imposter-oaks-revenge",
+    "modifiedOn": "2022-11-18T18:02:19.307",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "76/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard a card from your hand in order to play this card. Your opponent shuffles his or her hand into his or her deck, then draws 4 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.2,
+        "midPrice": 4.29,
+        "highPrice": 100,
+        "marketPrice": 3.74,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.36,
+        "midPrice": 0.87,
+        "highPrice": 35,
+        "marketPrice": 0.96,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86491,
+    "name": "Koffing",
+    "cleanName": "Koffing",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86491_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/86491/pokemon-team-rocket-koffing",
+    "modifiedOn": "2025-02-05T21:02:48.35",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "58/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Tackle (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1G] Poison Gas (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.25,
+        "midPrice": 1.33,
+        "highPrice": 89,
+        "marketPrice": 1.35,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.4,
+        "highPrice": 4.95,
+        "marketPrice": 0.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 86987,
+    "name": "Machop",
+    "cleanName": "Machop",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/86987_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/86987/pokemon-team-rocket-machop",
+    "modifiedOn": "2023-08-23T15:28:45.55",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "59/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Punch (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2F] Kick (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.5,
+        "midPrice": 1.3,
+        "highPrice": 6.99,
+        "marketPrice": 1.34,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.21,
+        "midPrice": 0.49,
+        "highPrice": 89,
+        "marketPrice": 0.53,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87021,
+    "name": "Magikarp",
+    "cleanName": "Magikarp",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87021_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/87021/pokemon-team-rocket-magikarp",
+    "modifiedOn": "2022-11-18T18:04:46.33",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "47/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "30"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Flop (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[WWW] Rapid Evolution\r\n<br>Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 2.29,
+        "midPrice": 3.52,
+        "highPrice": 9999,
+        "marketPrice": 4.51,
+        "directLowPrice": 3.49
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.49,
+        "midPrice": 1.31,
+        "highPrice": 15.99,
+        "marketPrice": 2.05,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87068,
+    "name": "Magnemite",
+    "cleanName": "Magnemite",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87068_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/87068/pokemon-team-rocket-magnemite",
+    "modifiedOn": "2025-02-05T21:02:48.4",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "60/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Tackle (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1L] Magnetism (10+)\r\n<br>Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.5,
+        "midPrice": 1.22,
+        "highPrice": 9999,
+        "marketPrice": 1.18,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.25,
+        "midPrice": 0.46,
+        "highPrice": 9999,
+        "marketPrice": 0.5,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87170,
+    "name": "Mankey",
+    "cleanName": "Mankey",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87170_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/87170/pokemon-team-rocket-mankey",
+    "modifiedOn": "2025-02-01T04:23:50.42",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "61/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fighting"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Mischief\r\n<br>Shuffle your opponent's deck."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1F] Anger (20+)\r\n<br>Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.5,
+        "midPrice": 1,
+        "highPrice": 5.27,
+        "marketPrice": 1.02,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.44,
+        "highPrice": 4.95,
+        "marketPrice": 0.46,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87313,
+    "name": "Meowth",
+    "cleanName": "Meowth",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87313_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/87313/pokemon-team-rocket-meowth",
+    "modifiedOn": "2025-02-05T21:02:48.467",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "62/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Coin Hurl\r\n<br>Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokemon. Don't apply Weakness and Resistance for this attack. <em>(Any other effects that would happen after applying Weakness and Resistance still happen.)</em>"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.55,
+        "midPrice": 1.41,
+        "highPrice": 89,
+        "marketPrice": 1.85,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.1,
+        "midPrice": 0.47,
+        "highPrice": 4.95,
+        "marketPrice": 0.55,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 87755,
+    "name": "Nightly Garbage Run (Rocket's Secret Machine)",
+    "cleanName": "Nightly Garbage Run Rockets Secret Machine",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87755_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/87755/pokemon-team-rocket-nightly-garbage-run-rockets-secret-machine",
+    "modifiedOn": "2025-01-16T09:50:12.54",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "77/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Choose up to 3 Basic Pokémon cards, Evolution cards, and/or basic Energy cards from your discard pile. Show them to your opponent and shuffle them into your deck."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1,
+        "midPrice": 1.74,
+        "highPrice": 89,
+        "marketPrice": 2.58,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.39,
+        "midPrice": 1.27,
+        "highPrice": 9.95,
+        "marketPrice": 1.23,
+        "directLowPrice": 1.14
+      }
+    ]
+  },
+  {
+    "productId": 87837,
+    "name": "Oddish",
+    "cleanName": "Oddish",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/87837_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/87837/pokemon-team-rocket-oddish",
+    "modifiedOn": "2025-05-05T16:02:21.73",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "63/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Sleep Powder\r\n<br>The Defending Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[G] Poisonpowder\r\n<br>The Defending Pokémon is now Poisoned."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "R"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.22,
+        "midPrice": 1.31,
+        "highPrice": 89,
+        "marketPrice": 1.58,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.4,
+        "highPrice": 4.95,
+        "marketPrice": 0.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88281,
+    "name": "Ponyta",
+    "cleanName": "Ponyta",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88281_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88281/pokemon-team-rocket-ponyta",
+    "modifiedOn": "2025-02-05T21:02:48.563",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "64/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1R] Ember (30)\r\n<br>Discard 1 Fire Energy card attached to Ponyta in order to use this attack."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "W"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.55,
+        "midPrice": 1.12,
+        "highPrice": 89,
+        "marketPrice": 1.09,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.15,
+        "midPrice": 0.44,
+        "highPrice": 4.95,
+        "marketPrice": 0.45,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88304,
+    "name": "Porygon",
+    "cleanName": "Porygon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88304_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88304/pokemon-team-rocket-porygon",
+    "modifiedOn": "2025-04-05T07:50:09.487",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "48/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Conversion 1 \r\n<br>If Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Psybeam (20) \r\n<br>Flip a coin. If heads, the Defending Pokémon is now Confused."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 1.05,
+        "midPrice": 1.99,
+        "highPrice": 9.95,
+        "marketPrice": 2.86,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.54,
+        "midPrice": 1.05,
+        "highPrice": 7.95,
+        "marketPrice": 1.33,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88350,
+    "name": "Potion Energy",
+    "cleanName": "Potion Energy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88350_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88350/pokemon-team-rocket-potion-energy",
+    "modifiedOn": "2023-07-17T08:28:29.033",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "82/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "If you play this card from your hand, remove 1 damage counter from the Pokémon you attach it to, if it has any. Potion Energy provides 1 Colorless energy. <em>(Doesn't count as a basic Energy card.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.75,
+        "midPrice": 1.44,
+        "highPrice": 9.95,
+        "marketPrice": 2.42,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.35,
+        "midPrice": 0.87,
+        "highPrice": 4.95,
+        "marketPrice": 1.06,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88431,
+    "name": "Psyduck",
+    "cleanName": "Psyduck",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88431_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88431/pokemon-team-rocket-psyduck",
+    "modifiedOn": "2025-02-05T21:02:48.657",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "65/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Dizziness\r\n<br>\r\nDraw a card."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1W] Water Gun (20+)\r\n<br>Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.45,
+        "midPrice": 1.58,
+        "highPrice": 9.99,
+        "marketPrice": 1.52,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.23,
+        "midPrice": 0.6,
+        "highPrice": 89,
+        "marketPrice": 0.69,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88550,
+    "name": "Rainbow Energy (17)",
+    "cleanName": "Rainbow Energy 17",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88550_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88550/pokemon-team-rocket-rainbow-energy-17",
+    "modifiedOn": "2023-02-27T12:15:22.77",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "17/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy counts as every type of basic Energy but only provides 1 Energy at a time. <em>(Doesn't count as a basic Energy card when not in play.)</em> When you attach this card from your hand to 1 of your Pokémon, it does 10 damage to that Pokémon. <em>(Don't apply Weakness and Resistance.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 50,
+        "midPrice": 53.41,
+        "highPrice": 69.95,
+        "marketPrice": 40.49,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 18,
+        "midPrice": 27.06,
+        "highPrice": 49.95,
+        "marketPrice": 24.49,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88551,
+    "name": "Rainbow Energy (80)",
+    "cleanName": "Rainbow Energy 80",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88551_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88551/pokemon-team-rocket-rainbow-energy-80",
+    "modifiedOn": "2023-08-17T14:26:35.527",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "80/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Special Energy"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy counts as every type of basic Energy but only provides 1 Energy at a time. <em>(Doesn't count as a basic Energy card when not in play.)</em> When you attach this card from your hand to 1 of your Pokémon, it does 10 damage to that Pokémon. <em>(Don't apply Weakness and Resistance.)</em>"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 8.07,
+        "midPrice": 11.09,
+        "highPrice": 9999,
+        "marketPrice": 13.34,
+        "directLowPrice": 9.58
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4,
+        "midPrice": 7.1,
+        "highPrice": 19.95,
+        "marketPrice": 8.37,
+        "directLowPrice": 7.99
+      }
+    ]
+  },
+  {
+    "productId": 88611,
+    "name": "Rattata",
+    "cleanName": "Rattata",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88611_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88611/pokemon-team-rocket-rattata",
+    "modifiedOn": "2025-02-05T21:02:48.71",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "66/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<strong>Pokémon Power: Trickery</strong> Once during your turn <em>(before your attack)</em>, you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Quick Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "P"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.57,
+        "midPrice": 1.27,
+        "highPrice": 5.27,
+        "marketPrice": 1.3,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.2,
+        "midPrice": 0.47,
+        "highPrice": 89,
+        "marketPrice": 0.48,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88791,
+    "name": "Rocket's Sneak Attack (16)",
+    "cleanName": "Rockets Sneak Attack 16",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88791_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88791/pokemon-team-rocket-rockets-sneak-attack-16",
+    "modifiedOn": "2023-01-04T04:36:48.983",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "16/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Holo Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffles that card into his or her deck."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition Holofoil",
+        "lowPrice": 30,
+        "midPrice": 48,
+        "highPrice": 79.95,
+        "marketPrice": 35.79,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited Holofoil",
+        "lowPrice": 14,
+        "midPrice": 19.55,
+        "highPrice": 59.99,
+        "marketPrice": 19.77,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 88792,
+    "name": "Rocket's Sneak Attack (72)",
+    "cleanName": "Rockets Sneak Attack 72",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/88792_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/88792/pokemon-team-rocket-rockets-sneak-attack-72",
+    "modifiedOn": "2024-11-23T05:30:57.197",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "72/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffles that card into his or her deck."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 5.86,
+        "midPrice": 13.53,
+        "highPrice": 34.95,
+        "marketPrice": 13.3,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 4.99,
+        "midPrice": 8,
+        "highPrice": 29.95,
+        "marketPrice": 9.22,
+        "directLowPrice": 5
+      }
+    ]
+  },
+  {
+    "productId": 89301,
+    "name": "Sleep! (Rocket's Secret Machine)",
+    "cleanName": "Sleep Rockets Secret Machine",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89301_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/89301/pokemon-team-rocket-sleep-rockets-secret-machine",
+    "modifiedOn": "2025-02-05T21:02:48.773",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "79/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.1,
+        "midPrice": 0.75,
+        "highPrice": 9999,
+        "marketPrice": 0.87,
+        "directLowPrice": 0.99
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.15,
+        "midPrice": 0.31,
+        "highPrice": 89,
+        "marketPrice": 0.31,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 89322,
+    "name": "Slowpoke",
+    "cleanName": "Slowpoke",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89322_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/89322/pokemon-team-rocket-slowpoke",
+    "modifiedOn": "2024-05-29T05:12:40.137",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "67/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Afternoon Nap\r\n<br>Search your deck for a Psychic Energy card and attach it to Slowpoke. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[P] Headbutt (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.63,
+        "midPrice": 1.44,
+        "highPrice": 89,
+        "marketPrice": 1.41,
+        "directLowPrice": 0.97
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.25,
+        "midPrice": 0.5,
+        "highPrice": 9999,
+        "marketPrice": 0.63,
+        "directLowPrice": 0.51
+      }
+    ]
+  },
+  {
+    "productId": 89484,
+    "name": "Squirtle",
+    "cleanName": "Squirtle",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89484_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/89484/pokemon-team-rocket-squirtle",
+    "modifiedOn": "2025-04-16T18:28:24.49",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "68/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Shell Attack (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "L"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 2.25,
+        "midPrice": 5.38,
+        "highPrice": 1614.96,
+        "marketPrice": 5.95,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.43,
+        "midPrice": 1.09,
+        "highPrice": 7.95,
+        "marketPrice": 1.31,
+        "directLowPrice": 1.21
+      }
+    ]
+  },
+  {
+    "productId": 89894,
+    "name": "The Boss's Way",
+    "cleanName": "The Bosss Way",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89894_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/89894/pokemon-team-rocket-the-bosss-way",
+    "modifiedOn": "2023-02-28T08:55:17.003",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "73/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Trainer"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for an Evolution card with Dark in its name. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.59,
+        "midPrice": 1.9,
+        "highPrice": 100,
+        "marketPrice": 2.26,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.34,
+        "midPrice": 0.75,
+        "highPrice": 6.41,
+        "marketPrice": 0.93,
+        "directLowPrice": 0.78
+      }
+    ]
+  },
+  {
+    "productId": 90409,
+    "name": "Voltorb",
+    "cleanName": "Voltorb",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90409_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/90409/pokemon-team-rocket-voltorb",
+    "modifiedOn": "2025-02-05T21:02:48.82",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "69/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[L] Speed Ball (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "F"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.4,
+        "midPrice": 1.17,
+        "highPrice": 10,
+        "marketPrice": 1.18,
+        "directLowPrice": null
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.15,
+        "midPrice": 0.48,
+        "highPrice": 9999,
+        "marketPrice": 0.49,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 90767,
+    "name": "Zubat",
+    "cleanName": "Zubat",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/90767_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/90767/pokemon-team-rocket-zubat",
+    "modifiedOn": "2024-10-15T19:24:49.81",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "70/82"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Ram (10)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1G] Bite (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "P"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "1st Edition",
+        "lowPrice": 0.4,
+        "midPrice": 1.13,
+        "highPrice": 89,
+        "marketPrice": 1.11,
+        "directLowPrice": 1.49
+      },
+      {
+        "subTypeName": "Unlimited",
+        "lowPrice": 0.19,
+        "midPrice": 0.4,
+        "highPrice": 4.99,
+        "marketPrice": 0.38,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 138135,
+    "name": "Team Rocket Booster Pack [Unlimited Edition]",
+    "cleanName": "Team Rocket Booster Pack Unlimited Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/138135_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/138135/pokemon-team-rocket-team-rocket-booster-pack-unlimited-edition",
+    "modifiedOn": "2017-07-22T16:12:17.607",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This booster pack contains 11 cards for Wizards of the Coast printed Team Rocket set."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 255.97,
+        "midPrice": 330.5,
+        "highPrice": 455.54,
+        "marketPrice": 260.82,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 138136,
+    "name": "Team Rocket Booster Pack [1st Edition]",
+    "cleanName": "Team Rocket Booster Pack 1st Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/138136_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/138136/pokemon-team-rocket-team-rocket-booster-pack-1st-edition",
+    "modifiedOn": "2017-07-22T16:12:43.553",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This booster pack contains 11 cards for Wizards of the Coast printed Team Rocket set."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 504.99,
+        "midPrice": 504.99,
+        "highPrice": 504.99,
+        "marketPrice": 451.78,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176942,
+    "name": "Team Rocket Theme Deck - \"Devastation\"",
+    "cleanName": "Team Rocket Theme Deck Devastation",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176942_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/176942/pokemon-team-rocket-team-rocket-theme-deck-devastation",
+    "modifiedOn": "2018-10-03T12:44:30.01",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Play the \"Devastation\" preconstructed theme deck and become a devious Team Rocket Champion! Take charge of Dark Pokémon that Poison, Paralyze, and pummel opponent's Pokémon, and clear a path to victory for Team Rocket. The Devastation theme deck is full of Dark Pokémon that will help you and Team Rocket conquer the world!\r\n<br>\r\n<br>The Devastation Theme Deck from the Team Rocket expansion of the Pokémon Trading Card Game predominantly focuses on Grass and Water type Pokémon. Like other Theme Decks, Devastation includes a rulebook, damage counters, a custom coin, and card list."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 319.99,
+        "midPrice": 332.5,
+        "highPrice": 345,
+        "marketPrice": 309.38,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176943,
+    "name": "Team Rocket Theme Deck - \"Trouble\"",
+    "cleanName": "Team Rocket Theme Deck Trouble",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176943_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/176943/pokemon-team-rocket-team-rocket-theme-deck-trouble",
+    "modifiedOn": "2018-10-03T12:44:36.54",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Play the \"Trouble\" preconstructed theme deck and become a mischievous Team Rocket Master! Your goal is to overwhelm opponents with trickery and a powerful army of Dark Pokémon. Use every trick up your sleeve to defeat the forces of goodness, and put Team Rocket in its rightful place as leader of the Pokémon Trainers!\r\n<br>\r\n<br>The Trouble Theme Deck from the Team Rocket expansion of the Pokémon Trading Card Game predominantly focuses on Psychic and Grass type Pokémon. Like other Theme Decks, Trouble includes a rulebook, damage counters, a custom coin, and card list."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 250,
+        "midPrice": 250,
+        "highPrice": 250,
+        "marketPrice": 180.08,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 209436,
+    "name": "Team Rocket Booster Box [1st Edition]",
+    "cleanName": "Team Rocket Booster Box 1st Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/209436_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/209436/pokemon-team-rocket-team-rocket-booster-box-1st-edition",
+    "modifiedOn": "2023-06-01T14:25:57.06",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This booster pack contains 36 booster packs of 1st Edition Team Rocket."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 29999,
+        "midPrice": 29999,
+        "highPrice": 29999,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 209437,
+    "name": "Team Rocket Booster Box [Unlimited Edition]",
+    "cleanName": "Team Rocket Booster Box Unlimited Edition",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/209437_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1373,
+    "url": "https://www.tcgplayer.com/product/209437/pokemon-team-rocket-team-rocket-booster-box-unlimited-edition",
+    "modifiedOn": "2023-06-01T14:25:51.463",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "This booster box contains 36 booster packs of Unlimited Edition Team Rocket. Each pack contains 11 cards."
+      }
+    ],
+    "prices": []
+  }
+]

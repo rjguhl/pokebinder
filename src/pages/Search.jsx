@@ -1,478 +1,500 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { db, auth } from '../firebase';
-import {
-  collection,
-  setDoc,
-  doc,
-  getDocs,
-  deleteDoc,
-} from 'firebase/firestore';
-import { onAuthStateChanged } from 'firebase/auth';
-import { Trash2 } from 'react-feather';
+"use client"
 
-const normalizeSubType = (subType) =>
-  (subType || '').toLowerCase().replace(/\s/g, '');
+import groupDataUrl from "../../PokemonGroups.csv?url"
+import Papa from "papaparse"
+import { useState, useEffect } from "react"
+import { db, auth } from "../firebase"
+import { collection, setDoc, doc, getDocs, deleteDoc, getDoc } from "firebase/firestore"
+import { onAuthStateChanged } from "firebase/auth"
+import { Trash2, CheckCircle, Plus, SearchIcon, Grid, List, Sparkles } from "lucide-react"
+
+const normalizeSubType = (subType) => (subType || "").toLowerCase().replace(/\s/g, "")
 
 const userFriendlySubTypeName = (subType) => {
-  const norm = normalizeSubType(subType);
-  if (norm === 'normal') return 'Normal';
-  if (norm === 'holofoil' || norm === 'holo') return 'Holo';
-  if (norm === 'reverseholofoil' || norm === 'reverseholo') return 'Reverse Holo';
-  return subType;
-};
+  const norm = normalizeSubType(subType)
+  if (norm === "normal") return "Normal"
+  if (norm === "holofoil" || norm === "holo") return "Holo"
+  if (norm === "reverseholofoil" || norm === "reverseholo") return "Reverse Holo"
+  return subType
+}
 
 const subTypeColorClass = (subType) => {
-  const norm = normalizeSubType(subType);
-  if (norm === 'normal') return 'bg-gray-300 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600';
-  if (norm === 'holofoil' || norm === 'holo') return 'bg-yellow-200 text-yellow-700 hover:bg-yellow-300 hover:text-yellow-800';
-  if (norm === 'reverseholofoil' || norm === 'reverseholo') return 'bg-blue-200 text-blue-700 hover:bg-blue-300 hover:text-blue-800';
-  return 'bg-purple-200 text-purple-700 hover:bg-purple-300 hover:text-purple-800';
-};
-
-const allKnownSubTypes = ['Normal', 'Holofoil', 'Reverse Holo', 'Full Art', 'Promo', 'Glossy', 'Foil'];
+  const norm = normalizeSubType(subType)
+  if (norm === "normal") return "bg-slate-100 text-slate-700 border-slate-300 hover:bg-slate-200"
+  if (norm === "holofoil" || norm === "holo")
+    return "bg-yellow-100 text-yellow-700 border-yellow-300 hover:bg-yellow-200"
+  if (norm === "reverseholofoil" || norm === "reverseholo")
+    return "bg-blue-100 text-blue-700 border-blue-300 hover:bg-blue-200"
+  return "bg-purple-100 text-purple-700 border-purple-300 hover:bg-purple-200"
+}
 
 const Search = () => {
-  const [queryText, setQueryText] = useState('');
-  const [results, setResults] = useState([]);
-  const [user, setUser] = useState(null);
-  const [userCollection, setUserCollection] = useState({});
-  // No dropdown state needed for variants now
-  const [loading, setLoading] = useState(false);
-  const [showLoginPrompt, setShowLoginPrompt] = useState(false);
-  const [tcgcsvData, setTcgcsvData] = useState([]);
-  const [tcgcsvLoaded, setTcgcsvLoaded] = useState(false);
+  const [groupIdMap, setGroupIdMap] = useState({})
+  const [userId, setUserId] = useState(null)
+  const [tcgcsvData, setTcgcsvData] = useState([])
+  const [tcgcsvLoaded, setTcgcsvLoaded] = useState(false)
+  const [searchQuery, setSearchQuery] = useState("")
+  const [activeQuery, setActiveQuery] = useState("")
+  const [displayedCards, setDisplayedCards] = useState([])
+  const [visibleCount, setVisibleCount] = useState(20)
+  const [userCollection, setUserCollection] = useState(JSON.parse(localStorage.getItem("collection")) || {})
+  const [messageInfo, setMessageInfo] = useState(null)
+  const [viewMode, setViewMode] = useState("grid")
+  const [isLoading, setIsLoading] = useState(false)
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, setUser);
-    return () => unsubscribe();
-  }, []);
+    fetch(groupDataUrl)
+      .then((res) => res.text())
+      .then((text) => {
+        Papa.parse(text, {
+          header: true,
+          complete: (result) => {
+            const map = {}
+            result.data.forEach((row) => {
+              if (row.groupId && row.name) {
+                map[row.groupId.trim()] = row.name.trim()
+              }
+            })
+            setGroupIdMap(map)
+          },
+        })
+      })
+  }, [])
 
   useEffect(() => {
-    if (!user) return;
-    const fetchCollection = async () => {
-      const snapshot = await getDocs(collection(db, 'users', user.uid, 'collection'));
-      const collectionMap = {};
-      snapshot.forEach(doc => {
-        const data = doc.data();
-        if (!collectionMap[data.baseId]) collectionMap[data.baseId] = new Set();
-        collectionMap[data.baseId].add(normalizeSubType(data.finish)); // finish is now considered subType
-      });
-      setUserCollection(collectionMap);
-    };
-    fetchCollection();
-  }, [user]);
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setUserId(user ? user.uid : null)
+    })
+    return () => unsubscribe()
+  }, [])
 
-  const parseCSV = (text) => {
-    const lines = text.split('\n');
-    const result = [];
-    let headers = [];
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
-      if (!line) continue;
-      // Simple CSV parsing, assuming no quoted commas
-      const values = line.split(',');
-      if (i === 0) {
-        headers = values;
-      } else {
-        const obj = {};
-        for (let j = 0; j < headers.length; j++) {
-          obj[headers[j]] = values[j] || '';
-        }
-        result.push(obj);
-      }
+  useEffect(() => {
+    const fetchUserCollection = async () => {
+      if (!userId) return
+      const snap = await getDocs(collection(db, "users", userId, "collection"))
+      const items = {}
+      snap.forEach((docSnap) => {
+        const data = docSnap.data()
+        ;(data.subTypes || []).forEach((entry) => {
+          const sub = typeof entry === "string" ? { name: entry, owned: false } : entry
+          if (sub.owned) {
+            items[`${data.productId}-${sub.name}`] = true
+          }
+        })
+      })
+      setUserCollection(items)
     }
-    return result;
-  };
+    fetchUserCollection()
+  }, [userId])
 
-  // Fetch TCGCSV data from Firestore instead of remote CSV
-  const fetchTCGCSVFromFirestore = async () => {
-    try {
-      const snapshot = await getDocs(collection(db, 'tcgcsv'));
-      const rows = [];
-      snapshot.forEach(doc => {
-        rows.push(doc.data());
-      });
-      // Debug log: show first few rows of TCGCSV from Firestore
-      console.log('[TCGCSV][Firestore] First few rows:', rows.slice(0, 5));
-      setTcgcsvData(rows);
-      setTcgcsvLoaded(true);
-    } catch (err) {
-      console.error('Error fetching TCGCSV data from Firestore:', err);
-      setTcgcsvLoaded(false);
-    }
-  };
+  const handleAddToCollection = async (card, subType) => {
+    const key = `${card.productId}-${subType}`
+    const updated = { ...userCollection, [key]: true }
+    setUserCollection(updated)
+    localStorage.setItem("collection", JSON.stringify(updated))
 
-  // Normalize TCGCSV SubTypeName values to standard label equivalents
-  const normalizeTCGCSVSubType = (subType) => {
-    if (!subType) return '';
-    const val = subType.trim().toLowerCase();
-    if (val === 'normal' || val === 'non-holo' || val === 'standard') return 'Normal';
-    if (val === 'holofoil' || val === 'holo' || val === 'holo foil' || val === 'foil') return 'Holo';
-    if (val === 'reverse holo' || val === 'reverse holofoil' || val === 'reverseholofoil' || val === 'reverseholo') return 'Reverse Holo';
-    if (val === 'full art') return 'Full Art';
-    if (val === 'promo') return 'Promo';
-    if (val === 'glossy') return 'Glossy';
-    // Add more as needed
-    return subType.trim();
-  };
+    const cleanedName = (card.cleanName || "[No Name]")
+      .replace(/\b\d{1,3}(?:\/\d{1,3})?\b/g, "")
+      .replace(/\b[A-Z]{2,5}\d{2,4}\b/g, "")
+      .trim()
 
-  const getSubTypesFromTCGCSV = (card) => {
-    if (!tcgcsvLoaded || !tcgcsvData.length) return [];
-    // Normalize helpers
-    const trimLower = (s) => (s || '').toString().trim().toLowerCase();
-    // Log the actual card fields for debugging
-    console.log('[TCGCSV][DEBUG] card.set?.name:', card.set?.name, '| card.name:', card.name, '| card.number:', card.number);
-    const cardNameNorm = trimLower(card.name);
-    const setNameNorm = trimLower(card.set?.name || '');
-    const cardNumberNorm = trimLower(card.number || '');
+    setMessageInfo({ text: `${cleanedName} (${subType}) added to your collection`, type: "add" })
+    setTimeout(() => setMessageInfo(null), 3000)
 
-    // Find all rows matching by name, set, and number (all normalized, trimmed)
-    const matchingRows = tcgcsvData.filter(row => {
-      // Defensive: skip if missing any important field
-      if (!row.Name || !row.Set || !row.Number) return false;
-      // Compare using trimmed, lowercased values
-      return (
-        trimLower(row.Name) === cardNameNorm &&
-        trimLower(row.Set) === setNameNorm &&
-        trimLower(row.Number) === cardNumberNorm
-      );
-    });
+    if (userId) {
+      const docRef = doc(db, "users", userId, "collection", `${card.productId}`)
+      const existingDoc = await getDoc(docRef)
+      let existingSubTypes = []
 
-    // If not found, try fallback: match name+set only
-    let usedMatchingRows = matchingRows;
-    if (usedMatchingRows.length === 0) {
-      usedMatchingRows = tcgcsvData.filter(row => {
-        if (!row.Name || !row.Set) return false;
-        return (
-          trimLower(row.Name) === cardNameNorm &&
-          trimLower(row.Set) === setNameNorm
-        );
-      });
-      // If any partial matches, log them for debug
-      if (usedMatchingRows.length > 0) {
-        console.log('[TCGCSV][DEBUG] Fallback: matched by name+set only. Example rows:', usedMatchingRows.slice(0, 3));
+      if (existingDoc.exists()) {
+        const data = existingDoc.data()
+        existingSubTypes = (data.subTypes || []).map((st) =>
+          typeof st === "string" ? { name: st, owned: false } : st
+        )
       }
+
+      const rawSubTypes = [
+        ...new Set(
+          (Array.isArray(card.prices) ? card.prices : [card.prices])
+            .map((p) => p?.subTypeName)
+            .filter(Boolean)
+        ),
+      ]
+
+      const updatedMap = {}
+      rawSubTypes.forEach((name) => {
+        updatedMap[name] = { name, owned: false }
+      })
+      existingSubTypes.forEach(({ name, owned }) => {
+        updatedMap[name] = { name, owned }
+      })
+
+      // Ensure the chosen one is marked as owned
+      updatedMap[subType] = { name: subType, owned: true }
+
+      const subTypes = Object.values(updatedMap)
+
+      await setDoc(docRef, {
+        name: card.cleanName || "[No Name]",
+        productId: card.productId,
+        image: card.imageUrl || "",
+        url: card.url || "",
+        set: groupIdMap[card.groupId?.toString()] || card.set || card.Set || "",
+        number:
+          (card.extendedData || []).find((e) => e.name?.toLowerCase() === "number")?.value || card.extNumber || "",
+        subTypes,
+      })
+      console.log("Saved to Firestore:", {
+        name: card.cleanName || "[No Name]",
+        productId: card.productId,
+        image: card.imageUrl || "",
+        url: card.url || "",
+        set: groupIdMap[card.groupId?.toString()] || card.set || card.Set || "",
+        number:
+          (card.extendedData || []).find((e) => e.name?.toLowerCase() === "number")?.value || card.extNumber || "",
+        subTypes,
+      })
     }
-
-    // If still not found, try fallback: match name only
-    if (usedMatchingRows.length === 0) {
-      usedMatchingRows = tcgcsvData.filter(row => {
-        if (!row.Name) return false;
-        return trimLower(row.Name) === cardNameNorm;
-      });
-      if (usedMatchingRows.length > 0) {
-        console.log('[TCGCSV][DEBUG] Fallback: matched by name only. Example rows:', usedMatchingRows.slice(0, 3));
-      }
-    }
-
-    if (!usedMatchingRows.length) {
-      console.log(`[TCGCSV] No rows found for card "${card.name}" (${card.set?.name} #${card.number})`);
-      // For debug: log some example rows from TCGCSV with those fields
-      const nameMatches = tcgcsvData.filter(row => trimLower(row.Name) === cardNameNorm);
-      if (nameMatches.length) {
-        console.log('[TCGCSV][DEBUG] Example rows with matching Name:', nameMatches.slice(0, 3));
-      }
-      const setMatches = tcgcsvData.filter(row => trimLower(row.Set) === setNameNorm);
-      if (setMatches.length) {
-        console.log('[TCGCSV][DEBUG] Example rows with matching Set:', setMatches.slice(0, 3));
-      }
-      const numberMatches = tcgcsvData.filter(row => trimLower(row.Number) === cardNumberNorm);
-      if (numberMatches.length) {
-        console.log('[TCGCSV][DEBUG] Example rows with matching Number:', numberMatches.slice(0, 3));
-      }
-      return [];
-    }
-
-    // Log all matching rows
-    console.log(`[TCGCSV] Matching rows for card "${card.name}" (${card.set?.name} #${card.number}):`, usedMatchingRows);
-
-    // Use ProductID from the first matching row
-    const matchedProductID = usedMatchingRows[0].ProductID;
-    if (!matchedProductID) {
-      console.log(`[TCGCSV] No ProductID found for card "${card.name}"`);
-      return [];
-    }
-
-    // Gather all rows with same ProductID
-    const rowsWithSameProductID = tcgcsvData.filter(row => row.ProductID === matchedProductID);
-    // Log all rows with same ProductID
-    console.log(`[TCGCSV] All rows with ProductID ${matchedProductID}:`, rowsWithSameProductID);
-
-    // Collect unique normalized subtypes
-    const subTypeSet = new Set();
-    for (const row of rowsWithSameProductID) {
-      if (row.SubTypeName && row.SubTypeName.trim() !== '') {
-        const normalized = normalizeTCGCSVSubType(row.SubTypeName);
-        subTypeSet.add(normalized);
-        // Debug log for each row processed with ProductID matches
-        console.debug(`[TCGCSV] ProductID ${matchedProductID}: Row SubTypeName "${row.SubTypeName}" normalized to "${normalized}"`);
-      }
-    }
-    const subTypesArr = Array.from(subTypeSet);
-    console.log(`[TCGCSV] Final subtypes for card "${card.name}" (${card.set?.name} #${card.number}):`, subTypesArr);
-    return subTypesArr;
-  };
+  }
 
   const handleSearch = async (e) => {
-    e.preventDefault();
-    if (!queryText.trim()) return;
+    e.preventDefault()
+    setIsLoading(true)
 
-    if (!tcgcsvLoaded) {
-      await fetchTCGCSVFromFirestore();
+    const keywords = searchQuery.toLowerCase().split(/\s+/).filter(Boolean)
+    const filtered = tcgcsvData.filter((card) => {
+      const target = `${card.cleanName || ""} ${card.name || ""} ${card.groupName || ""}`.toLowerCase()
+      return keywords.every((kw) => target.includes(kw))
+    })
+
+    setActiveQuery(searchQuery)
+    setVisibleCount(20)
+    setDisplayedCards(filtered)
+
+    setTimeout(() => setIsLoading(false), 500)
+  }
+
+  useEffect(() => {
+    const fetchLocalCards = async () => {
+      const res = await fetch("/data/cards.json")
+      const allCards = await res.json()
+
+      const sealedKeywords = [
+        "booster pack",
+        "booster box",
+        "elite trainer box",
+        "theme deck",
+        "pre-release kit",
+        "collection box",
+        "gift box",
+        "deck box",
+        "mini portfolio",
+        "build & battle",
+        "battle arena",
+        "battle deck",
+        "box set",
+        "collection",
+        "pin collection",
+        "tin",
+        "value box",
+        "v battle deck",
+        "blister",
+      ]
+
+      const filtered = allCards.filter((row) => {
+        const name = (row.name || "").toLowerCase()
+        return !sealedKeywords.some((keyword) => name.includes(keyword))
+      })
+
+      setTcgcsvData(filtered)
+      setTcgcsvLoaded(true)
     }
 
-    setLoading(true);
-    setResults([]);
+    fetchLocalCards()
+  }, [])
 
-    try {
-      const parts = queryText.trim().split(/\s+/);
-      let q = '';
-
-      if (parts.length === 2) {
-        const [first, second] = parts;
-        const isSecondNumber = /^\d+$/.test(second);
-        if (isSecondNumber) {
-          q = `name:*${first}* AND number:${second}`;
-        } else {
-          q = `name:*${first}* AND set.name:*${second}*`;
-        }
-      } else {
-        const text = parts.join(' ');
-        q = `name:*${text}* OR set.name:*${text}* OR number:${text}`;
-      }
-
-      // Fetch from PokéAPI
-      const res = await axios.get('https://api.pokemontcg.io/v2/cards', {
-        params: {
-          q,
-          pageSize: 30,
-          select: 'id,name,images,set,number,rarity,finishes,totalFinishes,variantFinishes,ownedFinishes',
-        },
-        headers: { 'X-Api-Key': import.meta.env.VITE_POKEMON_API_KEY },
-      });
-      // Enrich each card with full details from /v2/cards/{id}
-      const detailedResults = await Promise.all(
-        res.data.data.map(card =>
-          axios
-            .get(`https://api.pokemontcg.io/v2/cards/${card.id}`, {
-              headers: { 'X-Api-Key': import.meta.env.VITE_POKEMON_API_KEY }
-            })
-            .then(r => r.data.data)
-        )
-      );
-      setResults(detailedResults);
-    } catch (err) {
-      console.error('Error fetching cards:', err);
-    }
-    setLoading(false);
-  };
-
-  // Determine all possible subTypes for a card, considering totalFinishes and variantFinishes
-  const getAllPossibleSubTypes = (card) => {
-    // If variantFinishes array exists, use it normalized
-    if (Array.isArray(card.variantFinishes) && card.variantFinishes.length > 0) {
-      const subTypes = card.variantFinishes;
-      console.log(`[SubTypes] ${card.name} (${card.id}):`, subTypes);
-      return subTypes;
-    }
-    // If finishes array exists, use it
-    if (Array.isArray(card.finishes) && card.finishes.length > 0) {
-      const subTypes = card.finishes;
-      console.log(`[SubTypes] ${card.name} (${card.id}):`, subTypes);
-      return subTypes;
-    }
-    // If ownedFinishes exists, use it
-    if (Array.isArray(card.ownedFinishes) && card.ownedFinishes.length > 0) {
-      const subTypes = card.ownedFinishes;
-      console.log(`[SubTypes] ${card.name} (${card.id}):`, subTypes);
-      return subTypes;
-    }
-    // If TCGCSV data loaded, try to get subTypes from it
-    if (tcgcsvLoaded) {
-      const csvSubTypes = getSubTypesFromTCGCSV(card);
-      if (csvSubTypes.length > 0) {
-        const subTypes = csvSubTypes;
-        console.log(`[SubTypes] ${card.name} (${card.id}):`, subTypes);
-        return subTypes;
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+        setVisibleCount((prev) => Math.min(prev + 20, displayedCards.length))
       }
     }
-    // If totalFinishes is a number, infer from known subTypes (up to totalFinishes count)
-    if (typeof card.totalFinishes === 'number' && card.totalFinishes > 0) {
-      const subTypes = allKnownSubTypes.slice(0, card.totalFinishes);
-      console.log(`[SubTypes] ${card.name} (${card.id}):`, subTypes);
-      return subTypes;
-    }
-    // Default fallback
-    const subTypes = ['Normal'];
-    console.log(`[SubTypes] ${card.name} (${card.id}):`, subTypes);
-    return subTypes;
-  };
-
-  const addToCollection = async (card, subType) => {
-    if (!user) return;
-    try {
-      // For Bulbapedia cards, card.baseId may already be set; for PokéAPI cards use card.id
-      const baseKey = card.baseId || card.id;
-      const normalizedSubType = normalizeSubType(subType);
-      const cardId = `${baseKey}-${normalizedSubType}`;
-      const docRef = doc(db, 'users', user.uid, 'collection', cardId);
-
-      const ownedSet = userCollection[baseKey] || new Set();
-      const hasIt = ownedSet.has(normalizedSubType);
-
-      if (hasIt) {
-        // Remove from collection
-        await deleteDoc(docRef);
-        setUserCollection((prev) => {
-          const updated = { ...prev };
-          if (updated[baseKey]) {
-            const newSet = new Set(updated[baseKey]);
-            newSet.delete(normalizedSubType);
-            if (newSet.size === 0) {
-              delete updated[baseKey];
-            } else {
-              updated[baseKey] = newSet;
-            }
-          }
-          return updated;
-        });
-      } else {
-        // Add to collection
-        await setDoc(docRef, {
-          cardId,
-          baseId: baseKey,
-          name: card.name,
-          image: card.image || card.images?.small || '/placeholder.png',
-          set: card.set,
-          number: card.number,
-          rarity: card.rarity,
-          finish: subType, // still stored as finish for backwards compatibility
-          timestamp: new Date(),
-        });
-
-        // Local update to show check immediately
-        setUserCollection((prev) => {
-          const updated = { ...prev };
-          if (!updated[baseKey]) updated[baseKey] = new Set();
-          updated[baseKey] = new Set([...updated[baseKey], normalizedSubType]);
-          return updated;
-        });
-      }
-    } catch (err) {
-      console.error('Error adding to collection:', err);
-    }
-  };
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [displayedCards])
 
   return (
-    <div className="min-h-screen bg-slate-50 p-6">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-indigo-700 mb-6">Search Cards</h1>
-        <form onSubmit={handleSearch} className="mb-6 flex gap-2">
-          <input
-            type="text"
-            value={queryText}
-            onChange={(e) => setQueryText(e.target.value)}
-            placeholder="Search by name, set, or number..."
-            className="flex-grow p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
-          />
-          <button
-            type="submit"
-            className="px-5 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
-          >
-            Search
-          </button>
-        </form>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50">
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        {/* Header */}
+        <div className="text-center mb-12 animate-fadeInUp">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-100 to-purple-100 px-4 py-2 rounded-full text-sm font-medium text-indigo-700 mb-4">
+            <Sparkles size={16} className="animate-pulse" />
+            Discover Your Next Card
+          </div>
+          <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+            Search{" "}
+            <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Cards</span>
+          </h1>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Find any Pokémon card from our extensive database with advanced search and filtering
+          </p>
+        </div>
 
-        {loading && (
-          <p className="text-center text-gray-500 mb-4 animate-pulse">Loading results...</p>
+        {/* Search Bar */}
+        <div className="mb-8 animate-fadeInUp">
+          <form onSubmit={handleSearch} className="relative max-w-2xl mx-auto">
+            <div className="relative">
+              <SearchIcon size={20} className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search by name, set, or any keyword..."
+                className="w-full pl-12 pr-4 py-4 text-lg border-2 border-gray-200 rounded-2xl focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 transition-all duration-300 bg-white shadow-lg"
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-xl font-medium hover:shadow-lg transition-all duration-300 disabled:opacity-50"
+            >
+              {isLoading ? "Searching..." : "Search"}
+            </button>
+          </form>
+        </div>
+
+        {/* Controls */}
+        {displayedCards.length > 0 && (
+          <div className="flex justify-between items-center mb-8 animate-fadeInUp">
+            <div className="flex items-center gap-4">
+              <span className="text-gray-600 font-medium">
+                {displayedCards.length} cards found
+                {activeQuery && <span className="ml-2 text-indigo-600">for "{activeQuery}"</span>}
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setViewMode("grid")}
+                className={`p-2 rounded-lg transition-all duration-300 ${
+                  viewMode === "grid" ? "bg-indigo-600 text-white shadow-lg" : "bg-white text-gray-600 hover:bg-gray-50"
+                }`}
+              >
+                <Grid size={18} />
+              </button>
+              <button
+                onClick={() => setViewMode("list")}
+                className={`p-2 rounded-lg transition-all duration-300 ${
+                  viewMode === "list" ? "bg-indigo-600 text-white shadow-lg" : "bg-white text-gray-600 hover:bg-gray-50"
+                }`}
+              >
+                <List size={18} />
+              </button>
+            </div>
+          </div>
         )}
 
-        {/* PokéAPI Results Section */}
-        {results.length > 0 && (
-          <>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-8">
-              {results.map((card) => {
-                const possibleSubTypes = getAllPossibleSubTypes(card);
-                const baseKey = card.baseId || card.id;
-                const ownedSet = userCollection[baseKey] || new Set();
+        {/* Message Toast */}
+        {messageInfo && (
+          <div
+            className={`fixed top-24 left-1/2 transform -translate-x-1/2 z-50 px-6 py-3 rounded-xl shadow-lg transition-all duration-500 animate-fadeInUp ${
+              messageInfo.type === "remove"
+                ? "bg-gradient-to-r from-red-500 to-pink-500 text-white"
+                : "bg-gradient-to-r from-green-500 to-emerald-500 text-white"
+            }`}
+          >
+            <div className="flex items-center gap-2">
+              {messageInfo.type === "add" ? <CheckCircle size={18} /> : <Trash2 size={18} />}
+              {messageInfo.text}
+            </div>
+          </div>
+        )}
 
-                // Count owned subtypes by normalizing and checking membership
-                const ownedCount = possibleSubTypes.reduce((count, subType) => {
-                  return ownedSet.has(normalizeSubType(subType)) ? count + 1 : count;
-                }, 0);
-                const badgeColor = ownedCount === 0 ? 'bg-red-500' : 'bg-indigo-600';
+        {/* Loading State */}
+        {isLoading && (
+          <div className="flex justify-center items-center py-20">
+            <div className="animate-spin rounded-full h-12 w-12 border-4 border-indigo-200 border-t-indigo-600"></div>
+          </div>
+        )}
 
-                return (
-                  <div key={card.id} className="relative bg-white p-3 rounded-xl shadow hover:shadow-lg transition-transform flex flex-col">
-                    <div className={`absolute top-1 left-1 ${badgeColor} text-white text-[10px] px-2 py-[1px] rounded-full font-semibold shadow-md`}>
-                      {ownedCount}/{possibleSubTypes.length}
-                    </div>
-                    <img
-                      src={card.images?.small}
-                      onError={(e) => { e.target.onerror = null; e.target.src = '/placeholder.png'; }}
-                      alt={card.name}
-                      className="w-full h-40 object-contain mb-2"
-                    />
-                    <h2 className="text-sm font-medium text-indigo-600">{card.name}</h2>
-                    <p className="text-xs text-gray-500 mb-2">
-                      {card.set?.name} — {card.number}
-                    </p>
+        {/* Cards Grid */}
+        {!isLoading && displayedCards.length > 0 && (
+          <div
+            className={`grid gap-6 ${
+              viewMode === "grid"
+                ? "grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6"
+                : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+            }`}
+          >
+            {displayedCards.slice(0, visibleCount).map((card, idx) => (
+              <div
+                key={idx}
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:scale-105 animate-fadeInUp border border-gray-100"
+                style={{ animationDelay: `${(idx % 20) * 0.05}s` }}
+              >
+                {/* Card Image */}
+                <div className="relative aspect-[3/4] bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
+                  <img
+                    src={card.imageUrl || "/placeholder.png"}
+                    alt={card.cleanName || "No Name"}
+                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
 
-                    {/* Owned SubType Buttons */}
-                    <div className="flex flex-wrap gap-2 mt-2">
-                      {possibleSubTypes.map((subType) => {
-                        const normalized = normalizeSubType(subType);
-                        const hasIt = ownedSet.has(normalized);
-                        return (
-                          <button
-                            key={subType}
-                            className={`relative flex items-center justify-center w-8 h-8 rounded-full border-2
-                              ${subTypeColorClass(subType)}
-                              ${hasIt ? 'border-green-500 hover:border-red-500 hover:bg-red-500 cursor-pointer group' : 'border-gray-300 hover:border-green-500 cursor-pointer group'}
-                              transition duration-200
-                            `}
-                            onClick={async () => {
-                              if (!user) {
-                                setShowLoginPrompt(true);
-                                setTimeout(() => setShowLoginPrompt(false), 3000);
-                              } else {
-                                await addToCollection(card, subType);
-                              }
-                            }}
-                            tabIndex={0}
-                            aria-label={`${userFriendlySubTypeName(subType)} variant ${hasIt ? 'owned, click to remove' : 'not owned, click to add'}`}
-                          >
-                            {/* Show trash icon only on hover for owned subtypes */}
-                            {hasIt && (
-                              <Trash2 className="absolute hidden group-hover:flex text-white" size={16} />
-                            )}
-                            {/* Show + sign only on hover for unowned subtypes */}
-                            {!hasIt && (
-                              <span className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity select-none pointer-events-none">+</span>
-                            )}
-                            {/* Tooltip */}
-                            <span className="absolute bottom-10 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity transform bg-black text-white px-2 py-1 rounded text-xs whitespace-nowrap z-20 pointer-events-none">
-                              {userFriendlySubTypeName(subType)}
-                            </span>
-                          </button>
-                        );
-                      })}
+                {/* Card Info */}
+                <div className="p-4 space-y-3">
+                  <div className="text-center">
+                    <a
+                      href={card.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-bold text-gray-900 hover:text-indigo-600 transition-colors line-clamp-2 leading-tight"
+                    >
+                      {(card.cleanName || "[No Name]")
+                        .replace(/\b\d{1,3}(?:\/\d{1,3})?\b/g, "")
+                        .replace(/\b[A-Z]{2,5}\d{2,4}\b/g, "")
+                        .trim()}
+                    </a>
+
+                    <div className="mt-2 space-y-1">
+                      <p className="text-xs text-gray-500 font-medium">
+                        {groupIdMap[card.groupId?.toString()] || card.set || card.Set}
+                      </p>
+                      <p className="text-xs text-gray-400">
+                        #
+                        {(card.extendedData || []).find((e) => e.name?.toLowerCase() === "number")?.value ||
+                          card.extNumber ||
+                          "—"}
+                      </p>
                     </div>
                   </div>
-                );
-              })}
+
+                  {/* Variant Buttons */}
+                  <div className="flex justify-center gap-1 flex-wrap">
+                    {[
+                      ...new Set(
+                        (Array.isArray(card.prices) ? card.prices : [card.prices])
+                          .map((p) => p?.subTypeName)
+                          .filter(Boolean),
+                      ),
+                    ]
+                      .sort((a, b) => {
+                        if (a === "Normal") return -1
+                        if (b === "Normal") return 1
+                        return a.localeCompare(b)
+                      })
+                      .map((subType, i) => {
+                        const key = `${card.productId}-${subType}`
+                        const isOwned = userCollection[key]
+
+                        return (
+                          <button
+                            key={i}
+                            className={`group/btn relative w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 border-2 ${
+                              isOwned
+                                ? "bg-gradient-to-r from-green-500 to-emerald-500 border-green-400 text-white shadow-lg"
+                                : `${subTypeColorClass(subType)} border-2`
+                            } hover:scale-110 hover:shadow-lg`}
+                            title={userFriendlySubTypeName(subType)}
+                            onClick={async () => {
+                              if (isOwned) {
+                                const updated = { ...userCollection }
+                                delete updated[key]
+
+                                if (userId) {
+                                  const docRef = doc(db, "users", userId, "collection", `${card.productId}`)
+                                  const existingDoc = await getDoc(docRef)
+                                  if (existingDoc.exists()) {
+                                    const data = existingDoc.data()
+                                    const subTypes = (data.subTypes || []).map((entry) => {
+                                      if (typeof entry === "string") {
+                                        return { name: entry, owned: false }
+                                      } else if (entry.name === subType) {
+                                        return { ...entry, owned: false }
+                                      }
+                                      return entry
+                                    })
+
+                                    const hasAnyOwned = subTypes.some((st) => st.owned)
+                                    if (hasAnyOwned) {
+                                      await setDoc(docRef, { ...data, subTypes })
+                                    } else {
+                                      await deleteDoc(docRef)
+                                    }
+                                  }
+                                }
+
+                                setUserCollection(updated)
+                                localStorage.setItem("collection", JSON.stringify(updated))
+
+                                const cleanedName = (card.cleanName || "[No Name]")
+                                  .replace(/\b\d{1,3}(?:\/\d{1,3})?\b/g, "")
+                                  .replace(/\b[A-Z]{2,5}\d{2,4}\b/g, "")
+                                  .trim()
+
+                                setMessageInfo({
+                                  text: `${cleanedName} (${subType}) removed from collection`,
+                                  type: "remove",
+                                })
+                                setTimeout(() => setMessageInfo(null), 3000)
+                              } else {
+                                handleAddToCollection(card, subType)
+                              }
+                            }}
+                          >
+                            {isOwned ? (
+                              <CheckCircle size={14} className="text-white" />
+                            ) : (
+                              <Plus size={14} className="opacity-0 group-hover/btn:opacity-100 transition-opacity" />
+                            )}
+                          </button>
+                        )
+                      })}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Empty State */}
+        {!isLoading && displayedCards.length === 0 && activeQuery && (
+          <div className="text-center py-20 animate-fadeInUp">
+            <div className="w-24 h-24 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full flex items-center justify-center mx-auto mb-6">
+              <SearchIcon size={32} className="text-gray-500" />
             </div>
-          </>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">No cards found</h3>
+            <p className="text-gray-600 mb-6">Try adjusting your search terms or browse our collection</p>
+            <button
+              onClick={() => {
+                setSearchQuery("")
+                setActiveQuery("")
+                setDisplayedCards([])
+              }}
+              className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-xl font-medium hover:shadow-lg transition-all duration-300"
+            >
+              Clear Search
+            </button>
+          </div>
+        )}
+
+        {/* Load More */}
+        {displayedCards.length > visibleCount && (
+          <div className="text-center mt-12 animate-fadeInUp">
+            <button
+              onClick={() => setVisibleCount((prev) => Math.min(prev + 20, displayedCards.length))}
+              className="bg-white text-indigo-600 border-2 border-indigo-600 px-8 py-3 rounded-xl font-medium hover:bg-indigo-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl"
+            >
+              Load More Cards
+            </button>
+          </div>
         )}
       </div>
-      {showLoginPrompt && (
-        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-red-500 text-white px-4 py-2 rounded shadow-lg z-50 transition-opacity duration-500">
-          Please sign in to add cards to your collection.
-        </div>
-      )}
     </div>
-  );
-};
+  )
+}
 
-export default Search;
+export default Search

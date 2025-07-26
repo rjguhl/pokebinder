@@ -1,0 +1,1997 @@
+[
+  {
+    "productId": 176625,
+    "name": "Fighting Energy (2004-2005)",
+    "cleanName": "Fighting Energy 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176625_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176625/pokemon-professor-program-promos-fighting-energy-2004-2005",
+    "modifiedOn": "2018-09-13T19:39:46.237",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "105/109"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 6.3,
+        "midPrice": 13.94,
+        "highPrice": 19.95,
+        "marketPrice": 13.94,
+        "directLowPrice": 13.94
+      }
+    ]
+  },
+  {
+    "productId": 176626,
+    "name": "Fire Energy (2004-2005)",
+    "cleanName": "Fire Energy 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176626_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176626/pokemon-professor-program-promos-fire-energy-2004-2005",
+    "modifiedOn": "2018-09-13T19:40:20.023",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "108/109"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 8,
+        "midPrice": 15.72,
+        "highPrice": 29.24,
+        "marketPrice": 15.64,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176627,
+    "name": "Grass Energy (2004-2005)",
+    "cleanName": "Grass Energy 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176627_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176627/pokemon-professor-program-promos-grass-energy-2004-2005",
+    "modifiedOn": "2018-09-13T19:41:18",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "104/109"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 9.99,
+        "midPrice": 17,
+        "highPrice": 21.24,
+        "marketPrice": 17.32,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176628,
+    "name": "Lightning Energy (2004-2005)",
+    "cleanName": "Lightning Energy 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176628_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176628/pokemon-professor-program-promos-lightning-energy-2004-2005",
+    "modifiedOn": "2018-09-13T19:42:29.04",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "109/109"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 19,
+        "midPrice": 23.63,
+        "highPrice": 39,
+        "marketPrice": 19.84,
+        "directLowPrice": 23.25
+      }
+    ]
+  },
+  {
+    "productId": 176629,
+    "name": "Prof. Oak's Research (2004-2005)",
+    "cleanName": "Prof Oaks Research 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176629_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176629/pokemon-professor-program-promos-prof-oaks-research-2004-2005",
+    "modifiedOn": "2018-09-13T19:45:58.427",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "98/112"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Shuffle your hand into your deck, then draw 5 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 249.49,
+        "midPrice": 249.97,
+        "highPrice": 254.12,
+        "marketPrice": null,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176630,
+    "name": "Professor Birch (2006)",
+    "cleanName": "Professor Birch 2006",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176630_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176630/pokemon-professor-program-promos-professor-birch-2006",
+    "modifiedOn": "2018-09-13T19:49:15.107",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "82/106"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw cards from your deck until you have 6 cards in your hand."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 43.67,
+        "midPrice": 84.99,
+        "highPrice": 149.9,
+        "marketPrice": 45.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176631,
+    "name": "Professor Oak's Visit (2008-2009)",
+    "cleanName": "Professor Oaks Visit 2008 2009",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176631_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176631/pokemon-professor-program-promos-professor-oaks-visit-2008-2009",
+    "modifiedOn": "2022-03-28T16:30:49.38",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "122/132"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw 3 cards. Then, choose a card from your hand and put it on the bottom of your deck."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 12.32,
+        "midPrice": 19.99,
+        "highPrice": 20,
+        "marketPrice": 19.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176632,
+    "name": "Professor Juniper - 98/108 (2013)",
+    "cleanName": "Professor Juniper 98 108 2013",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176632_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176632/pokemon-professor-program-promos-professor-juniper-98-108-2013",
+    "modifiedOn": "2020-08-11T13:26:10.06",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "98/108"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 10,
+        "midPrice": 16.36,
+        "highPrice": 28.99,
+        "marketPrice": 17.14,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176633,
+    "name": "Professor Juniper - 101/114 (2013)",
+    "cleanName": "Professor Juniper 101 114 2013",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176633_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176633/pokemon-professor-program-promos-professor-juniper-101-114-2013",
+    "modifiedOn": "2020-08-12T14:53:10.173",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "101/114"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 12.29,
+        "midPrice": 13.95,
+        "highPrice": 17.79,
+        "marketPrice": 16.03,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176634,
+    "name": "Professor Rowan (2007)",
+    "cleanName": "Professor Rowan 2007",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176634_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176634/pokemon-professor-program-promos-professor-rowan-2007",
+    "modifiedOn": "2018-09-13T19:55:06.757",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "112/130"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Choose 1 card in your hand and shuffle the rest of your cards into your deck. Then, draw 4 cards. (If this is the only card in your hand, you can't play this card.)"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 20.29,
+        "midPrice": 24.89,
+        "highPrice": 29.49,
+        "marketPrice": 20.31,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176636,
+    "name": "Water Energy (2004-2005)",
+    "cleanName": "Water Energy 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176636_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176636/pokemon-professor-program-promos-water-energy-2004-2005",
+    "modifiedOn": "2018-09-13T19:57:49.55",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "106/109"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 14.01,
+        "midPrice": 17.48,
+        "highPrice": 20,
+        "marketPrice": 19.75,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176637,
+    "name": "Psychic Energy (2004-2005)",
+    "cleanName": "Psychic Energy 2004 2005",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176637_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176637/pokemon-professor-program-promos-psychic-energy-2004-2005",
+    "modifiedOn": "2018-09-13T19:58:23.367",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "107/109"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 17.99,
+        "midPrice": 20.74,
+        "highPrice": 38.5,
+        "marketPrice": 18.72,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 176638,
+    "name": "Professor Sycamore (2015)",
+    "cleanName": "Professor Sycamore 2015",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176638_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176638/pokemon-professor-program-promos-professor-sycamore-2015",
+    "modifiedOn": "2022-03-28T16:32:19.66",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "122/146"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 7,
+        "midPrice": 13.44,
+        "highPrice": 20,
+        "marketPrice": 7,
+        "directLowPrice": 11.72
+      }
+    ]
+  },
+  {
+    "productId": 176639,
+    "name": "Professor Elm's Training Method (2006-2007)",
+    "cleanName": "Professor Elms Training Method 2006 2007",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/176639_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/176639/pokemon-professor-program-promos-professor-elms-training-method-2006-2007",
+    "modifiedOn": "2022-03-28T16:30:41.45",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "79/101"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 40,
+        "midPrice": 44.5,
+        "highPrice": 48.99,
+        "marketPrice": 25.5,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 213516,
+    "name": "Judge (2019)",
+    "cleanName": "Judge 2019",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/213516_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/213516/pokemon-professor-program-promos-judge-2019",
+    "modifiedOn": "2022-03-28T16:32:56.96",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "108/131"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Each player shuffles their hand into their deck and draws 4 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 10.99,
+        "midPrice": 14.01,
+        "highPrice": 19.99,
+        "marketPrice": 12.45,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 278685,
+    "name": "Professor Burnet - SWSH167 (2021)",
+    "cleanName": "Professor Burnet SWSH167 2021",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/278685_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/278685/pokemon-professor-program-promos-professor-burnet-swsh167-2021",
+    "modifiedOn": "2024-06-24T20:26:42.693",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "SWSH167"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for up to 2 cards and discard them. Then, shuffle your deck."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 9.97,
+        "midPrice": 15,
+        "highPrice": 23.95,
+        "marketPrice": 12.7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 278686,
+    "name": "Professor's Research - 060/072 (2021)",
+    "cleanName": "Professors Research 060 072 2021",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/278686_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/278686/pokemon-professor-program-promos-professors-research-060-072-2021",
+    "modifiedOn": "2023-07-28T15:58:48.493",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "060/072"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 12.6,
+        "midPrice": 15.05,
+        "highPrice": 31.49,
+        "marketPrice": 12.6,
+        "directLowPrice": 13.97
+      }
+    ]
+  },
+  {
+    "productId": 278687,
+    "name": "Professor's Research - 147/172 (2021)",
+    "cleanName": "Professors Research 147 172 2021",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/278687_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/278687/pokemon-professor-program-promos-professors-research-147-172-2021",
+    "modifiedOn": "2023-07-28T15:58:57.707",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "147/172"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 11.32,
+        "midPrice": 25,
+        "highPrice": 44.5,
+        "marketPrice": 26,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 499366,
+    "name": "Gym Trainer (2022)",
+    "cleanName": "Gym Trainer 2022",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/499366_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/499366/pokemon-professor-program-promos-gym-trainer-2022",
+    "modifiedOn": "2023-06-07T15:50:07.373",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "059/072"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw 2 cards. If any of your Pokémon were Knocked Out during your opponent's last turn, draw 2 more cards.\r\n<br><br>\r\nYou may play only 1 Supporter card during your turn."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 12.59,
+        "midPrice": 14.71,
+        "highPrice": 24.92,
+        "marketPrice": 13.52,
+        "directLowPrice": 13.99
+      }
+    ]
+  },
+  {
+    "productId": 499857,
+    "name": "League Staff",
+    "cleanName": "League Staff",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/499857_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/499857/pokemon-professor-program-promos-league-staff",
+    "modifiedOn": "2023-06-09T13:18:58.117",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "153/185"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw 2 cards. If Wyndon Stadium is in play, draw 2 more cards.\r\n<br><br>\r\nYou may play only 1 Supporter card during your turn."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 89.99,
+        "midPrice": 94.99,
+        "highPrice": 99.99,
+        "marketPrice": 89.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 556953,
+    "name": "Professor's Research - 189/198 (2023)",
+    "cleanName": "Professors Research 189 198 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/556953_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/556953/pokemon-professor-program-promos-professors-research-189-198-2023",
+    "modifiedOn": "2024-06-25T15:31:46.373",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "189/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 16.99,
+        "midPrice": 18.99,
+        "highPrice": 45,
+        "marketPrice": 22.48,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 556956,
+    "name": "Sonia - 167/192 (2022)",
+    "cleanName": "Sonia 167 192 2022",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/556956_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/556956/pokemon-professor-program-promos-sonia-167-192-2022",
+    "modifiedOn": "2024-06-24T20:36:18.563",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "167/192"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for up to 2 Basic Pokemon or up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 24.99,
+        "midPrice": 29.39,
+        "highPrice": 35.86,
+        "marketPrice": 29.52,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 556957,
+    "name": "Professor's Research - 190/198 (2023)",
+    "cleanName": "Professors Research 190 198 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/556957_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/556957/pokemon-professor-program-promos-professors-research-190-198-2023",
+    "modifiedOn": "2024-06-24T20:40:46.953",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "190/198"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Discard your hand and draw 7 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 11.01,
+        "midPrice": 14.49,
+        "highPrice": 50.49,
+        "marketPrice": 17.73,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 556967,
+    "name": "Friends in Galar - 140/172 (2022)",
+    "cleanName": "Friends in Galar 140 172 2022",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/556967_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/556967/pokemon-professor-program-promos-friends-in-galar-140-172-2022",
+    "modifiedOn": "2024-06-24T20:50:05.067",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "140/172"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw 3 cards."
+      }
+    ],
+    "prices": []
+  },
+  {
+    "productId": 556969,
+    "name": "Roxanne - 150/189 (2022)",
+    "cleanName": "Roxanne 150 189 2022",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/556969_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/556969/pokemon-professor-program-promos-roxanne-150-189-2022",
+    "modifiedOn": "2024-06-24T20:51:25.287",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "150/189"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "You can use this card only if your opponent has 3 or less Prize cards left.\r\n<br>Both players shuffle their hand into their deck. Then, you draw 6 cards and your opponent draws 2 cards."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 12,
+        "midPrice": 21.25,
+        "highPrice": 41,
+        "marketPrice": 18.28,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 557102,
+    "name": "Friends in Sinnoh - 131/159 (2023)",
+    "cleanName": "Friends in Sinnoh 131 159 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/557102_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/557102/pokemon-professor-program-promos-friends-in-sinnoh-131-159-2023",
+    "modifiedOn": "2024-06-26T18:07:33.997",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "131/159"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw 3 cards.\r\n<br>\r\n<br>You may only play 1 Supporter card during your turn."
+      }
+    ],
+    "prices": []
+  },
+  {
+    "productId": 557103,
+    "name": "Friends in Sinnoh - 131/159 (2023) [Staff]",
+    "cleanName": "Friends in Sinnoh 131 159 2023 Staff",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/557103_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/557103/pokemon-professor-program-promos-friends-in-sinnoh-131-159-2023-staff",
+    "modifiedOn": "2024-06-26T18:08:06.24",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "131/159"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Draw 3 cards.\r\n<br>\r\n<br>You may only play 1 Supporter card during your turn."
+      }
+    ],
+    "prices": []
+  },
+  {
+    "productId": 599453,
+    "name": "Fighting Energy (2023)",
+    "cleanName": "Fighting Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599453_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599453/pokemon-professor-program-promos-fighting-energy-2023",
+    "modifiedOn": "2024-11-22T21:09:10.847",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "006"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 18.23,
+        "midPrice": 37.99,
+        "highPrice": 45,
+        "marketPrice": 33.7,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599454,
+    "name": "Fire Energy (2023)",
+    "cleanName": "Fire Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599454_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599454/pokemon-professor-program-promos-fire-energy-2023",
+    "modifiedOn": "2024-11-22T21:10:40.49",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "002"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 23.23,
+        "midPrice": 36.13,
+        "highPrice": 45,
+        "marketPrice": 35.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599455,
+    "name": "Grass Energy (2023)",
+    "cleanName": "Grass Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599455_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599455/pokemon-professor-program-promos-grass-energy-2023",
+    "modifiedOn": "2024-11-22T21:14:48.483",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "001"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 18.47,
+        "midPrice": 23.17,
+        "highPrice": 45,
+        "marketPrice": 32,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599456,
+    "name": "Lightning Energy (2023)",
+    "cleanName": "Lightning Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599456_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599456/pokemon-professor-program-promos-lightning-energy-2023",
+    "modifiedOn": "2024-11-22T21:17:15.337",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "004"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 18.45,
+        "midPrice": 39.51,
+        "highPrice": 44.24,
+        "marketPrice": 39.54,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599457,
+    "name": "Psychic Energy (2023)",
+    "cleanName": "Psychic Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599457_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599457/pokemon-professor-program-promos-psychic-energy-2023",
+    "modifiedOn": "2024-11-22T21:21:38.477",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "005"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 18.23,
+        "midPrice": 37.25,
+        "highPrice": 63.96,
+        "marketPrice": 38.61,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599458,
+    "name": "Water Energy (2023)",
+    "cleanName": "Water Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599458_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599458/pokemon-professor-program-promos-water-energy-2023",
+    "modifiedOn": "2024-11-22T21:22:53.437",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "003"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 18.46,
+        "midPrice": 37.75,
+        "highPrice": 47.23,
+        "marketPrice": 34.67,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599459,
+    "name": "Metal Energy (2023)",
+    "cleanName": "Metal Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599459_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599459/pokemon-professor-program-promos-metal-energy-2023",
+    "modifiedOn": "2024-11-22T21:24:19.653",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "008"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 18.23,
+        "midPrice": 36.21,
+        "highPrice": 45,
+        "marketPrice": 33.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 599460,
+    "name": "Darkness Energy (2023)",
+    "cleanName": "Darkness Energy 2023",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/599460_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/599460/pokemon-professor-program-promos-darkness-energy-2023",
+    "modifiedOn": "2024-11-22T21:25:32.433",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "007"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 19.71,
+        "midPrice": 35.75,
+        "highPrice": 49.94,
+        "marketPrice": 34.98,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604494,
+    "name": "Darkness Energy (2024)",
+    "cleanName": "Darkness Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604494_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604494/pokemon-professor-program-promos-darkness-energy-2024",
+    "modifiedOn": "2024-12-11T21:14:03.487",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "007"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 8.91,
+        "midPrice": 17.5,
+        "highPrice": 45,
+        "marketPrice": 8.88,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604495,
+    "name": "Metal Energy (2024)",
+    "cleanName": "Metal Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604495_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604495/pokemon-professor-program-promos-metal-energy-2024",
+    "modifiedOn": "2024-12-11T21:14:54.677",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "008"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 14.91,
+        "midPrice": 22.49,
+        "highPrice": 50,
+        "marketPrice": 17.49,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604496,
+    "name": "Water Energy (2024)",
+    "cleanName": "Water Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604496_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604496/pokemon-professor-program-promos-water-energy-2024",
+    "modifiedOn": "2024-12-11T21:15:17.99",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "003"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 14.91,
+        "midPrice": 19.99,
+        "highPrice": 46,
+        "marketPrice": 15.93,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604497,
+    "name": "Psychic Energy (2024)",
+    "cleanName": "Psychic Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604497_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604497/pokemon-professor-program-promos-psychic-energy-2024",
+    "modifiedOn": "2024-12-11T21:15:50.073",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "005"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 13.88,
+        "midPrice": 19.99,
+        "highPrice": 53,
+        "marketPrice": 16.93,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604498,
+    "name": "Lightning Energy (2024)",
+    "cleanName": "Lightning Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604498_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604498/pokemon-professor-program-promos-lightning-energy-2024",
+    "modifiedOn": "2024-12-11T21:16:11.597",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "004"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 7.97,
+        "midPrice": 14.49,
+        "highPrice": 52,
+        "marketPrice": 7.89,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604499,
+    "name": "Grass Energy (2024)",
+    "cleanName": "Grass Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604499_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604499/pokemon-professor-program-promos-grass-energy-2024",
+    "modifiedOn": "2024-12-11T21:16:37.167",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "001"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 7.97,
+        "midPrice": 11.98,
+        "highPrice": 40,
+        "marketPrice": 7.94,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604500,
+    "name": "Fire Energy (2024)",
+    "cleanName": "Fire Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604500_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604500/pokemon-professor-program-promos-fire-energy-2024",
+    "modifiedOn": "2024-12-11T21:17:00.05",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "002"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 7.97,
+        "midPrice": 13.99,
+        "highPrice": 50,
+        "marketPrice": 7.94,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 604501,
+    "name": "Fighting Energy (2024)",
+    "cleanName": "Fighting Energy 2024",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/604501_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/604501/pokemon-professor-program-promos-fighting-energy-2024",
+    "modifiedOn": "2024-12-11T21:17:22.593",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "006"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Promo"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Energy"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 14.91,
+        "midPrice": 17.92,
+        "highPrice": 52,
+        "marketPrice": 14.97,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 617018,
+    "name": "Voltorb - 100/165",
+    "cleanName": "Voltorb 100 165",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/617018_200w.jpg",
+    "categoryId": 3,
+    "groupId": 2332,
+    "url": "https://www.tcgplayer.com/product/617018/pokemon-professor-program-promos-voltorb-100-165",
+    "modifiedOn": "2025-02-05T16:35:46.99",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "100/165"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[L] Tumbling Attack (10+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Reverse Holofoil",
+        "lowPrice": 2000,
+        "midPrice": 2000,
+        "highPrice": 2000,
+        "marketPrice": 2000,
+        "directLowPrice": null
+      }
+    ]
+  }
+]

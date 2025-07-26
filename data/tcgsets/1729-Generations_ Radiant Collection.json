@@ -1,0 +1,2393 @@
+[
+  {
+    "productId": 113742,
+    "name": "Chikorita",
+    "cleanName": "Chikorita",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113742_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113742/pokemon-generations-radiant-collection-chikorita",
+    "modifiedOn": "2022-12-14T16:52:53.837",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC1/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Run Around\r\n<br>Switch this Pokemon with 1 of your Benched Pokemon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1G] Vine Whip (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Rx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 3.5,
+        "midPrice": 6.97,
+        "highPrice": 29.99,
+        "marketPrice": 6.78,
+        "directLowPrice": 6.99
+      }
+    ]
+  },
+  {
+    "productId": 113743,
+    "name": "Shroomish",
+    "cleanName": "Shroomish",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113743_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113743/pokemon-generations-radiant-collection-shroomish",
+    "modifiedOn": "2024-07-26T19:16:53.543",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC2/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Grass"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[G] Worry Seed (10)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Confused."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Rx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.5,
+        "midPrice": 1.33,
+        "highPrice": 2.8,
+        "marketPrice": 1.41,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113744,
+    "name": "Charmander",
+    "cleanName": "Charmander",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113744_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113744/pokemon-generations-radiant-collection-charmander",
+    "modifiedOn": "2022-12-14T16:56:04.58",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC3/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1R] Playful (20x)\r\n<br>Flip a coin. If heads, this attack does 20 damage times the number of damage counters on this Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 6.1,
+        "midPrice": 9.99,
+        "highPrice": 89,
+        "marketPrice": 8.64,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113745,
+    "name": "Charmeleon",
+    "cleanName": "Charmeleon",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113745_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113745/pokemon-generations-radiant-collection-charmeleon",
+    "modifiedOn": "2022-12-14T16:56:42.833",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC4/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Call for Support\r\n<br>Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1RR] Slash (80)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 6,
+        "midPrice": 11.6,
+        "highPrice": 29.99,
+        "marketPrice": 11.99,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113746,
+    "name": "Charizard",
+    "cleanName": "Charizard",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113746_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113746/pokemon-generations-radiant-collection-charizard",
+    "modifiedOn": "2024-07-20T04:34:57.687",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC5/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "160"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 2"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Recall\r\n<br>Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2RR] Combustion Blast (130)\r\n<br>This Pokémon can't use Combustion Blast during your next turn."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "3"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 12.75,
+        "midPrice": 18.95,
+        "highPrice": 100,
+        "marketPrice": 17.56,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113747,
+    "name": "Flareon EX",
+    "cleanName": "Flareon EX",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113747_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113747/pokemon-generations-radiant-collection-flareon-ex",
+    "modifiedOn": "2024-07-10T20:47:02.22",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC6/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "170"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability — Flash Fire</b>\r\n<br>Once during your turn (before your attack), you may move a Fire Energy from 1 of your Pokémon to this Pokémon."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Blaze Ball (50+)\r\n<br>This attack does 20 more damage for each Fire Energy attached to this Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 32.75,
+        "midPrice": 48.46,
+        "highPrice": 99.99,
+        "marketPrice": 49.33,
+        "directLowPrice": 76.98
+      }
+    ]
+  },
+  {
+    "productId": 113748,
+    "name": "Flareon EX (Full Art)",
+    "cleanName": "Flareon EX Full Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113748_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113748/pokemon-generations-radiant-collection-flareon-ex-full-art",
+    "modifiedOn": "2023-03-06T08:47:23.927",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC28/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fire"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "170"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability — Flash Fire</b>\r\n<br>Once during your turn (before your attack), you may move a Fire Energy from 1 of your Pokémon to this Pokémon."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Blaze Ball (50+)\r\n<br>This attack does 20 more damage for each Fire Energy attached to this Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Wx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 55.5,
+        "midPrice": 97.51,
+        "highPrice": 200,
+        "marketPrice": 95.16,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113749,
+    "name": "Snorunt",
+    "cleanName": "Snorunt",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113749_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113749/pokemon-generations-radiant-collection-snorunt",
+    "modifiedOn": "2024-07-26T19:16:53.623",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC7/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Icy Snow (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1.1,
+        "midPrice": 2,
+        "highPrice": 5.99,
+        "marketPrice": 1.73,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113750,
+    "name": "Froslass",
+    "cleanName": "Froslass",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113750_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113750/pokemon-generations-radiant-collection-froslass",
+    "modifiedOn": "2024-07-26T19:16:53.687",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC8/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Water"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability — Drag Along</b>\r\n<br>If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[3] Snowy Drop\r\n<br>Put 4 damage counters on your opponent's Pokémon in any way you like."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.6,
+        "midPrice": 1.5,
+        "highPrice": 9.99,
+        "marketPrice": 1.49,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113751,
+    "name": "Raichu",
+    "cleanName": "Raichu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113751_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113751/pokemon-generations-radiant-collection-raichu",
+    "modifiedOn": "2023-07-08T15:46:21.6",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC9/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Circle Circuit (20x)\r\n<br>This attack does 20 damage times the number of Pokémon on your Bench."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1LL] Thunderbolt (100)\r\n<br>Discard all Energy attached to this Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "M-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "0"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 3.91,
+        "midPrice": 6.34,
+        "highPrice": 49.99,
+        "marketPrice": 6.61,
+        "directLowPrice": 9.94
+      }
+    ]
+  },
+  {
+    "productId": 113752,
+    "name": "Dedenne",
+    "cleanName": "Dedenne",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113752_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113752/pokemon-generations-radiant-collection-dedenne",
+    "modifiedOn": "2022-12-14T16:53:01.293",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC10/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Rest\r\n<br>Heal 30 damage from this Pokémon. This Pokémon is now Asleep."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[L] Pachi (10+)\r\n<br>Flip a coin. If heads, this attack does 20 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "M-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 7.71,
+        "midPrice": 11,
+        "highPrice": 49.99,
+        "marketPrice": 10.71,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113753,
+    "name": "Wobbuffet",
+    "cleanName": "Wobbuffet",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113753_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113753/pokemon-generations-radiant-collection-wobbuffet",
+    "modifiedOn": "2024-07-26T19:16:53.757",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC11/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "110"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "<b>Ability — Bide Barricade</b>\r\n<br>As long as this Pokémon is your Active Pokémon, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Psychic Pokémon)."
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1P] Psychic Assault (10+)\r\n<br>This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 1.5,
+        "midPrice": 2.16,
+        "highPrice": 14.99,
+        "marketPrice": 2.1,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113754,
+    "name": "Gulpin",
+    "cleanName": "Gulpin",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113754_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113754/pokemon-generations-radiant-collection-gulpin",
+    "modifiedOn": "2022-12-14T16:53:14.763",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC12/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Starvin' (30)\r\n<br>Flip a coin. If tails, this attack does nothing."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 3.75,
+        "midPrice": 5.49,
+        "highPrice": 19.99,
+        "marketPrice": 5.6,
+        "directLowPrice": 5.86
+      }
+    ]
+  },
+  {
+    "productId": 113755,
+    "name": "Jirachi",
+    "cleanName": "Jirachi",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113755_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113755/pokemon-generations-radiant-collection-jirachi",
+    "modifiedOn": "2022-12-14T16:53:20.2",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC13/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Wish\r\n<br>Search your deck for a card and put it into your hand. Shuffle your deck afterward."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2P] Heart Sign (50)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 4.54,
+        "midPrice": 8,
+        "highPrice": 29.99,
+        "marketPrice": 7.65,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113756,
+    "name": "Espurr",
+    "cleanName": "Espurr",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113756_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113756/pokemon-generations-radiant-collection-espurr",
+    "modifiedOn": "2022-12-14T16:53:26.38",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC14/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "50"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Twinkle\r\n<br>Your opponent's Active Pokémon is now Asleep."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 10.92,
+        "midPrice": 15,
+        "highPrice": 95,
+        "marketPrice": 14.24,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113757,
+    "name": "Meowstic",
+    "cleanName": "Meowstic",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113757_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113757/pokemon-generations-radiant-collection-meowstic",
+    "modifiedOn": "2023-03-07T21:29:44.46",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC15/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Psychic"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[P] Ear Influence\r\n<br>\r\nMove as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[PPP] Psychic (60+)\r\n<br>Does 10 more damage for each Energy attached to your opponent's Active Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Px2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "None"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 1.25,
+        "midPrice": 3.05,
+        "highPrice": 9.99,
+        "marketPrice": 2.96,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113758,
+    "name": "Yveltal",
+    "cleanName": "Yveltal",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113758_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113758/pokemon-generations-radiant-collection-yveltal",
+    "modifiedOn": "2024-07-26T19:16:53.827",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC16/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Darkness"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "130"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[D] Oblivion Wing (30)\r\n<br>Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1DD] Darkness Blade (100)\r\n<br>Flip a coin. If tails, this Pokémon can't attack during your next turn."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.25,
+        "midPrice": 1.69,
+        "highPrice": 9.99,
+        "marketPrice": 1.62,
+        "directLowPrice": 1.49
+      }
+    ]
+  },
+  {
+    "productId": 113759,
+    "name": "Flabebe",
+    "cleanName": "Flabebe",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113759_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113759/pokemon-generations-radiant-collection-flabebe",
+    "modifiedOn": "2024-07-26T19:16:53.9",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC17/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Razor Leaf (10)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.81,
+        "midPrice": 1.5,
+        "highPrice": 19.99,
+        "marketPrice": 1.48,
+        "directLowPrice": 19.99
+      }
+    ]
+  },
+  {
+    "productId": 113760,
+    "name": "Floette",
+    "cleanName": "Floette",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113760_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113760/pokemon-generations-radiant-collection-floette",
+    "modifiedOn": "2023-01-04T09:14:26.083",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC18/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "70"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[Y] Petal Blizzard\r\n<br>This attack does 10 damage to each of your opponent's Pokémon. <i>(Don't apply Weakness and Resistance for Benched Pokémon.)</i>"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1Y] Razor Leaf (30)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.5,
+        "midPrice": 1.58,
+        "highPrice": 9.99,
+        "marketPrice": 1.47,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113761,
+    "name": "Swirlix",
+    "cleanName": "Swirlix",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113761_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113761/pokemon-generations-radiant-collection-swirlix",
+    "modifiedOn": "2023-03-08T06:41:02.577",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC19/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[Y] Lick Away\r\n<br>Remove all Special Conditions from this Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Tackle (20)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 3.11,
+        "midPrice": 5.79,
+        "highPrice": 10,
+        "marketPrice": 5.33,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113762,
+    "name": "Slurpuff",
+    "cleanName": "Slurpuff",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113762_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113762/pokemon-generations-radiant-collection-slurpuff",
+    "modifiedOn": "2024-07-26T19:16:53.947",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC20/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[Y] Lap Up\r\n<br>Draw 3 cards."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[3] Fairy Wind (40)"
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.42,
+        "midPrice": 2.38,
+        "highPrice": 9.99,
+        "marketPrice": 2.46,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113763,
+    "name": "Sylveon EX",
+    "cleanName": "Sylveon EX",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113763_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113763/pokemon-generations-radiant-collection-sylveon-ex",
+    "modifiedOn": "2022-12-14T16:54:26.667",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC21/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "170"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Dress Up (30+)\r\n<br>If this Pokemon has a Pokemon Tool card attached to it, this attack does 30 more damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1YY] Precious Ribbon (100)\r\n<br>Move a Fairy Energy from this Pokémon to 1 of your Benched Pokémon. If you do, heal 50 damage from that Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 29.99,
+        "midPrice": 50.02,
+        "highPrice": 149.95,
+        "marketPrice": 47.34,
+        "directLowPrice": 60.39
+      }
+    ]
+  },
+  {
+    "productId": 113764,
+    "name": "Sylveon EX (Full Art)",
+    "cleanName": "Sylveon EX Full Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113764_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113764/pokemon-generations-radiant-collection-sylveon-ex-full-art",
+    "modifiedOn": "2023-11-03T06:39:20.347",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC32/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "170"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2] Dress Up (30+)\r\n<br>If this Pokemon has a Pokemon Tool card attached to it, this attack does 30 more damage."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1YY] Precious Ribbon (100)\r\n<br>Move a Fairy Energy from this Pokémon to 1 of your Benched Pokémon. If you do, heal 50 damage from that Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 80,
+        "midPrice": 113.88,
+        "highPrice": 285,
+        "marketPrice": 112.06,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113765,
+    "name": "Diancie",
+    "cleanName": "Diancie",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113765_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113765/pokemon-generations-radiant-collection-diancie",
+    "modifiedOn": "2022-12-14T16:54:32.393",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC22/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[Y] Sparkle\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[1YY] Diamond Storm (60)\r\n<br>Heal 30 damage from each of your Fairy Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 1.71,
+        "midPrice": 2.98,
+        "highPrice": 9.99,
+        "marketPrice": 3.02,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113766,
+    "name": "Swablu",
+    "cleanName": "Swablu",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113766_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113766/pokemon-generations-radiant-collection-swablu",
+    "modifiedOn": "2024-07-26T19:16:53.98",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC23/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Bind Wound\r\n<br>Heal 20 damage from 1 of your Pokemon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 2.2,
+        "midPrice": 3.08,
+        "highPrice": 8.19,
+        "marketPrice": 3.28,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113767,
+    "name": "Altaria",
+    "cleanName": "Altaria",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113767_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113767/pokemon-generations-radiant-collection-altaria",
+    "modifiedOn": "2024-07-26T19:16:54",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC24/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "90"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Stage 1"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Flap (20)"
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Fairy Friend (30+)\r\n<br>If you have any Fairy Pokémon on your Bench, this attack does 30 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 8.05,
+        "midPrice": 12.52,
+        "highPrice": 99.99,
+        "marketPrice": 11.38,
+        "directLowPrice": 10.03
+      }
+    ]
+  },
+  {
+    "productId": 113768,
+    "name": "Fletchling",
+    "cleanName": "Fletchling",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113768_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113768/pokemon-generations-radiant-collection-fletchling",
+    "modifiedOn": "2023-07-15T13:18:19.347",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC25/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Colorless"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "40"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Warble \r\n<br>Search your deck for up to 2 Fletchling, reveal them, and put them into your hand. Shuffle your deck afterward."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Lx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "F-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 2.99,
+        "midPrice": 3.73,
+        "highPrice": 5.93,
+        "marketPrice": 3.75,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113769,
+    "name": "Floral Crown",
+    "cleanName": "Floral Crown",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113769_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113769/pokemon-generations-radiant-collection-floral-crown",
+    "modifiedOn": "2022-12-14T16:55:30.807",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC26/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Common"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Tool"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "At the end of your opponent's turn, heal 20 damage from the Basic Pokémon this card is attached to."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Normal",
+        "lowPrice": 0.2,
+        "midPrice": 0.74,
+        "highPrice": 9.99,
+        "marketPrice": 0.74,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113770,
+    "name": "Wally",
+    "cleanName": "Wally",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113770_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113770/pokemon-generations-radiant-collection-wally",
+    "modifiedOn": "2022-12-14T16:55:40.187",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC27/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Supporter"
+      },
+      {
+        "name": "CardText",
+        "displayName": "Card Text",
+        "value": "Search your deck for a card that evolves from 1 of your Pokémon (excluding Pokémon EX) and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward. You can use this card during your first turn or on a Pokémon that was put into play this turn."
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 0.5,
+        "midPrice": 1.69,
+        "highPrice": 4.99,
+        "marketPrice": 1.61,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113771,
+    "name": "Pikachu (Full Art)",
+    "cleanName": "Pikachu Full Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113771_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113771/pokemon-generations-radiant-collection-pikachu-full-art",
+    "modifiedOn": "2024-12-10T03:43:36.023",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC29/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Lightning"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "60"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[1] Nuzzle\r\n<br>Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[2] Quick Attack (20+)\r\n<br>Flip a coin. If heads, this attack does 10 more damage."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Fx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "M-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "1"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 39.99,
+        "midPrice": 48.39,
+        "highPrice": 83.59,
+        "marketPrice": 48.73,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113772,
+    "name": "Gardevoir EX (Full Art)",
+    "cleanName": "Gardevoir EX Full Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113772_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113772/pokemon-generations-radiant-collection-gardevoir-ex-full-art",
+    "modifiedOn": "2023-04-29T19:16:25.567",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC30/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "170"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Basic"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[Y] Life Leap (20)\r\n<br>Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
+      },
+      {
+        "name": "Attack 2",
+        "displayName": "Attack 2",
+        "value": "[YYY] Shining Wind (100)\r\n<br>During your opponent's next turn, this Pokémon has no Weakness."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 29.95,
+        "midPrice": 44.95,
+        "highPrice": 98.99,
+        "marketPrice": 44.26,
+        "directLowPrice": null
+      }
+    ]
+  },
+  {
+    "productId": 113773,
+    "name": "M Gardevoir EX (Full Art)",
+    "cleanName": "M Gardevoir EX Full Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/113773_200w.jpg",
+    "categoryId": 3,
+    "groupId": 1729,
+    "url": "https://www.tcgplayer.com/product/113773/pokemon-generations-radiant-collection-m-gardevoir-ex-full-art",
+    "modifiedOn": "2022-12-14T16:56:22.75",
+    "imageCount": 1,
+    "presaleInfo": {
+      "isPresale": false,
+      "releasedOn": null,
+      "note": null
+    },
+    "extendedData": [
+      {
+        "name": "Number",
+        "displayName": "Card Number",
+        "value": "RC31/RC32"
+      },
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "Ultra Rare"
+      },
+      {
+        "name": "Card Type",
+        "displayName": "Card Type",
+        "value": "Fairy"
+      },
+      {
+        "name": "HP",
+        "displayName": "HP",
+        "value": "210"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "value": "Mega"
+      },
+      {
+        "name": "Attack 1",
+        "displayName": "Attack 1",
+        "value": "[2Y] Brilliant Arrow (30x)\r\n<br>This attack does 30 damage times the amount of Fairy Energy attached to all of your Pokémon."
+      },
+      {
+        "name": "Weakness",
+        "displayName": "Weakness",
+        "value": "Mx2"
+      },
+      {
+        "name": "Resistance",
+        "displayName": "Resistance",
+        "value": "D-20"
+      },
+      {
+        "name": "RetreatCost",
+        "displayName": "Retreat Cost",
+        "value": "2"
+      }
+    ],
+    "prices": [
+      {
+        "subTypeName": "Holofoil",
+        "lowPrice": 56.29,
+        "midPrice": 79.99,
+        "highPrice": 169,
+        "marketPrice": 75.58,
+        "directLowPrice": null
+      }
+    ]
+  }
+]
