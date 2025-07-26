@@ -1,31 +1,21 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Link, useLocation } from "react-router-dom"
-import { onAuthStateChanged, signOut } from "firebase/auth"
+import { Link, useLocation, useNavigate } from "react-router-dom"
 import { auth } from "../firebase"
-import {
-  Search,
-  User,
-  LogOut,
-  Menu,
-  X,
-  Home,
-  ShoppingBasketIcon as Collection,
-  BookOpen,
-  Zap,
-  ChevronDown,
-} from "lucide-react"
+import { onAuthStateChanged, signOut } from "firebase/auth"
+import { Menu, X, User, LogOut, Home, Search, Grid, BookOpen, Zap } from "lucide-react"
 
 const Navbar = () => {
   const [user, setUser] = useState(null)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [showProfileDropdown, setShowProfileDropdown] = useState(false)
+  const [showUserMenu, setShowUserMenu] = useState(false)
   const location = useLocation()
+  const navigate = useNavigate()
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser)
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setUser(user)
     })
     return () => unsubscribe()
   }, [])
@@ -33,8 +23,8 @@ const Navbar = () => {
   const handleSignOut = async () => {
     try {
       await signOut(auth)
-      setShowProfileDropdown(false)
-      setIsMenuOpen(false)
+      navigate("/")
+      setShowUserMenu(false)
     } catch (error) {
       console.error("Error signing out:", error)
     }
@@ -43,90 +33,86 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/", icon: Home },
     { name: "Search", path: "/search", icon: Search },
-    { name: "Collection", path: "/collection", icon: Collection },
+    { name: "Collection", path: "/collection", icon: Grid },
     { name: "Master Sets", path: "/masterset", icon: Zap },
-    { name: "Binders", path: "/binder-builder", icon: BookOpen },
+    { name: "Binder Builder", path: "/binder-builder", icon: BookOpen },
   ]
 
-  const isActive = (path) => location.pathname === path
+  const isActive = (path) => {
+    if (path === "/" && location.pathname === "/") return true
+    if (path !== "/" && location.pathname.startsWith(path)) return true
+    return false
+  }
 
   return (
-    <nav className="sticky top-0 z-50 glass backdrop-blur-xl border-b border-white/10">
+    <nav className="sticky top-0 z-50 glass-white border-b border-white/20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-4 group">
+          <Link to="/" className="flex items-center gap-3 group">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 neon-blue">
               <span className="text-white font-bold text-xl">P</span>
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              PokéBinder
-            </span>
+            <div className="hidden sm:block">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                PokéBinder
+              </h1>
+              <p className="text-xs text-slate-500 font-medium">Organize Your Collection</p>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden lg:flex items-center gap-2">
             {navItems.map((item) => {
               const Icon = item.icon
               return (
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`flex items-center gap-3 px-6 py-3 rounded-2xl font-semibold transition-all duration-300 ${
+                  className={`flex items-center gap-2 px-4 py-3 rounded-2xl font-semibold transition-all duration-300 ${
                     isActive(item.path)
                       ? "bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg neon-blue"
-                      : "text-slate-700 hover:text-blue-600 hover:bg-white/50"
+                      : "text-slate-700 hover:bg-white/60 hover:shadow-md"
                   }`}
                 >
                   <Icon size={18} />
-                  {item.name}
+                  <span>{item.name}</span>
                 </Link>
               )
             })}
           </div>
 
           {/* User Menu */}
-          <div className="hidden md:flex items-center">
+          <div className="flex items-center gap-4">
             {user ? (
               <div className="relative">
                 <button
-                  onMouseEnter={() => setShowProfileDropdown(true)}
-                  onMouseLeave={() => setShowProfileDropdown(false)}
-                  className={`flex items-center gap-3 px-6 py-3 rounded-2xl font-semibold transition-all duration-300 ${
-                    isActive("/profile")
-                      ? "bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg neon-blue"
-                      : "text-slate-700 hover:text-blue-600 hover:bg-white/50"
-                  }`}
+                  onClick={() => setShowUserMenu(!showUserMenu)}
+                  className="flex items-center gap-3 px-4 py-3 rounded-2xl glass hover:bg-white/60 transition-all duration-300 hover:shadow-md"
                 >
-                  <User size={18} />
-                  Profile
-                  <ChevronDown
-                    size={16}
-                    className={`transition-transform duration-200 ${showProfileDropdown ? "rotate-180" : ""}`}
-                  />
+                  <div className="w-8 h-8 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full flex items-center justify-center">
+                    <User size={16} className="text-white" />
+                  </div>
+                  <span className="hidden sm:block font-semibold text-slate-700">
+                    {user.displayName || user.email?.split("@")[0]}
+                  </span>
                 </button>
 
-                {/* Dropdown Menu */}
-                {showProfileDropdown && (
-                  <div
-                    className="absolute right-0 top-full mt-2 w-56 glass-white rounded-2xl shadow-xl border border-white/20 py-3 z-50"
-                    onMouseEnter={() => setShowProfileDropdown(true)}
-                    onMouseLeave={() => setShowProfileDropdown(false)}
-                  >
+                {showUserMenu && (
+                  <div className="absolute right-0 top-full mt-2 w-48 glass-white rounded-2xl shadow-xl border border-white/20 py-2">
                     <Link
                       to="/profile"
-                      className="flex items-center gap-3 px-6 py-3 text-slate-700 hover:bg-blue-50 transition-colors duration-200 rounded-xl mx-2"
-                      onClick={() => setShowProfileDropdown(false)}
+                      className="flex items-center gap-3 px-4 py-3 text-slate-700 hover:bg-white/60 transition-colors duration-200"
+                      onClick={() => setShowUserMenu(false)}
                     >
-                      <User size={18} />
-                      View Profile
+                      <User size={16} />
+                      Profile
                     </Link>
-                    <hr className="my-2 border-slate-200 mx-4" />
                     <button
                       onClick={handleSignOut}
-                      className="w-full flex items-center gap-3 px-6 py-3 text-red-600 hover:bg-red-50 transition-colors duration-200 rounded-xl mx-2"
+                      className="w-full flex items-center gap-3 px-4 py-3 text-red-600 hover:bg-red-50 transition-colors duration-200"
                     >
-                      <LogOut size={18} />
+                      <LogOut size={16} />
                       Sign Out
                     </button>
                   </div>
@@ -135,78 +121,44 @@ const Navbar = () => {
             ) : (
               <Link
                 to="/login"
-                className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 neon-blue"
+                className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 neon-blue"
               >
                 Sign In
               </Link>
             )}
-          </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-3 rounded-2xl text-slate-700 hover:bg-white/50 transition-colors"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="lg:hidden p-3 rounded-2xl glass hover:bg-white/60 transition-all duration-300"
+            >
+              {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-6 border-t border-white/20">
-            <div className="flex flex-col gap-3">
+          <div className="lg:hidden py-4 border-t border-white/20">
+            <div className="space-y-2">
               {navItems.map((item) => {
                 const Icon = item.icon
                 return (
                   <Link
                     key={item.name}
                     to={item.path}
-                    onClick={() => setIsMenuOpen(false)}
-                    className={`flex items-center gap-4 px-6 py-4 rounded-2xl font-semibold transition-all duration-300 ${
+                    className={`flex items-center gap-3 px-4 py-3 rounded-2xl font-semibold transition-all duration-300 ${
                       isActive(item.path)
                         ? "bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg"
-                        : "text-slate-700 hover:bg-white/50"
+                        : "text-slate-700 hover:bg-white/60"
                     }`}
+                    onClick={() => setIsMenuOpen(false)}
                   >
-                    <Icon size={20} />
-                    {item.name}
+                    <Icon size={18} />
+                    <span>{item.name}</span>
                   </Link>
                 )
               })}
-
-              <div className="border-t border-slate-200 mt-4 pt-4">
-                {user ? (
-                  <>
-                    <Link
-                      to="/profile"
-                      onClick={() => setIsMenuOpen(false)}
-                      className={`flex items-center gap-4 px-6 py-4 rounded-2xl font-semibold transition-all duration-300 ${
-                        isActive("/profile")
-                          ? "bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg"
-                          : "text-slate-700 hover:bg-white/50"
-                      }`}
-                    >
-                      <User size={20} />
-                      Profile
-                    </Link>
-                    <button
-                      onClick={handleSignOut}
-                      className="w-full flex items-center gap-4 px-6 py-4 rounded-2xl font-semibold text-red-600 hover:bg-red-50 transition-all duration-300"
-                    >
-                      <LogOut size={20} />
-                      Sign Out
-                    </button>
-                  </>
-                ) : (
-                  <Link
-                    to="/login"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-4 rounded-2xl font-semibold text-center transition-all duration-300"
-                  >
-                    Sign In
-                  </Link>
-                )}
-              </div>
             </div>
           </div>
         )}

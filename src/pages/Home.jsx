@@ -10,126 +10,130 @@ const Home = () => {
       id: 1,
       name: "Starter Collection",
       cards: [
-        { name: "Charizard", image: "/placeholder.svg?height=280&width=200&text=Charizard" },
-        { name: "Blastoise", image: "/placeholder.svg?height=280&width=200&text=Blastoise" },
-        { name: "Venusaur", image: "/placeholder.svg?height=280&width=200&text=Venusaur" },
-        { name: "Pikachu", image: "/placeholder.svg?height=280&width=200&text=Pikachu" },
-        { name: "Raichu", image: "/placeholder.svg?height=280&width=200&text=Raichu" },
-        { name: "Alakazam", image: "/placeholder.svg?height=280&width=200&text=Alakazam" },
-        { name: "Machamp", image: "/placeholder.svg?height=280&width=200&text=Machamp" },
-        { name: "Golem", image: "/placeholder.svg?height=280&width=200&text=Golem" },
-        { name: "Gengar", image: "/placeholder.svg?height=280&width=200&text=Gengar" },
+        { name: "Charizard", image: "https://tcgplayer-cdn.tcgplayer.com/product/84186_200w.jpg" }, // Base Set Charizard
+        { name: "Blastoise", image: "https://tcgplayer-cdn.tcgplayer.com/product/84188_200w.jpg" }, // Base Set Blastoise
+        { name: "Venusaur", image: "https://tcgplayer-cdn.tcgplayer.com/product/84190_200w.jpg" }, // Base Set Venusaur
+        { name: "Pikachu", image: "https://tcgplayer-cdn.tcgplayer.com/product/24295_200w.jpg" }, // Jungle Pikachu
+        { name: "Raichu", image: "https://tcgplayer-cdn.tcgplayer.com/product/84200_200w.jpg" }, // Base Set Raichu
+        { name: "Alakazam", image: "https://tcgplayer-cdn.tcgplayer.com/product/84177_200w.jpg" }, // Base Set Alakazam
+        { name: "Machamp", image: "https://tcgplayer-cdn.tcgplayer.com/product/84194_200w.jpg" }, // Base Set Machamp
+        { name: "Golem", image: "https://tcgplayer-cdn.tcgplayer.com/product/24300_200w.jpg" }, // Fossil Golem
+        { name: "Gengar", image: "https://tcgplayer-cdn.tcgplayer.com/product/24311_200w.jpg" }, // Fossil Gengar
       ],
     },
     {
       id: 2,
       name: "Legendary Vault",
       cards: [
-        { name: "Mewtwo", image: "/placeholder.svg?height=280&width=200&text=Mewtwo" },
-        { name: "Mew", image: "/placeholder.svg?height=280&width=200&text=Mew" },
-        { name: "Lugia", image: "/placeholder.svg?height=280&width=200&text=Lugia" },
-        { name: "Ho-Oh", image: "/placeholder.svg?height=280&width=200&text=Ho-Oh" },
-        { name: "Celebi", image: "/placeholder.svg?height=280&width=200&text=Celebi" },
-        { name: "Kyogre", image: "/placeholder.svg?height=280&width=200&text=Kyogre" },
-        { name: "Groudon", image: "/placeholder.svg?height=280&width=200&text=Groudon" },
-        { name: "Rayquaza", image: "/placeholder.svg?height=280&width=200&text=Rayquaza" },
-        { name: "Dialga", image: "/placeholder.svg?height=280&width=200&text=Dialga" },
+        { name: "Mewtwo", image: "https://tcgplayer-cdn.tcgplayer.com/product/84197_200w.jpg" }, // Base Set Mewtwo
+        { name: "Mew", image: "https://tcgplayer-cdn.tcgplayer.com/product/24744_200w.jpg" }, // Black Star Promo Mew
+        { name: "Lugia", image: "https://tcgplayer-cdn.tcgplayer.com/product/25427_200w.jpg" }, // Neo Genesis Lugia
+        { name: "Ho-Oh", image: "https://tcgplayer-cdn.tcgplayer.com/product/25425_200w.jpg" }, // Neo Revelation Ho-Oh
+        { name: "Celebi", image: "https://tcgplayer-cdn.tcgplayer.com/product/25424_200w.jpg" }, // Neo Revelation Celebi
+        { name: "Kyogre", image: "https://tcgplayer-cdn.tcgplayer.com/product/122326_200w.jpg" }, // Primal Clash Kyogre EX
+        { name: "Groudon", image: "https://tcgplayer-cdn.tcgplayer.com/product/122328_200w.jpg" }, // Primal Clash Groudon EX
+        { name: "Rayquaza", image: "https://tcgplayer-cdn.tcgplayer.com/product/100973_200w.jpg" }, // Roaring Skies Rayquaza EX
+        { name: "Dialga", image: "https://tcgplayer-cdn.tcgplayer.com/product/104277_200w.jpg" }, // Phantom Forces Dialga EX
       ],
     },
     {
       id: 3,
       name: "Shiny Showcase",
       cards: [
-        { name: "Shiny Gyarados", image: "/placeholder.svg?height=280&width=200&text=Shiny+Gyarados" },
-        { name: "Shiny Dragonite", image: "/placeholder.svg?height=280&width=200&text=Shiny+Dragonite" },
-        { name: "Shiny Metagross", image: "/placeholder.svg?height=280&width=200&text=Shiny+Metagross" },
-        { name: "Shiny Lucario", image: "/placeholder.svg?height=280&width=200&text=Shiny+Lucario" },
-        { name: "Shiny Garchomp", image: "/placeholder.svg?height=280&width=200&text=Shiny+Garchomp" },
-        { name: "Shiny Zoroark", image: "/placeholder.svg?height=280&width=200&text=Shiny+Zoroark" },
-        { name: "Shiny Greninja", image: "/placeholder.svg?height=280&width=200&text=Shiny+Greninja" },
-        { name: "Shiny Decidueye", image: "/placeholder.svg?height=280&width=200&text=Shiny+Decidueye" },
-        { name: "Shiny Dragapult", image: "/placeholder.svg?height=280&width=200&text=Shiny+Dragapult" },
+        { name: "Shiny Gyarados", image: "https://tcgplayer-cdn.tcgplayer.com/product/25428_200w.jpg" }, // Neo Revelation Shining Gyarados
+        { name: "Shiny Dragonite", image: "https://tcgplayer-cdn.tcgplayer.com/product/25429_200w.jpg" }, // Neo Destiny Shining Dragonite
+        { name: "Shiny Metagross", image: "https://tcgplayer-cdn.tcgplayer.com/product/146257_200w.jpg" }, // Hidden Fates Shiny Metagross GX
+        { name: "Shiny Lucario", image: "https://tcgplayer-cdn.tcgplayer.com/product/146262_200w.jpg" }, // Hidden Fates Shiny Lucario GX
+        { name: "Shiny Garchomp", image: "https://tcgplayer-cdn.tcgplayer.com/product/146260_200w.jpg" }, // Hidden Fates Shiny Garchomp
+        { name: "Shiny Zoroark", image: "https://tcgplayer-cdn.tcgplayer.com/product/146264_200w.jpg" }, // Hidden Fates Shiny Zoroark GX
+        { name: "Shiny Greninja", image: "https://tcgplayer-cdn.tcgplayer.com/product/146258_200w.jpg" }, // Hidden Fates Shiny Greninja GX
+        { name: "Shiny Decidueye", image: "https://tcgplayer-cdn.tcgplayer.com/product/146253_200w.jpg" }, // Hidden Fates Shiny Decidueye GX
+        { name: "Shiny Dragapult", image: "https://tcgplayer-cdn.tcgplayer.com/product/213563_200w.jpg" }, // Shining Fates Shiny Dragapult VMAX
       ],
     },
     {
       id: 4,
       name: "Eeveelution Set",
       cards: [
-        { name: "Eevee", image: "/placeholder.svg?height=280&width=200&text=Eevee" },
-        { name: "Vaporeon", image: "/placeholder.svg?height=280&width=200&text=Vaporeon" },
-        { name: "Jolteon", image: "/placeholder.svg?height=280&width=200&text=Jolteon" },
-        { name: "Flareon", image: "/placeholder.svg?height=280&width=200&text=Flareon" },
-        { name: "Espeon", image: "/placeholder.svg?height=280&width=200&text=Espeon" },
-        { name: "Umbreon", image: "/placeholder.svg?height=280&width=200&text=Umbreon" },
-        { name: "Leafeon", image: "/placeholder.svg?height=280&width=200&text=Leafeon" },
-        { name: "Glaceon", image: "/placeholder.svg?height=280&width=200&text=Glaceon" },
-        { name: "Sylveon", image: "/placeholder.svg?height=280&width=200&text=Sylveon" },
+        { name: "Eevee", image: "https://tcgplayer-cdn.tcgplayer.com/product/165226_200w.jpg" }, // Hidden Fates Eevee
+        { name: "Vaporeon", image: "https://tcgplayer-cdn.tcgplayer.com/product/25431_200w.jpg" }, // Jungle Vaporeon
+        { name: "Jolteon", image: "https://tcgplayer-cdn.tcgplayer.com/product/25433_200w.jpg" }, // Jungle Jolteon
+        { name: "Flareon", image: "https://tcgplayer-cdn.tcgplayer.com/product/25432_200w.jpg" }, // Jungle Flareon
+        { name: "Espeon", image: "https://tcgplayer-cdn.tcgplayer.com/product/25434_200w.jpg" }, // Neo Discovery Espeon
+        { name: "Umbreon", image: "https://tcgplayer-cdn.tcgplayer.com/product/25435_200w.jpg" }, // Neo Discovery Umbreon
+        { name: "Leafeon", image: "https://tcgplayer-cdn.tcgplayer.com/product/145624_200w.jpg" }, // Ultra Prism Leafeon GX
+        { name: "Glaceon", image: "https://tcgplayer-cdn.tcgplayer.com/product/145626_200w.jpg" }, // Ultra Prism Glaceon GX
+        { name: "Sylveon", image: "https://tcgplayer-cdn.tcgplayer.com/product/133869_200w.jpg" }, // Guardians Rising Sylveon GX
       ],
     },
     {
       id: 5,
       name: "Champion Cards",
       cards: [
-        { name: "Red's Pikachu", image: "/placeholder.svg?height=280&width=200&text=Red's+Pikachu" },
-        { name: "Blue's Blastoise", image: "/placeholder.svg?height=280&width=200&text=Blue's+Blastoise" },
-        { name: "Lance's Dragonite", image: "/placeholder.svg?height=280&width=200&text=Lance's+Dragonite" },
-        { name: "Cynthia's Garchomp", image: "/placeholder.svg?height=280&width=200&text=Cynthia's+Garchomp" },
-        { name: "Steven's Metagross", image: "/placeholder.svg?height=280&width=200&text=Steven's+Metagross" },
-        { name: "Leon's Charizard", image: "/placeholder.svg?height=280&width=200&text=Leon's+Charizard" },
-        { name: "Diantha's Gardevoir", image: "/placeholder.svg?height=280&width=200&text=Diantha's+Gardevoir" },
-        { name: "Alder's Volcarona", image: "/placeholder.svg?height=280&width=200&text=Alder's+Volcarona" },
-        { name: "Iris's Haxorus", image: "/placeholder.svg?height=280&width=200&text=Iris's+Haxorus" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
+        { name: "Tatsugiri", image: "https://tcgplayer-cdn.tcgplayer.com/product/550230_in_1000x1000.jpg" },
       ],
     },
     {
       id: 6,
       name: "Classic Collection",
       cards: [
-        { name: "Alakazam", image: "/placeholder.svg?height=280&width=200&text=Alakazam" },
-        { name: "Machamp", image: "/placeholder.svg?height=280&width=200&text=Machamp" },
-        { name: "Golem", image: "/placeholder.svg?height=280&width=200&text=Golem" },
-        { name: "Gengar", image: "/placeholder.svg?height=280&width=200&text=Gengar" },
-        { name: "Lapras", image: "/placeholder.svg?height=280&width=200&text=Lapras" },
-        { name: "Snorlax", image: "/placeholder.svg?height=280&width=200&text=Snorlax" },
-        { name: "Dragonite", image: "/placeholder.svg?height=280&width=200&text=Dragonite" },
-        { name: "Mewtwo", image: "/placeholder.svg?height=280&width=200&text=Mewtwo" },
-        { name: "Mew", image: "/placeholder.svg?height=280&width=200&text=Mew" },
+        { name: "Alakazam", image: "https://tcgplayer-cdn.tcgplayer.com/product/84177_200w.jpg" }, // Base Set Alakazam
+        { name: "Machamp", image: "https://tcgplayer-cdn.tcgplayer.com/product/84194_200w.jpg" }, // Base Set Machamp
+        { name: "Golem", image: "https://tcgplayer-cdn.tcgplayer.com/product/24300_200w.jpg" }, // Fossil Golem
+        { name: "Gengar", image: "https://tcgplayer-cdn.tcgplayer.com/product/24311_200w.jpg" }, // Fossil Gengar
+        { name: "Lapras", image: "https://tcgplayer-cdn.tcgplayer.com/product/24313_200w.jpg" }, // Fossil Lapras
+        { name: "Snorlax", image: "https://tcgplayer-cdn.tcgplayer.com/product/24320_200w.jpg" }, // Jungle Snorlax
+        { name: "Dragonite", image: "https://tcgplayer-cdn.tcgplayer.com/product/24310_200w.jpg" }, // Fossil Dragonite
+        { name: "Mewtwo", image: "https://tcgplayer-cdn.tcgplayer.com/product/84197_200w.jpg" }, // Base Set Mewtwo
+        { name: "Mew", image: "https://tcgplayer-cdn.tcgplayer.com/product/24744_200w.jpg" }, // Black Star Promo Mew
       ],
     },
     {
       id: 7,
       name: "Modern Masters",
       cards: [
-        { name: "Lucario", image: "/placeholder.svg?height=280&width=200&text=Lucario" },
-        { name: "Garchomp", image: "/placeholder.svg?height=280&width=200&text=Garchomp" },
-        { name: "Dialga", image: "/placeholder.svg?height=280&width=200&text=Dialga" },
-        { name: "Palkia", image: "/placeholder.svg?height=280&width=200&text=Palkia" },
-        { name: "Giratina", image: "/placeholder.svg?height=280&width=200&text=Giratina" },
-        { name: "Arceus", image: "/placeholder.svg?height=280&width=200&text=Arceus" },
-        { name: "Reshiram", image: "/placeholder.svg?height=280&width=200&text=Reshiram" },
-        { name: "Zekrom", image: "/placeholder.svg?height=280&width=200&text=Zekrom" },
-        { name: "Kyurem", image: "/placeholder.svg?height=280&width=200&text=Kyurem" },
+        { name: "Lucario", image: "https://tcgplayer-cdn.tcgplayer.com/product/89313_200w.jpg" }, // Furious Fists Lucario EX
+        { name: "Garchomp", image: "https://tcgplayer-cdn.tcgplayer.com/product/100977_200w.jpg" }, // Ultra Prism Garchomp
+        { name: "Dialga", image: "https://tcgplayer-cdn.tcgplayer.com/product/104277_200w.jpg" }, // Phantom Forces Dialga EX
+        { name: "Palkia", image: "https://tcgplayer-cdn.tcgplayer.com/product/145621_200w.jpg" }, // Ultra Prism Palkia GX
+        { name: "Giratina", image: "https://tcgplayer-cdn.tcgplayer.com/product/159978_200w.jpg" }, // Unified Minds Giratina
+        { name: "Arceus & Dialga & Palkia GX", image: "https://tcgplayer-cdn.tcgplayer.com/product/183818_200w.jpg" }, // Cosmic Eclipse Arceus & Dialga & Palkia GX
+        { name: "Reshiram & Charizard GX", image: "https://tcgplayer-cdn.tcgplayer.com/product/159981_200w.jpg" }, // Unbroken Bonds Reshiram & Charizard GX
+        { name: "Zekrom & Pikachu GX", image: "https://tcgplayer-cdn.tcgplayer.com/product/183815_200w.jpg" }, // Team Up Pikachu & Zekrom GX
+        { name: "Kyurem", image: "https://tcgplayer-cdn.tcgplayer.com/product/145630_200w.jpg" }, // Dragon Majesty Kyurem
       ],
     },
     {
       id: 8,
       name: "Rare Finds",
       cards: [
-        { name: "Charizard GX", image: "/placeholder.svg?height=280&width=200&text=Charizard+GX" },
-        { name: "Pikachu VMAX", image: "/placeholder.svg?height=280&width=200&text=Pikachu+VMAX" },
-        { name: "Mewtwo EX", image: "/placeholder.svg?height=280&width=200&text=Mewtwo+EX" },
-        { name: "Rayquaza V", image: "/placeholder.svg?height=280&width=200&text=Rayquaza+V" },
-        { name: "Lugia VSTAR", image: "/placeholder.svg?height=280&width=200&text=Lugia+VSTAR" },
-        { name: "Giratina V", image: "/placeholder.svg?height=280&width=200&text=Giratina+V" },
-        { name: "Arceus VSTAR", image: "/placeholder.svg?height=280&width=200&text=Arceus+VSTAR" },
-        { name: "Dialga VSTAR", image: "/placeholder.svg?height=280&width=200&text=Dialga+VSTAR" },
-        { name: "Palkia VSTAR", image: "/placeholder.svg?height=280&width=200&text=Palkia+VSTAR" },
+        { name: "Charizard GX", image: "https://tcgplayer-cdn.tcgplayer.com/product/146249_200w.jpg" }, // Hidden Fates Charizard GX
+        { name: "Pikachu VMAX", image: "https://tcgplayer-cdn.tcgplayer.com/product/221624_200w.jpg" }, // Vivid Voltage Pikachu VMAX
+        { name: "Mewtwo EX", image: "https://tcgplayer-cdn.tcgplayer.com/product/100969_200w.jpg" }, // BREAKthrough Mewtwo EX
+        { name: "Rayquaza V", image: "https://tcgplayer-cdn.tcgplayer.com/product/239245_200w.jpg" }, // Evolving Skies Rayquaza V
+        { name: "Lugia VSTAR", image: "https://tcgplayer-cdn.tcgplayer.com/product/284206_200w.jpg" }, // Silver Tempest Lugia VSTAR
+        { name: "Giratina V", image: "https://tcgplayer-cdn.tcgplayer.com/product/273226_200w.jpg" }, // Lost Origin Giratina V
+        { name: "Arceus VSTAR", image: "https://tcgplayer-cdn.tcgplayer.com/product/263223_200w.jpg" }, // Brilliant Stars Arceus VSTAR
+        { name: "Dialga VSTAR", image: "https://tcgplayer-cdn.tcgplayer.com/product/268360_200w.jpg" }, // Astral Radiance Dialga VSTAR
+        { name: "Palkia VSTAR", image: "https://tcgplayer-cdn.tcgplayer.com/product/268362_200w.jpg" }, // Astral Radiance Palkia VSTAR
       ],
     },
-  ]
+  ];
 
-  // Quadruple the array to create seamless loop and make it span entire screen
-  const infiniteBinders = [...sampleBinders, ...sampleBinders, ...sampleBinders, ...sampleBinders]
+  const infiniteBinders = [
+    ...sampleBinders,
+    ...sampleBinders,
+    ...sampleBinders,
+    ...sampleBinders,
+  ];
 
   return (
     <div className="min-h-screen">
@@ -201,29 +205,47 @@ const Home = () => {
             {infiniteBinders.map((binder, binderIndex) => (
               <div key={`${binder.id}-${Math.floor(binderIndex / sampleBinders.length)}`} className="flex-shrink-0">
                 <div className="relative group">
-                  {/* Simple Binder */}
-                  <div className="binder-page rounded-3xl p-6 shadow-2xl w-80 hover:shadow-3xl transition-all duration-500 hover:scale-105">
-                    {/* Binder Rings */}
-                    <div className="absolute left-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-6">
-                      {[...Array(3)].map((_, i) => (
-                        <div key={i} className="w-5 h-5 binder-ring rounded-full"></div>
-                      ))}
-                    </div>
-
-                    {/* Cards Grid - 3x3 */}
-                    <div className="ml-6 grid grid-cols-3 gap-3">
-                      {binder.cards.map((card, index) => (
-                        <div
-                          key={index}
-                          className="aspect-[3/4] pokemon-card rounded-lg overflow-hidden group-hover:scale-105 transition-all duration-300"
-                        >
-                          <img
-                            src={card.image || "/placeholder.svg"}
-                            alt={card.name}
-                            className="w-full h-full object-cover"
-                          />
+                  {/* Enhanced Binder with unified black background */}
+                  <div className="binder-container rounded-3xl p-8 shadow-2xl w-[800px] hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <div className="flex gap-2 items-center">
+                      {/* Left Page */}
+                      <div className="flex-1">
+                        <div className="grid grid-cols-3 gap-3">
+                          {binder.cards.slice(0, 9).map((card, index) => (
+                            <div
+                              key={index}
+                              className="aspect-[3/4] pokemon-card rounded-lg overflow-hidden group-hover:scale-105 transition-all duration-300"
+                            >
+                              <img
+                                src={card.image || "/placeholder.svg"}
+                                alt={card.name}
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          ))}
                         </div>
-                      ))}
+                      </div>
+
+                      {/* Slim Divider */}
+                      <div className="binder-divider w-1 h-80 rounded-full"></div>
+
+                      {/* Right Page */}
+                      <div className="flex-1">
+                        <div className="grid grid-cols-3 gap-3">
+                          {binder.cards.slice(9, 18).map((card, index) => (
+                            <div
+                              key={index}
+                              className="aspect-[3/4] pokemon-card rounded-lg overflow-hidden group-hover:scale-105 transition-all duration-300"
+                            >
+                              <img
+                                src={card.image || "/placeholder.svg"}
+                                alt={card.name || ""}
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          ))}
+                        </div>
+                      </div>
                     </div>
                   </div>
 

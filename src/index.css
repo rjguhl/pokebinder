@@ -31,6 +31,17 @@
   }
 }
 
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes drift {
   0%,
   100% {
@@ -96,6 +107,10 @@
   animation: slideInRight 0.6s ease-out;
 }
 
+.animate-slideInFromRight {
+  animation: slideInFromRight 0.3s ease-out forwards;
+}
+
 .animate-drift {
   animation: drift 8s ease-in-out infinite;
 }
@@ -109,7 +124,7 @@
 }
 
 .animate-scroll-left {
-  animation: scroll-left 60s linear infinite;
+  animation: scroll-left 120s linear infinite;
 }
 
 .animate-pulse-glow {
@@ -199,13 +214,18 @@
 
 /* Binder styles */
 .binder-page {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   position: relative;
 }
 
-.binder-ring {
-  background: linear-gradient(135deg, #c0c0c0 0%, #808080 100%);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+.binder-container {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  position: relative;
+}
+
+.binder-divider {
+  background: linear-gradient(to bottom, #666 0%, #999 50%, #666 100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .pokemon-card {
@@ -230,6 +250,21 @@
 .card-slot:hover {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Card detail panel */
+.card-detail-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(20px);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow-y: auto;
 }
 
 /* Utility classes */

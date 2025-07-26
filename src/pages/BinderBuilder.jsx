@@ -1,6 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Papa from "papaparse"
+import { useLocation } from "react-router-dom"
 import { auth, db } from "../firebase"
 import { onAuthStateChanged } from "firebase/auth"
 import { doc, setDoc } from "firebase/firestore"
@@ -16,24 +18,33 @@ import {
   ArrowLeft,
   Filter,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react"
 
 const BinderBuilder = () => {
+  const location = useLocation()
   const [userId, setUserId] = useState(null)
   const [searchQuery, setSearchQuery] = useState("")
   const [searchResults, setSearchResults] = useState([])
-  const [binderCards, setBinderCards] = useState(Array(18).fill(null)) // 3x6 grid
+  const [binderPages, setBinderPages] = useState([
+    { left: Array(9).fill(null), right: Array(9).fill(null) }
+  ])
+  const [currentPage, setCurrentPage] = useState(0)
   const [binderSettings, setBinderSettings] = useState({
     name: "My Binder",
     rows: 3,
-    cols: 6,
-    backgroundColor: "#667eea",
+    cols: 3,
+    backgroundColor: "#1a1a1a",
   })
   const [isPreviewMode, setIsPreviewMode] = useState(false)
   const [showSettings, setShowSettings] = useState(false)
   const [isSearching, setIsSearching] = useState(false)
   const [filterBy, setFilterBy] = useState("all")
   const [showFilterDropdown, setShowFilterDropdown] = useState(false)
+  const [selectedCard, setSelectedCard] = useState(null)
+  const [selectedSlot, setSelectedSlot] = useState(null)
+
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -44,6 +55,26 @@ const BinderBuilder = () => {
     return () => unsubscribe()
   }, [])
 
+  useEffect(() => {
+    const fetchBinderFromQuery = async () => {
+      if (!userId) return;
+      const params = new URLSearchParams(location.search);
+      const binderName = params.get("name");
+      if (!binderName) return;
+
+      const docId = binderName.toLowerCase().replace(/\s+/g, "-");
+      const binderRef = doc(db, "users", userId, "binders", docId);
+      const binderSnap = await getDoc(binderRef);
+      if (binderSnap.exists()) {
+        const data = binderSnap.data();
+        setBinderPages(data.pages || []);
+        setBinderSettings(data.settings || {});
+      }
+    };
+
+    fetchBinderFromQuery();
+  }, [userId, location.search]);
+
   const searchCards = async () => {
     if (!searchQuery.trim()) {
       setSearchResults([])
@@ -52,43 +83,17 @@ const BinderBuilder = () => {
 
     setIsSearching(true)
     try {
-      // Mock search results - replace with actual API call
-      const mockResults = [
-        {
-          id: 1,
-          name: "Charizard",
-          set: "Base Set",
-          image: "/placeholder.svg?height=280&width=200&text=Charizard",
-          rarity: "Rare Holo",
-        },
-        {
-          id: 2,
-          name: "Pikachu",
-          set: "Base Set",
-          image: "/placeholder.svg?height=280&width=200&text=Pikachu",
-          rarity: "Common",
-        },
-        {
-          id: 3,
-          name: "Blastoise",
-          set: "Base Set",
-          image: "/placeholder.svg?height=280&width=200&text=Blastoise",
-          rarity: "Rare Holo",
-        },
-        {
-          id: 4,
-          name: "Venusaur",
-          set: "Base Set",
-          image: "/placeholder.svg?height=280&width=200&text=Venusaur",
-          rarity: "Rare Holo",
-        },
-      ].filter(
+      // Fetch cards from local cards.json
+      const response = await fetch("/data/cards.json")
+      const allCards = await response.json()
+
+      const filteredCards = allCards.filter(
         (card) =>
-          card.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          card.set.toLowerCase().includes(searchQuery.toLowerCase()),
+          (card.name?.toLowerCase()?.includes(searchQuery.toLowerCase()) ||
+          card.set?.toLowerCase()?.includes(searchQuery.toLowerCase()))
       )
 
-      setSearchResults(mockResults)
+      setSearchResults(filteredCards.slice(0, 30)) // Limit to first 30 for performance
     } catch (error) {
       console.error("Error searching cards:", error)
     } finally {
@@ -104,21 +109,35 @@ const BinderBuilder = () => {
     return () => clearTimeout(debounceTimer)
   }, [searchQuery])
 
-  const addCardToBinder = (card, slotIndex) => {
-    const newBinderCards = [...binderCards]
-    newBinderCards[slotIndex] = card
-    setBinderCards(newBinderCards)
+  const addCardToBinder = (card, pageIndex, side, slotIndex) => {
+    const newPages = [...binderPages]
+    newPages[pageIndex][side][slotIndex] = card
+    setBinderPages(newPages)
   }
 
-  const removeCardFromBinder = (slotIndex) => {
-    const newBinderCards = [...binderCards]
-    newBinderCards[slotIndex] = null
-    setBinderCards(newBinderCards)
+  const removeCardFromBinder = (pageIndex, side, slotIndex) => {
+    const newPages = [...binderPages]
+    newPages[pageIndex][side][slotIndex] = null
+    setBinderPages(newPages)
+  }
+
+  const addNewPage = () => {
+    const newPage = {
+      left: Array(binderSettings.rows * binderSettings.cols).fill(null),
+      right: Array(binderSettings.rows * binderSettings.cols).fill(null),
+    }
+    setBinderPages([...binderPages, newPage])
   }
 
   const clearBinder = () => {
     if (window.confirm("Are you sure you want to clear the entire binder?")) {
-      setBinderCards(Array(binderSettings.rows * binderSettings.cols).fill(null))
+      setBinderPages([
+        {
+          left: Array(binderSettings.rows * binderSettings.cols).fill(null),
+          right: Array(binderSettings.rows * binderSettings.cols).fill(null)
+        }
+      ])
+      setCurrentPage(0)
     }
   }
 
@@ -131,7 +150,7 @@ const BinderBuilder = () => {
     try {
       const binderData = {
         name: binderSettings.name,
-        cards: binderCards,
+        pages: binderPages,
         settings: binderSettings,
         createdAt: new Date(),
         userId,
@@ -148,14 +167,19 @@ const BinderBuilder = () => {
 
   const updateBinderSize = (rows, cols) => {
     const newSize = rows * cols
-    const newCards = Array(newSize).fill(null)
-
-    // Copy existing cards to new array
-    for (let i = 0; i < Math.min(binderCards.length, newSize); i++) {
-      newCards[i] = binderCards[i]
-    }
-
-    setBinderCards(newCards)
+    const newPages = binderPages.map((page) => {
+      const newLeft = Array(newSize).fill(null)
+      const newRight = Array(newSize).fill(null)
+      // Copy existing cards to new left and right
+      for (let i = 0; i < Math.min(page.left.length, newSize); i++) {
+        newLeft[i] = page.left[i]
+      }
+      for (let i = 0; i < Math.min(page.right.length, newSize); i++) {
+        newRight[i] = page.right[i]
+      }
+      return { left: newLeft, right: newRight }
+    })
+    setBinderPages(newPages)
     setBinderSettings((prev) => ({ ...prev, rows, cols }))
   }
 
@@ -166,81 +190,83 @@ const BinderBuilder = () => {
     { value: "set", label: "By Set" },
   ]
 
+  const currentLeftPage = binderPages[currentPage]?.left || []
+  const currentRightPage = binderPages[currentPage]?.right || []
+
   return (
-    <div className="min-h-screen section-gradient-2">
-      <div className="max-w-7xl mx-auto px-6 py-8">
+    <div className="min-h-screen section-gradient-2 relative overflow-hidden">
+      <div className="max-w-screen-2xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex items-center justify-between mb-8 animate-fadeInUp">
           <div className="flex items-center gap-4">
-            <button
-              onClick={() => window.history.back()}
-              className="flex items-center gap-2 text-slate-600 hover:text-slate-800 transition-colors"
-            >
-              <ArrowLeft size={20} />
-              Back
-            </button>
             <div>
               <h1 className="text-3xl font-bold text-slate-900">Binder Builder</h1>
               <p className="text-slate-600">Create and customize your digital binder</p>
             </div>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setShowSettings(!showSettings)}
-              className="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm border border-slate-200 rounded-xl hover:bg-white transition-all duration-300"
-            >
-              <Settings size={18} />
-              Settings
-            </button>
-            <button
-              onClick={() => setIsPreviewMode(!isPreviewMode)}
-              className="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm border border-slate-200 rounded-xl hover:bg-white transition-all duration-300"
-            >
-              {isPreviewMode ? <EyeOff size={18} /> : <Eye size={18} />}
-              {isPreviewMode ? "Edit" : "Preview"}
-            </button>
-            <button
-              onClick={saveBinder}
-              className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 neon-blue"
-            >
-              <Save size={18} />
-              Save Binder
-            </button>
+            {/* Move Settings, Preview, Save Binder buttons here */}
+            <div className="flex items-center gap-3 ml-6">
+              <button
+                onClick={() => setShowSettings(!showSettings)}
+                className="flex items-center gap-2 px-4 py-2 glass hover:bg-white/60 rounded-xl transition-all duration-300"
+              >
+                <Settings size={18} />
+                Settings
+              </button>
+              <button
+                onClick={() => setIsPreviewMode(!isPreviewMode)}
+                className="flex items-center gap-2 px-4 py-2 glass hover:bg-white/60 rounded-xl transition-all duration-300"
+              >
+                {isPreviewMode ? <EyeOff size={18} /> : <Eye size={18} />}
+                {isPreviewMode ? "Edit" : "Preview"}
+              </button>
+              <button
+                onClick={saveBinder}
+                className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 neon-blue"
+              >
+                <Save size={18} />
+                Save Binder
+              </button>
+            </div>
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-4 gap-8">
-          {/* Search Panel */}
+        <div className="flex transition-all duration-300" style={{ marginRight: !isPreviewMode ? '400px' : '0' }}>
+          {/* Enhanced Search Panel in slide-out drawer */}
           {!isPreviewMode && (
-            <div className="lg:col-span-1 animate-slideInRight">
-              <div className="card-container rounded-2xl p-6 sticky top-24">
-                <h3 className="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <Search size={20} />
-                  Search Cards
-                </h3>
+            <div
+              className={`absolute right-0 top-0 bottom-0 w-[600px] bg-white shadow-xl z-40 transform-gpu transition-transform duration-300 ${
+                isPreviewMode ? "translate-x-full pointer-events-none" : "translate-x-0 pointer-events-auto"
+              }`}
+            >
+              <div className="card-container rounded-3xl p-8 h-full">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center shadow-lg neon-blue">
+                    <Search size={20} className="text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900">Search Cards</h3>
+                </div>
 
                 {/* Search Input */}
-                <div className="relative mb-4">
-                  <Search size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
+                <div className="relative mb-6">
+                  <Search size={18} className="absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
                     type="text"
                     placeholder="Search for cards..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
+                    className="w-full pl-12 pr-4 py-4 border-2 border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-lg"
                   />
                 </div>
 
                 {/* Filter Dropdown */}
-                <div className="relative mb-4">
+                <div className="relative mb-6">
                   <button
                     onClick={() => setShowFilterDropdown(!showFilterDropdown)}
-                    className="w-full flex items-center justify-between px-4 py-3 border border-slate-200 rounded-xl hover:bg-slate-50 transition-all duration-300"
+                    className="w-full flex items-center justify-between px-4 py-4 border-2 border-slate-200 rounded-2xl hover:bg-slate-50 transition-all duration-300"
                   >
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-3">
                       <Filter size={18} className="text-slate-600" />
-                      <span className="text-slate-700">
+                      <span className="text-slate-700 font-medium">
                         {filterOptions.find((opt) => opt.value === filterBy)?.label}
                       </span>
                     </div>
@@ -251,7 +277,7 @@ const BinderBuilder = () => {
                   </button>
 
                   {showFilterDropdown && (
-                    <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-slate-200 py-2 z-50">
+                    <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-xl border border-slate-200 py-2 z-50">
                       {filterOptions.map((option) => (
                         <button
                           key={option.value}
@@ -259,7 +285,7 @@ const BinderBuilder = () => {
                             setFilterBy(option.value)
                             setShowFilterDropdown(false)
                           }}
-                          className={`w-full text-left px-4 py-2 hover:bg-slate-50 transition-colors duration-200 ${
+                          className={`w-full text-left px-4 py-3 hover:bg-slate-50 transition-colors duration-200 ${
                             filterBy === option.value ? "bg-blue-50 text-blue-600 font-semibold" : "text-slate-700"
                           }`}
                         >
@@ -271,49 +297,44 @@ const BinderBuilder = () => {
                 </div>
 
                 {/* Search Results */}
-                <div className="space-y-3 max-h-96 overflow-y-auto custom-scrollbar">
+                <div className="grid grid-cols-3 gap-4 overflow-y-auto custom-scrollbar" style={{ maxHeight: 'calc(100vh - 200px)' }}>
                   {isSearching ? (
-                    <div className="text-center py-8">
-                      <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
-                      <p className="text-slate-600 mt-2">Searching...</p>
+                    <div className="col-span-2 text-center py-12">
+                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+                      <p className="text-slate-600 mt-4 font-medium">Searching...</p>
                     </div>
                   ) : searchResults.length > 0 ? (
                     searchResults.map((card) => (
                       <div
-                        key={card.id}
-                        className="group bg-slate-50 rounded-lg p-3 hover:bg-slate-100 transition-colors duration-200 cursor-pointer"
-                        onClick={() => {
-                          const emptySlot = binderCards.findIndex((slot) => slot === null)
-                          if (emptySlot !== -1) {
-                            addCardToBinder(card, emptySlot)
-                          } else {
-                            alert("Binder is full! Remove a card first.")
-                          }
-                        }}
+                        key={`${card.productId || card.id || card.name}-${card.set}-${card.subTypeName || ''}`}
+                        className={`relative group aspect-[3/4] rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer
+                          ${selectedCard === card ? "ring-4 ring-green-500" : ""}
+                        `}
+                        onClick={() => setSelectedCard(selectedCard === card ? null : card)}
                       >
-                        <div className="flex items-center gap-3">
-                          <img
-                            src={card.image || "/placeholder.svg"}
-                            alt={card.name}
-                            className="w-12 h-16 object-cover rounded"
-                          />
-                          <div className="flex-1">
-                            <h4 className="font-semibold text-slate-900 text-sm">{card.name}</h4>
-                            <p className="text-xs text-slate-600">{card.set}</p>
-                            <p className="text-xs text-slate-500">{card.rarity}</p>
+                        <img
+                          src={card.imageUrl || card.image || "/placeholder.svg"}
+                          alt={card.name}
+                          className="w-full h-full object-cover bg-white rounded-xl"
+                        />
+                        <div className="absolute inset-0">
+                          <div className="flex items-center justify-center w-full h-full bg-black/10 group-hover:bg-black/30 transition">
+                            <Plus size={28} className="text-white opacity-80 group-hover:opacity-100" />
                           </div>
-                          <Plus size={16} className="text-slate-400 group-hover:text-blue-600 transition-colors" />
                         </div>
                       </div>
                     ))
                   ) : searchQuery ? (
-                    <div className="text-center py-8">
-                      <p className="text-slate-600">No cards found</p>
+                    <div className="col-span-2 text-center py-12">
+                      <div className="w-16 h-16 bg-slate-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Search size={24} className="text-slate-400" />
+                      </div>
+                      <p className="text-slate-600 font-medium">No cards found</p>
                     </div>
                   ) : (
-                    <div className="text-center py-8">
-                      <Search size={32} className="text-slate-400 mx-auto mb-2" />
-                      <p className="text-slate-600">Search for cards to add</p>
+                    <div className="col-span-2 text-center py-12">
+                      <Search size={48} className="text-slate-400 mx-auto mb-4" />
+                      <p className="text-slate-600 font-medium">Search for cards to add</p>
                     </div>
                   )}
                 </div>
@@ -322,55 +343,80 @@ const BinderBuilder = () => {
           )}
 
           {/* Binder Display */}
-          <div className={`${isPreviewMode ? "lg:col-span-4" : "lg:col-span-3"} animate-fadeInUp`}>
-            {/* Settings Panel */}
+          <div className={`flex-1 animate-fadeInUp overflow-y-auto`}>
+            {/* Enhanced Settings Panel */}
             {showSettings && !isPreviewMode && (
-              <div className="card-container rounded-2xl p-6 mb-6">
-                <h3 className="text-lg font-bold text-slate-900 mb-4">Binder Settings</h3>
+              <div className="card-container rounded-3xl p-8 mb-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg neon-purple">
+                    <Settings size={20} className="text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900">Binder Settings</h3>
+                </div>
 
-                <div className="grid md:grid-cols-3 gap-4">
+                <div className="grid md:grid-cols-4 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">Binder Name</label>
+                    <label className="block text-sm font-semibold text-slate-700 mb-3">Binder Name</label>
                     <input
                       type="text"
                       value={binderSettings.name}
                       onChange={(e) => setBinderSettings((prev) => ({ ...prev, name: e.target.value }))}
-                      className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 font-medium"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">Size</label>
-                    <select
-                      value={`${binderSettings.rows}x${binderSettings.cols}`}
+                    <label className="block text-sm font-semibold text-slate-700 mb-3">Rows (1-10)</label>
+                    <input
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={binderSettings.rows}
                       onChange={(e) => {
-                        const [rows, cols] = e.target.value.split("x").map(Number)
-                        updateBinderSize(rows, cols)
+                        const rows = Math.max(1, Math.min(10, Number.parseInt(e.target.value) || 1))
+                        updateBinderSize(rows, binderSettings.cols)
                       }}
-                      className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    >
-                      <option value="3x6">3x6 (18 cards)</option>
-                      <option value="4x6">4x6 (24 cards)</option>
-                      <option value="3x9">3x9 (27 cards)</option>
-                      <option value="4x9">4x9 (36 cards)</option>
-                    </select>
+                      className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 font-semibold text-center"
+                    />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">Background</label>
+                    <label className="block text-sm font-semibold text-slate-700 mb-3">Columns (1-10)</label>
+                    <input
+                      type="number"
+                      min="1"
+                      max="10"
+                      value={binderSettings.cols}
+                      onChange={(e) => {
+                        const cols = Math.max(1, Math.min(10, Number.parseInt(e.target.value) || 1))
+                        updateBinderSize(binderSettings.rows, cols)
+                      }}
+                      className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 font-semibold text-center"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-slate-700 mb-3">Background</label>
                     <input
                       type="color"
                       value={binderSettings.backgroundColor}
                       onChange={(e) => setBinderSettings((prev) => ({ ...prev, backgroundColor: e.target.value }))}
-                      className="w-full h-10 border border-slate-200 rounded-lg cursor-pointer"
+                      className="w-full h-12 border-2 border-slate-200 rounded-xl cursor-pointer"
                     />
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 mt-4">
+                <div className="flex items-center gap-4 mt-6">
+                  <button
+                    onClick={addNewPage}
+                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-xl font-semibold hover:shadow-lg transition-all duration-300 neon-cyan"
+                  >
+                    <Plus size={16} />
+                    Add Page
+                  </button>
                   <button
                     onClick={clearBinder}
-                    className="flex items-center gap-2 px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors duration-200"
+                    className="flex items-center gap-2 px-6 py-3 text-red-600 hover:bg-red-50 rounded-xl transition-colors duration-200 font-semibold"
                   >
                     <Trash2 size={16} />
                     Clear Binder
@@ -379,73 +425,204 @@ const BinderBuilder = () => {
               </div>
             )}
 
-            {/* Binder */}
+            {/* Enhanced Binder */}
             <div className="card-container rounded-3xl p-8">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                    <BookOpen size={20} className="text-white" />
+              <div className="flex items-center justify-between mb-8">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg neon-blue">
+                    <BookOpen size={24} className="text-white" />
                   </div>
-                  <h2 className="text-2xl font-bold text-slate-900">{binderSettings.name}</h2>
+                  <div>
+                    <h2 className="text-2xl font-bold text-slate-900">{binderSettings.name}</h2>
+                    <p className="text-slate-600">
+                      Page {currentPage + 1}-{Math.min(currentPage + 2, binderPages.length)} of {binderPages.length}
+                    </p>
+                  </div>
                 </div>
-                <div className="text-sm text-slate-600">
-                  {binderCards.filter((card) => card !== null).length} / {binderCards.length} cards
+
+                {/* Page Navigation */}
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => setCurrentPage(Math.max(0, currentPage - 2))}
+                    disabled={currentPage === 0}
+                    className="p-3 glass rounded-xl hover:bg-white/60 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <ChevronLeft size={20} />
+                  </button>
+                  <span className="text-sm font-medium text-slate-600 px-4">
+                    {Math.floor(currentPage / 2) + 1} / {Math.ceil(binderPages.length / 2)}
+                  </span>
+                  <button
+                    onClick={() => setCurrentPage(Math.min(binderPages.length - 2, currentPage + 2))}
+                    disabled={currentPage >= binderPages.length - 2}
+                    className="p-3 glass rounded-xl hover:bg-white/60 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <ChevronRight size={20} />
+                  </button>
+                  <button
+                    onClick={addNewPage}
+                    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-xl font-semibold hover:shadow-lg transition-all duration-300 neon-cyan"
+                  >
+                    <Plus size={16} />
+                    Add Page
+                  </button>
                 </div>
               </div>
 
-              {/* Binder Page */}
+
+              {/* Unified Binder Layout with Click-to-Place */}
               <div
-                className="binder-page rounded-2xl p-6 relative"
+                className="binder-container rounded-2xl p-8 relative"
                 style={{
                   background: `linear-gradient(135deg, ${binderSettings.backgroundColor} 0%, ${binderSettings.backgroundColor}dd 100%)`,
                 }}
               >
-                {/* Binder Rings */}
-                <div className="absolute left-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-8">
-                  {[...Array(binderSettings.rows)].map((_, i) => (
-                    <div key={i} className="w-6 h-6 binder-ring rounded-full"></div>
-                  ))}
-                </div>
-
-                {/* Card Grid */}
-                <div
-                  className="ml-8 grid gap-4"
-                  style={{
-                    gridTemplateColumns: `repeat(${binderSettings.cols}, 1fr)`,
-                    gridTemplateRows: `repeat(${binderSettings.rows}, 1fr)`,
-                  }}
-                >
-                  {binderCards.map((card, index) => (
+                <div className="flex gap-4 items-center">
+                  {/* Left Page */}
+                  <div className="flex-1">
                     <div
-                      key={index}
-                      className={`aspect-[3/4] rounded-lg border-2 border-dashed border-white/30 flex items-center justify-center transition-all duration-300 ${
-                        card ? "bg-transparent border-solid border-white/50" : "card-slot hover:border-white/50"
-                      }`}
+                      className="grid gap-3 relative z-10"
+                      style={{
+                        gridTemplateColumns: `repeat(${binderSettings.cols}, 1fr)`,
+                        gridTemplateRows: `repeat(${binderSettings.rows}, 1fr)`,
+                      }}
                     >
-                      {card ? (
-                        <div className="relative w-full h-full group">
-                          <img
-                            src={card.image || "/placeholder.svg"}
-                            alt={card.name}
-                            className="w-full h-full object-cover rounded-lg shadow-lg"
-                          />
-                          {!isPreviewMode && (
-                            <button
-                              onClick={() => removeCardFromBinder(index)}
-                              className="absolute -top-2 -right-2 w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600"
-                            >
-                              <Trash2 size={12} />
-                            </button>
-                          )}
-                        </div>
-                      ) : !isPreviewMode ? (
-                        <div className="text-center">
-                          <Plus size={24} className="text-white/50 mx-auto mb-2" />
-                          <p className="text-xs text-white/70">Add Card</p>
-                        </div>
-                      ) : null}
+                      {currentLeftPage.map((card, index) => {
+                        const isEmpty = !card
+                        const isHighlight = selectedCard && isEmpty && !isPreviewMode
+                        return (
+                          <div
+                            key={index}
+                            className={`aspect-[3/4] rounded-lg border-2 border-dashed border-white/30 flex items-center justify-center transition-all duration-300 ${
+                              card
+                                ? "bg-transparent border-solid border-white/50"
+                                : "card-slot hover:border-white/50"
+                            } ${selectedCard && isEmpty && !isPreviewMode ? "border-4 border-green-500 cursor-pointer" : ""} ${
+                              selectedSlot?.pageIndex === currentPage && selectedSlot?.side === 'left' && selectedSlot?.slotIndex === index ? "ring-4 ring-blue-500" : ""
+                            }`}
+                            onClick={() => {
+                              if (selectedCard && isEmpty && !isPreviewMode) {
+                                addCardToBinder(selectedCard, currentPage, 'left', index)
+                                setSelectedCard(null)
+                              } else if (!selectedCard && !isPreviewMode) {
+                                if (selectedSlot) {
+                                  const newPages = [...binderPages]
+                                  const { pageIndex, side, slotIndex } = selectedSlot
+                                  const temp = newPages[currentPage]['left'][index]
+                                  newPages[currentPage]['left'][index] = newPages[pageIndex][side][slotIndex]
+                                  newPages[pageIndex][side][slotIndex] = temp
+                                  setBinderPages(newPages)
+                                  setSelectedSlot(null)
+                                } else if (card) {
+                                  setSelectedSlot({ pageIndex: currentPage, side: 'left', slotIndex: index })
+                                }
+                              }
+                            }}
+                          >
+                            {card ? (
+                              <div className="w-full h-full user-select-none">
+                                <div
+                                  className="relative w-full h-full group user-select-none"
+                                >
+                                  <img
+                                    src={card.imageUrl || card.image || "/placeholder.svg"}
+                                    alt={card.name}
+                                    className="w-full h-full object-cover rounded-lg shadow-lg"
+                                  />
+                                  {!isPreviewMode && (
+                                    <button
+                                      onClick={() => removeCardFromBinder(currentPage, 'left', index)}
+                                      className="absolute -top-2 -right-2 w-7 h-7 bg-red-500 text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600 shadow-lg"
+                                    >
+                                      <Trash2 size={12} />
+                                    </button>
+                                  )}
+                                </div>
+                              </div>
+                            ) : !isPreviewMode ? (
+                              <div className="text-center text-white/70">{isHighlight ? "Click to Place" : "Empty Slot"}</div>
+                            ) : null}
+                          </div>
+                        )
+                      })}
                     </div>
-                  ))}
+                  </div>
+
+                  {/* Slim Divider */}
+                  <div
+                    className="binder-divider w-1 rounded-full"
+                    style={{ height: `${binderSettings.rows * 120}px` }}
+                  ></div>
+
+                  {/* Right Page */}
+                  <div className="flex-1">
+                    <div
+                      className="grid gap-3 relative z-10"
+                      style={{
+                        gridTemplateColumns: `repeat(${binderSettings.cols}, 1fr)`,
+                        gridTemplateRows: `repeat(${binderSettings.rows}, 1fr)`,
+                      }}
+                    >
+                      {currentRightPage.map((card, index) => {
+                        const isEmpty = !card
+                        const isHighlight = selectedCard && isEmpty && !isPreviewMode
+                        return (
+                          <div
+                            key={index}
+                            className={`aspect-[3/4] rounded-lg border-2 border-dashed border-white/30 flex items-center justify-center transition-all duration-300 ${
+                              card
+                                ? "bg-transparent border-solid border-white/50"
+                                : "card-slot hover:border-white/50"
+                            } ${selectedCard && isEmpty && !isPreviewMode ? "border-4 border-green-500 cursor-pointer" : ""} ${
+                              selectedSlot?.pageIndex === currentPage && selectedSlot?.side === 'right' && selectedSlot?.slotIndex === index ? "ring-4 ring-blue-500" : ""
+                            }`}
+                            onClick={() => {
+                              if (selectedCard && isEmpty && !isPreviewMode) {
+                                addCardToBinder(selectedCard, currentPage, 'right', index)
+                                setSelectedCard(null)
+                              } else if (!selectedCard && !isPreviewMode) {
+                                if (selectedSlot) {
+                                  const newPages = [...binderPages]
+                                  const { pageIndex, side, slotIndex } = selectedSlot
+                                  const temp = newPages[currentPage]['right'][index]
+                                  newPages[currentPage]['right'][index] = newPages[pageIndex][side][slotIndex]
+                                  newPages[pageIndex][side][slotIndex] = temp
+                                  setBinderPages(newPages)
+                                  setSelectedSlot(null)
+                                } else if (card) {
+                                  setSelectedSlot({ pageIndex: currentPage, side: 'right', slotIndex: index })
+                                }
+                              }
+                            }}
+                          >
+                            {card ? (
+                              <div className="w-full h-full user-select-none">
+                                <div
+                                  className="relative w-full h-full group user-select-none"
+                                >
+                                  <img
+                                    src={card.imageUrl || card.image || "/placeholder.svg"}
+                                    alt={card.name}
+                                    className="w-full h-full object-cover rounded-lg shadow-lg"
+                                  />
+                                  {!isPreviewMode && (
+                                    <button
+                                      onClick={() => removeCardFromBinder(currentPage, 'right', index)}
+                                      className="absolute -top-2 -right-2 w-7 h-7 bg-red-500 text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-600 shadow-lg"
+                                    >
+                                      <Trash2 size={12} />
+                                    </button>
+                                  )}
+                                </div>
+                              </div>
+                            ) : !isPreviewMode ? (
+                              <div className="text-center text-white/70">{isHighlight ? "Click to Place" : "Empty Slot"}</div>
+                            ) : null}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

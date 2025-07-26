@@ -6,19 +6,7 @@ import allCards from "../../data/cards.json"
 import { db, auth } from "../firebase"
 import { collection, getDocs, doc, setDoc } from "firebase/firestore"
 import { onAuthStateChanged } from "firebase/auth"
-import {
-  Search,
-  CheckCircle,
-  Plus,
-  ChevronLeft,
-  ChevronRight,
-  Zap,
-  Filter,
-  Grid,
-  User,
-  Target,
-  Settings,
-} from "lucide-react"
+import { Search, CheckCircle, Plus, ChevronLeft, ChevronRight, Zap, Target, User, Grid, Loader2 } from "lucide-react"
 
 const MasterSet = () => {
   const [pokemonList, setPokemonList] = useState([])
@@ -27,9 +15,7 @@ const MasterSet = () => {
   const [filteredList, setFilteredList] = useState([])
   const [selectedOption, setSelectedOption] = useState(null)
   const [masterSetType, setMasterSetType] = useState("pokemon") // "pokemon" or "set"
-  const [includeVariants, setIncludeVariants] = useState(false)
-  const [artworkOnly, setArtworkOnly] = useState(true)
-  const [rarityFilter, setRarityFilter] = useState("all")
+  const [collectionStyle, setCollectionStyle] = useState("artwork") // "artwork" or "subtype"
   const [sortBy, setSortBy] = useState("number")
   const [cards, setCards] = useState([])
   const [userCollection, setUserCollection] = useState([])
@@ -46,10 +32,10 @@ const MasterSet = () => {
         name: card.name,
         cardId,
         image: card.imageUrl || null,
-        number: card.extNumber,
+        number: card.number,
         set: card.set || "",
         rarity: card.rarity || "",
-        finish: card.variantFinish || "normal",
+        finish: card.subTypeName || "Normal",
         addedAt: new Date(),
       })
       setUserCollection((prev) => [...prev, cardId])
@@ -74,8 +60,19 @@ const MasterSet = () => {
       })
       .catch((err) => console.error("Failed to load pokemon list:", err))
 
-    // Load sets list from cards data
-    const uniqueSets = [...new Set(allCards.map((card) => card.set || card.groupName).filter(Boolean))].sort()
+    // Load sets list from cards data - using groupId to get unique sets
+    const uniqueSets = [
+      ...new Set(
+        allCards
+          .map((card) => {
+            // Try to extract set name from URL or use groupId
+            const urlParts = card.url?.split("/") || []
+            const setName = urlParts[urlParts.length - 2]?.replace(/-/g, " ") || `Set ${card.groupId}`
+            return setName
+          })
+          .filter(Boolean),
+      ),
+    ].sort()
     setSetsList(uniqueSets)
   }, [])
 
@@ -88,6 +85,16 @@ const MasterSet = () => {
   const fetchUserCollection = async (uid) => {
     const snapshot = await getDocs(collection(db, "users", uid, "collection"))
     setUserCollection(snapshot.docs.map((doc) => doc.id))
+  }
+
+  const getCardNumber = (card) => {
+    const numberData = card.extendedData?.find((data) => data.name === "Number")
+    return numberData?.value || "0"
+  }
+
+  const getCardRarity = (card) => {
+    const rarityData = card.extendedData?.find((data) => data.name === "Rarity")
+    return rarityData?.value || "Unknown"
   }
 
   const handleBuild = async () => {
@@ -107,68 +114,66 @@ const MasterSet = () => {
           return cardName.includes(pokemonName)
         })
       } else {
-        // Filter by set
+        // Filter by set - match against URL or groupId
         filteredCards = allCards.filter((c) => {
-          const cardSet = (c.set || c.groupName || "").toLowerCase()
+          const urlParts = c.url?.split("/") || []
+          const setName = urlParts[urlParts.length - 2]?.replace(/-/g, " ") || `Set ${c.groupId}`
           const selectedSet = selectedOption.toLowerCase()
-          return cardSet === selectedSet
+          return setName.toLowerCase() === selectedSet
         })
       }
 
-      // Apply rarity filter
-      if (rarityFilter !== "all") {
-        filteredCards = filteredCards.filter((c) => {
-          const rarity = (c.rarity || "").toLowerCase()
-          return rarity.includes(rarityFilter.toLowerCase())
-        })
-      }
+      let processedCards = []
 
-      const grouped = {}
-
-      filteredCards.forEach((card) => {
-        const key = artworkOnly ? `${card.name}-${card.extNumber}` : card.productId
-        const finish = card.subTypeName || "Normal"
-
-        if (!grouped[key]) {
-          grouped[key] = {
-            ...card,
-            id: key,
-            finishes: new Set(),
-            number: card.extNumber,
-            variants: [],
+      if (collectionStyle === "artwork") {
+        // One per artwork - group by name and card number
+        const grouped = {}
+        filteredCards.forEach((card) => {
+          const key = `${card.name}-${getCardNumber(card)}`
+          if (!grouped[key]) {
+            grouped[key] = {
+              ...card,
+              id: key,
+              number: getCardNumber(card),
+              rarity: getCardRarity(card),
+              subTypeName: "Artwork",
+              variants: card.prices?.map((p) => p.subTypeName) || ["Normal"],
+            }
           }
-        }
-        grouped[key].finishes.add(finish)
-        grouped[key].variants.push({
-          ...card,
-          finish,
-          id: `${card.productId}-${finish}`,
         })
-      })
-
-      let variants = []
-
-      if (includeVariants) {
-        variants = Object.values(grouped).flatMap((card) => {
-          return Array.from(card.finishes).map((finish) => ({
-            ...card,
-            id: `${card.productId}-${finish}`,
-            variantFinish: finish,
-          }))
-        })
+        processedCards = Object.values(grouped)
       } else {
-        variants = Object.values(grouped).map((card) => ({
-          ...card,
-          variantFinish: null,
-          finishes: Array.from(card.finishes),
-        }))
+        // One per subtype - create separate entries for each price subtype
+        filteredCards.forEach((card) => {
+          if (card.prices && card.prices.length > 0) {
+            card.prices.forEach((price) => {
+              processedCards.push({
+                ...card,
+                id: `${card.productId}-${price.subTypeName}`,
+                number: getCardNumber(card),
+                rarity: getCardRarity(card),
+                subTypeName: price.subTypeName,
+                price: price.marketPrice || price.midPrice || 0,
+              })
+            })
+          } else {
+            processedCards.push({
+              ...card,
+              id: `${card.productId}-Normal`,
+              number: getCardNumber(card),
+              rarity: getCardRarity(card),
+              subTypeName: "Normal",
+              price: 0,
+            })
+          }
+        })
       }
 
       // Sort cards
-      variants.sort((a, b) => {
+      processedCards.sort((a, b) => {
         if (sortBy === "number") {
-          const numA = Number.parseInt(a.extNumber?.replace(/[^\d]/g, "")) || 0
-          const numB = Number.parseInt(b.extNumber?.replace(/[^\d]/g, "")) || 0
+          const numA = Number.parseInt(a.number?.replace(/[^\d]/g, "")) || 0
+          const numB = Number.parseInt(b.number?.replace(/[^\d]/g, "")) || 0
           return numA - numB
         } else if (sortBy === "name") {
           return (a.name || "").localeCompare(b.name || "")
@@ -178,7 +183,7 @@ const MasterSet = () => {
         return 0
       })
 
-      setCards(variants)
+      setCards(processedCards)
       setCurrentPage(0)
     } catch (err) {
       console.error("Error building cards:", err)
@@ -187,7 +192,7 @@ const MasterSet = () => {
     setLoading(false)
   }
 
-  const cardsPerPage = 18
+  const cardsPerPage = 18 // 9 per side
   const paginatedCards = cards.slice(currentPage * cardsPerPage, (currentPage + 1) * cardsPerPage)
   const totalPages = Math.ceil(cards.length / cardsPerPage)
 
@@ -301,102 +306,94 @@ const MasterSet = () => {
               )}
             </div>
 
-            {/* Advanced Options */}
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              {/* Collection Options */}
-              <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <Settings size={20} className="text-gray-600" />
-                  <h3 className="text-lg font-bold text-gray-900">Collection Options</h3>
+            {/* Collection Options */}
+            <div className="mb-8">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                  <Grid size={16} className="text-white" />
                 </div>
+                <h3 className="text-lg font-bold text-gray-900">Collection Style</h3>
+              </div>
 
-                <div className="space-y-4">
-                  {/* Artwork vs Variants */}
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-2 block">Collection Style</label>
-                    <div className="space-y-2">
-                      <label className="flex items-center gap-3 cursor-pointer">
-                        <input
-                          type="radio"
-                          name="artworkStyle"
-                          checked={artworkOnly}
-                          onChange={() => setArtworkOnly(true)}
-                          className="w-4 h-4 text-purple-600"
-                        />
-                        <span className="text-sm text-gray-700">One per artwork (recommended)</span>
-                      </label>
-                      <label className="flex items-center gap-3 cursor-pointer">
-                        <input
-                          type="radio"
-                          name="artworkStyle"
-                          checked={!artworkOnly}
-                          onChange={() => setArtworkOnly(false)}
-                          className="w-4 h-4 text-purple-600"
-                        />
-                        <span className="text-sm text-gray-700">All unique cards</span>
-                      </label>
+              <div className="grid md:grid-cols-2 gap-4">
+                <label
+                  className={`p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
+                    collectionStyle === "artwork"
+                      ? "border-blue-500 bg-gradient-to-br from-blue-50 to-cyan-50 shadow-md"
+                      : "border-gray-200 bg-white hover:border-blue-300 hover:shadow-sm"
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="collectionStyle"
+                    value="artwork"
+                    checked={collectionStyle === "artwork"}
+                    onChange={(e) => setCollectionStyle(e.target.value)}
+                    className="sr-only"
+                  />
+                  <div className="flex items-center gap-3">
+                    <div
+                      className={`w-4 h-4 rounded-full border-2 ${
+                        collectionStyle === "artwork" ? "border-blue-500 bg-blue-500" : "border-gray-300"
+                      }`}
+                    >
+                      {collectionStyle === "artwork" && (
+                        <div className="w-2 h-2 bg-white rounded-full mx-auto mt-0.5" />
+                      )}
+                    </div>
+                    <div>
+                      <span className="font-medium text-gray-900">One per Artwork</span>
+                      <p className="text-sm text-gray-600">Show one card per unique artwork</p>
                     </div>
                   </div>
+                </label>
 
-                  {/* Include Variants */}
-                  <div>
-                    <label className="flex items-center gap-3 cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked={includeVariants}
-                        onChange={(e) => setIncludeVariants(e.target.checked)}
-                        className="w-4 h-4 text-purple-600 rounded"
-                      />
-                      <div>
-                        <span className="text-sm font-medium text-gray-700">Include all variants</span>
-                        <p className="text-xs text-gray-500">Show separate entries for Holo, Reverse Holo, etc.</p>
-                      </div>
-                    </label>
-                  </div>
-                </div>
-              </div>
-
-              {/* Filters */}
-              <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <Filter size={20} className="text-gray-600" />
-                  <h3 className="text-lg font-bold text-gray-900">Filters & Sorting</h3>
-                </div>
-
-                <div className="space-y-4">
-                  {/* Rarity Filter */}
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-2 block">Rarity Filter</label>
-                    <select
-                      value={rarityFilter}
-                      onChange={(e) => setRarityFilter(e.target.value)}
-                      className="w-full p-2 border border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
+                <label
+                  className={`p-4 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
+                    collectionStyle === "subtype"
+                      ? "border-blue-500 bg-gradient-to-br from-blue-50 to-cyan-50 shadow-md"
+                      : "border-gray-200 bg-white hover:border-blue-300 hover:shadow-sm"
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="collectionStyle"
+                    value="subtype"
+                    checked={collectionStyle === "subtype"}
+                    onChange={(e) => setCollectionStyle(e.target.value)}
+                    className="sr-only"
+                  />
+                  <div className="flex items-center gap-3">
+                    <div
+                      className={`w-4 h-4 rounded-full border-2 ${
+                        collectionStyle === "subtype" ? "border-blue-500 bg-blue-500" : "border-gray-300"
+                      }`}
                     >
-                      <option value="all">All Rarities</option>
-                      <option value="common">Common</option>
-                      <option value="uncommon">Uncommon</option>
-                      <option value="rare">Rare</option>
-                      <option value="holo">Holo Rare</option>
-                      <option value="ultra">Ultra Rare</option>
-                      <option value="secret">Secret Rare</option>
-                    </select>
+                      {collectionStyle === "subtype" && (
+                        <div className="w-2 h-2 bg-white rounded-full mx-auto mt-0.5" />
+                      )}
+                    </div>
+                    <div>
+                      <span className="font-medium text-gray-900">One per Subtype</span>
+                      <p className="text-sm text-gray-600">Show separate entries for Normal, Holo, etc.</p>
+                    </div>
                   </div>
-
-                  {/* Sort By */}
-                  <div>
-                    <label className="text-sm font-medium text-gray-700 mb-2 block">Sort By</label>
-                    <select
-                      value={sortBy}
-                      onChange={(e) => setSortBy(e.target.value)}
-                      className="w-full p-2 border border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
-                    >
-                      <option value="number">Card Number</option>
-                      <option value="name">Name</option>
-                      <option value="rarity">Rarity</option>
-                    </select>
-                  </div>
-                </div>
+                </label>
               </div>
+            </div>
+
+            {/* Sort Options */}
+            <div className="mb-8">
+              <label className="text-sm font-medium text-gray-700 mb-2 block">Sort By</label>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="w-full p-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:ring-4 focus:ring-purple-100 transition-all duration-300"
+              >
+                <option value="number">Card Number</option>
+                <option value="name">Name</option>
+                <option value="rarity">Rarity</option>
+              </select>
             </div>
 
             {/* Build Button */}
@@ -408,7 +405,7 @@ const MasterSet = () => {
               >
                 {loading ? (
                   <div className="flex items-center gap-2">
-                    <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent" />
+                    <Loader2 size={20} className="animate-spin" />
                     Building Master Set...
                   </div>
                 ) : (
@@ -422,7 +419,18 @@ const MasterSet = () => {
           </div>
         </div>
 
-        {/* Cards Display */}
+        {/* Loading State */}
+        {loading && (
+          <div className="flex flex-col items-center justify-center py-20 animate-fadeInUp">
+            <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center mb-4">
+              <Loader2 size={32} className="text-white animate-spin" />
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Building Your Master Set</h3>
+            <p className="text-gray-600">Processing cards and organizing your collection...</p>
+          </div>
+        )}
+
+        {/* Binder Display */}
         {cards.length > 0 && !loading && (
           <div className="animate-fadeInUp">
             <div className="text-center mb-8">
@@ -437,136 +445,167 @@ const MasterSet = () => {
               </p>
             </div>
 
-            {/* Binder Layout */}
-            <div className="flex flex-col items-center gap-8">
-              <div className="flex flex-col lg:flex-row justify-center gap-8 w-full max-w-6xl">
-                {[0, 9].map((offset) => (
-                  <div key={offset} className="bg-gradient-to-br from-gray-900 to-black p-6 rounded-3xl shadow-2xl">
-                    <div className="grid grid-cols-3 gap-4">
-                      {Array.from({ length: 9 }, (_, i) => {
-                        const card = paginatedCards[i + offset]
-                        if (!card)
-                          return <div key={i + offset} className="aspect-[5/7] bg-gray-800 rounded-xl opacity-20" />
+            {/* Binder Container */}
+            <div className="binder-container rounded-3xl p-8 shadow-2xl max-w-6xl mx-auto">
+              <div className="flex justify-center gap-2">
+                {/* Left Page */}
+                <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl">
+                  <div className="grid grid-cols-3 gap-4">
+                    {Array.from({ length: 9 }, (_, i) => {
+                      const card = paginatedCards[i]
+                      if (!card) {
+                        return <div key={i} className="aspect-[5/7] bg-gray-700 rounded-xl opacity-30" />
+                      }
 
-                        const cardId = card.id
-                        const cardKey = cardId || `placeholder-${i + offset}`
-                        let owned = false
+                      const cardId = card.id
+                      const owned = userCollection.includes(cardId)
+                      const isLoaded = imageStatus[cardId]
 
-                        if (!includeVariants) {
-                          const baseIdOnly =
-                            typeof card.id === "string" ? card.id.split("-")[0] : card.productId?.toString()
-                          owned = userCollection.some(
-                            (id) => id.startsWith(baseIdOnly + "-") && id !== `${baseIdOnly}-false`,
-                          )
-                        } else {
-                          owned = userCollection.includes(cardId)
-                        }
+                      return (
+                        <div
+                          key={i}
+                          className={`group relative aspect-[5/7] bg-gray-700 rounded-xl flex items-center justify-center overflow-hidden transition-all duration-300 ${
+                            owned
+                              ? "ring-4 ring-green-400 shadow-lg shadow-green-400/50"
+                              : "opacity-70 hover:opacity-90"
+                          }`}
+                        >
+                          <img
+                            src={card.imageUrl || "/placeholder.svg?height=280&width=200&query=pokemon card"}
+                            alt={card.name}
+                            onLoad={() => setImageStatus((prev) => ({ ...prev, [cardId]: true }))}
+                            onError={(e) => {
+                              if (!e.currentTarget.src.includes("placeholder.svg")) {
+                                e.currentTarget.src = "/placeholder.svg?height=280&width=200"
+                              }
+                            }}
+                            className={`max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105 ${isLoaded ? "" : "hidden"}`}
+                          />
 
-                        const isLoaded = imageStatus[cardKey]
+                          {!isLoaded && <div className="w-full h-full bg-gray-600 animate-pulse rounded-xl" />}
 
-                        const labelMap = {
-                          "Reverse Holofoil": "Reverse",
-                          Holofoil: "Holo",
-                          "1st Edition": "1st Ed",
-                          Normal: "Normal",
-                        }
-                        const variantLabel = labelMap[card.variantFinish] || card.variantFinish
-
-                        return (
-                          <div
-                            key={i + offset}
-                            className={`group relative aspect-[5/7] bg-gray-800 rounded-xl flex items-center justify-center overflow-hidden transition-all duration-300 ${
-                              owned
-                                ? "ring-4 ring-green-400 shadow-lg shadow-green-400/50"
-                                : "opacity-60 hover:opacity-80"
-                            }`}
-                          >
-                            <img
-                              src={card.imageUrl || "/placeholder.svg"}
-                              alt={card.name}
-                              onLoad={() => setImageStatus((prev) => ({ ...prev, [cardKey]: true }))}
-                              onError={(e) => {
-                                if (!e.currentTarget.src.includes("placeholder.png")) {
-                                  e.currentTarget.src = "/placeholder.png"
-                                }
-                              }}
-                              className={`max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105 ${isLoaded ? "" : "hidden"}`}
-                            />
-
-                            {!isLoaded && (
-                              <div className="w-full h-full bg-gray-700 animate-pulse rounded-xl shimmer" />
-                            )}
-
-                            {/* Variant Indicators */}
-                            {!includeVariants && card.finishes && card.finishes.size > 1 && (
-                              <div className="absolute top-2 left-2 flex gap-1">
-                                {Array.from(card.finishes)
-                                  .slice(0, 3)
-                                  .map((finish, idx) => (
-                                    <div
-                                      key={idx}
-                                      className={`w-2 h-2 rounded-full ${
-                                        finish === "Normal"
-                                          ? "bg-gray-400"
-                                          : finish === "Holofoil"
-                                            ? "bg-yellow-400"
-                                            : finish === "Reverse Holofoil"
-                                              ? "bg-blue-400"
-                                              : "bg-purple-400"
-                                      }`}
-                                      title={finish}
-                                    />
-                                  ))}
-                                {card.finishes.size > 3 && (
-                                  <div className="w-2 h-2 rounded-full bg-white text-xs flex items-center justify-center">
-                                    +
-                                  </div>
-                                )}
-                              </div>
-                            )}
-
-                            {/* Variant Badge */}
-                            {isLoaded && card.variantFinish && card.variantFinish !== "Normal" && (
+                          {/* Subtype Badge */}
+                          {isLoaded &&
+                            card.subTypeName &&
+                            card.subTypeName !== "Normal" &&
+                            card.subTypeName !== "Artwork" && (
                               <div className="absolute top-2 right-2 bg-white/90 backdrop-blur-sm text-gray-800 text-xs px-2 py-1 rounded-lg shadow-lg font-bold">
-                                {variantLabel}
+                                {card.subTypeName}
                               </div>
                             )}
 
-                            {/* Card Info */}
-                            <div className="absolute bottom-2 left-2 right-2">
-                              <div className="bg-black/70 backdrop-blur-sm rounded-lg p-2 text-white text-xs">
-                                <div className="font-bold truncate">{card.name}</div>
-                                <div className="text-gray-300">#{card.extNumber}</div>
-                              </div>
+                          {/* Card Info */}
+                          <div className="absolute bottom-2 left-2 right-2">
+                            <div className="bg-black/70 backdrop-blur-sm rounded-lg p-2 text-white text-xs">
+                              <div className="font-bold truncate">{card.name}</div>
+                              <div className="text-gray-300">#{card.number}</div>
+                              {card.rarity && <div className="text-gray-400 text-xs">{card.rarity}</div>}
                             </div>
+                          </div>
 
-                            {/* Action Button */}
-                            {!owned ? (
-                              <button
-                                onClick={() => handleAddToCollection(card)}
-                                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-full hover:shadow-lg transition-all duration-300 opacity-0 group-hover:opacity-100 hover:scale-110"
-                              >
-                                <Plus size={16} />
-                              </button>
-                            ) : (
-                              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100">
-                                <CheckCircle size={16} />
+                          {/* Action Button */}
+                          {!owned ? (
+                            <button
+                              onClick={() => handleAddToCollection(card)}
+                              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-full hover:shadow-lg transition-all duration-300 opacity-0 group-hover:opacity-100 hover:scale-110"
+                            >
+                              <Plus size={16} />
+                            </button>
+                          ) : (
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100">
+                              <CheckCircle size={16} />
+                            </div>
+                          )}
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+
+                {/* Divider */}
+                <div className="binder-divider w-1 rounded-full"></div>
+
+                {/* Right Page */}
+                <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl">
+                  <div className="grid grid-cols-3 gap-4">
+                    {Array.from({ length: 9 }, (_, i) => {
+                      const card = paginatedCards[i + 9]
+                      if (!card) {
+                        return <div key={i + 9} className="aspect-[5/7] bg-gray-700 rounded-xl opacity-30" />
+                      }
+
+                      const cardId = card.id
+                      const owned = userCollection.includes(cardId)
+                      const isLoaded = imageStatus[cardId]
+
+                      return (
+                        <div
+                          key={i + 9}
+                          className={`group relative aspect-[5/7] bg-gray-700 rounded-xl flex items-center justify-center overflow-hidden transition-all duration-300 ${
+                            owned
+                              ? "ring-4 ring-green-400 shadow-lg shadow-green-400/50"
+                              : "opacity-70 hover:opacity-90"
+                          }`}
+                        >
+                          <img
+                            src={card.imageUrl || "/placeholder.svg?height=280&width=200&query=pokemon card"}
+                            alt={card.name}
+                            onLoad={() => setImageStatus((prev) => ({ ...prev, [cardId]: true }))}
+                            onError={(e) => {
+                              if (!e.currentTarget.src.includes("placeholder.svg")) {
+                                e.currentTarget.src = "/placeholder.svg?height=280&width=200"
+                              }
+                            }}
+                            className={`max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105 ${isLoaded ? "" : "hidden"}`}
+                          />
+
+                          {!isLoaded && <div className="w-full h-full bg-gray-600 animate-pulse rounded-xl" />}
+
+                          {/* Subtype Badge */}
+                          {isLoaded &&
+                            card.subTypeName &&
+                            card.subTypeName !== "Normal" &&
+                            card.subTypeName !== "Artwork" && (
+                              <div className="absolute top-2 right-2 bg-white/90 backdrop-blur-sm text-gray-800 text-xs px-2 py-1 rounded-lg shadow-lg font-bold">
+                                {card.subTypeName}
                               </div>
                             )}
+
+                          {/* Card Info */}
+                          <div className="absolute bottom-2 left-2 right-2">
+                            <div className="bg-black/70 backdrop-blur-sm rounded-lg p-2 text-white text-xs">
+                              <div className="font-bold truncate">{card.name}</div>
+                              <div className="text-gray-300">#{card.number}</div>
+                              {card.rarity && <div className="text-gray-400 text-xs">{card.rarity}</div>}
+                            </div>
                           </div>
-                        )
-                      })}
-                    </div>
+
+                          {/* Action Button */}
+                          {!owned ? (
+                            <button
+                              onClick={() => handleAddToCollection(card)}
+                              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-full hover:shadow-lg transition-all duration-300 opacity-0 group-hover:opacity-100 hover:scale-110"
+                            >
+                              <Plus size={16} />
+                            </button>
+                          ) : (
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100">
+                              <CheckCircle size={16} />
+                            </div>
+                          )}
+                        </div>
+                      )
+                    })}
                   </div>
-                ))}
+                </div>
               </div>
 
               {/* Pagination */}
-              <div className="flex items-center gap-4">
+              <div className="flex items-center justify-center gap-4 mt-8">
                 <button
                   onClick={() => setCurrentPage((p) => Math.max(0, p - 1))}
                   disabled={currentPage === 0}
-                  className="flex items-center gap-2 px-6 py-3 bg-white border-2 border-gray-200 rounded-xl font-medium text-gray-700 hover:border-purple-300 hover:text-purple-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                  className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl font-medium text-white hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
                 >
                   <ChevronLeft size={18} />
                   Previous
@@ -582,7 +621,7 @@ const MasterSet = () => {
                         className={`w-10 h-10 rounded-xl font-medium transition-all duration-300 ${
                           currentPage === pageNum
                             ? "bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg"
-                            : "bg-white text-gray-700 hover:bg-purple-50 border-2 border-gray-200 hover:border-purple-300"
+                            : "bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 border border-white/20"
                         }`}
                       >
                         {pageNum + 1}
@@ -594,7 +633,7 @@ const MasterSet = () => {
                 <button
                   onClick={() => setCurrentPage((p) => Math.min(totalPages - 1, p + 1))}
                   disabled={currentPage === totalPages - 1}
-                  className="flex items-center gap-2 px-6 py-3 bg-white border-2 border-gray-200 rounded-xl font-medium text-gray-700 hover:border-purple-300 hover:text-purple-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                  className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl font-medium text-white hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
                 >
                   Next
                   <ChevronRight size={18} />

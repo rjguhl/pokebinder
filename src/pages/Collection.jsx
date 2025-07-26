@@ -1,6 +1,8 @@
+/* eslint-disable */
 "use client"
 
 import { useEffect, useState } from "react"
+import Papa from "papaparse"
 import { Link, useNavigate } from "react-router-dom"
 import { auth, db } from "../firebase"
 import { onAuthStateChanged } from "firebase/auth"
@@ -19,10 +21,15 @@ import {
   Search,
   Filter,
   ChevronDown,
+  X,
+  DollarSign,
+  Star,
+  Package,
 } from "lucide-react"
 
 const Collection = () => {
   const [userId, setUserId] = useState(null)
+  const [binders, setBinders] = useState([])
   const [cards, setCards] = useState([])
   const [filteredCards, setFilteredCards] = useState([])
   const [userCollection, setUserCollection] = useState({})
@@ -34,13 +41,8 @@ const Collection = () => {
   const [searchQuery, setSearchQuery] = useState("")
   const [filterBy, setFilterBy] = useState("all")
   const [showFilterDropdown, setShowFilterDropdown] = useState(false)
+  const [selectedCard, setSelectedCard] = useState(null)
   const navigate = useNavigate()
-  const [stats, setStats] = useState({
-    totalCards: 0,
-    uniqueCards: 0,
-    completedSets: 0,
-    totalValue: 0,
-  })
 
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (user) => {
@@ -48,6 +50,21 @@ const Collection = () => {
     })
     return () => unsub()
   }, [])
+
+  // Fetch binders from Firestore after userId is set
+  useEffect(() => {
+    const fetchBinders = async () => {
+      if (!userId) return;
+      try {
+        const snapshot = await getDocs(firestoreCollection(db, "users", userId, "binders"));
+        const binderData = snapshot.docs.map((doc) => doc.data());
+        setBinders(binderData);
+      } catch (error) {
+        console.error("Failed to fetch binders:", error);
+      }
+    };
+    fetchBinders();
+  }, [userId]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -65,13 +82,6 @@ const Collection = () => {
       setCards(all)
       setFilteredCards(all)
       setUserCollection(uc)
-
-      setStats({
-        totalCards: Object.keys(uc).length,
-        uniqueCards: all.length,
-        completedSets: masterSets.length,
-        totalValue: Math.floor(Math.random() * 5000) + 1000,
-      })
     }
     fetchData()
   }, [userId, masterSets])
@@ -122,31 +132,32 @@ const Collection = () => {
 
   const loadOfficialSets = async () => {
     try {
-      const response = await fetch("/PokemonGroups.csv")
-      const csvText = await response.text()
-      const lines = csvText.split("\n").slice(1)
+      const response = await fetch("../data/PokemonGroups.csv");
+      const csvText = await response.text();
+      const parsed = Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true,
+      });
 
-      const sets = lines
-        .filter((line) => line.trim())
-        .map((line) => {
-          const [groupId, name, abbreviation, isSupplemental, publishedOn, modifiedOn, categoryId] = line.split(",")
-          return {
-            id: groupId,
-            name: name?.replace(/"/g, ""),
-            abbreviation: abbreviation?.replace(/"/g, ""),
-            isSupplemental: isSupplemental === "True",
-            publishedOn: new Date(publishedOn),
-            categoryId,
-          }
-        })
+      console.log("Parsed CSV sets:", parsed.data);
+
+      const sets = parsed.data
+        .map((row) => ({
+          id: row.groupId,
+          name: row.name,
+          abbreviation: row.abbreviation,
+          isSupplemental: row.isSupplemental === "True",
+          publishedOn: new Date(row.publishedOn),
+          categoryId: row.categoryId,
+        }))
         .filter((set) => set.categoryId === "3" && !set.isSupplemental)
-        .sort((a, b) => b.publishedOn - a.publishedOn)
+        .sort((a, b) => b.publishedOn - a.publishedOn);
 
-      setOfficialSets(sets)
+      setOfficialSets(sets);
     } catch (err) {
-      console.error("Error loading official sets:", err)
+      console.error("Error loading official sets:", err);
     }
-  }
+  };
 
   useEffect(() => {
     if (userId) {
@@ -217,11 +228,27 @@ const Collection = () => {
     return classes[key] || "bg-slate-100 text-slate-800 border-slate-300"
   }
 
-  const handleSetClick = (set) => {
+  const handleSetClick = async (set) => {
     setSelectedSet(set)
-    // Simulate loading set cards
-    const userCards = cards.filter((card) => card.set?.id === set.id)
-    setCards(userCards)
+
+    try {
+      const response = await fetch(`../data/tcgsets/${set.id}-${set.name}.json`)
+      const setData = await response.json()
+
+      const formattedCards = setData.map((card) => ({
+        ...card,
+        set: {
+          id: set.id,
+          name: set.name,
+          publishedOn: set.publishedOn,
+        },
+      }))
+
+      setCards(formattedCards)
+    } catch (error) {
+      console.error("Error loading cards for set:", set.name, error)
+      setCards([])
+    }
   }
 
   const getSetProgress = (set) => {
@@ -238,6 +265,133 @@ const Collection = () => {
     { value: "alphabetical", label: "A-Z" },
     { value: "price", label: "By Price" },
   ]
+
+  const handleCardClick = (card) => {
+    setSelectedCard(card)
+  }
+
+  const CardDetailPanel = ({ card, onClose }) => {
+    if (!card) return null
+
+    // Mock price data
+    const mockPrices = {
+      normal: Math.floor(Math.random() * 50) + 5,
+      holofoil: Math.floor(Math.random() * 100) + 20,
+      reverseholofoil: Math.floor(Math.random() * 80) + 15,
+    }
+
+    return (
+      <div className="card-detail-panel animate-slideInFromRight">
+        <div className="p-6">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-xl font-bold text-slate-900">Card Details</h2>
+            <button onClick={onClose} className="p-2 hover:bg-slate-100 rounded-lg transition-colors">
+              <X size={20} />
+            </button>
+          </div>
+
+          {/* Card Image */}
+          <div className="mb-6">
+            <img src={card.image || "/placeholder.png"} alt={card.name} className="w-full rounded-lg shadow-lg" />
+          </div>
+
+          {/* Card Info */}
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">
+                {(card.name || "[No Name]")
+                  .replace(/\b\d{1,3}(?:\/\d{1,3})?\b/g, "")
+                  .replace(/\b[A-Z]{2,5}\d{2,4}\b/g, "")
+                  .trim()}
+              </h3>
+              <p className="text-slate-600">{card.set || "Unknown Set"}</p>
+              <p className="text-slate-500 text-sm">#{card.number || "—"}</p>
+            </div>
+
+            {/* Variants */}
+            <div>
+              <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
+                <Package size={16} />
+                Variants
+              </h4>
+              <div className="space-y-2">
+                {(card.subTypes || []).map(({ name: subType }) => {
+                  const key = `${card.productId}-${subType}`
+                  const isOwned = userCollection[key]
+                  const price = mockPrices[subType.toLowerCase()] || Math.floor(Math.random() * 30) + 10
+
+                  return (
+                    <div
+                      key={subType}
+                      className={`p-3 rounded-lg border-2 transition-all duration-300 ${
+                        isOwned
+                          ? "bg-emerald-50 border-emerald-200"
+                          : "bg-slate-50 border-slate-200 hover:border-slate-300"
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <p className="font-medium text-slate-900">{subType}</p>
+                          <p className="text-sm text-slate-600 flex items-center gap-1">
+                            <DollarSign size={12} />${price}
+                          </p>
+                        </div>
+                        <button
+                          onClick={() => handleToggle(card, subType)}
+                          className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
+                            isOwned
+                              ? "bg-emerald-500 text-white hover:bg-emerald-600"
+                              : "bg-slate-200 text-slate-600 hover:bg-slate-300"
+                          }`}
+                        >
+                          {isOwned ? <Trash2 size={14} /> : <Plus size={14} />}
+                        </button>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+
+            {/* Market Info */}
+            <div>
+              <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
+                <Star size={16} />
+                Market Info
+              </h4>
+              <div className="bg-slate-50 rounded-lg p-4 space-y-2">
+                <div className="flex justify-between">
+                  <span className="text-slate-600">Rarity:</span>
+                  <span className="font-medium">Rare Holo</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-600">Market Price:</span>
+                  <span className="font-medium text-green-600">${Math.floor(Math.random() * 100) + 20}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-slate-600">Last Sale:</span>
+                  <span className="font-medium">${Math.floor(Math.random() * 80) + 15}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* External Link */}
+            {card.url && (
+              <a
+                href={card.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 px-4 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <ExternalLink size={16} />
+                View on TCGPlayer
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   if (selectedSet) {
     const { ownedCount, total, progress } = getSetProgress(selectedSet)
@@ -315,8 +469,9 @@ const Collection = () => {
                 {cards.map((card, idx) => (
                   <div
                     key={idx}
-                    className="group card-container rounded-xl overflow-hidden hover-lift animate-fadeInUp"
+                    className="group card-container rounded-xl overflow-hidden hover-lift animate-fadeInUp cursor-pointer"
                     style={{ animationDelay: `${idx * 0.03}s` }}
+                    onClick={() => handleCardClick(card)}
                   >
                     <div className="relative aspect-[3/4] bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
                       <img
@@ -345,18 +500,21 @@ const Collection = () => {
                           return (
                             <button
                               key={subType}
-                              className={`group/btn relative w-6 h-6 rounded-md flex items-center justify-center transition-all duration-300 border ${
+                              className={`group/btn relative w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 border-2 ${
                                 isOwned
                                   ? "bg-gradient-to-r from-emerald-500 to-teal-500 border-emerald-400 text-white shadow-lg"
-                                  : `${getSubtypeColorClass(subType)} border`
+                                  : `${getSubtypeColorClass(subType)} border-2`
                               } hover:scale-110 hover:shadow-lg`}
                               title={subType}
-                              onClick={() => handleToggle(card, subType)}
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                handleToggle(card, subType)
+                              }}
                             >
                               {isOwned ? (
                                 <Trash2
                                   size={10}
-                                  className="opacity-0 group-hover/btn:opacity-100 transition-opacity"
+                                  className="opacity-0 group-hover/btn:opacity-100 transition-all duration-300 text-red-300 group-hover/btn:text-red-400"
                                 />
                               ) : (
                                 <Plus size={10} className="opacity-0 group-hover/btn:opacity-100 transition-opacity" />
@@ -372,6 +530,7 @@ const Collection = () => {
             )}
           </div>
         </div>
+        {selectedCard && <CardDetailPanel card={selectedCard} onClose={() => setSelectedCard(null)} />}
       </div>
     )
   }
@@ -390,115 +549,7 @@ const Collection = () => {
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">Track your progress and manage your cards</p>
         </div>
 
-        {/* Quick Stats */}
-        <div className="flex justify-center gap-8 mb-12 animate-fadeInUp">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-slate-900">{stats.totalCards}</div>
-            <div className="text-sm text-slate-600">Total Cards</div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-slate-900">{stats.uniqueCards}</div>
-            <div className="text-sm text-slate-600">Unique Cards</div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-slate-900">{masterSets.length}</div>
-            <div className="text-sm text-slate-600">Master Sets</div>
-          </div>
-        </div>
-
-        {/* Master Sets and Binder Section - Smaller and More Compact */}
-        <div className="grid md:grid-cols-2 gap-4 mb-8 animate-fadeInUp">
-          {/* Master Sets - Compact */}
-          <div className="bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-700 rounded-xl p-4 text-white shadow-lg">
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                  <Zap size={16} className="text-white" />
-                </div>
-                <h3 className="text-lg font-bold">Master Sets</h3>
-              </div>
-              <Link
-                to="/masterset"
-                className="bg-white/20 hover:bg-white/30 backdrop-blur-sm px-3 py-1 rounded-lg text-sm font-semibold transition-all duration-300 flex items-center gap-1"
-              >
-                <Plus size={14} />
-                Create
-              </Link>
-            </div>
-
-            {masterSets.length === 0 ? (
-              <div className="text-center py-4">
-                <p className="text-white/80 text-sm mb-2">No master sets yet</p>
-                <Link
-                  to="/masterset"
-                  className="text-white hover:text-yellow-300 text-sm font-semibold transition-colors duration-300"
-                >
-                  Create your first set
-                </Link>
-              </div>
-            ) : (
-              <div className="space-y-2 max-h-24 overflow-y-auto custom-scrollbar">
-                {masterSets.slice(0, 2).map((set) => (
-                  <div
-                    key={set.name}
-                    className="bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300"
-                  >
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h4 className="font-semibold text-white text-sm capitalize">{set.name}</h4>
-                        <p className="text-white/70 text-xs">
-                          {set.ownedCards || 0}/{set.totalCards || 0} cards
-                        </p>
-                      </div>
-                      <Link
-                        to={`/mastersets/${set.name}/view`}
-                        className="text-white/70 hover:text-white transition-colors duration-300"
-                      >
-                        <ExternalLink size={14} />
-                      </Link>
-                    </div>
-                  </div>
-                ))}
-                {masterSets.length > 2 && (
-                  <Link to="/masterset" className="text-white/70 hover:text-white text-xs text-center block">
-                    +{masterSets.length - 2} more
-                  </Link>
-                )}
-              </div>
-            )}
-          </div>
-
-          {/* Binder Section - Compact */}
-          <div className="bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-700 rounded-xl p-4 text-white shadow-lg">
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                  <BookOpen size={16} className="text-white" />
-                </div>
-                <h3 className="text-lg font-bold">Digital Binders</h3>
-              </div>
-              <Link
-                to="/binder-builder"
-                className="bg-white/20 hover:bg-white/30 backdrop-blur-sm px-3 py-1 rounded-lg text-sm font-semibold transition-all duration-300 flex items-center gap-1"
-              >
-                <Plus size={14} />
-                Create
-              </Link>
-            </div>
-
-            <div className="text-center py-4">
-              <p className="text-white/80 text-sm mb-2">Create beautiful digital binders</p>
-              <Link
-                to="/binder-builder"
-                className="text-white hover:text-yellow-300 text-sm font-semibold transition-colors duration-300"
-              >
-                Start building
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Official Sets Section - Enhanced */}
+        {/* Official Sets Section - Moved to top */}
         <div className="mb-16 animate-fadeInUp">
           <div className="glass-dark rounded-3xl p-8 mb-8">
             <div className="flex items-center justify-between mb-8">
@@ -507,13 +558,6 @@ const Collection = () => {
                 <p className="text-slate-300">Track your progress across all Pokémon TCG sets</p>
               </div>
               <div className="flex items-center gap-4">
-                <Link
-                  to="/search"
-                  className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2 neon-blue"
-                >
-                  <Plus size={18} />
-                  Add Cards
-                </Link>
                 <button
                   onClick={() => setShowAllSets(!showAllSets)}
                   className="glass text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center gap-2"
@@ -588,6 +632,125 @@ const Collection = () => {
                 </button>
               </div>
             )}
+          </div>
+        </div>
+
+        {/* Master Sets and Binder Section - Less rigid styling */}
+        <div className="grid md:grid-cols-2 gap-6 mb-12 animate-fadeInUp">
+          {/* Master Sets - Less rigid */}
+          <div className="bg-gradient-to-br from-purple-500 via-blue-500 to-indigo-600 rounded-2xl p-6 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
+                  <Zap size={20} className="text-white" />
+                </div>
+                <h3 className="text-xl font-bold">Master Sets</h3>
+              </div>
+              <Link
+                to="/masterset"
+                className="bg-white/20 hover:bg-white/30 backdrop-blur-sm px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-300 flex items-center gap-2"
+              >
+                <Plus size={16} />
+                Create
+              </Link>
+            </div>
+
+            {masterSets.length === 0 ? (
+              <div className="text-center py-6">
+                <p className="text-white/80 mb-3">No master sets yet</p>
+                <Link
+                  to="/masterset"
+                  className="text-white hover:text-yellow-300 font-semibold transition-colors duration-300"
+                >
+                  Create your first set
+                </Link>
+              </div>
+            ) : (
+              <div className="space-y-3 max-h-32 overflow-y-auto custom-scrollbar">
+                {masterSets.slice(0, 3).map((set) => (
+                  <div
+                    key={set.name}
+                    className="bg-white/10 backdrop-blur-sm rounded-xl p-3 hover:bg-white/20 transition-all duration-300"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h4 className="font-semibold text-white capitalize">{set.name}</h4>
+                        <p className="text-white/70 text-sm">
+                          {set.ownedCards || 0}/{set.totalCards || 0} cards
+                        </p>
+                      </div>
+                      <Link
+                        to={`/mastersets/${set.name}/view`}
+                        className="text-white/70 hover:text-white transition-colors duration-300"
+                      >
+                        <ExternalLink size={16} />
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+                {masterSets.length > 3 && (
+                  <Link to="/masterset" className="text-white/70 hover:text-white text-sm text-center block">
+                    +{masterSets.length - 3} more
+                  </Link>
+                )}
+              </div>
+            )}
+          </div>
+
+          {/* Binder Section - Less rigid */}
+          <div className="bg-gradient-to-br from-emerald-500 via-teal-500 to-cyan-600 rounded-2xl p-6 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
+                  <BookOpen size={20} className="text-white" />
+                </div>
+                <h3 className="text-xl font-bold">Digital Binders</h3>
+              </div>
+              <Link
+                to="/binder-builder"
+                className="bg-white/20 hover:bg-white/30 backdrop-blur-sm px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-300 flex items-center gap-2"
+              >
+                <Plus size={16} />
+                Create
+              </Link>
+            </div>
+
+            <div className="space-y-3 max-h-32 overflow-y-auto custom-scrollbar">
+              {binders.slice(0, 3).map((binder) => (
+                <Link
+                  key={binder.name}
+                  to={`/binder-builder?name=${encodeURIComponent(binder.name)}`}
+                  className="block bg-white/10 backdrop-blur-sm rounded-xl p-3 hover:bg-white/20 transition-all duration-300"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h4 className="font-semibold text-white capitalize">{binder.name}</h4>
+                      <p className="text-white/70 text-sm">
+                        {(binder.pages || []).flatMap(p => [...(p.left || []), ...(p.right || [])]).filter(Boolean).length} cards
+                      </p>
+                    </div>
+                    <ExternalLink size={16} className="text-white/70 hover:text-white transition-colors duration-300" />
+                  </div>
+                </Link>
+              ))}
+              {binders.length > 3 && (
+                <Link to="/binder-builder" className="text-white/70 hover:text-white text-sm text-center block">
+                  +{binders.length - 3} more
+                </Link>
+              )}
+              {/* If no binders, show placeholder */}
+              {binders.length === 0 && (
+                <div className="text-center py-6">
+                  <p className="text-white/80 mb-3">Create beautiful digital binders</p>
+                  <Link
+                    to="/binder-builder"
+                    className="text-white hover:text-yellow-300 font-semibold transition-colors duration-300"
+                  >
+                    Start building
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
@@ -688,8 +851,9 @@ const Collection = () => {
               {(showAllCards ? filteredCards : filteredCards.slice(0, 32)).map((card, idx) => (
                 <div
                   key={idx}
-                  className="group card-container rounded-xl overflow-hidden hover-lift animate-fadeInUp"
+                  className="group card-container rounded-xl overflow-hidden hover-lift animate-fadeInUp cursor-pointer"
                   style={{ animationDelay: `${(idx % 32) * 0.03}s` }}
+                  onClick={() => handleCardClick(card)}
                 >
                   {/* Card Image */}
                   <div className="relative aspect-[3/4] bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
@@ -710,6 +874,7 @@ const Collection = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-xs font-bold text-slate-900 hover:text-blue-600 transition-colors line-clamp-2 leading-tight"
+                        onClick={(e) => e.stopPropagation()}
                       >
                         {(card.name || "[No Name]")
                           .replace(/\b\d{1,3}(?:\/\d{1,3})?\b/g, "")
@@ -722,7 +887,7 @@ const Collection = () => {
                       </div>
                     </div>
 
-                    {/* Variant Buttons */}
+                    {/* Variant Buttons - Circular */}
                     <div className="flex justify-center gap-1 flex-wrap">
                       {(card.subTypes || []).map(({ name: subType }) => {
                         const key = `${card.productId}-${subType}`
@@ -731,16 +896,22 @@ const Collection = () => {
                         return (
                           <button
                             key={subType}
-                            className={`group/btn relative w-6 h-6 rounded-md flex items-center justify-center transition-all duration-300 border ${
+                            className={`group/btn relative w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 border-2 ${
                               isOwned
                                 ? "bg-gradient-to-r from-emerald-500 to-teal-500 border-emerald-400 text-white shadow-lg neon-cyan"
-                                : `${getSubtypeColorClass(subType)} border`
+                                : `${getSubtypeColorClass(subType)} border-2`
                             } hover:scale-110 hover:shadow-lg`}
                             title={subType}
-                            onClick={() => handleToggle(card, subType)}
+                            onClick={(e) => {
+                              e.stopPropagation()
+                              handleToggle(card, subType)
+                            }}
                           >
                             {isOwned ? (
-                              <Trash2 size={10} className="opacity-0 group-hover/btn:opacity-100 transition-opacity" />
+                              <Trash2
+                                size={10}
+                                className="opacity-0 group-hover/btn:opacity-100 transition-all duration-300 text-red-300 group-hover/btn:text-red-400"
+                              />
                             ) : (
                               <Plus size={10} className="opacity-0 group-hover/btn:opacity-100 transition-opacity" />
                             )}
@@ -767,6 +938,7 @@ const Collection = () => {
           )}
         </div>
       </div>
+      {selectedCard && <CardDetailPanel card={selectedCard} onClose={() => setSelectedCard(null)} />}
     </div>
   )
 }
