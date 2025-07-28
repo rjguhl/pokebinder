@@ -251,13 +251,20 @@ const Collection = () => {
     }
   }
 
-  const getSetProgress = (set) => {
-    const userCards = cards.filter((card) => card.set?.id === set.id)
-    const ownedCount = userCards.length
-    const total = Math.floor(Math.random() * 200) + 50
-    const progress = total > 0 ? Math.round((ownedCount / total) * 100) : 0
-    return { ownedCount, total, progress }
+  const getSetProgress = async (set) => {
+  try {
+    const safeSetName = set.name.replace(/[:\/\\?%*|"<>]/g, "-");
+    const response = await fetch(`/data/tcgsets/${set.id}-${safeSetName}.json`);
+    const allCards = await response.json();
+    const ownedCount = cards.filter((card) => card.set?.id === set.id).length;
+    const total = allCards.length;
+    const progress = total > 0 ? Math.round((ownedCount / total) * 100) : 0;
+    return { ownedCount, total, progress };
+  } catch (err) {
+    console.error("Error calculating set progress:", err);
+    return { ownedCount: 0, total: 0, progress: 0 };
   }
+};
 
   const filterOptions = [
     { value: "all", label: "All Cards" },
@@ -273,15 +280,8 @@ const Collection = () => {
   const CardDetailPanel = ({ card, onClose }) => {
     if (!card) return null
 
-    // Mock price data
-    const mockPrices = {
-      normal: Math.floor(Math.random() * 50) + 5,
-      holofoil: Math.floor(Math.random() * 100) + 20,
-      reverseholofoil: Math.floor(Math.random() * 80) + 15,
-    }
-
     return (
-      <div className="card-detail-panel animate-slideInFromRight">
+      <div className="card-detail-wrapper fixed right-0 top-[4rem] h-[calc(100vh-4rem)] w-[400px] bg-white z-40 shadow-lg overflow-y-auto transition-transform duration-300">
         <div className="p-6">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-xl font-bold text-slate-900">Card Details</h2>
@@ -316,9 +316,15 @@ const Collection = () => {
               </h4>
               <div className="space-y-2">
                 {(card.subTypes || []).map(({ name: subType }) => {
-                  const key = `${card.productId}-${subType}`
-                  const isOwned = userCollection[key]
-                  const price = mockPrices[subType.toLowerCase()] || Math.floor(Math.random() * 30) + 10
+                  const key = `${card.productId}-${subType}`;
+                  const isOwned = userCollection[key];
+                  const priceEntry = (card.prices || []).find(
+                    (p) => p.subTypeName?.toLowerCase() === subType?.toLowerCase()
+                  );
+                  const price =
+                    priceEntry && typeof priceEntry.marketPrice === "number"
+                      ? priceEntry.marketPrice.toFixed(2)
+                      : "N/A";
 
                   return (
                     <div
@@ -333,7 +339,7 @@ const Collection = () => {
                         <div>
                           <p className="font-medium text-slate-900">{subType}</p>
                           <p className="text-sm text-slate-600 flex items-center gap-1">
-                            <DollarSign size={12} />${price}
+                            <DollarSign size={12} />{price !== "N/A" ? `$${price}` : "N/A"}
                           </p>
                         </div>
                         <button
@@ -348,7 +354,7 @@ const Collection = () => {
                         </button>
                       </div>
                     </div>
-                  )
+                  );
                 })}
               </div>
             </div>
@@ -360,17 +366,28 @@ const Collection = () => {
                 Market Info
               </h4>
               <div className="bg-slate-50 rounded-lg p-4 space-y-2">
-                <div className="flex justify-between">
-                  <span className="text-slate-600">Rarity:</span>
-                  <span className="font-medium">Rare Holo</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-slate-600">Market Price:</span>
-                  <span className="font-medium text-green-600">${Math.floor(Math.random() * 100) + 20}</span>
-                </div>
+                {(() => {
+                  const rarity = card.extendedData?.find(d => d.name === "Rarity")?.value || "Unknown";
+                  const marketPrice =
+                    card.prices?.[0] && typeof card.prices[0].marketPrice === "number"
+                      ? card.prices[0].marketPrice.toFixed(2)
+                      : "N/A";
+                  return (
+                    <>
+                      <div className="flex justify-between">
+                        <span className="text-slate-600">Rarity:</span>
+                        <span className="font-medium">{rarity}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-slate-600">Market Price:</span>
+                        <span className="font-medium text-green-600">{marketPrice !== "N/A" ? `$${marketPrice}` : "N/A"}</span>
+                      </div>
+                    </>
+                  );
+                })()}
                 <div className="flex justify-between">
                   <span className="text-slate-600">Last Sale:</span>
-                  <span className="font-medium">${Math.floor(Math.random() * 80) + 15}</span>
+                  <span className="font-medium">N/A</span>
                 </div>
               </div>
             </div>
@@ -393,12 +410,31 @@ const Collection = () => {
     )
   }
 
+  const [setProgress, setSetProgress] = useState(null);
+  useEffect(() => {
+    let ignore = false;
+    const fetchProgress = async () => {
+      if (selectedSet) {
+        const progress = await getSetProgress(selectedSet);
+        if (!ignore) setSetProgress(progress);
+      } else {
+        setSetProgress(null);
+      }
+    };
+    fetchProgress();
+    return () => { ignore = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedSet, cards]);
+
   if (selectedSet) {
-    const { ownedCount, total, progress } = getSetProgress(selectedSet)
+    const ownedCount = setProgress?.ownedCount ?? 0;
+    const total = setProgress?.total ?? 0;
+    const progress = setProgress?.progress ?? 0;
 
     return (
-      <div className="min-h-screen section-gradient-1">
-        <div className="max-w-7xl mx-auto px-6 py-8">
+      <div className="relative flex">
+        <div className={`flex-1 min-h-screen section-gradient-1 transition-all duration-300 ${selectedCard ? "mr-[400px]" : ""}`}>
+          <div className="max-w-7xl mx-auto px-6 py-8">
           {/* Back Button */}
           <button
             onClick={() => setSelectedSet(null)}
@@ -477,7 +513,7 @@ const Collection = () => {
                       <img
                         src={card.image || "/placeholder.png"}
                         alt={card.name || "No Name"}
-                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-contain transition-transform duration-500"
                         loading="lazy"
                       />
                     </div>
@@ -530,14 +566,16 @@ const Collection = () => {
             )}
           </div>
         </div>
+        </div>
         {selectedCard && <CardDetailPanel card={selectedCard} onClose={() => setSelectedCard(null)} />}
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen section-gradient-1">
-      <div className="max-w-7xl mx-auto px-6 py-8">
+    <div className="relative flex">
+      <div className={`flex-1 min-h-screen section-gradient-1 transition-all duration-300 ${selectedCard ? "mr-[400px]" : ""}`}>
+        <div className="max-w-7xl mx-auto px-6 py-8">
         {/* Header */}
         <div className="text-center mb-12 animate-fadeInUp">
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-4">
@@ -568,58 +606,12 @@ const Collection = () => {
               </div>
             </div>
 
-            <div
-              className={`${showAllSets ? "max-h-96 overflow-y-auto custom-scrollbar" : "max-h-80 overflow-hidden"} transition-all duration-500`}
-            >
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
-                {(showAllSets ? officialSets : officialSets.slice(0, 32)).map((set, index) => {
-                  const { ownedCount, total, progress } = getSetProgress(set)
-
-                  return (
-                    <button
-                      key={set.id}
-                      onClick={() => handleSetClick(set)}
-                      className="group glass text-left rounded-xl p-4 hover:shadow-lg hover:scale-105 transition-all duration-300 animate-fadeInUp"
-                      style={{ animationDelay: `${index * 0.02}s` }}
-                    >
-                      <div className="aspect-square flex flex-col justify-between">
-                        <div>
-                          <div className="flex items-center justify-between mb-3">
-                            <Calendar size={12} className="text-slate-300" />
-                            {progress === 100 && (
-                              <div className="bg-gradient-to-r from-yellow-400 to-orange-400 p-1 rounded-full shadow-lg">
-                                <Trophy size={10} className="text-white" />
-                              </div>
-                            )}
-                          </div>
-
-                          <h3 className="text-xs font-bold mb-2 line-clamp-2 text-white leading-tight group-hover:text-blue-300 transition-colors">
-                            {set.name}
-                          </h3>
-
-                          <p className="text-xs text-slate-400 font-medium mb-3">{set.publishedOn.getFullYear()}</p>
-                        </div>
-
-                        <div>
-                          <div className="flex items-center justify-between mb-2">
-                            <span className="text-xs font-bold text-white">{progress}%</span>
-                            <span className="text-xs font-bold text-white">
-                              {ownedCount}/{total}
-                            </span>
-                          </div>
-                          <div className="w-full bg-slate-600 h-1.5 rounded-full overflow-hidden">
-                            <div
-                              className="bg-gradient-to-r from-blue-400 to-cyan-400 h-full rounded-full transition-all duration-1000"
-                              style={{ width: `${progress}%` }}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </button>
-                  )
-                })}
-              </div>
-            </div>
+            <SetProgressGrid
+              officialSets={officialSets}
+              showAllSets={showAllSets}
+              getSetProgress={getSetProgress}
+              handleSetClick={handleSetClick}
+            />
 
             {!showAllSets && officialSets.length > 32 && (
               <div className="text-center mt-6">
@@ -860,7 +852,7 @@ const Collection = () => {
                     <img
                       src={card.image || "/placeholder.png"}
                       alt={card.name || "No Name"}
-                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-contain transition-transform duration-500"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -938,9 +930,85 @@ const Collection = () => {
           )}
         </div>
       </div>
+      </div>
       {selectedCard && <CardDetailPanel card={selectedCard} onClose={() => setSelectedCard(null)} />}
     </div>
   )
 }
 
 export default Collection
+
+function SetProgressGrid({ officialSets, showAllSets, getSetProgress, handleSetClick }) {
+  const [progressData, setProgressData] = useState([]);
+
+  useEffect(() => {
+    let ignore = false;
+    const fetchProgress = async () => {
+      const sets = showAllSets ? officialSets : officialSets.slice(0, 32);
+      const progressData = await Promise.all(
+        sets.map(async (set) => {
+          const progress = await getSetProgress(set);
+          return { ...set, progress };
+        })
+      );
+      if (!ignore) setProgressData(progressData);
+    };
+    fetchProgress();
+    return () => { ignore = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [officialSets, showAllSets]);
+
+  return (
+    <div
+      className={`${showAllSets ? "max-h-96 overflow-y-auto custom-scrollbar" : "max-h-80 overflow-hidden"} transition-all duration-500`}
+    >
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
+        {progressData.map((set, index) => {
+          const { ownedCount, total, progress } = set.progress || { ownedCount: 0, total: 0, progress: 0 };
+          return (
+            <button
+              key={set.id}
+              onClick={() => handleSetClick(set)}
+              className="group glass text-left rounded-xl p-4 hover:shadow-lg hover:scale-105 transition-all duration-300 animate-fadeInUp"
+              style={{ animationDelay: `${index * 0.02}s` }}
+            >
+              <div className="aspect-square flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <Calendar size={12} className="text-slate-300" />
+                    {progress === 100 && (
+                      <div className="bg-gradient-to-r from-yellow-400 to-orange-400 p-1 rounded-full shadow-lg">
+                        <Trophy size={10} className="text-white" />
+                      </div>
+                    )}
+                  </div>
+
+                  <h3 className="text-xs font-bold mb-2 line-clamp-2 text-white leading-tight group-hover:text-blue-300 transition-colors">
+                    {set.name}
+                  </h3>
+
+                  <p className="text-xs text-slate-400 font-medium mb-3">{set.publishedOn.getFullYear()}</p>
+                </div>
+
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-bold text-white">{progress}%</span>
+                    <span className="text-xs font-bold text-white">
+                      {ownedCount}/{total}
+                    </span>
+                  </div>
+                  <div className="w-full bg-slate-600 h-1.5 rounded-full overflow-hidden">
+                    <div
+                      className="bg-gradient-to-r from-blue-400 to-cyan-400 h-full rounded-full transition-all duration-1000"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}

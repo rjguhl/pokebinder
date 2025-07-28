@@ -119,8 +119,10 @@ const Login = () => {
 
   const handleUsernameSubmit = async () => {
     setUsernameError("")
+    setLoading(true)
     if (usernameInput.trim().length < 2) {
       setUsernameError("Username must be at least 2 characters.")
+      setLoading(false)
       return
     }
 
@@ -128,22 +130,27 @@ const Login = () => {
 
     if (!usernameTaken.empty) {
       setUsernameError("Username is already taken.")
+      setLoading(false)
       return
     }
 
     try {
       const userRef = doc(db, "users", tempUser.uid)
+      console.log("Setting doc for user:", tempUser.uid)
       await setDoc(userRef, {
         uid: tempUser.uid,
         email: tempUser.email,
         username: usernameInput.trim(),
         createdAt: new Date(),
+        binders: [],
       })
 
       localStorage.setItem("user", tempUser.uid)
       window.location.href = "/profile"
     } catch (err) {
       setUsernameError("Failed to save username.")
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -155,10 +162,6 @@ const Login = () => {
         {/* Form Section */}
         <div className="p-8 lg:p-12 flex flex-col justify-center">
           <div className="text-center mb-8 animate-fadeInUp">
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-100 to-purple-100 px-4 py-2 rounded-full text-sm font-medium text-indigo-700 mb-4">
-              <Sparkles size={16} className="animate-pulse" />
-              {isSignUp ? "Join the Community" : "Welcome Back"}
-            </div>
             <h2 className="text-3xl lg:text-4xl font-black text-gray-900 mb-4">
               {isSignUp ? "Create Account" : "Sign In"}
             </h2>
@@ -327,7 +330,8 @@ const Login = () => {
 
               <button
                 onClick={handleUsernameSubmit}
-                className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+                disabled={loading}
+                className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 disabled:opacity-50"
               >
                 Complete Setup
               </button>

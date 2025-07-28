@@ -163,6 +163,7 @@ const Search = () => {
 
   const handleSearch = async (e) => {
     e.preventDefault()
+    setSelectedCard(null)
     setIsLoading(true)
 
     const keywords = searchQuery.toLowerCase().split(/\s+/).filter(Boolean)
@@ -258,18 +259,13 @@ const Search = () => {
   ]
 
   const handleCardClick = (card) => {
-    setSelectedCard(card)
+    if (selectedCard?.productId === card.productId) return;
+    setSelectedCard(card);
   }
 
   const CardDetailPanel = ({ card, onClose }) => {
     if (!card) return null
 
-    // Mock price data
-    const mockPrices = {
-      normal: Math.floor(Math.random() * 50) + 5,
-      holofoil: Math.floor(Math.random() * 100) + 20,
-      reverseholofoil: Math.floor(Math.random() * 80) + 15,
-    }
 
     return (
       <div className="card-detail-panel animate-slideInFromRight">
@@ -324,7 +320,8 @@ const Search = () => {
                 ].map((subType) => {
                   const key = `${card.productId}-${subType}`
                   const isOwned = userCollection[key]
-                  const price = mockPrices[subType.toLowerCase()] || Math.floor(Math.random() * 30) + 10
+                  const priceEntry = card.prices.find(p => p.subTypeName === subType)
+                  const price = priceEntry?.marketPrice?.toFixed(2) || "N/A"
 
                   return (
                     <div
@@ -416,11 +413,15 @@ const Search = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-600">Market Price:</span>
-                  <span className="font-medium text-green-600">${Math.floor(Math.random() * 100) + 20}</span>
+                  <span className="font-medium text-green-600">
+                    ${card.prices?.[0]?.marketPrice?.toFixed(2) || "N/A"}
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-600">Last Sale:</span>
-                  <span className="font-medium">${Math.floor(Math.random() * 80) + 15}</span>
+                  <span className="font-medium">
+                    ${card.prices?.[0]?.lowPrice?.toFixed(2) || "N/A"}
+                  </span>
                 </div>
               </div>
             </div>
@@ -444,14 +445,13 @@ const Search = () => {
   }
 
   return (
-    <div className="min-h-screen section-gradient-1">
-      <div className="max-w-7xl mx-auto px-6 py-8">
+    <>
+      <div className="min-h-screen section-gradient-1">
+        <div className="flex transition-all duration-300">
+          <div className={`flex-1 transition-all duration-300 ${selectedCard ? "mr-[400px]" : ""}`}>
+            <div className="max-w-7xl mx-auto px-6 py-8">
         {/* Enhanced Header */}
         <div className="text-center mb-12 animate-fadeInUp">
-          <div className="inline-flex items-center gap-3 glass px-6 py-3 rounded-full text-sm font-semibold text-blue-700 mb-6 neon-blue">
-            <Sparkles size={16} className="animate-pulse" />
-            Discover Your Next Card
-          </div>
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-4">
             Search{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Cards</span>
@@ -611,7 +611,7 @@ const Search = () => {
                   <img
                     src={card.imageUrl || "/placeholder.png"}
                     alt={card.cleanName || "No Name"}
-                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full object-contain transition-transform duration-500"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -620,18 +620,14 @@ const Search = () => {
                 {/* Enhanced Card Info */}
                 <div className="p-6 space-y-4">
                   <div className="text-center">
-                    <a
-                      href={card.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm font-bold text-slate-900 hover:text-blue-600 transition-colors line-clamp-2 leading-tight"
-                      onClick={(e) => e.stopPropagation()}
+                    <p
+                      className="text-sm font-bold text-slate-900 hover:text-blue-600 transition-colors line-clamp-2 leading-tight cursor-pointer"
                     >
                       {(card.cleanName || "[No Name]")
                         .replace(/\b\d{1,3}(?:\/\d{1,3})?\b/g, "")
                         .replace(/\b[A-Z]{2,5}\d{2,4}\b/g, "")
                         .trim()}
-                    </a>
+                    </p>
 
                     <div className="mt-3 space-y-1">
                       <p className="text-xs text-slate-500 font-semibold">
@@ -770,9 +766,16 @@ const Search = () => {
             </button>
           </div>
         )}
+            </div>
+          </div>
+          {selectedCard && (
+            <div className="w-[400px] bg-white shadow-xl fixed right-0 top-[64px] bottom-0 z-50 overflow-y-auto">
+              <CardDetailPanel card={selectedCard} onClose={() => setSelectedCard(null)} />
+            </div>
+          )}
+        </div>
       </div>
-      {selectedCard && <CardDetailPanel card={selectedCard} onClose={() => setSelectedCard(null)} />}
-    </div>
+    </>
   )
 }
 
